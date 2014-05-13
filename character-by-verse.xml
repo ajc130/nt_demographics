@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <metadata>
+        <!-- @an no longer encoded -->
+        <person xml:id="james" gender="m" ethnicity="jew" class="working" age="adult" ability="able"/>
+        <person xml:id="john" gender="m" ethnicity="jew" class="working" age="adult" ability="able"/>
+        <person xml:id="zebedee" gender="m" ethnicity="jew" class="working" age="adult"
+            ability="able"/>
+        <person xml:id="hired_men" gender="p" ethnicity="jew" class="working" age="adult"
+            ability="able"/>
+    </metadata>
+    <body><v n="19"/>When he had gone a little farther, he saw <character ref="james">James son of
+            Zebedee</character> and <character ref="john">his brother John</character> in a boat,
+            <action ref="james john">preparing their nets</action>. <v n="20"/>Without delay he
+        called them, and <action ref="james john">they left <character ref="zebedee">their father
+                Zebedee</character> in the boat with <character ref="hired_men">the hired
+                men</character></action> and <action ref="james john">followed him</action>.</body>
+</root>
