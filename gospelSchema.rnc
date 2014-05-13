@@ -1,0 +1,32 @@
+start= book
+book= element book {title,body}
+title= element title {text}
+body= element body  {mixed{(conversation| monologue| v| c| character|group)*}}
+conversation= element conversation {mixed {(speaker+| character |c |v|speech|action|id|description)*}}
+monologue= element monologue {mixed{(speaker | speech|audience | speech| character |group| v | c|action|description|id)*}}
+v= element v {n}
+c= element c {n}
+character= element character {class?, ethnicity?, gender?, age?, ability?, name, an, mixed {(id|v|c|action|description|character|group|monologue |conversation|speaker|speech)*}}
+action= element action {name, mixed {(id|v|c|character|group|description|action)*}}
+id= element id {text}
+description= element description {name, mixed {(id|v|c|speaker|description)*}}
+speaker= element speaker {name, mixed{id*}}
+audience= element audience {name, class, ethnicity, size, gender, mixed{id*}}
+group= element group {name, class, ethnicity, size, gender,mixed {(id|v|c|action|description|character|group|monologue|conversation)*}}
+speech= element speech {name, tone, (type | genre), mixed {(v|c|speaker|character|group)*}}
+n= attribute n {xsd:int}
+class= attribute class {"religiousLeader"| "rich"| "poor"| "outcast"| "working"| "unspecified" | "slave" | "master"}
+ethnicity= attribute ethnicity {"jew" |"samaritan" |"gentile" |"unspecified"}
+gender= attribute gender {"male" |"female"| "unspecified"| "both"}
+age= attribute age {"child" |"adult" |"elderly" |"unspecified"}
+ability= attribute ability {"able" |"handicapped" |"unspecified"}
+name= attribute name {text}
+an= attribute an {xsd:int}
+size= attribute size {"small" |"specific" |"crowd" |"unspecified"}
+type= attribute type {"question" |"statement" |"answer" |"blessing" |"greeting" |"instruction"}
+genre= attribute genre {"parable"| "prophesy"| "instruction"| "blessing"| "explanation"| "admonition"}
+tone= attribute tone {"unspecified"| "kind"| "instructive"| "condemning"|"confused"|"shrouded"|"pleading"}
+
+
+
+
