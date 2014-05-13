@@ -13,7 +13,7 @@
     padding:0;
     list-style:none;
     float:left;
-    font:bold 18px "American Typewriter"
+    font:bold 18px "Courier New"
 }
 
 #sddm li a
@@ -22,14 +22,14 @@
     margin:0 1px 0 0;
     padding:4px 10px;
     width:300px;
-    background:#cc3399;
+    background:#f7a5e3;
     color:#0066ff;
     text-align:left;
     text-decoration:none}
 
 #sddm li a:hover
 {
-    background:#9d9ea1
+    background:white
 }
 
 
@@ -56,11 +56,17 @@
     text-decoration:none;
     background:#cc3399;
     color:#0066ff;
-    font:18px "American Typewriter"}
+    font:18px "Courier New"}
 
 #sddm div a:hover
 {
     background:#9999ff;
     color:white}
+
+h1 {color: #cc3399;;
+text-align:center;
+font-family:"Courier New", serif;
+
     
+}
     
