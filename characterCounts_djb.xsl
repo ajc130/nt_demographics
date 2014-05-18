@@ -15,21 +15,19 @@
                         <td>Name</td>
                         <td>Number of References</td>
                     </tr>
-                    <xsl:apply-templates select="//book"/>
+                    <xsl:for-each select="//metadata/character/@xml:id">
+                        <xsl:sort/>
+                        <tr>
+                            <td>
+                                <xsl:value-of select="current()"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="count($root//@ref[. eq current()])"/>
+                            </td>
+                        </tr>
+                    </xsl:for-each>
                 </table>
             </body>
         </html>
-    </xsl:template>
-    <xsl:template match="book">
-        <xsl:for-each select="//metadata/character/@xml:id">
-            <tr>
-                <td>
-                    <xsl:value-of select="current()"/>
-                </td>
-                <td>
-                    <xsl:value-of select="count($root//@ref[. eq current()])"/>
-                </td>
-            </tr>
-        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
