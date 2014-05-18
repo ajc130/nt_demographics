@@ -23,7 +23,7 @@ id= attribute xml:id {xsd:ID}
 type= attribute type {"question" |"statement" |"answer" |"blessing" |"greeting" |"instruction"}
 genre= attribute genre {"parable"| "prophesy"| "instruction"| "blessing"| "explanation"| "admonition"}
 tone= attribute tone {"unspecified"| "kind"| "instructive"| "condemning"|"confused"|"shrouded"|"pleading"}
-ref= attribute ref {text}
+ref= attribute ref {xsd:IDREFS}
 n= attribute n {xsd:int}
 
 
