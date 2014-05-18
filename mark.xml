@@ -103,6 +103,11 @@
             ability="unspecified" age="unspecified" gender="unspecified"/>
         <character xml:id="pathseeds" ethnicity="unspecified" class="unspecified"
             gender="unspecified" age="unspecified" ability="unspecified"/>
+<<<<<<< HEAD
+        <character xml:id="rockseeds" ethnicity="unspecified" class="unspecified"
+            gender="unspecified" ability="unspecified" age="unspecified"/>
+=======
+>>>>>>> FETCH_HEAD
         <character xml:id="thornseeds" ethnicity="unspecified" class="unspecified"
             gender="unspecified" age="unspecified" ability="unspecified"/>
         <character xml:id="goodseeds" ability="unspecified" age="unspecified" gender="unspecified"
@@ -111,13 +116,22 @@
             age="adult" ability="able"/>
         <character xml:id="witnesses" gender="unspecified" ethnicity="unspecified"
             class="unspecified" age="unspecified" ability="unspecified"/>
+<<<<<<< HEAD
+        <character xml:id="Jairusservants" gender="male" ethnicity="unspecified"
+            class="unspecified" age="unspecified" ability="able"/>
+=======
         <character xml:id="JairusServants" gender="male" ethnicity="unspecified" class="unspecified"
             age="unspecified" ability="able"/>
+>>>>>>> FETCH_HEAD
         <character xml:id="mourners" gender="unspecified" ethnicity="unspecified"
             class="unspecified" ability="unspecified" age="unspecified"/>
         <character xml:id="HerodFriends" class="rich" ethnicity="unspecified" gender="male"
             age="adult" ability="unspecified"/>
+<<<<<<< HEAD
+ 
+=======
 
+>>>>>>> FETCH_HEAD
         <character xml:id="sinners" age="unspecified" ability="unspecified" ethnicity="unspecified"
             class="unspecified" gender="unspecified"/>
 
@@ -945,7 +959,7 @@
                 with them in the boat.</description>
             <v n="15"/><conversation><speech ref="Jesus" tone="instructive" type="instruction">"Be
                     careful,"</speech>
-                <speaker ref="Jesus">Jesus</speaker> warned them. <speech ref="Jesus"
+                Jesus warned them. <speech ref="Jesus"
                     type="instruction" tone="instructive">"Watch out for the yeast of the Pharisees
                     and that of Herod."</speech>
                 <v n="16"/><action ref="disciples">They discussed this with one another</action> and
