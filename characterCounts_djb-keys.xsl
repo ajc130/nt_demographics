@@ -24,7 +24,7 @@
                             </td>
                             <td>
                                 <xsl:value-of
-                                    select="count(key('refByToken',current(),$root))"/>
+                                    select="count(key('refByToken',current()))"/>
                             </td>
                         </tr>
                     </xsl:for-each>
