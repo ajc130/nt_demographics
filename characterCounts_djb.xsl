@@ -22,7 +22,8 @@
                                 <xsl:value-of select="current()"/>
                             </td>
                             <td>
-                                <xsl:value-of select="count($root//@ref[. eq current()])"/>
+                                <xsl:value-of
+                                    select="count($root//@ref[tokenize(.,'\s+') = current()])"/>
                             </td>
                         </tr>
                     </xsl:for-each>
