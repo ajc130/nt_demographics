@@ -103,8 +103,6 @@
             ability="unspecified" age="unspecified" gender="unspecified"/>
         <character xml:id="pathseeds" ethnicity="unspecified" class="unspecified"
             gender="unspecified" age="unspecified" ability="unspecified"/>
-        <character xml:id="pathseeds" ethnicity="unspecified" class="unspecified"
-            gender="unspecified" ability="unspecified" age="unspecified"/>
         <character xml:id="thornseeds" ethnicity="unspecified" class="unspecified"
             gender="unspecified" age="unspecified" ability="unspecified"/>
         <character xml:id="goodseeds" ability="unspecified" age="unspecified" gender="unspecified"
@@ -113,15 +111,13 @@
             age="adult" ability="able"/>
         <character xml:id="witnesses" gender="unspecified" ethnicity="unspecified"
             class="unspecified" age="unspecified" ability="unspecified"/>
-        <character xml:id="Jairus
-            servants" gender="male" ethnicity="unspecified"
-            class="unspecified" age="unspecified" ability="able"/>
+        <character xml:id="JairusServants" gender="male" ethnicity="unspecified" class="unspecified"
+            age="unspecified" ability="able"/>
         <character xml:id="mourners" gender="unspecified" ethnicity="unspecified"
             class="unspecified" ability="unspecified" age="unspecified"/>
         <character xml:id="HerodFriends" class="rich" ethnicity="unspecified" gender="male"
             age="adult" ability="unspecified"/>
-        <character xml:id="pathseeds" ethnicity="unspecified" class="unspecified"
-            gender="unspecified" ability="unspecified" age="unspecified"/>
+
         <character xml:id="sinners" age="unspecified" ability="unspecified" ethnicity="unspecified"
             class="unspecified" gender="unspecified"/>
 
