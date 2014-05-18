@@ -1,0 +1,20 @@
+Skype consultation, 2014-05-18
+
+Alathia, since last time:
+
+Fixed schema and markup
+Updated web site
+Identify appropriate denominations for focus
+
+We:
+Changed @xml:id datatype to xsd:ID and @ref datatype to xsd:IDREFS
+Rewrote character counting routine to use keys
+
+Alathia will:
+Continue markup
+Visit PTS library
+
+By next time:
+Mark will be complete and valid
+Alathia will continue markup
+Alathia will get spaces out of filenames
