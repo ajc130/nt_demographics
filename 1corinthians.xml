@@ -2,17 +2,53 @@
 <?xml-model href="epistleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <book>
     <title>"1 Corinthians"</title>
-
-    <opening><c n="1"/><v n="1"/><character><name class="complicated" ethnicity="jew" gender="male"
-                age="adult" ability="unspecified" an="1">Paul</name>, <description type="neutral"
-                >called to be an apostle of Christ Jesus by the will of
-            God</description>,</character> and <character><description type="neutral">our
-                brother</description>
-            <name class="religiousLeader" ethnicity="jew" gender="male" age="adult"
-                ability="unspecified" an="1">Sosthenes</name></character>, <v n="2"/>To the church
-        of God in Corinth, to those sanctified in Christ Jesus= and called to be holy, together with
-        all those everywhere who call on the name of our Lord Jesus Christ--their Lord and ours: <v
-            n="3"/>Grace and peace to you from God our Father and the Lord Jesus Christ.</opening>
+    <metadata>
+        <character class="complicated" ethnicity="jew" gender="male" age="adult"
+            ability="unspecified" xml:id="Paul"/>
+        <character class="religiousLeader" ethnicity="jew" gender="male" age="adult"
+            ability="unspecified" xml:id="Sosthenes"/>
+        <character class="rich" ability="unspecified" age="adult" ethnicity="unspecified"
+            gender="female" xml:id="Chloe"/>
+        <character xml:id="Apollos" ethnicity="jew" gender="male" age="adult" ability="unspecified"
+            class="unspecified"/>
+        <character class="working" ability="able" age="adult" gender="male" ethnicity="jew"
+            xml:id="Cephas"/>
+        <character xml:id="Crispus" ethnicity="jew" gender="male" age="adult" ability="able"
+            class="religiousLeader"/>
+        <character class="unspecified" ability="unspecified" age="adult" gender="male"
+            ethnicity="gentile" xml:id="Gaius"/>
+        <character xml:id="Stephanas" ethnicity="unspecified" gender="male" age="adult"
+            ability="unspecified" class="unspecified"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="Timothy"/>
+        <character xml:id="incest" ethnicity="unspecified" class="unspecified" ability="unspecified"
+            age="adult" gender="male"/>
+        <character xml:id="Barnabas" ethnicity="jew" gender="male" class="unspecified" age="adult"
+            ability="unspecified"/>
+        <character xml:id="Peter" gender="male" ethnicity="jew" class="working" age="adult"
+            ability="able"/>
+        <character xml:id="apostles" class="unspecified" ethnicity="jew" ability="able" age="adult"
+            gender="male"/>
+        <character xml:id="James" gender="male" ethnicity="jew" class="working" age="adult"
+            ability="able"/>
+        <character age="unspecified" ability="unspecified" ethnicity="unspecified"
+            class="unspecified" gender="unspecified" xml:id="crowd"/>
+        <character xml:id="Fortunatus" gender="male" ethnicity="unspecified" age="adult"
+            ability="unspecified" class="unspecified"/>
+        <character xml:id="Achaicus" gender="male" age="adult" class="unspecified"
+            ability="unspecified" ethnicity="unspecified"/>
+        <character xml:id="Aquila" ethnicity="jew" ability="able" class="working" age="adult"
+            gender="male"/>
+        <character xml:id="Priscilla" gender="female" age="adult" class="working" ability="able"
+            ethnicity="jew"/>
+    </metadata>
+    <opening><c n="1"/><v n="1"/><name ref="Paul">Paul</name>, <description ref="Paul"
+            type="neutral">called to be an apostle of Christ Jesus by the will of God</description>,
+        and <description ref="Sosthenes" type="neutral">our brother</description>
+        <name ref="Sosthenes">Sosthenes</name>, <v n="2"/>To the church of God in Corinth, to those
+        sanctified in Christ Jesus= and called to be holy, together with all those everywhere who
+        call on the name of our Lord Jesus Christ--their Lord and ours: <v n="3"/>Grace and peace to
+        you from God our Father and the Lord Jesus Christ.</opening>
     <body>
         <section><v n="4"/>I always thank God for you because of his grace given you in Christ
             Jesus. <v n="5"/>For in him you have been enriched in every way--in all your speaking
@@ -23,31 +59,22 @@
             called you into fellowship with his Son Jesus Christ our Lord, is faithful.</section>
         <section><v n="10"/>I appeal to you, brothers, in the name of our Lord Jesus Christ, that
             all of you agree with one another so that there may be no divisions among you and that
-            you may be perfectly united in mind and thought. <v n="11"/>My brothers, some from
-                    <character><name class="rich" ability="unspecified" age="adult"
-                    ethnicity="unspecified" gender="female" an="1">Chloe</name></character>'s
-            household have informed me that there are quarrels among you. <v n="12"/>What I mean is
-            this: One of you says, "I follow <character><name an="2">Paul</name></character>";
-            another, "I follow <character><name ethnicity="jew" gender="male" age="adult"
-                    ability="unspecified" class="unspecified" an="1">Apollos</name></character>";
-            another, "I follow <character><name class="working" ability="able" age="adult"
-                    gender="male" ethnicity="jew" an="1">Cephas</name></character> "; still another,
-            "I follow Christ." <v n="13"/>Is Christ divided? Was <character><name an="3"
-                >Paul</name></character> crucified for you? Were you baptized into the name of
-                    <character><name an="4">Paul</name></character>? <v n="14"/>I am thankful that
-                    <character><description type="neutral">I did not baptize any of you
-                    except</description>
-                <name an="1" ethnicity="jew" gender="male" age="adult" ability="able"
-                    class="religiousLeader">Crispus </name>and <name class="unspecified"
-                    ability="unspecified" age="adult" gender="male" ethnicity="gentile" an="1"
-                    >Gaius</name></character>, <v n="15"/>so no one can say that you were baptized
-            into my name. <v n="16"/>(Yes, <character>I also <description type="neutral">baptized
-                    the household of</description>
-                <name an="1" ethnicity="unspecified" gender="male" age="adult" ability="unspecified"
-                    class="unspecified">Stephanas</name></character>; beyond that, I don't remember
-            if I baptized anyone else.) <v n="17"/>For Christ did not send me to baptize, but to
-            preach the gospel--not with words of human wisdom, lest the cross of Christ be emptied
-            of its power.</section>
+            you may be perfectly united in mind and thought. <v n="11"/>My brothers, some from <name
+                ref="Chloe">Chloe</name>'s household have informed me that there are quarrels among
+            you. <v n="12"/>What I mean is this: One of you says, "I follow <name ref="Paul"
+                >Paul</name>"; another, "I follow <name ref="Apollos">Apollos</name>"; another, "I
+            follow <name ref="Cephas">Cephas</name> "; still another, "I follow Christ." <v n="13"
+            />Is Christ divided? Was <name ref="Paul">Paul</name> crucified for you? Were you
+            baptized into the name of <name ref="Paul">Paul</name>? <v n="14"/>I am thankful that
+                <description ref="Paul" type="neutral">I did not baptize any of you
+                except</description>
+            <name ref="Crispus">Crispus </name>and <name ref="Gaius">Gaius</name>, <v n="15"/>so no
+            one can say that you were baptized into my name. <v n="16"/>(Yes, I also <description
+                ref="Paul" type="neutral">baptized the household of</description>
+            <name ref="Stephanas">Stephanas</name>; beyond that, I don't remember if I baptized
+            anyone else.) <v n="17"/>For Christ did not send me to baptize, but to preach the
+            gospel--not with words of human wisdom, lest the cross of Christ be emptied of its
+            power.</section>
         <section><v n="18"/>For the message of the cross is foolishness to those who are perishing,
             but to us who are being saved it is the power of God. <v n="19"/>For it is written: "I
             will destroy the wisdom of the wise; the intelligence of the intelligent I will
@@ -103,39 +130,37 @@
             Christ. <v n="2"/>I gave you milk, not solid food, for you were not yet ready for it.
             Indeed, you are still not ready. <v n="3"/>You are still worldly. For since there is
             jealousy and quarreling among you, are you not worldly? Are you not acting like mere
-            men? <v n="4"/>For when one says, "I follow <character><name an="5"
-                >Paul</name></character>," and another, "I follow <character><name an="2"
-                    >Apollos</name></character>," are you not mere men? <v n="5"/><character>What,
-                after all, is <name an="3">Apollos</name>? And what is <name an="6">Paul</name>?
-                    <description type="neutral">Only servants, through whom you came to
-                    believe</description></character>--as the Lord has assigned to each his task. <v
-                n="6"/><character>I planted the seed, <name an="4">Apollos</name>
-                <description type="neutral">watered it</description>, but God made it
-                grow.</character>
-            <v n="7"/>So neither he who plants nor he who waters is anything, but only God, who
-            makes things grow. <v n="8"/>The man who plants and the man who waters have one purpose,
-            and each will be rewarded according to his own labor. <v n="9"/>For we are God's fellow
-            workers; you are God's field, God's building. <v n="10"/>By the grace God has given me,
-            I laid a foundation as an expert builder, and someone else is building on it. But each
-            one should be careful how he builds. <v n="11"/>For no one can lay any foundation other
-            than the one already laid, which is Jesus Christ. <v n="12"/>If any man builds on this
-            foundation using gold, silver, costly stones, wood, hay or straw, <v n="13"/>his work
-            will be shown for what it is, because the Day will bring it to light. It will be
-            revealed with fire, and the fire will test the quality of each man's work. <v n="14"/>If
-            what he has built survives, he will receive his reward. <v n="15"/>If it is burned up,
-            he will suffer loss; he himself will be saved, but only as one escaping through the
-            flames. <v n="16"/>Don't you know that you yourselves are God's temple and that God's
-            Spirit lives in you? <v n="17"/>If anyone destroys God's temple, God will destroy him;
-            for God's temple is sacred, and you are that temple. <v n="18"/>Do not deceive
-            yourselves. If any one of you thinks he is wise by the standards of this age, he should
-            become a "fool" so that he may become wise. <v n="19"/>For the wisdom of this world is
-            foolishness in God's sight. As it is written: "He catches the wise in their craftiness";
-                <v n="20"/>and again, "The Lord knows that the thoughts of the wise are futile." <v
-                n="21"/>So then, no more boasting about men! All things are yours, <v n="22"
-            />whether <character><name an="7">Paul</name></character> or <character><name an="5"
-                    >Apollos</name></character> or <character><name an="2">Cephas</name></character>
-            or the world or life or death or the present or the future--all are yours, <v n="23"
-            />and you are of Christ, and Christ is of God.</section>
+            men? <v n="4"/>For when one says, "I follow <name ref="Paul">Paul</name>," and another,
+            "I follow <name ref="Apollos">Apollos</name>," are you not mere men? <v n="5"/>What,
+            after all, is <name ref="Apollos">Apollos</name>? And what is <name ref="Paul"
+                >Paul</name>? <description ref="Paul Apollos" type="neutral">Only servants, through
+                whom you came to believe</description>--as the Lord has assigned to each his task.
+                <v n="6"/><description type="neutral" ref="Paul">I planted the seed</description>,
+                <name ref="Apollos">Apollos</name>
+            <description ref="Apollos" type="neutral">watered it</description>, but God made it
+            grow. <v n="7"/>So neither he who plants nor he who waters is anything, but only God,
+            who makes things grow. <v n="8"/>The man who plants and the man who waters have one
+            purpose, and each will be rewarded according to his own labor. <v n="9"/>For we are
+            God's fellow workers; you are God's field, God's building. <v n="10"/>By the grace God
+            has given me, I laid a foundation as an expert builder, and someone else is building on
+            it. But each one should be careful how he builds. <v n="11"/>For no one can lay any
+            foundation other than the one already laid, which is Jesus Christ. <v n="12"/>If any man
+            builds on this foundation using gold, silver, costly stones, wood, hay or straw, <v
+                n="13"/>his work will be shown for what it is, because the Day will bring it to
+            light. It will be revealed with fire, and the fire will test the quality of each man's
+            work. <v n="14"/>If what he has built survives, he will receive his reward. <v n="15"
+            />If it is burned up, he will suffer loss; he himself will be saved, but only as one
+            escaping through the flames. <v n="16"/>Don't you know that you yourselves are God's
+            temple and that God's Spirit lives in you? <v n="17"/>If anyone destroys God's temple,
+            God will destroy him; for God's temple is sacred, and you are that temple. <v n="18"/>Do
+            not deceive yourselves. If any one of you thinks he is wise by the standards of this
+            age, he should become a "fool" so that he may become wise. <v n="19"/>For the wisdom of
+            this world is foolishness in God's sight. As it is written: "He catches the wise in
+            their craftiness"; <v n="20"/>and again, "The Lord knows that the thoughts of the wise
+            are futile." <v n="21"/>So then, no more boasting about men! All things are yours, <v
+                n="22"/>whether<name ref="Paul">Paul</name> or <name ref="Apollos">Apollos</name> or
+                <name ref="Cephas">Cephas</name> or the world or life or death or the present or the
+            future--all are yours, <v n="23"/>and you are of Christ, and Christ is of God.</section>
 
         <section><c n="4"/><v n="1"/>So then, men ought to regard us as servants of Christ and as
             those entrusted with the secret things of God. <v n="2"/>Now it is required that those
@@ -145,49 +170,45 @@
                 <v n="5"/>Therefore judge nothing before the appointed time; wait till the Lord
             comes. He will bring to light what is hidden in darkness and will expose the motives of
             men's hearts. At that time each will receive his praise from God. <v n="6"/>Now,
-            brothers, I have applied these things to myself and <character><name an="6"
-                    >Apollos</name></character> for your benefit, so that you may learn from us the
-            meaning of the saying, "Do not go beyond what is written." Then you will not take pride
-            in one man over against another. <v n="7"/>For who makes you different from anyone else?
-            What do you have that you did not receive? And if you did receive it, why do you boast
-            as though you did not? <v n="8"/>Already you have all you want! Already you have become
-            rich! You have become kings--and that without us! How I wish that you really had become
-            kings so that we might be kings with you! <v n="9"/>For it seems to me that God has put
-            us apostles on display at the end of the procession, like men condemned to die in the
-            arena. We have been made a spectacle to the whole universe, to angels as well as to men.
-                <v n="10"/>We are fools for Christ, but you are so wise in Christ! We are weak, but
-            you are strong! You are honored, we are dishonored! <v n="11"/>To this very hour we go
-            hungry and thirsty, we are in rags, we are brutally treated, we are homeless. <v n="12"
-            />We work hard with our own hands. When we are cursed, we bless; when we are persecuted,
-            we endure it; <v n="13"/>when we are slandered, we answer kindly. Up to this moment we
-            have become the scum of the earth, the refuse of the world. </section>
+            brothers, I have applied these things to myself and <name ref="Apollos">Apollos</name>
+            for your benefit, so that you may learn from us the meaning of the saying, "Do not go
+            beyond what is written." Then you will not take pride in one man over against another.
+                <v n="7"/>For who makes you different from anyone else? What do you have that you
+            did not receive? And if you did receive it, why do you boast as though you did not? <v
+                n="8"/>Already you have all you want! Already you have become rich! You have become
+            kings--and that without us! How I wish that you really had become kings so that we might
+            be kings with you! <v n="9"/>For it seems to me that God has put us apostles on display
+            at the end of the procession, like men condemned to die in the arena. We have been made
+            a spectacle to the whole universe, to angels as well as to men. <v n="10"/>We are fools
+            for Christ, but you are so wise in Christ! We are weak, but you are strong! You are
+            honored, we are dishonored! <v n="11"/>To this very hour we go hungry and thirsty, we
+            are in rags, we are brutally treated, we are homeless. <v n="12"/>We work hard with our
+            own hands. When we are cursed, we bless; when we are persecuted, we endure it; <v n="13"
+            />when we are slandered, we answer kindly. Up to this moment we have become the scum of
+            the earth, the refuse of the world. </section>
         <section><v n="14"/>I am not writing this to shame you, but to warn you, as my dear
             children. <v n="15"/>Even though you have ten thousand guardians in Christ, you do not
             have many fathers, for in Christ Jesus I became your father through the gospel. <v
-                n="16"/>Therefore I urge you to imitate me. <v n="17"/>For this reason <character>I
-                am sending to you <name class="unspecified" ethnicity="jew" gender="male"
-                    age="adult" ability="able" an="1">Timothy</name>, <description type="good">my
-                    son whom I love, who is faithful in the Lord</description></character>. He will
-            remind you of my way of life in Christ Jesus, which agrees with what I teach everywhere
-            in every church. <v n="18"/>Some of you have become arrogant, as if I were not coming to
-            you. <v n="19"/>But I will come to you very soon, if the Lord is willing, and then I
-            will find out not only how these arrogant people are talking, but what power they have.
-                <v n="20"/>For the kingdom of God is not a matter of talk but of power. <v n="21"
-            />What do you prefer? Shall I come to you with a whip, or in love and with a gentle
-            spirit?</section>
+                n="16"/>Therefore I urge you to imitate me. <v n="17"/>For this reason I am sending
+            to you <name ref="Timothy">Timothy</name>, <description ref="Timothy" type="good">my son
+                whom I love, who is faithful in the Lord</description>. He will remind you of my way
+            of life in Christ Jesus, which agrees with what I teach everywhere in every church. <v
+                n="18"/>Some of you have become arrogant, as if I were not coming to you. <v n="19"
+            />But I will come to you very soon, if the Lord is willing, and then I will find out not
+            only how these arrogant people are talking, but what power they have. <v n="20"/>For the
+            kingdom of God is not a matter of talk but of power. <v n="21"/>What do you prefer?
+            Shall I come to you with a whip, or in love and with a gentle spirit?</section>
         <section><c n="5"/>
             <v n="1"/>It is actually reported that there is sexual immorality among you, and of a
-            kind that does not occur even among pagans: <character>A <name an="1"
-                    ethnicity="unspecified" class="unspecified" ability="unspecified" age="adult"
-                    gender="male">man</name> has his father's wife. <v n="2"/>And you are proud!
-                Shouldn't you rather have been filled with grief and have put out of your fellowship
-                the man who did this? <v n="3"/>Even though I am not physically present, I am with
-                you in spirit. And <condemnation>I have already passed judgment on the one who did
-                    this, just as if I were present. <v n="4"/>When you are assembled in the name of
-                    our Lord Jesus and I am with you in spirit, and the power of our Lord Jesus is
-                    present, <v n="5"/>hand this man over to Satan, so that the sinful nature may be
-                    destroyed and his spirit saved on the day of the
-                Lord.</condemnation></character>
+            kind that does not occur even among pagans: A <name ref="incest">man</name> has his
+            father's wife. <v n="2"/>And you are proud! Shouldn't you rather have been filled with
+            grief and have put out of your fellowship the man who did this? <v n="3"/>Even though I
+            am not physically present, I am with you in spirit. And <condemnation ref="incest">I
+                have already passed judgment on the one who did this, just as if I were present. <v
+                    n="4"/>When you are assembled in the name of our Lord Jesus and I am with you in
+                spirit, and the power of our Lord Jesus is present, <v n="5"/>hand this man over to
+                Satan, so that the sinful nature may be destroyed and his spirit saved on the day of
+                the Lord.</condemnation>
             <v n="6"/>Your boasting is not good. Don't you know that a little yeast works through
             the whole batch of dough? <v n="7"/>Get rid of the old yeast that you may be a new batch
             without yeast--as you really are. For Christ, our Passover lamb, has been sacrificed. <v
@@ -353,32 +374,30 @@
             an apostle to others, surely I am to you! For you are the seal of my apostleship in the
             Lord. <v n="3"/>This is my defense to those who sit in judgment on me. <v n="4"/>Don't
             we have the right to food and drink? <v n="5"/>Don't we have the right to take a
-            believing wife along with us, as do the other apostles and the Lord's brothers and
-                    <character><name an="3">Cephas</name></character>? <character><v n="6"/>Or is it
-                only I and <name ethnicity="jew" gender="male" class="unspecified" age="adult"
-                    an="1" ability="unspecified">Barnabas</name> who must work for a
-                living?</character>
-            <v n="7"/>Who serves as a soldier at his own expense? Who plants a vineyard and does not
-            eat of its grapes? Who tends a flock and does not drink of the milk? <v n="8"/>Do I say
-            this merely from a human point of view? Doesn't the Law say the same thing? <v n="9"
-            />For it is written in the Law of Moses: "Do not muzzle an ox while it is treading out
-            the grain." Is it about oxen that God is concerned? <v n="10"/>Surely he says this for
-            us, doesn't he? Yes, this was written for us, because when the plowman plows and the
-            thresher threshes, they ought to do so in the hope of sharing in the harvest. <v n="11"
-            />If we have sown spiritual seed among you, is it too much if we reap a material harvest
-            from you? <v n="12"/>If others have this right of support from you, shouldn't we have it
-            all the more? <v n="13"/>But we did not use this right. On the contrary, we put up with
-            anything rather than hinder the gospel of Christ. Don't you know that those who work in
-            the temple get their food from the temple, and those who serve at the altar share in
-            what is offered on the altar? <v n="14"/>In the same way, the Lord has commanded that
-            those who preach the gospel should receive their living from the gospel. <v n="15"/>But
-            I have not used any of these rights. And I am not writing this in the hope that you will
-            do such things for me. I would rather die than have anyone deprive me of this boast. <v
-                n="16"/>Yet when I preach the gospel, I cannot boast, for I am compelled to preach.
-            Woe to me if I do not preach the gospel! <v n="17"/>If I preach voluntarily, I have a
-            reward; if not voluntarily, I am simply discharging the trust committed to me. <v n="18"
-            />What then is my reward? Just this: that in preaching the gospel I may offer it free of
-            charge, and so not make use of my rights in preaching it. </section>
+            believing wife along with us, as do the other apostles and the Lord's brothers and <name
+                ref="Cephas">Cephas</name>? <v n="6"/>Or is it only I and <name ref="Barnabas"
+                >Barnabas</name> who must work for a living? <v n="7"/>Who serves as a soldier at
+            his own expense? Who plants a vineyard and does not eat of its grapes? Who tends a flock
+            and does not drink of the milk? <v n="8"/>Do I say this merely from a human point of
+            view? Doesn't the Law say the same thing? <v n="9"/>For it is written in the Law of
+            Moses: "Do not muzzle an ox while it is treading out the grain." Is it about oxen that
+            God is concerned? <v n="10"/>Surely he says this for us, doesn't he? Yes, this was
+            written for us, because when the plowman plows and the thresher threshes, they ought to
+            do so in the hope of sharing in the harvest. <v n="11"/>If we have sown spiritual seed
+            among you, is it too much if we reap a material harvest from you? <v n="12"/>If others
+            have this right of support from you, shouldn't we have it all the more? <v n="13"/>But
+            we did not use this right. On the contrary, we put up with anything rather than hinder
+            the gospel of Christ. Don't you know that those who work in the temple get their food
+            from the temple, and those who serve at the altar share in what is offered on the altar?
+                <v n="14"/>In the same way, the Lord has commanded that those who preach the gospel
+            should receive their living from the gospel. <v n="15"/>But I have not used any of these
+            rights. And I am not writing this in the hope that you will do such things for me. I
+            would rather die than have anyone deprive me of this boast. <v n="16"/>Yet when I preach
+            the gospel, I cannot boast, for I am compelled to preach. Woe to me if I do not preach
+            the gospel! <v n="17"/>If I preach voluntarily, I have a reward; if not voluntarily, I
+            am simply discharging the trust committed to me. <v n="18"/>What then is my reward? Just
+            this: that in preaching the gospel I may offer it free of charge, and so not make use of
+            my rights in preaching it. </section>
         <section><v n="19"/>Though I am free and belong to no man, I make myself a slave to
             everyone, to win as many as possible. <v n="20"/>To the Jews I became like a Jew, to win
             the Jews. To those under the law I became like one under the law (though I myself am not
@@ -633,21 +652,18 @@
             have believed in vain. <v n="3"/>For what I received I passed on to you as of first
             importance: that Christ died for our sins according to the Scriptures, <v n="4"/>that he
             was buried, that he was raised on the third day according to the Scriptures, <v n="5"
-            />and that <character>he appeared to <name an="4">Peter</name></character>, and
-                <group>then to the <descriptor gender="male" class="complicated" ethnicity="jew"
-                    ability="able" age="adult">Twelve</descriptor></group>. <v n="6"/>After that, he
-            appeared to <group>more than <descriptor age="unspecified" ability="unspecified"
-                    ethnicity="unspecified" class="unspecified" gender="unspecified">five hundred of
-                    the brothers</descriptor> at the same time, <description type="neutral">most of whom are still
-                    living, though some have fallen asleep</description>.</group>
-            <v n="7"/><character>Then he appeared to <name gender="male" ability="able" age="adult"
-                    class="working" ethnicity="jew" an="1">James</name></character>, then to all the
-            apostles, <v n="8"/>and last of all he appeared to me also, as to one abnormally born.
-                <v n="9"/>For I am the least of the apostles and do not even deserve to be called an
-            apostle, because I persecuted the church of God. <v n="10"/>But by the grace of God I am
-            what I am, and his grace to me was not without effect. No, I worked harder than all of
-            them--yet not I, but the grace of God that was with me. <v n="11"/>Whether, then, it was
-            I or they, this is what we preach, and this is what you believed. </section>
+            />and that he appeared to <name ref="Peter">Peter</name>, and then to the <description
+                ref="apostles" type="neutral">Twelve</description>. <v n="6"/>After that, he
+            appeared to <name ref="crowd">more than five hundred of the brothers at the same
+                time</name>, <description ref="crowd" type="neutral">most of whom are still living,
+                though some have fallen asleep</description>. <v n="7"/>Then he appeared to <name
+                ref="James">James</name>, then to all the apostles, <v n="8"/>and last of all he
+            appeared to me also, as to one abnormally born. <v n="9"/>For I am the least of the
+            apostles and do not even deserve to be called an apostle, because I persecuted the
+            church of God. <v n="10"/>But by the grace of God I am what I am, and his grace to me
+            was not without effect. No, I worked harder than all of them--yet not I, but the grace
+            of God that was with me. <v n="11"/>Whether, then, it was I or they, this is what we
+            preach, and this is what you believed. </section>
         <section>v n="12"/>But if it is preached that Christ has been raised from the dead, how can
             some of you say that there is no resurrection of the dead? <v n="13"/>If there is no
             resurrection of the dead, then not even Christ has been raised. <v n="14"/>And if Christ
@@ -726,36 +742,31 @@
             n="7"/>I do not want to see you now and make only a passing visit; I hope to spend some
         time with you, if the Lord permits. <v n="8"/>But I will stay on at Ephesus until Pentecost,
             <v n="9"/>because a great door for effective work has opened to me, and there are many
-        who oppose me. <v n="10"/><character>If <name an="2">Timothy</name> comes, see to it that he
-            has nothing to fear while he is with you, <description type="good">for he is carrying on
-                the work of the Lord, just as I am.</description><v n="11"/>No one, then, should
-            refuse to accept him. Send him on his way in peace so that he may return to me. I am
-            expecting him along with the brothers. </character>
-        <character><v n="12"/>Now about our brother <name an="7">Apollos</name><description
-                type="neutral">: I strongly urged him to go to you with the brothers. He was quite
-                unwilling to go now, but he will go when he has the
-            opportunity.</description></character>
+        who oppose me. <v n="10"/>If <name ref="Timothy">Timothy</name> comes, see to it that he has
+        nothing to fear while he is with you, <description ref="Timothy" type="good">for he is
+            carrying on the work of the Lord, just as I am.</description><v n="11"/>No one, then,
+        should refuse to accept him. Send him on his way in peace so that he may return to me. I am
+        expecting him along with the brothers. <v n="12"/>Now about our brother <name ref="Apollos"
+            >Apollos</name><description type="neutral" ref="Apollos">: I strongly urged him to go to
+            you with the brothers. He was quite unwilling to go now, but he will go when he has the
+            opportunity.</description>
         <v n="13"/>Be on your guard; stand firm in the faith; be men of courage; be strong. <v
-            n="14"/>Do everything in love. <v n="15"/>You know that <character>the household of
-                <name an="2">Stephanas</name> were <description type="good">the first converts in
-                Achaia, and they have devoted themselves to the service of the
-            saints.</description></character> I urge you, brothers, <v n="16"/>to submit to such as
-        these and to everyone who joins in the work, and labors at it. <v n="17"/><character>I was
-            glad when <name an="3">Stephanas</name>, <name gender="male" an="1"
-                ethnicity="unspecified" age="adult" ability="unspecified" class="unspecified"
-                >Fortunatus</name> and <name gender="male" age="adult" class="unspecified"
-                ability="unspecified" ethnicity="unspecified" an="1">Achaicus</name> arrived,
-            because <description type="good">they have supplied what was lacking from you. <v n="18"
-                />For they refreshed my spirit and yours also. Such men deserve
-                recognition.</description></character>
-        <v n="19"/>The churches in the province of Asia send you greetings. <character><name an="1"
-                ethnicity="jew" ability="able" class="working" age="adult" gender="male"
-                >Aquila</name> and <name gender="female" age="adult" class="working" ability="able"
-                ethnicity="jew" an="1">Priscilla</name>
-            <description type="neutral"> greet you warmly in the Lord, and so does the church that
-                meets at their house.</description></character>
+            n="14"/>Do everything in love. <v n="15"/>You know that the household of <name
+            ref="Stephanas">Stephanas</name> were <description ref="Stephanas" type="good">the first
+            converts in Achaia, and they have devoted themselves to the service of the
+            saints.</description> I urge you, brothers, <v n="16"/>to submit to such as these and to
+        everyone who joins in the work, and labors at it. <v n="17"/>I was glad when <name
+            ref="Stephanas">Stephanas</name>, <name ref="Fortunatus">Fortunatus</name> and <name
+            ref="Achaicus">Achaicus</name> arrived, because <description ref="Achaicus Fortunatus"
+            type="good">they have supplied what was lacking from you. <v n="18"/>For they refreshed
+            my spirit and yours also. Such men deserve recognition.</description>
+        <v n="19"/>The churches in the province of Asia send you greetings. <name ref="Aquila"
+            >Aquila</name> and <name ref="Priscilla">Priscilla</name>
+        <description ref="Aquila Priscilla" type="neutral"> greet you warmly in the Lord, and so
+            does the church that meets at their house.</description>
         <v n="20"/>All the brothers here send you greetings. Greet one another with a holy kiss. <v
-            n="21"/><character>I, <name an="8">Paul</name>, write this greeting in my own hand. </character><v n="22"/>If anyone does not love
-        the Lord--a curse be on him. Come, O Lord! <v n="23"/>The grace of the Lord Jesus be with
-        you. <v n="24"/>My love to all of you in Christ Jesus. Amen.</conclusion>
+            n="21"/>I, <name ref="Paul">Paul</name>, write this greeting in my own hand. <v n="22"
+        />If anyone does not love the Lord--a curse be on him. Come, O Lord! <v n="23"/>The grace of
+        the Lord Jesus be with you. <v n="24"/>My love to all of you in Christ Jesus.
+        Amen.</conclusion>
 </book>

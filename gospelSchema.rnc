@@ -13,7 +13,7 @@ name= element name {ref, text}
 action= element action {ref, mixed {(v|c|name|description | action)*}}
 description= element description {ref, mixed {(name|v|c| action | description)*}}
 audience= element audience {ref, text}
-speech= element speech {ref, tone, (type | genre), mixed {(v|c|name | description | action)*}}
+speech= element speech {ref, tone, (type | genre), mixed {(v|c|name | description | action | gsi | esi | csi)*}}
 class= attribute class {"religiousLeader"| "rich"| "poor"| "outcast"| "working"| "unspecified" | "slave" | "master"}
 ethnicity= attribute ethnicity {"jew" |"samaritan" |"gentile" |"unspecified"}
 gender= attribute gender {"male" |"female"| "unspecified"| "both"}
@@ -21,10 +21,13 @@ age= attribute age {"child" |"adult" |"elderly" |"unspecified"}
 ability= attribute ability {"able" |"handicapped" |"unspecified"}
 id= attribute xml:id {xsd:ID}
 type= attribute type {"question" |"statement" |"answer" |"blessing" |"greeting" |"instruction"}
-genre= attribute genre {"parable"| "prophesy"| "instruction"| "blessing"| "explanation"| "admonition"}
+genre= attribute genre {"parable"| "prophesy"| "instruction"| "blessing"| "explanation"| "admonition"| "sermon"}
 tone= attribute tone {"unspecified"| "kind"| "instructive"| "condemning"|"confused"|"shrouded"|"pleading"}
 ref= attribute ref {xsd:IDREFS}
 n= attribute n {xsd:int}
+gsi= element gsi {(gender, tone), mixed {(v | c)*}}
+esi= element esi {(ethnicity, tone), mixed {(v | c)*}}
+csi= element csi {(class, tone), mixed {(v | c)*}}
 
 
 

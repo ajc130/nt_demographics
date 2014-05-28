@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="characters.rnc" type="application/relax-ng-compact-syntax"?>
+<characters>
+    <character xml:id="Paul" class="complicated" ethnicity="jew" gender="male" age="adult"
+        ability="unspecified" books="13"/>
+    <character xml:id="Timothy" class="unspecified" ethnicity="jew" gender="male" age="adult"
+        ability="able" books="10"/>
+    <character xml:id="Philemon" ability="unspecified" age="adult" class="master"
+        ethnicity="gentile" gender="male" books="1"/>
+    <character xml:id="Apphia" gender="female" ethnicity="gentile" class="master" age="adult"
+        ability="unspecified" books="1"/>
+    <character xml:id="Archippus" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="2"/>
+    <character xml:id="Onesimus" gender="male" ethnicity="gentile" class="slave" age="adult"
+        ability="able" books="2"/>
+    <character xml:id="Epaphras" ability="able" age="adult" class="unspecified" ethnicity="gentile"
+        gender="male" books="2"/>
+    <character xml:id="Mark" class="unspecified" gender="male" age="adult" ability="able"
+        ethnicity="jew" books="3"/>
+    <character xml:id="Aristarchus" ethnicity="jew" ability="able" age="adult" gender="male"
+        class="unspecified" books="2"/>
+    <character xml:id="Luke" ethnicity="jew" ability="able" age="adult" gender="male"
+        class="working" books="3"/>
+    <character xml:id="Demas" ethnicity="unspecified" ability="unspecified" age="adult"
+        gender="male" class="unspecified" books="3"/>
+    <character xml:id="Titus" gender="male" ethnicity="gentile" class="unspecified" age="adult"
+        ability="able" books="4"/>
+    <character xml:id="Tychicus" ability="able" age="adult" class="unspecified" ethnicity="gentile"
+        gender="male" books="4"/>
+    <character xml:id="Artemas" class="unspecified" gender="male" ability="unspecified" age="adult"
+        ethnicity="unspecified" books="1"/>
+    <character xml:id="Apollos" ethnicity="jew" gender="male" age="adult" ability="unspecified"
+        class="unspecified" books="2"/>
+    <character xml:id="Zenas" ethnicity="unspecified" age="adult" ability="able" gender="male"
+        class="working" books="1"/>
+    <character xml:id="Lois" ability="unspecified" age="adult" class="unspecified" ethnicity="jew"
+        gender="female" books="1"/>
+    <character xml:id="Eunice" ability="unspecified" age="adult" class="unspecified" ethnicity="jew"
+        gender="female" books="1"/>
+    <character xml:id="Phygelus" gender="male" ethnicity="gentile" class="unspecified" age="adult"
+        ability="unspecified" books="1"/>
+    <character xml:id="Hermogenes" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="gentile" gender="male" books="1"/>
+    <character xml:id="Onesiphorus" gender="male" ethnicity="gentile" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="David" ability="able" age="adult" class="rich" ethnicity="jew" gender="male"
+        books="2"/>
+    <character xml:id="Hymenaeus" gender="male" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="2"/>
+    <character xml:id="Philetus" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Moses" gender="male" ethnicity="jew" class="unspecified" age="adult"
+        ability="able" books="3"/>
+    <character xml:id="Jannes" ability="able" age="adult" class="rich" ethnicity="gentile"
+        gender="male" books="1"/>
+    <character xml:id="Jambres" gender="male" ethnicity="gentile" class="rich" age="adult"
+        ability="able" books="1"/>
+    <character xml:id="Crescens" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
+        ability="unspecified" xml:id="Carpus" books="1"/>
+    <character xml:id="Alexander" gender="male" ethnicity="unspecified" class="working" age="adult"
+        ability="able" books="2"/>
+    <character xml:id="Aquila" ethnicity="jew" ability="able" class="working" age="adult"
+        gender="male" books="3"/>
+    <character xml:id="Priscilla" gender="female" age="adult" class="working" ability="able"
+        ethnicity="jew" books="3"/>
+    <character xml:id="Trophimus" ethnicity="gentile" gender="male" class="unspecified" age="adult"
+        ability="able" books="1"/>
+    <character xml:id="Eubulus" ability="unspecified" age="adult" class="unspecified" gender="male"
+        ethnicity="gentile" books="1"/>
+    <character xml:id="Pudens" ethnicity="gentile" gender="male" class="unspecified" age="adult"
+        ability="unspecified" books="1"/>
+    <character xml:id="Linus" ability="unspecified" age="adult" class="unspecified" gender="male"
+        ethnicity="unspecified" books="1"/>
+    <character xml:id="Claudia" ethnicity="gentile" gender="female" class="unspecified" age="adult"
+        ability="unspecified" books="1"/>
+    <character xml:id="Erastus" ability="unspecified" age="adult" class="unspecified" gender="male"
+        ethnicity="gentile" books="2"/>
+    <character xml:id="False Teachers" class="unspecified" ethnicity="unspecified" gender="male"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Silas" ability="able" age="adult" class="unspecified" ethnicity="jew"
+        gender="male" books="2"/>
+    <character xml:id="Barnabas" class="unspecified" gender="male" age="adult" ability="able"
+        ethnicity="jew" books="3"/>
+    <character xml:id="Justus" class="unspecified" gender="male" age="adult" ability="unspecified"
+        ethnicity="jew" books="1"/>
+    <character xml:id="Nympha" ethnicity="gentile" ability="able" age="adult" gender="female"
+        class="unspecified" books="1"/>
+    <character xml:id="Epaphroditus" ability="able" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Eudia" gender="female" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Syntyche" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="female" books="1"/>
+    <character xml:id="Clement" gender="male" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character class="rich" ethnicity="gentile" gender="male" age="adult" ability="able"
+        xml:id="Caesar" books="1"/>
+    <character xml:id="Peter" gender="male" ethnicity="jew" class="working" age="adult"
+        ability="able" books="2"/>
+    <character xml:id="James (the brother of Jesus)" ability="able" age="adult" class="working" ethnicity="jew"
+        gender="male" books="1"/>
+    <character xml:id="James" gender="male" ethnicity="jew" class="working" age="adult"
+        ability="able" books="2"/>
+    <character ability="able" age="adult" class="working" ethnicity="jew" gender="male"
+        xml:id="John" books="1"/>
+    <character xml:id="Circumsicers" class="unspecified" ethnicity="jew" gender="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character class="rich" ethnicity="jew" gender="male" age="adult" ability="able"
+        xml:id="Abraham" books="2"/>
+    <character class="rich" ethnicity="jew" gender="male" age="adult" ability="able" xml:id="Issac"
+        books="2"/>
+    <character class="slave" ethnicity="gentile" gender="male" age="adult" ability="able"
+        xml:id="Ishmael" books="1"/>
+    <character class="rich" ethnicity="jew" gender="female" age="adult" ability="able"
+        xml:id="Sarah" books="1"/>
+    <character class="slave" ethnicity="jew" gender="female" age="adult" ability="able"
+        xml:id="Hagar" books="1"/>
+    <character xml:id="Brother who was praised" class="unspecified" ability="unspecified" age="adult"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Brother who was zealous" class="unspecified" ability="unspecified" age="adult"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Eve" class="unspecified" gender="female" ethnicity="all" age="adult"
+        ability="able" books="1"/>
+    <character xml:id="Governer of Damascus" ethnicity="gentile" gender="male" ability="able" age="adult"
+        class="rich" books="1"/>
+    <character xml:id="King Aretas" class="rich" age="adult" ability="able" gender="male"
+        ethnicity="gentile" books="1"/>
+    <character xml:id="Man who Saw Paraside" ethnicity="unspecified" gender="male" ability="unspecified"
+        age="adult" class="unspecified" books="1"/>
+    <character class="religiousLeader" ethnicity="jew" gender="male" age="adult"
+        ability="unspecified" xml:id="Sosthenes" books="1"/>
+    <character class="rich" ability="unspecified" age="adult" ethnicity="unspecified"
+        gender="female" xml:id="Chloe" books="1"/>
+    <character class="working" ability="able" age="adult" gender="male" ethnicity="jew"
+        xml:id="Cephas" books="1"/>
+    <character xml:id="Crispus" ethnicity="jew" gender="male" age="adult" ability="able"
+        class="religiousLeader" books="1"/>
+    <character class="unspecified" ability="unspecified" age="adult" gender="male"
+        ethnicity="gentile" xml:id="Gaius" books="2"/>
+    <character xml:id="Stephanas" ethnicity="unspecified" gender="male" age="adult"
+        ability="unspecified" class="unspecified" books="1"/>
+    <character xml:id="incest" ethnicity="unspecified" class="unspecified" ability="unspecified"
+        age="adult" gender="male" books="1"/>
+    <character xml:id="apostles" class="unspecified" ethnicity="jew" ability="able" age="adult"
+        gender="male" books="1"/>
+    <character age="unspecified" ability="unspecified" ethnicity="unspecified" class="unspecified"
+        gender="unspecified" xml:id="crowd" books="1"/>
+    <character xml:id="Fortunatus" gender="male" ethnicity="unspecified" age="adult"
+        ability="unspecified" class="unspecified" books="1"/>
+    <character xml:id="Achaicus" gender="male" age="adult" class="unspecified" ability="unspecified"
+        ethnicity="unspecified" books="1"/>
+    <character class="rich" ethnicity="jew" gender="male" age="adult" ability="able" xml:id="Jacob"
+        books="1"/>
+    <character class="rich" ethnicity="jew" gender="female" age="adult" ability="able"
+        xml:id="Rebekah" books="1"/>
+    <character class="rich" ethnicity="gentile" gender="male" age="adult" ability="able"
+        xml:id="Esau" books="1"/>
+    <character gender="male" ethnicity="gentile" ability="able" age="adult" class="rich"
+        xml:id="Pharoh" books="1"/>
+    <character ethnicity="jew" xml:id="Benjamin" class="unspecified" age="adult" ability="able"
+        gender="male" books="1"/>
+    <character gender="male" ability="able" age="adult" class="poor" xml:id="Elijah" ethnicity="jew"
+        books="1"/>
+    <character xml:id="Phoebe" ethnicity="gentile" class="rich" age="adult" ability="able"
+        gender="female" books="1"/>
+    <character xml:id="Epenetus" gender="male" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="gentile" books="1"/>
+    <character xml:id="Mary" ethnicity="unspecified" class="unspecified" age="adult"
+        ability="unspecified" gender="female" books="1"/>
+    <character xml:id="Andronicus" gender="male" ability="able" age="adult" class="unspecified"
+        ethnicity="jew" books="1"/>
+    <character xml:id="Junias" ethnicity="jew" class="unspecified" age="adult" ability="unspecified"
+        gender="unspecified" books="1"/>
+    <character xml:id="Ampliatus" gender="male" ability="able" age="adult" class="unspecified"
+        ethnicity="unspecified" books="1"/>
+    <character xml:id="Urbanus" ethnicity="gentile" class="unspecified" age="adult" ability="able"
+        gender="male" books="1"/>
+    <character xml:id="Stachys" gender="unspecified" ability="unspecified" age="unspecified"
+        class="unspecified" ethnicity="unspecified" books="1"/>
+    <character xml:id="Apelles" ethnicity="unspecified" class="unspecified" age="adult"
+        ability="unspecified" gender="unspecified" books="1"/>
+    <character xml:id="Aristobulus" gender="male" ability="unspecified" age="adult" class="rich"
+        ethnicity="gentile" books="1"/>
+    <character xml:id="Herodian" ethnicity="jew" class="unspecified" age="adult"
+        ability="unspecified" gender="male" books="1"/>
+    <character xml:id="Narcissus" gender="unspecified" ability="unspecified" age="adult"
+        class="unspecified" ethnicity="unspecified" books="1"/>
+    <character xml:id="Tryphena" gender="female" ethnicity="gentile" class="unspecified" age="adult"
+        ability="unspecified" books="1"/>
+    <character xml:id="Tryphosa" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="gentile" gender="male" books="1"/>
+    <character xml:id="Persis" gender="female" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Rufus" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Rufus's Mother" gender="female" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Asyncritus" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="male" books="1"/>
+    <character xml:id="Phlegon" gender="unspecified" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Hermes" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="gentile" gender="male" books="1"/>
+    <character xml:id="Patrobas" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" gender="unspecified" books="1"/>
+    <character xml:id="Hermas" gender="unspecified" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Philologus" gender="male" ethnicity="unspecified" class="unspecified"
+        age="adult" ability="unspecified" books="1"/>
+    <character xml:id="Julia" gender="female" ability="unspecified" age="adult" class="unspecified"
+        ethnicity="unspecified" books="1"/>
+    <character xml:id="Nereus" ethnicity="unspecified" class="unspecified" age="adult"
+        ability="unspecified" gender="male" books="1"/>
+    <character xml:id="Nereus's Sister" gender="female" ability="unspecified" age="adult"
+        class="unspecified" ethnicity="unspecified" books="1"/>
+    <character xml:id="Olympas" ethnicity="unspecified" class="unspecified" age="adult"
+        ability="unspecified" gender="male" books="1"/>
+    <character xml:id="Lucius" ethnicity="jew" class="unspecified" age="adult" ability="unspecified"
+        gender="male" books="1"/>
+    <character xml:id="Jason" ethnicity="jew" gender="male" ability="unspecified" age="adult"
+        class="unspecified" books="1"/>
+    <character xml:id="Sosipater" ethnicity="jew" class="unspecified" age="unspecified"
+        ability="unspecified" gender="male" books="1"/>
+    <character xml:id="Tertius" gender="male" ability="able" age="unspecified" class="working"
+        ethnicity="unspecified" books="1"/>
+    <character xml:id="Quartus" ethnicity="gentile" class="unspecified" age="adult"
+        ability="unspecified" gender="male" books="1"/>
+</characters>

@@ -4,7 +4,7 @@
     <title>Mark</title>
     <metadata>
         <character class="poor" ethnicity="jew" gender="male" age="adult" ability="able"
-            xml:id="John_Baptist"/>
+            xml:id="John_the_Baptist"/>
         <character xml:id="Peter" gender="male" ethnicity="jew" class="working" age="adult"
             ability="able"/>
         <character ability="able" age="adult" class="working" ethnicity="jew" gender="male"
@@ -23,8 +23,7 @@
             gender="male" xml:id="leper"/>
         <character class="unspecified" ethnicity="unspecified" xml:id="cripple" gender="male"
             age="adult" ability="handicapped"/>
-        <character ethnicity="jew" class="rich" gender="male" xml:id="Levi" ability="able"
-            age="adult"/>
+
         <character xml:id="shriveledHand" ethnicity="unspecified" class="unspecified" gender="male"
             age="adult" ability="handicapped"/>
         <character xml:id="Philip" gender="male" ethnicity="jew" class="unspecified" ability="able"
@@ -36,7 +35,7 @@
         <character xml:id="Thomas" ethnicity="jew" age="adult" ability="able" gender="male"
             class="unspecified"/>
         <character class="unspecified" ethnicity="jew" age="adult" ability="able" gender="male"
-            xml:id="Thatddaeus"/>
+            xml:id="Thaddaeus"/>
         <character xml:id="James2" gender="male" ability="able" age="adult" ethnicity="jew"
             class="unspecified"/>
         <character xml:id="Simon" gender="male" ability="able" age="adult" ethnicity="jew"
@@ -73,6 +72,8 @@
             age="adult" ability="handicapped"/>
         <character xml:id="blindMan" class="unspecified" ethnicity="unspecified" gender="male"
             ability="handicapped" age="adult"/>
+        <character ability="handicapped" age="adult" class="poor" ethnicity="jew" gender="male"
+            xml:id="Bartimaeus"/>
         <character xml:id="crowd" class="unspecified" ethnicity="jew" ability="unspecified"
             age="unspecified" gender="both"/>
         <character xml:id="hired_men" class="working" ethnicity="jew" ability="able" age="adult"
@@ -81,11 +82,11 @@
             ability="unspecified" class="unspecified" gender="unspecified"/>
         <character xml:id="cripple_friends" ethnicity="unspecified" class="unspecified"
             ability="able" age="adult" gender="male"/>
-        <character xml:id="law_teachers" ability="able" age="adult" class="religiousLeader"
+        <character xml:id="lawTeachers" ability="able" age="adult" class="religiousLeader"
             ethnicity="jew" gender="male"/>
-        <character xml:id="John_disciples" ethnicity="unspecified" class="unspecified"
+        <character xml:id="JohnDisciples" ethnicity="unspecified" class="unspecified"
             gender="unspecified" age="adult" ability="unspecified"/>
-        <character xml:id="phariseees" gender="male" class="religiousLeader" ethnicity="jew"
+        <character xml:id="pharisees" gender="male" class="religiousLeader" ethnicity="jew"
             ability="able" age="adult"/>
         <character xml:id="somePeople" ability="unspecified" age="unspecified"
             ethnicity="unspecified" class="unspecified" gender="unspecified"/>
@@ -121,7 +122,98 @@
             age="adult" ability="unspecified"/>
         <character xml:id="sinners" age="unspecified" ability="unspecified" ethnicity="unspecified"
             class="unspecified" gender="unspecified"/>
-
+        <character class="working" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="Jesus"/>
+        <character class="poor" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="Elijah"/>
+        <character class="poor" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="Moses"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="demonDad"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="adult" ability="able"
+            xml:id="demonDriver"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="child"
+            ability="handicapped" xml:id="demonSon"/>
+        <character class="unspecified" ethnicity="jew" gender="unspecified" age="child"
+            ability="able" xml:id="littleChild"/>
+        <character class="rich" ethnicity="unspecified" gender="male" age="adult" ability="able"
+            xml:id="richMan"/>
+        <character class="unspecified" ethnicity="jew" gender="unspecified" age="adult"
+            ability="able" xml:id="salesmen"/>
+        <character ability="able" age="adult" class="rich" ethnicity="unspecified" gender="male"
+            xml:id="vineyardOwner"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="vineyardServant1"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="vineyardServant2"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="vineyardServant3"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="vineyardServants"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="vineyardTenants"/>
+        <character ability="able" age="adult" class="rich" ethnicity="unspecified" gender="male"
+            xml:id="vineyardSon"/>
+        <character xml:id="Caesar" gender="male" ethnicity="gentile" class="rich" age="adult"
+            ability="able"/>
+        <character ability="able" age="adult" class="religiousLeader" ethnicity="jew" gender="male"
+            xml:id="Sadducees"/>
+        <character ability="able" age="adult" class="religiousLeader" ethnicity="jew" gender="male"
+            xml:id="lawTeacher"/>
+        <character xml:id="richPeople" gender="unspecified" ethnicity="jew" class="rich" age="adult"
+            ability="able"/>
+        <character ability="able" age="adult" class="poor" ethnicity="jew" gender="female"
+            xml:id="poorWidow"/>
+        <character class="rich" ethnicity="jew" gender="male" age="adult" ability="unspecified"
+            xml:id="SimonLeper"/>
+        <character xml:id="nardWoman" gender="female" ethnicity="unspecified" class="unspecified"
+            age="adult" ability="able"/>
+        <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
+            ability="able" xml:id="sword"/>
+        <character ability="able" age="child" class="unspecified" ethnicity="unspecified"
+            gender="male" xml:id="naked"/>
+        <character xml:id="highPriestServant" gender="male" ethnicity="jew" class="unspecified"
+            age="unspecified" ability="able"/>
+        <character xml:id="servantGirl" ability="able" age="child" class="working" ethnicity="jew"
+            gender="female"/>
+        <character xml:id="chiefPriest" gender="male" ethnicity="jew" class="religiousLeader"
+            age="adult" ability="able"/>
+        <character xml:id="Pilate" ability="able" age="adult" class="rich" ethnicity="gentile"
+            gender="male"/>
+        <character xml:id="thief1" gender="male" ethnicity="unspecified" class="unspecified"
+            age="adult" ability="able"/>
+        <character xml:id="thief2" ability="able" age="adult" class="unspecified"
+            ethnicity="unspecified" gender="male"/>
+        <character xml:id="soldiers" gender="male" ethnicity="gentile" class="working" age="adult"
+            ability="able"/>
+        <character ability="able" age="adult" class="working" ethnicity="unspecified" gender="male"
+            xml:id="guards"/>
+        <character xml:id="Barabbas" gender="male" ethnicity="jew" class="unspecified" age="adult"
+            ability="able"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="adult"
+            ability="unspecified" xml:id="SimonCyrene"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="unspecified"
+            ability="unspecified" xml:id="Alexander"/>
+        <character class="unspecified" ethnicity="jew" gender="male" age="unspecified"
+            ability="unspecified" xml:id="Rufus"/>
+        <character xml:id="vinegar" ability="able" age="adult" class="unspecified"
+            ethnicity="unspecified" gender="unspecified"/>
+        <character xml:id="MaryMagdalene" gender="female" ethnicity="jew" class="unspecified"
+            age="adult" ability="able"/>
+        <character xml:id="MaryJames" ability="able" age="adult" class="unspecified"
+            ethnicity="jew " gender="female"/>
+        <character xml:id="Salome" gender="female" ethnicity="jew" class="unspecified" age="adult"
+            ability="able"/>
+        <character xml:id="otherWomen" ability="able" age="adult" class="unspecified"
+            ethnicity="unspecified" gender="female"/>
+        <character xml:id="JosephArimathea" gender="male" ethnicity="jew" class="rich" age="adult"
+            ability="able"/>
+        <character class="working" ethnicity="jew" gender="female" age="adult" ability="able"
+            xml:id="motherMary"/>
+        <character class="unspecified" ethnicity="gentile" gender="male" age="adult" ability="able"
+            xml:id="centurion"/>
+        <character ability="unspecified" age="unspecified" class="unspecified"
+            ethnicity="unspecified" gender="male" xml:id="angel"/>
     </metadata>
     <body>
         <story>
@@ -152,8 +244,8 @@
             the Spirit descending on him like a dove. <v n="11"/>And a voice came from heaven: "You
             are my Son, whom I love; with you I am well pleased." <v n="12"/>At once the Spirit sent
             him out into the desert, <v n="13"/>and he was in the desert forty days, being tempted
-            by Satan. He was with the wild animals, and angels attended him. </story><story><v
-                n="14"/>After <action ref="John_the_Baptist"><name ref="John_the_Baptist"
+            by Satan. He was with the wild animals, and angels attended him. </story>
+        <story><v n="14"/>After <action ref="John_the_Baptist"><name ref="John_the_Baptist"
                     >John</name> was put in prison</action>, <monologue>Jesus went into Galilee,
                 proclaiming the good news of God. <speech ref="Jesus" tone="instructive"
                     genre="instruction"><v n="15"/>"The time has come," he said. "The kingdom of God
@@ -225,8 +317,8 @@
                     >"Let us go somewhere else--to the nearby villages--so I can preach there also.
                     That is why I have come."</speech></conversation>
             <v n="39"/>So he traveled throughout Galilee, preaching in their synagogues and driving
-            out demons. </story><story><v n="40"/><conversation><name ref="leper">A man with
-                    leprosy</name>
+            out demons. </story>
+        <story><v n="40"/><conversation><name ref="leper">A man with leprosy</name>
                 <action ref="leper">came to him and begged him on his knees</action>, <speech
                     ref="leper" tone="unspecified" type="statement">"If you are willing, you can
                     make me clean." </speech><v n="41"/>Filled with compassion, Jesus reached out
@@ -259,20 +351,19 @@
             <v n="5"/>When Jesus saw their faith, <monologue>he said to <audience ref="cripple">the
                     paralytic</audience>, <speech ref="Jesus" genre="blessing" tone="kind">"Son,
                     your sins are forgiven."</speech></monologue>
-            <v n="6"/>Now <name ref="law_teachers">some teachers of the law</name>
-            <action ref="law_teachers">were sitting there, thinking to themselves, <v n="7"/>"Why
+            <v n="6"/>Now <name ref="lawTeachers">some teachers of the law</name>
+            <action ref="lawTeachers">were sitting there, thinking to themselves, <v n="7"/>"Why
                 does this fellow talk like that? He's blaspheming! Who can forgive sins but God
                 alone?"</action>
             <monologue><v n="8"/>Immediately Jesus knew in his spirit that this was what they were
-                thinking in their hearts, and he said to <audience ref="law_teachers"
-                    >them</audience>, "<speech ref="Jesus" genre="admonition" tone="condemning">Why
-                    are you thinking these things? <v n="9"/>Which is easier: to say to the
-                    paralytic, 'Your sins are forgiven,' or to say, 'Get up, take your mat and
-                    walk'? <v n="10"/>But that you may know that the Son of Man has authority on
-                    earth to forgive sins...."</speech> He said to <audience ref="cripple">the
-                    paralytic</audience>, <v n="11"/><speech ref="Jesus" tone="instructive"
-                    genre="instruction">"I tell you, get up, take your mat and go
-                home."</speech></monologue>
+                thinking in their hearts, and he said to <audience ref="lawTeachers"
+                >them</audience>, "<speech ref="Jesus" genre="admonition" tone="condemning">Why are
+                    you thinking these things? <v n="9"/>Which is easier: to say to the paralytic,
+                    'Your sins are forgiven,' or to say, 'Get up, take your mat and walk'? <v n="10"
+                    />But that you may know that the Son of Man has authority on earth to forgive
+                    sins...."</speech> He said to <audience ref="cripple">the paralytic</audience>,
+                    <v n="11"/><speech ref="Jesus" tone="instructive" genre="instruction">"I tell
+                    you, get up, take your mat and go home."</speech></monologue>
             <v n="12"/><action ref="cripple">He got up, took his mat and walked out in full view of
                 them all.</action> This amazed <name ref="crowd">everyone</name> and <action
                 ref="crowd">they praised God, saying, "We have never seen anything like
@@ -280,34 +371,35 @@
         <story>
             <v n="13"/>Once again Jesus went out beside the lake. <name ref="crowd">A large crowd
                 </name><action ref="crowd">came to him</action>, and he began to teach them. <v
-                n="14"/>As he walked along, he saw <name ref="Levi">Levi</name>
-            <description ref="Levi">son of Alphaeus</description>
-            <action ref="Levi">sitting at the tax collector's booth</action>. <monologue><speech
+                n="14"/>As he walked along, he saw <name ref="Matthew">Levi</name>
+            <description ref="Matthew">son of Alphaeus</description>
+            <action ref="Matthew">sitting at the tax collector's booth</action>. <monologue><speech
                     ref="Jesus" genre="instruction" tone="unspecified">"Follow me,"</speech> Jesus
-                told <audience ref="Levi">him</audience></monologue>, and <name ref="Levi"
+                told <audience ref="Matthew">him</audience></monologue>, and <name ref="Matthew"
                 >Levi</name>
-            <action ref="Levi">got up and followed him</action>. <v n="15"/>While Jesus was having
-            dinner at Levi's house, <name ref="sinners">many tax collectors and "sinners"</name>
+            <action ref="Matthew">got up and followed him</action>. <v n="15"/>While Jesus was
+            having dinner at Levi's house, <name ref="sinners">many tax collectors and
+                "sinners"</name>
             <action ref="sinners">were eating with him and his disciples</action>, for <description
                 ref="sinners">there were many who followed him</description>. <v n="16"/>When <name
-                ref="law_teachers">the teachers of the law </name><description ref="law_teachers"
-                >who were Pharisees</description>
-            <action ref="law_teachers">saw him eating with the "sinners" and tax
-                    collectors</action>,<conversation><action ref="law_teachers"> they asked his
+                ref="lawTeachers">the teachers of the law </name><description ref="lawTeachers">who
+                were pharisees</description>
+            <action ref="lawTeachers">saw him eating with the "sinners" and tax
+                    collectors</action>,<conversation><action ref="lawTeachers"> they asked his
                     disciples:</action>
-                <speech ref="law_teachers" tone="condemning" type="question">"Why does he eat with
+                <speech ref="lawTeachers" tone="condemning" type="question">"Why does he eat with
                     tax collectors and 'sinners'?"</speech>
                 <v n="17"/>On hearing this, Jesus said to them, "<speech ref="Jesus" type="answer"
                     tone="instructive">It is not the healthy who need a doctor, but the sick. I have
                     not come to call the righteous, but sinners."</speech></conversation></story>
         <story>
-            <v n="18"/>Now <name ref="John_disciples">John's disciples</name> and <name
-                ref="pharisees">the Pharisees</name>
-            <action ref="John_disciples pharisees">were fasting</action>. <name ref="somePeople"
-                >Some people</name>
+            <v n="18"/>Now <name ref="JohnDisciples">John's disciples</name> and <name
+                ref="pharisees">the pharisees</name>
+            <action ref="JohnDisciples pharisees">were fasting</action>. <name ref="somePeople">Some
+                people</name>
             <action ref="somePeople">came and asked Jesus</action>, <conversation><speech
                     ref="somePeople" tone="unspecified" type="question">"How is it that John's
-                    disciples and the disciples of the Pharisees are fasting, but yours are
+                    disciples and the disciples of the pharisees are fasting, but yours are
                     not?"</speech>
                 <v n="19"/>Jesus answered, <speech ref="Jesus" type="answer" tone="instructive">"How
                     can the guests of the bridegroom fast while he is with them? They cannot, so
@@ -322,7 +414,7 @@
             <v n="23"/>One Sabbath Jesus was going through the grainfields, and as <name
                 ref="disciples">his disciples</name>
             <action ref="disciples">walked along, they began to pick some heads of grain.</action>
-            <conversation><v n="24"/><name ref="Pharisees">The Pharisees </name>said to him, <speech
+            <conversation><v n="24"/><name ref="pharisees">The pharisees </name>said to him, <speech
                     ref="pharisees" tone="condemning" type="question">"Look, why are they doing what
                     is unlawful on the Sabbath?"</speech>
                 <v n="25"/>He answered, <speech ref="Jesus" type="answer" tone="instructive">"Have
@@ -356,7 +448,7 @@
                     hand."</speech></monologue>
             <action ref="shriveledHand">He stretched it out, and his hand was completely
                 restored.</action>
-            <v n="6"/>Then the <name ref="pharisees">Pharisees</name>
+            <v n="6"/>Then the <name ref="pharisees">pharisees</name>
             <action ref="pharisees">went out and began to plot with the <name ref="herodians"
                     >Herodians </name>how they might kill Jesus.</action></story>
         <story>
@@ -374,12 +466,12 @@
             <action ref="sick">were pushing forward to touch him.</action>
             <v n="11"/>Whenever the evil spirits saw him, they fell down before him and cried out,
             "You are the Son of God." <v n="12"/>But he gave them strict orders not to tell who he
-            was. </story><story><v n="13"/>Jesus went up on a mountainside and called to him <name
-                ref="apostles">those he wanted</name>, and <action ref="apostles">they came to
-                him</action>. <v n="14"/>He appointed <description ref="apostles"
-                >twelve--designating them apostles--that they might be with him and that he might
-                send them out to preach<v n="15"/>and to have authority to drive out
-                demons.</description>
+            was. </story>
+        <story><v n="13"/>Jesus went up on a mountainside and called to him <name ref="apostles"
+                >those he wanted</name>, and <action ref="apostles">they came to him</action>. <v
+                n="14"/>He appointed <description ref="apostles">twelve--designating them
+                apostles--that they might be with him and that he might send them out to preach<v
+                    n="15"/>and to have authority to drive out demons.</description>
             <v n="16"/>These are the twelve he appointed: <name ref="Peter">Simon</name>
             <description ref="Peter">(to whom he gave the name Peter)</description>; <v n="17"
                 /><name ref="James">James</name>
@@ -388,12 +480,13 @@
             <name ref="John">John</name>
             <description ref="James John">(to them he gave the name Boanerges, which means Sons of
                 Thunder)</description>; <v n="18"/><name ref="Andrew">Andrew</name>, <name
-                ref="Philip">Philip</name>, <name ref="Bartholemew">Bartholomew</name>, <name
+                ref="Philip">Philip</name>, <name ref="Bartholomew">Bartholomew</name>, <name
                 ref="Matthew">Matthew</name>, <name ref="Thomas">Thomas</name>, <name ref="James2"
-                >James son of Alphaeus</name>, <name ref="Thaddaues">Thaddaeus</name>, <name
+                >James son of Alphaeus</name>, <name ref="Thaddaeus">Thaddaeus</name>, <name
                 ref="Simon">Simon the Zealot</name>
             <v n="19"/>and <name ref="Judas">Judas Iscariot</name>, <description ref="Judas">who
-                betrayed him</description>.</story><story>
+                betrayed him</description>.</story>
+        <story>
             <v n="20"/>Then Jesus entered a house, and again <name ref="crowd">a crowd</name>
             <action ref="crowd">gathered</action>, so that he and <name ref="apostles">his
                 disciples</name>
@@ -431,7 +524,8 @@
                     ref="Jesus" tone="kind" type="statement">"Here are my mother and my brothers! <v
                         n="35"/>Whoever does God's will is my brother and sister and
                     mother."</speech>
-            </conversation></story><story><c n="4"/>
+            </conversation></story>
+        <story><c n="4"/>
             <v n="1"/>Again Jesus began to teach by the lake. <name ref="crowd">The crowd</name>
             that <action ref="crowd">gathered around him</action> was <description ref="crowd">so
                 large that he got into a boat and sat in it out on the lake, while all the people
@@ -504,21 +598,21 @@
                     />All by itself the soil produces grain--first the stalk, then the head, then
                     the full kernel in the head. <v n="29"/>As soon as the grain is ripe, <action
                         ref="farmer2">he puts the sickle to it</action>, because the harvest has
-                    come." </speech></monologue></story><story><monologue><v n="30"/>Again he said,
-                    <speech ref="Jesus" tone="instructive" genre="parable">"What shall we say the
-                    kingdom of God is like, or what parable shall we use to describe it? <v n="31"
-                    />It is like a mustard seed, which is the smallest seed you plant in the ground.
-                        <v n="32"/>Yet when planted, it grows and becomes the largest of all garden
-                    plants, with such big branches that the birds of the air can perch in its
-                    shade."</speech>
+                    come." </speech></monologue></story>
+        <story><monologue><v n="30"/>Again he said, <speech ref="Jesus" tone="instructive"
+                    genre="parable">"What shall we say the kingdom of God is like, or what parable
+                    shall we use to describe it? <v n="31"/>It is like a mustard seed, which is the
+                    smallest seed you plant in the ground. <v n="32"/>Yet when planted, it grows and
+                    becomes the largest of all garden plants, with such big branches that the birds
+                    of the air can perch in its shade."</speech>
                 <v n="33"/>With many similar parables Jesus spoke the word to them, as much as they
                 could understand.</monologue>
             <v n="34"/>He did not say anything to <name ref="crowd">them</name> without using a
             parable. But when he was alone with <name ref="apostles">his own disciples</name>, he
-            explained everything. </story><story><v n="35"/>That day when evening came,
-                <monologue>he said to <audience ref="apostles">his disciples</audience>, <speech
-                    ref="Jesus" genre="instruction" tone="unspecified">"Let us go over to the other
-                    side."</speech></monologue>
+            explained everything. </story>
+        <story><v n="35"/>That day when evening came, <monologue>he said to <audience ref="apostles"
+                    >his disciples</audience>, <speech ref="Jesus" genre="instruction"
+                    tone="unspecified">"Let us go over to the other side."</speech></monologue>
             <v n="36"/>Leaving the crowd behind, they took him along, just as he was, in the boat.
             There were also other boats with him. <v n="37"/>A furious squall came up, and the waves
             broke over the boat, so that it was nearly swamped. <v n="38"/>Jesus was in the stern,
@@ -537,7 +631,7 @@
                 him!"</speech></conversation></story>
         <story><c n="5"/>
             <v n="1"/>They went across the lake to the region of the Gerasenes. <v n="2"/>When Jesus
-            got out of the boat, <name ref="demon_possesed2">a man</name>
+            got out of the boat, <name ref="demon_possessed2">a man</name>
             <description ref="demon_possessed2">with an evil spirit</description>
             <action ref="demon_possessed2">came from the tombs to meet him.</action>
             <description ref="demon_possessed2"><v n="3"/>This man lived in the tombs, and no one
@@ -656,7 +750,8 @@
                 ref="Jairus JairusWife Peter James John">they were completely
                 astonished.</description>
             <v n="43"/>He gave strict orders not to let anyone know about this, and told them to
-            give her something to eat. </story><story><c n="6"/>
+            give her something to eat. </story>
+        <story><c n="6"/>
             <v n="1"/>Jesus left there and went to his hometown, accompanied by his disciples. <v
                 n="2"/>When the Sabbath came, he began to teach in the synagogue, and <name
                 ref="crowd">many who heard him</name>
@@ -672,7 +767,8 @@
                     house is a prophet without honor."</speech>
             </conversation><v n="5"/>He could not do any miracles there, except lay his hands on
                 <name ref="sick">a few sick people</name> and heal them. <v n="6"/>And he was amazed
-            at <description ref="sick">their lack of faith</description>.</story><story>
+            at <description ref="sick">their lack of faith</description>.</story>
+        <story>
             <v n="7"/>Then Jesus went around teaching from village to village. <monologue>Calling
                     <name ref="apostles">the Twelve</name> to him, he sent <audience ref="apostles"
                     >them</audience> out <description ref="apostles">two by two</description> and
@@ -790,7 +886,8 @@
                 ref="crowd">They all ate and were satisfied</action>, <v n="43"/>and the disciples
             picked up twelve basketfuls of broken pieces of bread and fish. <v n="44"/><description
                 ref="crowd">The number of the men who had eaten was five
-            thousand</description>.</story><story>
+            thousand</description>.</story>
+        <story>
             <v n="45"/>Immediately Jesus made his disciples <action ref="apostles">get into the boat
                 and go on ahead of him to Bethsaida</action>, while he dismissed the crowd. <v
                 n="46"/>After leaving them, he went up on a mountainside to pray. <v n="47"/>When
@@ -815,18 +912,19 @@
             <v n="56"/>And wherever he went--into villages, towns or countryside--<action
                 ref="crowd">they placed the sick in the marketplaces. They begged him to let them
                 touch even the edge of his cloak,</action> and <description ref="crowd">all who
-                touched him were healed</description>. </story><story><c n="7"/>
-            <v n="1"/><name ref="pharisees">The Pharisees</name> and <name ref="lawTeachers">some of
+                touched him were healed</description>. </story>
+        <story><c n="7"/>
+            <v n="1"/><name ref="pharisees">The pharisees</name> and <name ref="lawTeachers">some of
                 the teachers of the law</name>
             <description ref="pharisees">who had come from Jerusalem</description>
             <action ref="pharisees">gathered around Jesus and <v n="2"/>saw some of his disciples
                 eating food with hands that were "unclean," that is, unwashed. </action>
-            <description ref="pharisees"><v n="3"/>(The Pharisees and all the Jews do not eat unless
+            <description ref="pharisees"><v n="3"/>(The pharisees and all the Jews do not eat unless
                 they give their hands a ceremonial washing, holding to the tradition of the elders.
                     <v n="4"/>When they come from the marketplace they do not eat unless they wash.
                 And they observe many other traditions, such as the washing of cups, pitchers and
                 kettles. )</description>
-            <conversation><v n="5"/>So <name ref="pharisees lawTeachers">the Pharisees and teachers
+            <conversation><v n="5"/>So <name ref="pharisees lawTeachers">the pharisees and teachers
                     of the law</name> asked Jesus, <speech ref="pharisees" tone="unspecified"
                     type="question"> "Why don't your disciples live according to the tradition of
                     the elders instead of eating their food with 'unclean' hands?"</speech>
@@ -864,12 +962,12 @@
                     thoughts, sexual immorality, theft, murder, adultery, <v n="22"/>greed, malice,
                     deceit, lewdness, envy, slander, arrogance and folly. <v n="23"/>All these evils
                     come from inside and make a man 'unclean.'"</speech>
-            </monologue></story><story><v n="24"/>Jesus left that place and went to the vicinity of
-            Tyre. He entered a house and did not want anyone to know it; yet he could not keep his
-            presence secret. <v n="25"/>In fact, as soon as she heard about him, <name
-                ref="caringMother">a woman</name> whose <name ref="possessedGirl">little
-                daughter</name><description ref="posessedGirl"> was possessed by an evil
-                spirit</description>
+            </monologue></story>
+        <story><v n="24"/>Jesus left that place and went to the vicinity of Tyre. He entered a house
+            and did not want anyone to know it; yet he could not keep his presence secret. <v n="25"
+            />In fact, as soon as she heard about him, <name ref="caringMother">a woman</name> whose
+                <name ref="possessedGirl">little daughter</name><description ref="possessedGirl">
+                was possessed by an evil spirit</description>
             <action ref="caringMother">came and fell at his feet</action>. <v n="26"/><name
                 ref="caringMother">The woman</name>
             <description ref="caringMother">was a Greek, born in Syrian Phoenicia</description>.
@@ -933,7 +1031,7 @@
                 over</action>. <v n="9"/><description ref="crowd">About four thousand men were
                 present</description>. And having sent them away, <v n="10"/>he got into the boat
             with his disciples and went to the region of Dalmanutha. <v n="11"/><name
-                ref="pharisees">The Pharisees</name>
+                ref="pharisees">The pharisees</name>
             <action ref="pharisees">came and began to question Jesus</action>. To test him, <action
                 ref="pharisees">they asked him for a sign from heaven</action>. <monologue><v n="12"
                 />He sighed deeply and said, <speech ref="Jesus" tone="condemning"
@@ -945,10 +1043,9 @@
             <description ref="apostles">had forgotten to bring bread, except for one loaf they had
                 with them in the boat.</description>
             <v n="15"/><conversation><speech ref="Jesus" tone="instructive" type="instruction">"Be
-                    careful,"</speech>
-                Jesus warned them. <speech ref="Jesus"
-                    type="instruction" tone="instructive">"Watch out for the yeast of the Pharisees
-                    and that of Herod."</speech>
+                    careful,"</speech> Jesus warned them. <speech ref="Jesus" type="instruction"
+                    tone="instructive">"Watch out for the yeast of the pharisees and that of
+                    Herod."</speech>
                 <v n="16"/><action ref="disciples">They discussed this with one another</action> and
                 said, <speech ref="apostles" tone="unspecified" type="statement">"It is because we
                     have no bread."</speech>
@@ -1017,481 +1114,1022 @@
                 <c n="9"/>
                 <v n="1"/>And he said to them, <speech genre="explanation" tone="instructive"
                     ref="Jesus">"I tell you the truth, some who are standing here will not taste
-                    death before they see the kingdom of God come with power.</speech></monologue>"
-            </story><v n="2"/>After six days Jesus took Peter, James and John with him and led them
-        up a high mountain, where they were all alone. There he was transfigured before them. <v
-            n="3"/>His clothes became dazzling white, whiter than anyone in the world could bleach
-        them. <v n="4"/>And there appeared before them Elijah and Moses, who were talking with
-        Jesus. <v n="5"/>Peter said to Jesus, "Rabbi, it is good for us to be here. Let us put up
-        three shelters--one for you, one for Moses and one for Elijah." <v n="6"/>(He did not know
-        what to say, they were so frightened.) <v n="7"/>Then a cloud appeared and enveloped them,
-        and a voice came from the cloud: "This is my Son, whom I love. Listen to him!" <v n="8"
-        />Suddenly, when they looked around, they no longer saw anyone with them except Jesus. <v
-            n="9"/>As they were coming down the mountain, Jesus gave them orders not to tell anyone
-        what they had seen until the Son of Man had risen from the dead. <v n="10"/>They kept the
-        matter to themselves, discussing what "rising from the dead" meant. <v n="11"/>And they
-        asked him, "Why do the teachers of the law say that Elijah must come first?" <v n="12"
-        />Jesus replied, "To be sure, Elijah does come first, and restores all things. Why then is
-        it written that the Son of Man must suffer much and be rejected? <v n="13"/>But I tell you,
-        Elijah has come, and they have done to him everything they wished, just as it is written
-        about him." <v n="14"/>When they came to the other disciples, they saw a large crowd around
-        them and the teachers of the law arguing with them. <v n="15"/>As soon as all the people saw
-        Jesus, they were overwhelmed with wonder and ran to greet him. <v n="16"/>"What are you
-        arguing with them about?" he asked. <v n="17"/>A man in the crowd answered, "Teacher, I
-        brought you my son, who is possessed by a spirit that has robbed him of speech. <v n="18"
-        />Whenever it seizes him, it throws him to the ground. He foams at the mouth, gnashes his
-        teeth and becomes rigid. I asked your disciples to drive out the spirit, but they could
-        not." <v n="19"/>"O unbelieving generation," Jesus replied, "how long shall I stay with you?
-        How long shall I put up with you? Bring the boy to me." <v n="20"/>So they brought him. When
-        the spirit saw Jesus, it immediately threw the boy into a convulsion. He fell to the ground
-        and rolled around, foaming at the mouth. <v n="21"/>Jesus asked the boy's father, "How long
-        has he been like this?" <v n="22"/>"From childhood," he answered. "It has often thrown him
-        into fire or water to kill him. But if you can do anything, take pity on us and help us." <v
-            n="23"/>"'If you can'?" said Jesus. "Everything is possible for him who believes." <v
-            n="24"/>Immediately the boy's father exclaimed, "I do believe; help me overcome my
-        unbelief!" <v n="25"/>When Jesus saw that a crowd was running to the scene, he rebuked the
-        evil spirit. "You deaf and mute spirit," he said, "I command you, come out of him and never
-        enter him again." <v n="26"/>The spirit shrieked, convulsed him violently and came out. The
-        boy looked so much like a corpse that many said, "He's dead." <v n="27"/>But Jesus took him
-        by the hand and lifted him to his feet, and he stood up. <v n="28"/>After Jesus had gone
-        indoors, his disciples asked him privately, "Why couldn't we drive it out?" <v n="29"/>He
-        replied, "This kind can come out only by prayer. " <v n="30"/>They left that place and
-        passed through Galilee. Jesus did not want anyone to know where they were, <v n="31"
-        />because he was teaching his disciples. He said to them, "The Son of Man is going to be
-        betrayed into the hands of men. They will kill him, and after three days he will rise." <v
-            n="32"/>But they did not understand what he meant and were afraid to ask him about it.
-            <v n="33"/>They came to Capernaum. When he was in the house, he asked them, "What were
-        you arguing about on the road?" <v n="34"/>But they kept quiet because on the way they had
-        argued about who was the greatest. <v n="35"/>Sitting down, Jesus called the Twelve and
-        said, "If anyone wants to be first, he must be the very last, and the servant of all." <v
-            n="36"/>He took a little child and had him stand among them. Taking him in his arms, he
-        said to them, <v n="37"/>"Whoever welcomes one of these little children in my ref welcomes
-        me; and whoever welcomes me does not welcome me but the one who sent me." <v n="38"
-        />"Teacher," said John, "we saw a man driving out demons in your ref and we told him to
-        stop, because he was not one of us." <v n="39"/>"Do not stop him," Jesus said. "No one who
-        does a miracle in my ref can in the next moment say anything bad about me, <v n="40"/>for
-        whoever is not against us is for us. <v n="41"/>I tell you the truth, anyone who gives you a
-        cup of water in my ref because you belong to Christ will certainly not lose his reward. <v
-            n="42"/>"And if anyone causes one of these little ones who believe in me to sin, it
-        would be better for him to be thrown into the sea with a large millstone tied around his
-        neck. <v n="43"/>If your hand causes you to sin, cut it off. It is better for you to enter
-        life maimed than with two hands to go into hell, where the fire never goes out. <v n="44"
-        />See Footnote <v n="45"/>And if your foot causes you to sin, cut it off. It is better for
-        you to enter life crippled than to have two feet and be thrown into hell. <v n="46"/>See
-        Footnote <v n="47"/>And if your eye causes you to sin, pluck it out. It is better for you to
-        enter the kingdom of God with one eye than to have two eyes and be thrown into hell, <v
-            n="48"/>where "'their worm does not die, and the fire is not quenched.' <v n="49"
-        />Everyone will be salted with fire. <v n="50"/>"Salt is good, but if it loses its
-        saltiness, how can you make it salty again? Have salt in yourselves, and be at peace with
-        each other." <c n="10"/>
-        <v n="1"/>Jesus then left that place and went into the region of Judea and across the
-        Jordan. Again crowds of people came to him, and as was his custom, he taught them. <v n="2"
-        />Some Pharisees came and tested him by asking, "Is it lawful for a man to divorce his
-        wife?" <v n="3"/>"What did Moses command you?" he replied. <v n="4"/>They said, "Moses
-        permitted a man to write a certificate of divorce and send her away." <v n="5"/>"It was
-        because your hearts were hard that Moses wrote you this law," Jesus replied. <v n="6"/>"But
-        at the beginning of creation God 'made them male and female.' <v n="7"/>'For this reason a
-        man will leave his father and mother and be united to his wife, <v n="8"/>and the two will
-        become one flesh.' So they are no longer two, but one. <v n="9"/>Therefore what God has
-        joined together, let man not separate." <v n="10"/>When they were in the house again, the
-        disciples asked Jesus about this. <v n="11"/>He answered, "Anyone who divorces his wife and
-        marries another woman commits adultery against her. <v n="12"/>And if she divorces her
-        husband and marries another man, she commits adultery." <v n="13"/>People were bringing
-        little children to Jesus to have him touch them, but the disciples rebuked them. <v n="14"
-        />When Jesus saw this, he was indignant. He said to them, "Let the little children come to
-        me, and do not hinder them, for the kingdom of God belongs to such as these. <v n="15"/>I
-        tell you the truth, anyone who will not receive the kingdom of God like a little child will
-        never enter it." <v n="16"/>And he took the children in his arms, put his hands on them and
-        blessed them. <v n="17"/>As Jesus started on his way, a man ran up to him and fell on his
-        knees before him. "Good teacher," he asked, "what must I do to inherit eternal life?" <v
-            n="18"/>"Why do you call me good?" Jesus answered. "No one is good--except God alone. <v
-            n="19"/>You know the commandments: 'Do not murder, do not commit adultery, do not steal,
-        do not give false testimony, do not defraud, honor your father and mother.'" <v n="20"
-        />"Teacher," he declared, "all these I have kept since I was a boy." <v n="21"/>Jesus looked
-        at him and loved him. "One thing you lack," he said. "Go, sell everything you have and give
-        to the poor, and you will have treasure in heaven. Then come, follow me." <v n="22"/>At this
-        the man's face fell. He went away sad, because he had great wealth. <v n="23"/>Jesus looked
-        around and said to his disciples, "How hard it is for the rich to enter the kingdom of God!"
-            <v n="24"/>The disciples were amazed at his words. But Jesus said again, "Children, how
-        hard it is to enter the kingdom of God! <v n="25"/>It is easier for a camel to go through
-        the eye of a needle than for a rich man to enter the kingdom of God." <v n="26"/>The
-        disciples were even more amazed, and said to each other, "Who then can be saved?" <v n="27"
-        />Jesus looked at them and said, "With man this is impossible, but not with God; all things
-        are possible with God." <v n="28"/>Peter said to him, "We have left everything to follow
-        you!" <v n="29"/>"I tell you the truth," Jesus replied, "no one who has left home or
-        brothers or sisters or mother or father or children or fields for me and the gospel <v
-            n="30"/>will fail to receive a hundred times as much in this present age (homes,
-        brothers, sisters, mothers, children and fields--and with them, persecutions) and in the age
-        to come, eternal life. <v n="31"/>But many who are first will be last, and the last first."
-            <v n="32"/>They were on their way up to Jerusalem, with Jesus leading the way, and the
-        disciples were astonished, while those who followed were afraid. Again he took the Twelve
-        aside and told them what was going to happen to him. <v n="33"/>"We are going up to
-        Jerusalem," he said, "and the Son of Man will be betrayed to the chief priests and teachers
-        of the law. They will condemn him to death and will hand him over to the Gentiles, <v n="34"
-        />who will mock him and spit on him, flog him and kill him. Three days later he will rise."
-            <v n="35"/>Then James and John, the sons of Zebedee, came to him. "Teacher," they said,
-        "we want you to do for us whatever we ask." <v n="36"/>"What do you want me to do for you?"
-        he asked. <v n="37"/>They replied, "Let one of us sit at your right and the other at your
-        left in your glory." <v n="38"/>"You don't know what you are asking," Jesus said. "Can you
-        drink the cup I drink or be baptized with the baptism I am baptized with?" <v n="39"/>"We
-        can," they answered. Jesus said to them, "You will drink the cup I drink and be baptized
-        with the baptism I am baptized with, <v n="40"/>but to sit at my right or left is not for me
-        to grant. These places belong to those for whom they have been prepared." <v n="41"/>When
-        the ten heard about this, they became indignant with James and John. <v n="42"/>Jesus called
-        them together and said, "You know that those who are regarded as rulers of the Gentiles lord
-        it over them, and their high officials exercise authority over them. <v n="43"/>Not so with
-        you. Instead, whoever wants to become great among you must be your servant, <v n="44"/>and
-        whoever wants to be first must be slave of all. <v n="45"/>For even the Son of Man did not
-        come to be served, but to serve, and to give his life as a ransom for many." <v n="46"/>Then
-        they came to Jericho. As Jesus and his disciples, together with a large crowd, were leaving
-        the city, a blind man, Bartimaeus (that is, the Son of Timaeus), was sitting by the roadside
-        begging. <v n="47"/>When he heard that it was Jesus of Nazareth, he began to shout, "Jesus,
-        Son of David, have mercy on me!" <v n="48"/>Many rebuked him and told him to be quiet, but
-        he shouted all the more, "Son of David, have mercy on me!" <v n="49"/>Jesus stopped and
-        said, "Call him." So they called to the blind man, "Cheer up! On your feet! He's calling
-        you." <v n="50"/>Throwing his cloak aside, he jumped to his feet and came to Jesus. <v
-            n="51"/>"What do you want me to do for you?" Jesus asked him. The blind man said,
-        "Rabbi, I want to see." <v n="52"/>"Go," said Jesus, "your faith has healed you."
-        Immediately he received his sight and followed Jesus along the road. <c n="11"/>
-        <v n="1"/>As they approached Jerusalem and came to Bethphage and Bethany at the Mount of
-        Olives, Jesus sent two of his disciples, <v n="2"/>saying to them, "Go to the village ahead
-        of you, and just as you enter it, you will find a colt tied there, which no one has ever
-        ridden. Untie it and bring it here. <v n="3"/>If anyone asks you, 'Why are you doing this?'
-        tell him, 'The Lord needs it and will send it back here shortly.'" <v n="4"/>They went and
-        found a colt outside in the street, tied at a doorway. As they untied it, <v n="5"/>some
-        people standing there asked, "What are you doing, untying that colt?" <v n="6"/>They
-        answered as Jesus had told them to, and the people let them go. <v n="7"/>When they brought
-        the colt to Jesus and threw their cloaks over it, he sat on it. <v n="8"/>Many people spread
-        their cloaks on the road, while others spread branches they had cut in the fields. <v n="9"
-        />Those who went ahead and those who followed shouted, "Hosanna! Blessed is he who comes in
-        the xml:id of the Lord!" <v n="10"/>"Blessed is the coming kingdom of our father
-        David!Hosanna in the highest!" <v n="11"/>Jesus entered Jerusalem and went to the temple. He
-        looked around at everything, but since it was already late, he went out to Bethany with the
-        Twelve. <v n="12"/>The next day as they were leaving Bethany, Jesus was hungry. <v n="13"
-        />Seeing in the distance a fig tree in leaf, he went to find out if it had any fruit. When
-        he reached it, he found nothing but leaves, because it was not the season for figs. <v
-            n="14"/>Then he said to the tree, "May no one ever eat fruit from you again." And his
-        disciples heard him say it. <v n="15"/>On reaching Jerusalem, Jesus entered the temple area
-        and began driving out those who were buying and selling there. He overturned the tables of
-        the money changers and the benches of those selling doves, <v n="16"/>and would not allow
-        anyone to carry merchandise through the temple courts. <v n="17"/>And as he taught them, he
-        said, "Is it not written: "'My house will be called a house of prayer for all nations'? But
-        you have made it 'a den of robbers.'" <v n="18"/>The chief priests and the teachers of the
-        law heard this and began looking for a way to kill him, for they feared him, because the
-        whole crowd was amazed at his teaching. <v n="19"/>When evening came, they went out of the
-        city. <v n="20"/>In the morning, as they went along, they saw the fig tree withered from the
-        roots. <v n="21"/>Peter remembered and said to Jesus, "Rabbi, look! The fig tree you cursed
-        has withered!" <v n="22"/>"Have faith in God," Jesus answered. <v n="23"/>"I tell you the
-        truth, if anyone says to this mountain, 'Go, throw yourself into the sea,' and does not
-        doubt in his heart but believes that what he says will happen, it will be done for him. <v
-            n="24"/>Therefore I tell you, whatever you ask for in prayer, believe that you have
-        received it, and it will be yours. <v n="25"/>And when you stand praying, if you hold
-        anything against anyone, forgive him, so that your Father in heaven may forgive you your
-        sins." <v n="26"/>See Footnote <v n="27"/>They arrived again in Jerusalem, and while Jesus
-        was walking in the temple courts, the chief priests, the teachers of the law and the elders
-        came to him. <v n="28"/>"By what authority are you doing these things?" they asked. "And who
-        gave you authority to do this?" <v n="29"/>Jesus replied, "I will ask you one question.
-        Answer me, and I will tell you by what authority I am doing these things. <v n="30"/>John's
-        baptism--was it from heaven, or from men? Tell me!" <v n="31"/>They discussed it among
-        themselves and said, "If we say, 'From heaven,' he will ask, 'Then why didn't you believe
-        him?' <v n="32"/>But if we say, 'From men'...." (They feared the people, for everyone held
-        that John really was a prophet.) <v n="33"/>So they answered Jesus, "We don't know." Jesus
-        said, "Neither will I tell you by what authority I am doing these things." <c n="12"/>
-        <v n="1"/>He then began to speak to them in parables: "A man planted a vineyard. He put a
-        wall around it, dug a pit for the winepress and built a watchtower. Then he rented the
-        vineyard to some farmers and went away on a journey. <v n="2"/>At harvest time he sent a
-        servant to the tenants to collect from them some of the fruit of the vineyard. <v n="3"/>But
-        they seized him, beat him and sent him away empty-handed. <v n="4"/>Then he sent another
-        servant to them; they struck this man on the head and treated him shamefully. <v n="5"/>He
-        sent still another, and that one they killed. He sent many others; some of them they beat,
-        others they killed. <v n="6"/>"He had one left to send, a son, whom he loved. He sent him
-        last of all, saying, 'They will respect my son.' <v n="7"/>"But the tenants said to one
-        another, 'This is the heir. Come, let's kill him, and the inheritance will be ours.' <v
-            n="8"/>So they took him and killed him, and threw him out of the vineyard. <v n="9"
-        />"What then will the owner of the vineyard do? He will come and kill those tenants and give
-        the vineyard to others. <v n="10"/>Haven't you read this scripture: "'The stone the builders
-        rejected has become the capstone; <v n="11"/>the Lord has done this, and it is marvelous in
-        our eyes'?" <v n="12"/>Then they looked for a way to arrest him because they knew he had
-        spoken the parable against them. But they were afraid of the crowd; so they left him and
-        went away. <v n="13"/>Later they sent some of the Pharisees and Herodians to Jesus to catch
-        him in his words. <v n="14"/>They came to him and said, "Teacher, we know you are a man of
-        integrity. You aren't swayed by men, because you pay no attention to who they are; but you
-        teach the way of God in accordance with the truth. Is it right to pay taxes to Caesar or
-        not? <v n="15"/>Should we pay or shouldn't we?" <v n="16"/>But Jesus knew their hypocrisy.
-        "Why are you trying to trap me?" he asked. "Bring me a denarius and let me look at it." They
-        brought the coin, and he asked them, "Whose portrait is this? And whose
-        inscription?Caesar's," they replied. <v n="17"/>Then Jesus said to them, "Give to Caesar
-        what is Caesar's and to God what is God's." And they were amazed at him. <v n="18"/>Then the
-        Sadducees, who say there is no resurrection, came to him with a question. <v n="19"
-        />"Teacher," they said, "Moses wrote for us that if a man's brother dies and leaves a wife
-        but no children, the man must marry the widow and have children for his brother. <v n="20"
-        />Now there were seven brothers. The first one married and died without leaving any
-        children. <v n="21"/>The second one married the widow, but he also died, leaving no child.
-        It was the same with the third. <v n="22"/>In fact, none of the seven left any children.
-        Last of all, the woman died too. <v n="23"/>At the resurrection whose wife will she be,
-        since the seven were married to her?" <v n="24"/>Jesus replied, "Are you not in error
-        because you do not know the Scriptures or the power of God? <v n="25"/>When the dead rise,
-        they will neither marry nor be given in marriage; they will be like the angels in heaven. <v
-            n="26"/>Now about the dead rising--have you not read in the book of Moses, in the
-        account of the bush, how God said to him, 'I am the God of Abraham, the God of Isaac, and
-        the God of Jacob'? <v n="27"/>He is not the God of the dead, but of the living. You are
-        badly mistaken!" <v n="28"/>One of the teachers of the law came and heard them debating.
-        Noticing that Jesus had given them a good answer, he asked him, "Of all the commandments,
-        which is the most important?" <v n="29"/>"The most important one," answered Jesus, "is this:
-        'Hear, O Israel, the Lord our God, the Lord is one. <v n="30"/>Love the Lord your God with
-        all your heart and with all your soul and with all your mind and with all your strength.' <v
-            n="31"/>The second is this: 'Love your neighbor as yourself.' There is no commandment
-        greater than these." <v n="32"/>"Well said, teacher," the man replied. "You are right in
-        saying that God is one and there is no other but him. <v n="33"/>To love him with all your
-        heart, with all your understanding and with all your strength, and to love your neighbor as
-        yourself is more important than all burnt offerings and sacrifices." <v n="34"/>When Jesus
-        saw that he had answered wisely, he said to him, "You are not far from the kingdom of God."
-        And from then on no one dared ask him any more questions. <v n="35"/>While Jesus was
-        teaching in the temple courts, he asked, "How is it that the teachers of the law say that
-        the Christ is the son of David? <v n="36"/>David himself, speaking by the Holy Spirit,
-        declared: "'The Lord said to my Lord: "Sit at my right hand until I put your enemies under
-        your feet."' <v n="37"/>David himself calls him 'Lord.' How then can he be his son?" The
-        large crowd listened to him with delight. <v n="38"/>As he taught, Jesus said, "Watch out
-        for the teachers of the law. They like to walk around in flowing robes and be greeted in the
-        marketplaces, <v n="39"/>and have the most important seats in the synagogues and the places
-        of honor at banquets. <v n="40"/>They devour widows' houses and for a show make lengthy
-        prayers. Such men will be punished most severely." <v n="41"/>Jesus sat down opposite the
-        place where the offerings were put and watched the crowd putting their money into the temple
-        treasury. Many rich people threw in large amounts. <v n="42"/>But a poor widow came and put
-        in two very small copper coins, worth only a fraction of a penny. <v n="43"/>Calling his
-        disciples to him, Jesus said, "I tell you the truth, this poor widow has put more into the
-        treasury than all the others. <v n="44"/>They all gave out of their wealth; but she, out of
-        her poverty, put in everything--all she had to live on." <c n="13"/>
-        <v n="1"/>As he was leaving the temple, one of his disciples said to him, "Look, Teacher!
-        What massive stones! What magnificent buildings!" <v n="2"/>"Do you see all these great
-        buildings?" replied Jesus. "Not one stone here will be left on another; every one will be
-        thrown down." <v n="3"/>As Jesus was sitting on the Mount of Olives opposite the temple,
-        Peter, James, John and Andrew asked him privately, <v n="4"/>"Tell us, when will these
-        things happen? And what will be the sign that they are all about to be fulfilled?" <v n="5"
-        />Jesus said to them: "Watch out that no one deceives you. <v n="6"/>Many will come in my
-        xml:id, claiming, 'I am he,' and will deceive many. <v n="7"/>When you hear of wars and
-        rumors of wars, do not be alarmed. Such things must happen, but the end is still to come. <v
-            n="8"/>Nation will rise against nation, and kingdom against kingdom. There will be
-        earthquakes in various places, and famines. These are the beginning of birth pains. <v n="9"
-        />"You must be on your guard. You will be handed over to the local councils and flogged in
-        the synagogues. On account of me you will stand before governors and kings as witnesses to
-        them. <v n="10"/>And the gospel must first be preached to all nations. <v n="11"/>Whenever
-        you are arrested and brought to trial, do not worry beforehand about what to say. Just say
-        whatever is given you at the time, for it is not you speaking, but the Holy Spirit. <v
-            n="12"/>"Brother will betray brother to death, and a father his child. Children will
-        rebel against their parents and have them put to death. <v n="13"/>All men will hate you
-        because of me, but he who stands firm to the end will be saved. <v n="14"/>"When you see
-        'the abomination that causes desolation' standing where it does not belong--let the reader
-        understand--then let those who are in Judea flee to the mountains. <v n="15"/>Let no one on
-        the roof of his house go down or enter the house to take anything out. <v n="16"/>Let no one
-        in the field go back to get his cloak. <v n="17"/>How dreadful it will be in those days for
-        pregnant women and nursing mothers! <v n="18"/>Pray that this will not take place in winter,
-            <v n="19"/>because those will be days of distress unequaled from the beginning, when God
-        created the world, until now--and never to be equaled again. <v n="20"/>If the Lord had not
-        cut short those days, no one would survive. But for the sake of the elect, whom he has
-        chosen, he has shortened them. <v n="21"/>At that time if anyone says to you, 'Look, here is
-        the Christ!' or, 'Look, there he is!' do not believe it. <v n="22"/>For false Christs and
-        false prophets will appear and perform signs and miracles to deceive the elect--if that were
-        possible. <v n="23"/>So be on your guard; I have told you everything ahead of time. <v
-            n="24"/>"But in those days, following that distress, "'the sun will be darkened, and the
-        moon will not give its light; <v n="25"/>the stars will fall from the sky, and the heavenly
-        bodies will be shaken.' <v n="26"/>"At that time men will see the Son of Man coming in
-        clouds with great power and glory. <v n="27"/>And he will send his angels and gather his
-        elect from the four winds, from the ends of the earth to the ends of the heavens. <v n="28"
-        />"Now learn this lesson from the fig tree: As soon as its twigs get tender and its leaves
-        come out, you know that summer is near. <v n="29"/>Even so, when you see these things
-        happening, you know that it is near, right at the door. <v n="30"/>I tell you the truth,
-        this generation will certainly not pass away until all these things have happened. <v n="31"
-        />Heaven and earth will pass away, but my words will never pass away. <v n="32"/>"No one
-        knows about that day or hour, not even the angels in heaven, nor the Son, but only the
-        Father. <v n="33"/>Be on guard! Be alert! You do not know when that time will come. <v
-            n="34"/>It's like a man going away: He leaves his house and puts his servants in charge,
-        each with his assigned task, and tells the one at the door to keep watch. <v n="35"
-        />"Therefore keep watch because you do not know when the owner of the house will come
-        back--whether in the evening, or at midnight, or when the rooster crows, or at dawn. <v
-            n="36"/>If he comes suddenly, do not let him find you sleeping. <v n="37"/>What I say to
-        you, I say to everyone: 'Watch!'" <c n="14"/>
-        <v n="1"/>Now the Passover and the Feast of Unleavened Bread were only two days away, and
-        the chief priests and the teachers of the law were looking for some sly way to arrest Jesus
-        and kill him. <v n="2"/>"But not during the Feast," they said, "or the people may riot." <v
-            n="3"/>While he was in Bethany, reclining at the table in the home of a man known as
-        Simon the Leper, a woman came with an alabaster jar of very expensive perfume, made of pure
-        nard. She broke the jar and poured the perfume on his head. <v n="4"/>Some of those present
-        were saying indignantly to one another, "Why this waste of perfume? <v n="5"/>It could have
-        been sold for more than a year's wages and the money given to the poor." And they rebuked
-        her harshly. <v n="6"/>"Leave her alone," said Jesus. "Why are you bothering her? She has
-        done a beautiful thing to me. <v n="7"/>The poor you will always have with you, and you can
-        help them any time you want. But you will not always have me. <v n="8"/>She did what she
-        could. She poured perfume on my body beforehand to prepare for my burial. <v n="9"/>I tell
-        you the truth, wherever the gospel is preached throughout the world, what she has done will
-        also be told, in memory of her." <v n="10"/>Then Judas Iscariot, one of the Twelve, went to
-        the chief priests to betray Jesus to them. <v n="11"/>They were delighted to hear this and
-        promised to give him money. So he watched for an opportunity to hand him over. <v n="12"/>On
-        the first day of the Feast of Unleavened Bread, when it was customary to sacrifice the
-        Passover lamb, Jesus' disciples asked him, "Where do you want us to go and make preparations
-        for you to eat the Passover?" <v n="13"/>So he sent two of his disciples, telling them, "Go
-        into the city, and a man carrying a jar of water will meet you. Follow him. <v n="14"/>Say
-        to the owner of the house he enters, 'The Teacher asks: Where is my guest room, where I may
-        eat the Passover with my disciples?' <v n="15"/>He will show you a large upper room,
-        furnished and ready. Make preparations for us there." <v n="16"/>The disciples left, went
-        into the city and found things just as Jesus had told them. So they prepared the Passover.
-            <v n="17"/>When evening came, Jesus arrived with the Twelve. <v n="18"/>While they were
-        reclining at the table eating, he said, "I tell you the truth, one of you will betray
-        me--one who is eating with me." <v n="19"/>They were saddened, and one by one they said to
-        him, "Surely not I?" <v n="20"/>"It is one of the Twelve," he replied, "one who dips bread
-        into the bowl with me. <v n="21"/>The Son of Man will go just as it is written about him.
-        But woe to that man who betrays the Son of Man! It would be better for him if he had not
-        been born." <v n="22"/>While they were eating, Jesus took bread, gave thanks and broke it,
-        and gave it to his disciples, saying, "Take it; this is my body." <v n="23"/>Then he took
-        the cup, gave thanks and offered it to them, and they all drank from it. <v n="24"/>"This is
-        my blood of the covenant, which is poured out for many," he said to them. <v n="25"/>"I tell
-        you the truth, I will not drink again of the fruit of the vine until that day when I drink
-        it anew in the kingdom of God." <v n="26"/>When they had sung a hymn, they went out to the
-        Mount of Olives. <v n="27"/>"You will all fall away," Jesus told them, "for it is written:
-        "'I will strike the shepherd, and the sheep will be scattered.' <v n="28"/>But after I have
-        risen, I will go ahead of you into Galilee." <v n="29"/>Peter declared, "Even if all fall
-        away, I will not." <v n="30"/>"I tell you the truth," Jesus answered, "today--yes,
-        tonight--before the rooster crows twice you yourself will disown me three times." <v n="31"
-        />But Peter insisted emphatically, "Even if I have to die with you, I will never disown
-        you." And all the others said the same. <v n="32"/>They went to a place called Gethsemane,
-        and Jesus said to his disciples, "Sit here while I pray." <v n="33"/>He took Peter, James
-        and John along with him, and he began to be deeply distressed and troubled. <v n="34"/>"My
-        soul is overwhelmed with sorrow to the point of death," he said to them. "Stay here and keep
-        watch." <v n="35"/>Going a little farther, he fell to the ground and prayed that if possible
-        the hour might pass from him. <v n="36"/>"Abba, Father," he said, "everything is possible
-        for you. Take this cup from me. Yet not what I will, but what you will." <v n="37"/>Then he
-        returned to his disciples and found them sleeping. "Simon," he said to Peter, "are you
-        asleep? Could you not keep watch for one hour? <v n="38"/>Watch and pray so that you will
-        not fall into temptation. The spirit is willing, but the body is weak." <v n="39"/>Once more
-        he went away and prayed the same thing. <v n="40"/>When he came back, he again found them
-        sleeping, because their eyes were heavy. They did not know what to say to him. <v n="41"
-        />Returning the third time, he said to them, "Are you still sleeping and resting? Enough!
-        The hour has come. Look, the Son of Man is betrayed into the hands of sinners. <v n="42"
-        />Rise! Let us go! Here comes my betrayer!" <v n="43"/>Just as he was speaking, Judas, one
-        of the Twelve, appeared. With him was a crowd armed with swords and clubs, sent from the
-        chief priests, the teachers of the law, and the elders. <v n="44"/>Now the betrayer had
-        arranged a signal with them: "The one I kiss is the man; arrest him and lead him away under
-        guard." <v n="45"/>Going at once to Jesus, Judas said, "Rabbi!" and kissed him. <v n="46"
-        />The men seized Jesus and arrested him. <v n="47"/>Then one of those standing near drew his
-        sword and struck the servant of the high priest, cutting off his ear. <v n="48"/>"Am I
-        leading a rebellion," said Jesus, "that you have come out with swords and clubs to capture
-        me? <v n="49"/>Every day I was with you, teaching in the temple courts, and you did not
-        arrest me. But the Scriptures must be fulfilled." <v n="50"/>Then everyone deserted him and
-        fled. <v n="51"/>A young man, wearing nothing but a linen garment, was following Jesus. When
-        they seized him, <v n="52"/>he fled naked, leaving his garment behind. <v n="53"/>They took
-        Jesus to the high priest, and all the chief priests, elders and teachers of the law came
-        together. <v n="54"/>Peter followed him at a distance, right into the courtyard of the high
-        priest. There he sat with the guards and warmed himself at the fire. <v n="55"/>The chief
-        priests and the whole Sanhedrin were looking for evidence against Jesus so that they could
-        put him to death, but they did not find any. <v n="56"/>Many testified falsely against him,
-        but their statements did not agree. <v n="57"/>Then some stood up and gave this false
-        testimony against him: <v n="58"/>"We heard him say, 'I will destroy this man-made temple
-        and in three days will build another, not made by man.'" <v n="59"/>Yet even then their
-        testimony did not agree. <v n="60"/>Then the high priest stood up before them and asked
-        Jesus, "Are you not going to answer? What is this testimony that these men are bringing
-        against you?" <v n="61"/>But Jesus remained silent and gave no answer. Again the high priest
-        asked him, "Are you the Christ, the Son of the Blessed One?" <v n="62"/>"I am," said Jesus.
-        "And you will see the Son of Man sitting at the right hand of the Mighty One and coming on
-        the clouds of heaven." <v n="63"/>The high priest tore his clothes. "Why do we need any more
-        witnesses?" he asked. <v n="64"/>"You have heard the blasphemy. What do you think?" <v
-            n="65"/>They all condemned him as worthy of death. Then some began to spit at him; they
-        blindfolded him, struck him with their fists, and said, "Prophesy!" And the guards took him
-        and beat him. <v n="66"/>While Peter was below in the courtyard, one of the servant girls of
-        the high priest came by. <v n="67"/>When she saw Peter warming himself, she looked closely
-        at him. "You also were with that Nazarene, Jesus," she said. <v n="68"/>But he denied it. "I
-        don't know or understand what you're talking about," he said, and went out into the
-        entryway. <v n="69"/>When the servant girl saw him there, she said again to those standing
-        around, "This fellow is one of them." <v n="70"/>Again he denied it. After a little while,
-        those standing near said to Peter, "Surely you are one of them, for you are a Galilean." <v
-            n="71"/>He began to call down curses on himself, and he swore to them, "I don't know
-        this man you're talking about." <v n="72"/>Immediately the rooster crowed the second time.
-        Then Peter remembered the word Jesus had spoken to him: "Before the rooster crows twice you
-        will disown me three times." And he broke down and wept. <c n="15"/>
-        <v n="1"/>Very early in the morning, the chief priests, with the elders, the teachers of the
-        law and the whole Sanhedrin, reached a decision. They bound Jesus, led him away and handed
-        him over to Pilate. <v n="2"/>"Are you the king of the Jews?" asked Pilate. "Yes, it is as
-        you say," Jesus replied. <v n="3"/>The chief priests accused him of many things. <v n="4"
-        />So again Pilate asked him, "Aren't you going to answer? See how many things they are
-        accusing you of." <v n="5"/>But Jesus still made no reply, and Pilate was amazed. <v n="6"
-        />Now it was the custom at the Feast to release a prisoner whom the people requested. <v
-            n="7"/>A man called Barabbas was in prison with the insurrectionists who had committed
-        murder in the uprising. <v n="8"/>The crowd came up and asked Pilate to do for them what he
-        usually did. <v n="9"/>"Do you want me to release to you the king of the Jews?" asked
-        Pilate, <v n="10"/>knowing it was out of envy that the chief priests had handed Jesus over
-        to him. <v n="11"/>But the chief priests stirred up the crowd to have Pilate release
-        Barabbas instead. <v n="12"/>"What shall I do, then, with the one you call the king of the
-        Jews?" Pilate asked them. <v n="13"/>"Crucify him!" they shouted. <v n="14"/>"Why? What
-        crime has he committed?" asked Pilate. But they shouted all the louder, "Crucify him!" <v
-            n="15"/>Wanting to satisfy the crowd, Pilate released Barabbas to them. He had Jesus
-        flogged, and handed him over to be crucified. <v n="16"/>The soldiers led Jesus away into
-        the palace (that is, the Praetorium) and called together the whole company of soldiers. <v
-            n="17"/>They put a purple robe on him, then twisted together a crown of thorns and set
-        it on him. <v n="18"/>And they began to call out to him, "Hail, king of the Jews!" <v n="19"
-        />Again and again they struck him on the head with a staff and spit on him. Falling on their
-        knees, they paid homage to him. <v n="20"/>And when they had mocked him, they took off the
-        purple robe and put his own clothes on him. Then they led him out to crucify him. <v n="21"
-        />A certain man from Cyrene, Simon, the father of Alexander and Rufus, was passing by on his
-        way in from the country, and they forced him to carry the cross. <v n="22"/>They brought
-        Jesus to the place called Golgotha (which means The Place of the Skull). <v n="23"/>Then
-        they offered him wine mixed with myrrh, but he did not take it. <v n="24"/>And they
-        crucified him. Dividing up his clothes, they cast lots to see what each would get. <v n="25"
-        />It was the third hour when they crucified him. <v n="26"/>The written notice of the charge
-        against him read: THE KING OF THE JEWS. <v n="27"/>They crucified two robbers with him, one
-        on his right and one on his left. <v n="28"/>See Footnote <v n="29"/>Those who passed by
-        hurled insults at him, shaking their heads and saying, "So! You who are going to destroy the
-        temple and build it in three days, <v n="30"/>come down from the cross and save yourself!"
-            <v n="31"/>In the same way the chief priests and the teachers of the law mocked him
-        among themselves. "He saved others," they said, "but he can't save himself! <v n="32"/>Let
-        this Christ, this King of Israel, come down now from the cross, that we may see and
-        believe." Those crucified with him also heaped insults on him. <v n="33"/>At the sixth hour
-        darkness came over the whole land until the ninth hour. <v n="34"/>And at the ninth hour
-        Jesus cried out in a loud voice, "Eloi, Eloi, lama sabachthani?"--which means, "My God, my
-        God, why have you forsaken me?" <v n="35"/>When some of those standing near heard this, they
-        said, "Listen, he's calling Elijah." <v n="36"/>One man ran, filled a sponge with wine
-        vinegar, put it on a stick, and offered it to Jesus to drink. "Now leave him alone. Let's
-        see if Elijah comes to take him down," he said. <v n="37"/>With a loud cry, Jesus breathed
-        his last. <v n="38"/>The curtain of the temple was torn in two from top to bottom. <v n="39"
-        />And when the centurion, who stood there in front of Jesus, heard his cry and saw how he
-        died, he said, "Surely this man was the Son of God!" <v n="40"/>Some women were watching
-        from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of
-        Joses, and Salome. <v n="41"/>In Galilee these women had followed him and cared for his
-        needs. Many other women who had come up with him to Jerusalem were also there. <v n="42"/>It
-        was Preparation Day (that is, the day before the Sabbath). So as evening approached, <v
-            n="43"/>Joseph of Arimathea, a prominent member of the Council, who was himself waiting
-        for the kingdom of God, went boldly to Pilate and asked for Jesus' body. <v n="44"/>Pilate
-        was surprised to hear that he was already dead. Summoning the centurion, he asked him if
-        Jesus had already died. <v n="45"/>When he learned from the centurion that it was so, he
-        gave the body to Joseph. <v n="46"/>So Joseph bought some linen cloth, took down the body,
-        wrapped it in the linen, and placed it in a tomb cut out of rock. Then he rolled a stone
-        against the entrance of the tomb. <v n="47"/>Mary Magdalene and Mary the mother of Joses saw
-        where he was laid. <c n="16"/>
-        <v n="1"/>When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome
-        bought spices so that they might go to anoint Jesus' body. <v n="2"/>Very early on the first
-        day of the week, just after sunrise, they were on their way to the tomb <v n="3"/>and they
-        asked each other, "Who will roll the stone away from the entrance of the tomb?" <v n="4"
-        />But when they looked up, they saw that the stone, which was very large, had been rolled
-        away. <v n="5"/>As they entered the tomb, they saw a young man dressed in a white robe
-        sitting on the right side, and they were alarmed. <v n="6"/>"Don't be alarmed," he said.
-        "You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here.
-        See the place where they laid him. <v n="7"/>But go, tell his disciples and Peter, 'He is
-        going ahead of you into Galilee. There you will see him, just as he told you.'" <v n="8"
-        />Trembling and bewildered, the women went out and fled from the tomb. They said nothing to
-        anyone, because they were afraid. <v n="9"/>When Jesus rose early on the first day of the
-        week, he appeared first to Mary Magdalene, out of whom he had driven seven demons. <v n="10"
-        />She went and told those who had been with him and who were mourning and weeping. <v n="11"
-        />When they heard that Jesus was alive and that she had seen him, they did not believe it.
-            <v n="12"/>Afterward Jesus appeared in a different form to two of them while they were
-        walking in the country. <v n="13"/>These returned and reported it to the rest; but they did
-        not believe them either. <v n="14"/>Later Jesus appeared to the Eleven as they were eating;
-        he rebuked them for their lack of faith and their stubborn refusal to believe those who had
-        seen him after he had risen. <v n="15"/>He said to them, "Go into all the world and preach
-        the good news to all creation. <v n="16"/>Whoever believes and is baptized will be saved,
-        but whoever does not believe will be condemned. <v n="17"/>And these signs will accompany
-        those who believe: In my xml:id they will drive out demons; they will speak in new tongues;
-            <v n="18"/>they will pick up snakes with their hands; and when they drink deadly poison,
-        it will not hurt them at all; they will place their hands on sick people, and they will get
-        well." <v n="19"/>After the Lord Jesus had spoken to them, he was taken up into heaven and
-        he sat at the right hand of God. <v n="20"/>Then the disciples went out and preached
-        everywhere, and the Lord worked with them and confirmed his word by the signs that
-        accompanied it. </body>
+                    death before they see the kingdom of God come with power.</speech></monologue>" </story>
+        <story><v n="2"/>After six days Jesus took <name ref="Peter">Peter</name>, <name ref="James"
+                >James</name> and <name ref="John">John</name> with him and <description
+                ref="John James Peter">led them up a high mountain, where they were all
+                alone</description>. There he was transfigured before them. <v n="3"/>His clothes
+            became dazzling white, whiter than anyone in the world could bleach them. <v n="4"/>And
+            there <action ref="Moses Elijah">appeared before them</action>
+            <name ref="Elijah">Elijah</name> and <name ref="Moses">Moses</name>, who <description
+                ref="Elijah Moses">were talking with Jesus</description>. <v n="5"
+                    /><conversation><name ref="Peter">Peter</name> said to Jesus, <speech
+                    ref="Peter" tone="unspecified" type="statement">"Rabbi, it is good for us to be
+                    here. Let us put up three shelters--one for you, one for <name ref="Moses"
+                        >Moses</name> and one for <name ref="Elijah">Elijah</name>."</speech>
+                <v n="6"/>(<description ref="Peter">He did not know what to say</description>,
+                    <description ref="Peter James John">they were so frightened</description>.) <v
+                    n="7"/>Then a cloud appeared and enveloped them, and a voice came from the
+                cloud: "This is my Son, whom I love. Listen to him!" <v n="8"/>Suddenly, when
+                    <action ref="John James Peter">they looked around, they no longer saw anyone
+                    with them except Jesus</action>. <v n="9"/>As they were coming down the
+                mountain, Jesus gave them orders not to tell anyone what they had seen until the Son
+                of Man had risen from the dead. <description ref="Peter James John"><v n="10"/>They
+                    kept the matter to themselves, discussing what "rising from the dead"
+                    meant.</description>
+                <v n="11"/>And they asked him, <speech ref="John James Peter" type="question"
+                    tone="unspecified">"Why do the teachers of the law say that <name ref="Elijah"
+                        >Elijah</name>
+                    <description ref="Elijah">must come first</description>?"</speech>
+                <v n="12"/>Jesus replied, <speech type="answer" tone="instructive" ref="Jesus">"To
+                    be sure, <name ref="Elijah">Elijah</name>
+                    <description ref="Elijah">does come first, and restores all
+                    things</description>. Why then is it written that the Son of Man must suffer
+                    much and be rejected? <v n="13"/>But I tell you, <name ref="Elijah"
+                        >Elijah</name>
+                    <description ref="Elijah">has come, and they have done to him everything they
+                        wished, just as it is written about
+                him</description>."</speech></conversation>
+        </story>
+        <story><v n="14"/>When <action ref="John James Peter">they came to <name ref="apostles">the
+                    other disciples</name>, they saw <name ref="crowd">a large crowd</name>
+                <description ref="crowd">around them</description> and <name ref="lawTeachers">the
+                    teachers of the law</name>
+                <description ref="lawTeachers">arguing with them</description></action>. <v n="15"
+            />As soon as <name ref="crowd">all the people</name>
+            <action ref="crowd">saw Jesus they were overwhelmed with wonder and ran to greet
+                him</action>,. <conversation><v n="16"/><speech ref="Jesus" tone="unspecified"
+                    type="question">"What are you arguing with them about?"</speech> he asked. <v
+                    n="17"/><name ref="demonDad">A man in the crowd</name> answered, <speech
+                    ref="demonDad" type="answer" tone="pleading">"Teacher, I brought you <name
+                        ref="demonSon">my son</name>, <description ref="demonSon">who is possessed
+                        by a spirit that has robbed him of speech</description>. <v n="18"
+                        /><description ref="demonSon">Whenever it seizes him, it throws him to the
+                        ground. He foams at the mouth, gnashes his teeth and becomes
+                        rigid.</description> I asked <name ref="apostles">your disciples</name> to
+                    drive out the spirit, but <description ref="apostles">they could
+                        not</description>."</speech>
+                <v n="19"/><speech ref="Jesus" tone="condemning" type="statement">"O unbelieving
+                    generation,"</speech> Jesus replied, <speech type="instruction"
+                    tone="condemning" ref="Jesus">"how long shall I stay with you? How long shall I
+                    put up with you? Bring <name ref="demonSon">the boy</name> to me."</speech>
+                <v n="20"/>So they brought him. When the spirit saw Jesus, it immediately threw
+                    <name ref="demonSon">the boy</name> into a convulsion. <action ref="demonSon">He
+                    fell to the ground and rolled around, foaming at the mouth</action>. <v n="21"
+                />Jesus asked <name ref="demonDad">the boy's father</name>, <speech ref="Jesus"
+                    tone="unspecified" type="question">"How long has he been like this?"</speech>
+                <v n="22"/><speech type="answer" tone="unspecified" ref="demonDad">"From
+                    childhood,"</speech> he answered. <speech ref="demonDad" tone="unspecified"
+                    type="statement">"It has often thrown him into fire or water to kill him. But if
+                    you can do anything, take pity on us and help us."</speech>
+                <v n="23"/><speech type="answer" tone="unspecified" ref="Jesus">"'If you
+                    can'?"</speech> said Jesus. <speech ref="Jesus" tone="instructive"
+                    type="statement">"Everything is possible for him who believes."</speech>
+                <v n="24"/><action ref="demonDad">Immediately <name ref="demonDad">the boy's
+                        father</name> exclaimed</action>, <speech ref="demonDad" type="instruction"
+                    tone="pleading">"I do believe; help me overcome my unbelief!"</speech>
+                <v n="25"/>When Jesus saw that <name ref="crowd">a crowd</name>
+                <description ref="crowd">was running to the scene</description>, he rebuked the evil
+                    spirit.<speech ref="Jesus" tone="condemning" type="statement"> "You deaf and
+                    mute spirit,"</speech> he said, <speech type="instruction" tone="condemning"
+                    ref="Jesus">"I command you, come out of him and never enter him again."</speech>
+                <v n="26"/>The spirit shrieked, convulsed him violently and came out. <name
+                    ref="demonSon">The boy</name>
+                <description ref="demonSon">looked so much like a corpse</description> that <name
+                    ref="somePeople">many</name> said, <speech ref="somePeople" tone="unspecified"
+                    type="statement">"He's dead."</speech>
+                <v n="27"/>But Jesus took him by the hand and lifted him to his feet, and <action
+                    ref="demonSon">he stood up</action>. <v n="28"/>After Jesus had gone indoors,
+                    <name ref="disciples">his disciples</name>
+                <description ref="apostles">asked him privately</description>, <speech
+                    ref="apostles" type="question" tone="confused">"Why couldn't we drive it
+                    out?"</speech>
+                <v n="29"/>He replied, <speech tone="unspecified" type="answer" ref="Jesus">"This
+                    kind can come out only by prayer. "</speech></conversation>
+        </story>
+        <story><v n="30"/>They <action ref="apostles">left that place and passed through
+                Galilee</action>. Jesus did not want anyone to know where they were, <v n="31"
+            />because he was teaching <name ref="disciples">his disciples</name>. <conversation>He
+                said to them, <speech ref="Jesus" type="statement" tone="shrouded">"The Son of Man
+                    is going to be betrayed into the hands of men. They will kill him, and after
+                    three days he will rise."</speech>
+                <v n="32"/>But <description ref="apostles">they did not understand what he meant and
+                    were afraid to ask him about it</description>. <v n="33"/><action ref="apostles"
+                    >They came to Capernaum</action>. When he was in the house, he asked them,
+                    <speech ref="Jesus" tone="unspecified" type="question">"What were you arguing
+                    about on the road?"</speech>
+                <v n="34"/>But <description ref="apostles">they kept quiet because on the way they
+                    had argued about who was the greatest</description>. <v n="35"/>Sitting down,
+                Jesus called <name ref="apostles">the Twelve</name> and said, <speech ref="Jesus"
+                    type="statement" tone="instructive">"If anyone wants to be first, he must be the
+                    very last, and the servant of all."</speech>
+                <v n="36"/>He took <name ref="littleChild">a little child</name> and <description
+                    ref="littleChild">had him stand among them</description>. Taking him in his
+                arms, he said to them, <v n="37"/><speech ref="Jesus" tone="instructive"
+                    type="instruction">"Whoever welcomes one of these <name ref="littleChild">little
+                        children</name> in my name welcomes me; and whoever welcomes me does not
+                    welcome me but the one who sent me."</speech>
+                <v n="38"/><speech type="statement" tone="unspecified" ref="John"
+                    >"Teacher,"</speech> said <name ref="John">John</name>, <speech ref="John"
+                    tone="unspecified" type="statement">"we saw <name ref="demonDriver">a man</name>
+                    <description ref="demonDriver">driving out demons in your name</description> and
+                        we<action ref="apostles"> told him to stop</action>, because <description
+                        ref="demonDriver">he was not one of us</description>."</speech>
+                <v n="39"/><speech ref="Jesus" type="instruction" tone="instructive">"Do not stop
+                    him,"</speech> Jesus said. "<speech tone="instructive" type="instruction"
+                    ref="Jesus">No one who does a miracle in my name can in the next moment say
+                    anything bad about me, <v n="40"/>for whoever is not against us is for us. <v
+                        n="41"/>I tell you the truth, anyone who gives you a cup of water in my name
+                    because you belong to Christ will certainly not lose his reward. <v n="42"/>"And
+                    if anyone causes one of these <name ref="littleChild">little ones</name> who
+                    believe in me to sin, it would be better for him to be thrown into the sea with
+                    a large millstone tied around his neck. <v n="43"/>If your hand causes you to
+                    sin, cut it off. It is better for you to enter life maimed than with two hands
+                    to go into hell, where the fire never goes out. <v n="44"/>See Footnote <v
+                        n="45"/>And if your foot causes you to sin, cut it off. It is better for you
+                    to enter life crippled than to have two feet and be thrown into hell. <v n="46"
+                    />See Footnote <v n="47"/>And if your eye causes you to sin, pluck it out. It is
+                    better for you to enter the kingdom of God with one eye than to have two eyes
+                    and be thrown into hell, <v n="48"/>where "'their worm does not die, and the
+                    fire is not quenched.' <v n="49"/>Everyone will be salted with fire. <v n="50"
+                    />"Salt is good, but if it loses its saltiness, how can you make it salty again?
+                    Have salt in yourselves, and be at peace with each
+                other."</speech></conversation>
+        </story>
+        <story>
+            <c n="10"/>
+            <v n="1"/>Jesus then left that place and went into the region of Judea and across the
+            Jordan. Again <name ref="crowd">crowds of people</name>
+            <action ref="crowd">came to him</action>, and as was his custom, he taught them. <v
+                n="2"/><conversation><name ref="pharisees">Some pharisees</name>
+                <action ref="pharisees">came and tested him by asking</action>, <speech
+                    ref="pharisees" type="question" tone="unspecified">"Is it lawful for a man to
+                    divorce his wife?"</speech>
+                <v n="3"/><speech tone="unspecified" type="question" ref="Jesus">"What did Moses
+                    command you?" </speech>he replied. <v n="4"/>They said, <speech ref="pharisees"
+                    type="answer" tone="unspecified">"Moses permitted a man to write a certificate
+                    of divorce and send her away."</speech>
+                <v n="5"/><speech tone="instructive" type="statement" ref="Jesus">"It was because
+                    your hearts were hard that Moses wrote you this law,"</speech> Jesus replied. <v
+                    n="6"/><speech ref="Jesus" type="statement" tone="instructive">"But at the
+                    beginning of creation God 'made them male and female.' <v n="7"/>'For this
+                    reason a man will leave his father and mother and be united to his wife, <v
+                        n="8"/>and the two will become one flesh.' So they are no longer two, but
+                    one. <v n="9"/>Therefore what God has joined together, let man not
+                    separate."</speech>
+                <v n="10"/>When they were in the house again,<name ref="apostles"> the
+                    disciples</name><action ref="apostles"> asked Jesus about this.</action>
+                <v n="11"/>He answered, <speech ref="Jesus" tone="instructive" type="instruction"
+                    >"Anyone who divorces his wife and marries another woman commits adultery
+                    against her. <v n="12"/>And if she divorces her husband and marries another man,
+                    she commits adultery."</speech></conversation>
+        </story>
+        <story><v n="13"/><name ref="somePeople">People</name>
+            <description ref="somePeople">were bringing <name ref="littleChild">little
+                    children</name> to Jesus to have him touch them</description>, but <name
+                ref="apostles">the disciples</name>
+            <action ref="apostles">rebuked them</action>. <monologue><v n="14"/>When Jesus saw this,
+                he was indignant. He said to them,<speech ref="Jesus" genre="admonition"
+                    tone="instructive"> "Let the <name ref="littleChild">little children</name> come
+                    to me, and do not hinder them, for <description ref="littleChild">the kingdom of
+                        God belongs to such as these</description>. <v n="15"/>I tell you the truth,
+                    anyone who will not receive the kingdom of God like a little child will never
+                    enter it."</speech></monologue>
+            <v n="16"/>And he took <name ref="littleChild">the children</name> in his arms,
+                <description ref="littleChild">put his hands on them and blessed them</description>. </story>
+        <story><v n="17"/>As Jesus started on his way, <name ref="richMan">a man</name>
+            <action ref="richMan">ran up to him and fell on his knees before him</action>.
+                    <conversation><speech ref="richMan" tone="unspecified" type="greeting">"Good
+                    teacher,"</speech> he asked, <speech type="question" tone="unspecified"
+                    ref="richMan">"what must I do to inherit eternal life?"</speech>
+                <v n="18"/><speech ref="Jesus" tone="unspecified" type="question">"Why do you call
+                    me good?"</speech> Jesus answered. <speech type="answer" tone="unspecified"
+                    ref="Jesus">"No one is good--except God alone. <v n="19"/>You know the
+                    commandments: 'Do not murder, do not commit adultery, do not steal, do not give
+                    false testimony, do not defraud, honor your father and mother.'"</speech>
+                <v n="20"/><speech ref="richMan" tone="unspecified" type="statement"
+                    >"Teacher,"</speech> he declared, <speech type="statement" tone="unspecified"
+                    ref="richMan">"all these I have kept since I was a boy."</speech>
+                <v n="21"/><description ref="richMan">Jesus looked at him and loved
+                    him</description>. <speech ref="Jesus" tone="unspecified" type="statement">"One
+                    thing you lack,"</speech> he said. <speech type="instruction" tone="instructive"
+                    ref="Jesus">"Go, sell everything you have and give to the poor, and you will
+                    have treasure in heaven. Then come, follow me."</speech>
+                <v n="22"/><action ref="richMan">At this <name ref="richMan">the man</name>'s face
+                    fell</action>. <description ref="richMan">He went away sad, because he had great
+                    wealth.</description>
+                <v n="23"/>Jesus looked around and said to <name ref="apostles">his
+                disciples</name>, <speech ref="Jesus" tone="unspecified" type="statement">"How hard
+                    it is for the rich to enter the kingdom of God!"</speech>
+                <v n="24"/><name ref="apostles">The disciples</name>
+                <description ref="apostles">were amazed at his words</description>. But Jesus said
+                again, <speech ref="Jesus" type="statement" tone="instructive">"Children, how hard
+                    it is to enter the kingdom of God! <v n="25"/>It is easier for a camel to go
+                    through the eye of a needle than for a rich man to enter the kingdom of
+                    God."</speech>
+                <v n="26"/><name ref="apostles">The disciples</name><description ref="apostles">
+                    were even more amazed</description>, and <action ref="apostles">said to each
+                    other</action>, "<speech ref="apostles" tone="confused" type="question">Who then
+                    can be saved?"</speech>
+                <v n="27"/>Jesus looked at them and said, <speech type="answer" tone="instructive"
+                    ref="Jesus">"With man this is impossible, but not with God; all things are
+                    possible with God."</speech>
+                <v n="28"/><name ref="Peter">Peter</name> said to him, <speech ref="Peter"
+                    tone="unspecified" type="statement">"We have left everything to follow
+                    you!"</speech>
+                <v n="29"/><speech type="statement" tone="unspecified" ref="Jesus">"I tell you the
+                    truth,"</speech> Jesus replied, <speech ref="Jesus" tone="kind" type="statement"
+                    >"no one who has left home or brothers or sisters or mother or father or
+                    children or fields for me and the gospel <v n="30"/>will fail to receive a
+                    hundred times as much in this present age (homes, brothers, sisters, mothers,
+                    children and fields--and with them, persecutions) and in the age to come,
+                    eternal life. <v n="31"/>But many who are first will be last, and the last
+                    first."</speech></conversation>
+        </story>
+        <story><v n="32"/><description ref="apostles crowd">They were on their way up to
+                Jerusalem</description>, with Jesus leading the way, and <name ref="apostles">the
+                disciples</name>
+            <description ref="apostles">were astonished</description>, while <name ref="crowd">those
+                who followed</name>
+            <description ref="crowd">were afraid</description>. Again he took <name ref="apostles"
+                >the Twelve</name> aside and told them what was going to happen to him.
+                    <monologue><v n="33"/><speech ref="Jesus" genre="prophesy" tone="instructive"
+                    >"We are going up to Jerusalem," he said, "and the Son of Man will be betrayed
+                    to <name ref="lawTeachers">the chief priests and teachers of the law</name>.
+                        <description ref="lawTeachers">They will condemn him to death and will hand
+                        him over to <name ref="outsiders">the Gentiles</name></description>, <v
+                        n="34"/><description ref="outsiders">who will mock him and spit on him, flog
+                        him and kill him</description>. Three days later he will
+                rise."</speech></monologue>
+        </story>
+        <story><v n="35"/>Then <name ref="James">James</name> and <name ref="John">John</name>,
+                <description ref="John James">the sons of Zebedee</description>, <action
+                ref="James John">came to him</action>. <conversation>
+                <speech ref="John James" tone="unspecified" type="greeting">"Teacher," </speech>they
+                said, <speech type="statement" tone="unspecified" ref="James John">"we want you to
+                    do for us whatever we ask."</speech>
+                <v n="36"/><speech ref="Jesus" tone="unspecified" type="question">"What do you want
+                    me to do for you?"</speech> he asked. <v n="37"/>They replied, <speech
+                    type="statement" tone="unspecified" ref="John James">"Let one of us sit at your
+                    right and the other at your left in your glory."</speech>
+                <v n="38"/><speech ref="Jesus" tone="kind" type="statement">"You don't know what you
+                    are asking,"</speech> Jesus said. <speech type="question" tone="unspecified"
+                    ref="Jesus">"Can you drink the cup I drink or be baptized with the baptism I am
+                    baptized with?"</speech>
+                <v n="39"/><speech ref="James John" tone="unspecified" type="answer">"We
+                    can,"</speech> they answered. Jesus said to them, <speech type="statement"
+                    tone="unspecified" ref="Jesus">"You will drink the cup I drink and be baptized
+                    with the baptism I am baptized with, <v n="40"/>but to sit at my right or left
+                    is not for me to grant. These places belong to those for whom they have been
+                    prepared."</speech>
+                <v n="41"/>When <name ref="apostles">the ten</name>
+                <action ref="apostles">heard about this</action>, <description ref="apostles">they
+                    became indignant with <name ref="James">James</name> and <name ref="John"
+                        >John</name>.</description>
+                <v n="42"/>Jesus called them together and said, <speech ref="Jesus"
+                    tone="instructive" type="instruction">"You know that those who are regarded as
+                    rulers of the Gentiles lord it over them, and their high officials exercise
+                    authority over them. <v n="43"/>Not so with you. Instead, whoever wants to
+                    become great among you must be your servant, <v n="44"/>and whoever wants to be
+                    first must be slave of all. <v n="45"/>For even the Son of Man did not come to
+                    be served, but to serve, and to give his life as a ransom for
+                many."</speech></conversation>
+            <v n="46"/><action ref="Jesus apostles">Then they came to Jericho</action>. As Jesus and
+                <name ref="apostles">his disciples</name>, together with <name ref="crowd">a large
+                crowd</name>, <description ref="crowd apostles">were leaving the city</description>,
+                <name ref="Bartimaeus">a blind man</name>, <name ref="Bartimaeus">Bartimaeus</name>
+            <description ref="Bartimaeus">(that is, the Son of Timaeus)</description>, <description
+                ref="Bartimaeus">was sitting by the roadside begging</description>. <conversation><v
+                    n="47"/><action ref="Bartimaeus">When he heard that it was Jesus of Nazareth, he
+                    began to shout</action>, <speech ref="Bartimaeus" type="statement"
+                    tone="pleading">"Jesus, Son of David, have mercy on me!"</speech>
+                <v n="48"/><name ref="somePeople">Many</name>
+                <action ref="somePeople">rebuked him and told him to be quiet</action>, but <action
+                    ref="Bartimaeus">he shouted all the more</action>, "<speech ref="Bartimaeus"
+                    tone="pleading" type="statement">Son of David, have mercy on me!"</speech>
+                <v n="49"/>Jesus stopped and said, <speech type="instruction" tone="kind"
+                    ref="Jesus">"Call him."</speech>
+                <action ref="somePeople">So they called to <name ref="Bartimaeus">the blind
+                        man</name></action>, <speech ref="somePeople" tone="instructive"
+                    type="instruction">"Cheer up! On your feet! He's calling you."</speech>
+                <v n="50"/><action ref="Bartimaeus">Throwing his cloak aside, he jumped to his feet
+                    and came to Jesus</action>. <v n="51"/><speech ref="Jesus" type="question"
+                    tone="unspecified">"What do you want me to do for you?"</speech> Jesus asked
+                him. <name ref="Bartimaeus">The blind man</name> said, <speech ref="Bartimaeus"
+                    tone="pleading" type="answer">"Rabbi, I want to see."</speech>
+                <v n="52"/><speech type="instruction" tone="unspecified" ref="Jesus">"Go,"</speech>
+                said Jesus,<speech ref="Jesus" tone="unspecified" type="statement"> "your faith has
+                    healed you."</speech></conversation>
+            <action ref="Bartimaeus">Immediately he received his sight and followed Jesus along the
+                road.</action></story>
+        <story><c n="11"/>
+            <v n="1"/>As <description ref="apostles">they approached Jerusalem and came to Bethphage
+                and Bethany at the Mount of Olives</description>, <conversation>Jesus sent <name
+                    ref="apostles">two of his disciples</name>, <v n="2"/>saying to them, <speech
+                    ref="Jesus" tone="instructive" type="instruction">"Go to the village ahead of
+                    you, and just as you enter it, you will find a colt tied there, which no one has
+                    ever ridden. Untie it and bring it here. <v n="3"/>If anyone asks you, 'Why are
+                    you doing this?' tell him, 'The Lord needs it and will send it back here
+                    shortly.'"</speech>
+                <v n="4"/>They <action ref="apostles">went and found a colt outside in the
+                    street</action>, tied at a doorway. As <action ref="apostles">they untied
+                    it</action>, <v n="5"/><name ref="somePeople">some people</name>
+                <description ref="somePeople">standing there</description> asked, <speech
+                    ref="somePeople" type="question" tone="unspecified">"What are you doing, untying
+                    that colt?"</speech>
+                <v n="6"/><action ref="apostles">They answered as Jesus had told them to</action>,
+                and <name ref="somePeople">the people</name>
+                <action ref="somePeople">let them go</action>. <v n="7"/>When <action ref="apostles"
+                    >they brought the colt to Jesus and threw their cloaks over it</action>, he sat
+                on it. <v n="8"/><name ref="somePeople">Many people</name>
+                <action ref="somePeople">spread their cloaks on the road</action>, while <name
+                    ref="somePeople">others</name>
+                <action ref="somePeople">spread branches they had cut in the fields</action>. <v
+                    n="9"/><name ref="somePeople">Those who went ahead</name> and <name
+                    ref="somePeople">those who followed</name>
+                <action ref="somePeople">shouted</action>, <speech ref="crowd" tone="unspecified"
+                    type="blessing">"Hosanna! Blessed is he who comes in the name of the Lord!"<v
+                        n="10"/>"Blessed is the coming kingdom of our father David!Hosanna in the
+                    highest!" </speech>
+            </conversation><v n="11"/>Jesus entered Jerusalem and went to the temple. He looked
+            around at everything, but since it was already late, he went out to Bethany with <name
+                ref="apostles">the Twelve</name>.</story>
+        <story><v n="12"/>The next day as <description ref="apostles">they were leaving
+                Bethany</description>, Jesus was hungry. <v n="13"/>Seeing in the distance a fig
+            tree in leaf, he went to find out if it had any fruit. When he reached it, he found
+            nothing but leaves, because it was not the season for figs. <v n="14"/><monologue>Then
+                he said to the tree, <speech ref="Jesus" tone="condemning" genre="prophesy">"May no
+                    one ever eat fruit from you again."</speech></monologue> And <name
+                ref="apostles">his disciples </name><description ref="apostles">heard him say
+                it</description>. <v n="15"/>On reaching Jerusalem, Jesus entered the temple area
+            and began driving out <name ref="salesmen">those who were buying and selling
+                there</name>. <description ref="salesmen">He overturned the tables</description> of
+                <name ref="salesmen">the money changers</name> and <description ref="salesmen">the
+                benches </description>of <name ref="salesmen">those selling doves</name>, <v n="16"
+            />and would not allow anyone to carry merchandise through the temple courts. <v n="17"
+                /><monologue>And as he taught them, he said, <speech ref="Jesus" genre="admonition"
+                    tone="condemning">"Is it not written: "'My house will be called a house of
+                    prayer for all nations'? But you have made it 'a den of
+                robbers.'"</speech></monologue>
+            <v n="18"/><name ref="lawTeachers">The chief priests and the teachers of the law</name>
+            <action ref="lawTeachers">heard this and began looking for a way to kill him</action>,
+            for <description ref="lawTeachers">they feared him</description>, because <name
+                ref="crowd">the whole crowd</name>
+            <description ref="crowd">was amazed at his teaching</description>. <v n="19"/>When
+            evening came, <description ref="apostles">they went out of the city</description>. <v
+                n="20"/>In the morning, as they went along, <action ref="apostles">they saw the fig
+                tree withered from the roots</action>. <v n="21"/><conversation><name ref="Peter"
+                    >Peter</name>
+                <action ref="Peter">remembered</action> and said to Jesus, <speech ref="Peter"
+                    tone="unspecified" type="statement">"Rabbi, look! The fig tree you cursed has
+                    withered!"</speech>
+                <v n="22"/><speech type="instruction" tone="unspecified" ref="Jesus">"Have faith in
+                    God,"</speech> Jesus answered. <v n="23"/><speech ref="Jesus" tone="instructive"
+                    type="instruction">"I tell you the truth, if anyone says to this mountain, 'Go,
+                    throw yourself into the sea,' and does not doubt in his heart but believes that
+                    what he says will happen, it will be done for him. <v n="24"/>Therefore I tell
+                    you, whatever you ask for in prayer, believe that you have received it, and it
+                    will be yours. <v n="25"/>And when you stand praying, if you hold anything
+                    against anyone, forgive him, so that your Father in heaven may forgive you your
+                    sins."</speech></conversation>
+            <v n="26"/>See Footnote</story>
+        <story><v n="27"/><action ref="apostles">They arrived again in Jerusalem</action>, and while
+            Jesus was walking in the temple courts, <conversation><name ref="lawTeachers">the chief
+                    priests, the teachers of the law and the elders</name>
+                <action ref="lawTeachers">came to him</action>. <v n="28"/><speech ref="lawTeachers"
+                    type="question" tone="condemning">"By what authority are you doing these
+                    things?"</speech> they asked. <speech tone="condemning" type="question"
+                    ref="lawTeachers">"And who gave you authority to do this?"</speech>
+                <v n="29"/>Jesus replied, <speech ref="Jesus" type="question" tone="shrouded">"I
+                    will ask you one question. Answer me, and I will tell you by what authority I am
+                    doing these things. <v n="30"/><name ref="John_the_Baptist">John</name>'s
+                    baptism--was it from heaven, or from men? Tell me!"</speech>
+                <v n="31"/><action ref="lawTeachers">They discussed it among themselves</action> and
+                said, <speech ref="lawTeachers" tone="unspecified" type="statement">"If we say,
+                    'From heaven,' he will ask, 'Then why didn't you believe him?' <v n="32"/>But if
+                    we say, 'From men'...."</speech> (<description ref="lawTeachers">They feared the
+                    people</description>, for <name ref="crowd">everyone</name>
+                <action ref="crowd">held that <name ref="John_the_Baptist">John</name>
+                    <description ref="John_the_Baptist">really was a
+                prophet</description></action>.) <v n="33"/>So <action ref="lawTeachers">they
+                    answered Jesus</action>, <speech ref="lawTeachers" type="answer"
+                    tone="unspecified">"We don't know."</speech> Jesus said, <speech
+                    tone="unspecified" type="answer" ref="Jesus">"Neither will I tell you by what
+                    authority I am doing these things."</speech></conversation>
+        </story>
+        <story><c n="12"/>
+            <monologue><v n="1"/>He then began to speak to them in parables: <speech ref="Jesus"
+                    genre="parable" tone="shrouded">"<name ref="vineyardOwner">A man</name>
+                    <action ref="vineyardOwner">planted a vineyard</action>. <action
+                        ref="vineyardOwner">He put a wall around it, dug a pit for the winepress and
+                        built a watchtower</action>. <action ref="vineyardOwner">Then he rented the
+                        vineyard to <name ref="vineyardTenants">some farmers</name> and went away on
+                        a journey</action>. <v n="2"/>At harvest time <action ref="vineyardOwner">he
+                        sent <name ref="vineyardServant1">a servant</name> to <name
+                            ref="vineyardTenants">the tenants</name> to collect from them some of
+                        the fruit of the vineyard</action>. <v n="3"/>But <action
+                        ref="vineyardTenants">they seized him, beat him and sent him away
+                        empty-handed</action>. <v n="4"/>Then <action ref="vineyardOwner">he sent
+                            <name ref="vineyardServant2">another servant</name> to them</action>;
+                        <action ref="vineyardTenants">they struck <name ref="vineyardServant2">this
+                            man</name> on the head and treated him shamefully</action>. <v n="5"
+                        /><action ref="vineyardOwner">He sent <name ref="vineyardServant3">still
+                            another</name></action>, and <description ref="vineyardServant3">that
+                        one <action ref="vineyardServant3">they killed</action></description>.
+                        <action ref="vineyardOwner">He sent <name ref="vineyardServants">many
+                            others</name></action>; <action ref="vineyardTenants">some of them they
+                        beat, others they killed</action>. <v n="6"/>"<description
+                        ref="vineyardOwner">He had one left to send</description>, <name
+                        ref="vineyardSon">a son</name>, <description ref="vineyardSon">whom he
+                        loved</description>. <action ref="vineyardOwner">He sent him last of all,
+                        saying, 'They will respect <name ref="vineyardSon">my son</name>.'</action>
+                    <v n="7"/>"But <name ref="vineyardTenants">the tenants</name>
+                    <action ref="vineyardTenants">said to one another, 'This is the heir. Come,
+                        let's kill him, and the inheritance will be ours.'</action>
+                    <v n="8"/>So <action ref="vineyardTenants">they took him and killed him, and
+                        threw him out of the vineyard.</action>
+                    <v n="9"/>"What then will <name ref="vineyardOwner">the owner of the
+                        vineyard</name> do? <description ref="vineyardOwner">He will come and kill
+                        those tenants and give the vineyard to others</description>. <v n="10"
+                    />Haven't you read this scripture: "'The stone the builders rejected has become
+                    the capstone; <v n="11"/>the Lord has done this, and it is marvelous in our
+                    eyes'?"</speech></monologue>
+            <v n="12"/>Then they <action ref="lawTeachers">looked for a way to arrest him</action>
+            because <description ref="lawTeachers">they knew he had spoken the parable against
+                them</description>. But <description ref="lawTeachers">they were afraid of the
+                crowd</description>; so <action ref="lawTeachers">they left him and went
+                away</action>. <v n="13"/>Later <action ref="lawTeachers">they sent some of <name
+                    ref="pharisees">the pharisees</name> and <name ref="herodians">Herodians</name>
+                to Jesus to catch him in his words</action>. <v n="14"/><conversation><action
+                    ref="herodians pharisees">They came to him and said</action>, <speech
+                    ref="pharisees herodians" tone="unspecified" type="question">"Teacher, we know
+                    you are a man of integrity. You aren't swayed by men, because you pay no
+                    attention to who they are; but you teach the way of God in accordance with the
+                    truth. Is it right to pay taxes to <name ref="Caesar">Caesar</name> or not? <v
+                        n="15"/>Should we pay or shouldn't we?"</speech>
+                <v n="16"/>But Jesus knew their hypocrisy. <speech ref="Jesus" type="question"
+                    tone="unspecified">"Why are you trying to trap me?"</speech> he asked. <speech
+                    tone="unspecified" type="instruction" ref="Jesus">"Bring me a denarius and let
+                    me look at it."</speech>
+                <action ref="Caesar herodians">They brought the coin</action>, and he asked them,
+                    <speech ref="Jesus" type="question" tone="unspecified">"Whose portrait is this?
+                    And whose inscription?"</speech><speech tone="unspecified" type="answer"
+                    ref="herodians pharisees">"<name ref="Caesar">Caesar</name>'s,"</speech> they
+                replied. <v n="17"/>Then Jesus said to them, <speech ref="Jesus" type="answer"
+                    tone="instructive">"Give to <name ref="Caesar">Caesar</name> what is <name
+                        ref="Caesar">Caesar</name>'s and to God what is
+                God's."</speech></conversation> And <description ref="pharisees herodians">they were
+                amazed at him</description>.</story>
+        <story><v n="18"/>Then <name ref="Sadducees">the Sadducees</name>, <description
+                ref="Sadducees">who say there is no resurrection</description>, <action
+                ref="Sadducees">came to him with a question</action>. <v n="19"
+                    /><conversation><speech ref="Sadducees" tone="unspecified" type="greeting"
+                    >"Teacher,"</speech> they said, <speech type="question" tone="shrouded"
+                    ref="Sadducees">"Moses wrote for us that if a man's brother dies and leaves a
+                    wife but no children, the man must marry the widow and have children for his
+                    brother. <v n="20"/>Now there were seven brothers. The first one married and
+                    died without leaving any children. <v n="21"/>The second one married the widow,
+                    but he also died, leaving no child. It was the same with the third. <v n="22"
+                    />In fact, none of the seven left any children. Last of all, the woman died too.
+                        <v n="23"/>At the resurrection whose wife will she be, since the seven were
+                    married to her?"</speech>
+                <v n="24"/>Jesus replied, <speech ref="Jesus" tone="condemning" type="answer">"Are
+                    you not in error because you do not know the Scriptures or the power of God? <v
+                        n="25"/>When the dead rise, they will neither marry nor be given in
+                    marriage; they will be like the angels in heaven. <v n="26"/>Now about the dead
+                    rising--have you not read in the book of Moses, in the account of the bush, how
+                    God said to him, 'I am the God of Abraham, the God of Isaac, and the God of
+                    Jacob'? <v n="27"/>He is not the God of the dead, but of the living. You are
+                    badly mistaken!"</speech><v n="28"/><name ref="lawTeacher">One of the teachers
+                    of the law</name>
+                <description ref="lawTeacher">came and heard them debating</description>. <action
+                    ref="lawTeacher">Noticing that Jesus had given them a good answer, he asked
+                    him</action>, <speech ref="lawTeacher" type="question" tone="unspecified">"Of
+                    all the commandments, which is the most important?"</speech>
+                <v n="29"/><speech tone="unspecified" type="answer" ref="Jesus">"The most important
+                    one,"</speech> answered Jesus, <speech ref="Jesus" type="answer"
+                    tone="unspecified">"is this: 'Hear, O Israel, the Lord our God, the Lord is one.
+                        <v n="30"/>Love the Lord your God with all your heart and with all your soul
+                    and with all your mind and with all your strength.' <v n="31"/>The second is
+                    this: 'Love your neighbor as yourself.' There is no commandment greater than
+                    these."</speech>
+                <v n="32"/><speech tone="unspecified" type="statement" ref="lawTeacher">"Well said,
+                    teacher,"</speech>
+                <name ref="lawTeacher">the man</name> replied. <speech ref="lawTeacher"
+                    type="statement" tone="unspecified">"You are right in saying that God is one and
+                    there is no other but him. <v n="33"/>To love him with all your heart, with all
+                    your understanding and with all your strength, and to love your neighbor as
+                    yourself is more important than all burnt offerings and sacrifices."</speech>
+                <v n="34"/>When Jesus saw that <description ref="lawTeacher">he had answered
+                    wisely</description>, he said to him, <speech ref="Jesus" tone="kind"
+                    type="statement">"You are not far from the kingdom of
+                God."</speech></conversation> And from then on no one dared ask him any more
+            questions.</story>
+        <story><v n="35"/><monologue>While Jesus was teaching in the temple courts, he asked,<speech
+                    genre="instruction" tone="unspecified" ref="Jesus"> "How is it that the teachers
+                    of the law say that the Christ is the son of David? <v n="36"/>David himself,
+                    speaking by the Holy Spirit, declared: "'The Lord said to my Lord: "Sit at my
+                    right hand until I put your enemies under your feet."' <v n="37"/>David himself
+                    calls him 'Lord.' How then can he be his son?"</speech>
+                <name ref="crowd">The large crowd</name>
+                <description ref="crowd">listened to him with delight</description>.<v n="38"/>As he
+                taught, Jesus said, <speech ref="Jesus" tone="instructive" genre="instruction"
+                    >"Watch out for <name ref="lawTeachers">the teachers of the law</name>.
+                        <description ref="lawTeachers">They like to walk around in flowing robes and
+                        be greeted in the marketplaces, <v n="39"/>and have the most important seats
+                        in the synagogues and the places of honor at banquets. <v n="40"/>They
+                        devour widows' houses and for a show make lengthy prayers</description>.
+                        <name ref="lawTeachers">Such men</name>
+                    <description ref="lawTeachers">will be punished most
+                    severely</description>."</speech><v n="41"/>Jesus sat down opposite the place
+                where the offerings were put and watched <name ref="crowd">the crowd</name>
+                <action ref="crowd">putting their money into the temple treasury</action>.<name
+                    ref="richPeople"> Many rich people</name>
+                <action ref="richPeople">threw in large amounts</action>. <v n="42"/>But <name
+                    ref="poorWidow">a poor widow</name>
+                <action ref="poorWidow">came and put in two very small copper coins</action>, worth
+                only a fraction of a penny. <v n="43"/>Calling <name ref="apostles">his
+                    disciples</name> to him, Jesus said, <speech ref="Jesus" genre="explanation"
+                    tone="kind">"I tell you the truth, <name ref="poorWidow">this poor widow</name>
+                    <description ref="poorWidow">has put more into the treasury than all the
+                        others</description>. <v n="44"/><description ref="richPeople crowd">They
+                        all gave out of their wealth</description>; but <action ref="poorWidow">she,
+                        out of her poverty, put in everything--all she had to live
+                    on</action>."</speech>
+            </monologue></story>
+        <story><c n="13"/>
+            <v n="1"/><conversation>As he was leaving the temple, <name ref="apostles">one of his
+                    disciples</name> said to him, <speech ref="apostles" tone="unspecified"
+                    type="statement">"Look, Teacher! What massive stones! What magnificent
+                    buildings!"</speech>
+                <v n="2"/><speech type="question" tone="unspecified" ref="Jesus">"Do you see all
+                    these great buildings?"</speech> replied Jesus.<speech ref="Jesus"
+                    tone="unspecified" type="statement"> "Not one stone here will be left on
+                    another; every one will be thrown down."</speech>
+                <v n="3"/>As Jesus was sitting on the Mount of Olives opposite the temple,<name
+                    ref="Peter"> Peter</name>, <name ref="James">James</name>, <name ref="John"
+                    >John</name> and <name ref="Andrew">Andrew</name>
+                <action ref="Andrew John James Peter">asked him privately</action>, <v n="4"
+                    /><speech ref="Peter James John Andrew" type="question" tone="unspecified">"Tell
+                    us, when will these things happen? And what will be the sign that they are all
+                    about to be fulfilled?"</speech></conversation>
+            <monologue><v n="5"/>Jesus said to them: <speech tone="instructive" genre="prophesy"
+                    ref="Jesus">"Watch out that no one deceives you. <v n="6"/>Many will come in my
+                    name, claiming, 'I am he,' and will deceive many. <v n="7"/>When you hear of
+                    wars and rumors of wars, do not be alarmed. Such things must happen, but the end
+                    is still to come. <v n="8"/>Nation will rise against nation, and kingdom against
+                    kingdom. There will be earthquakes in various places, and famines. These are the
+                    beginning of birth pains. <v n="9"/>"You must be on your guard. You will be
+                    handed over to the local councils and flogged in the synagogues. On account of
+                    me you will stand before governors and kings as witnesses to them. <v n="10"
+                    />And the gospel must first be preached to all nations. <v n="11"/>Whenever you
+                    are arrested and brought to trial, do not worry beforehand about what to say.
+                    Just say whatever is given you at the time, for it is not you speaking, but the
+                    Holy Spirit. <v n="12"/>"Brother will betray brother to death, and a father his
+                    child. Children will rebel against their parents and have them put to death. <v
+                        n="13"/>All men will hate you because of me, but he who stands firm to the
+                    end will be saved. <v n="14"/>"When you see 'the abomination that causes
+                    desolation' standing where it does not belong--let the reader understand--then
+                    let those who are in Judea flee to the mountains. <v n="15"/>Let no one on the
+                    roof of his house go down or enter the house to take anything out. <v n="16"
+                    />Let no one in the field go back to get his cloak. <v n="17"/>How dreadful it
+                    will be in those days for pregnant women and nursing mothers! <v n="18"/>Pray
+                    that this will not take place in winter, <v n="19"/>because those will be days
+                    of distress unequaled from the beginning, when God created the world, until
+                    now--and never to be equaled again. <v n="20"/>If the Lord had not cut short
+                    those days, no one would survive. But for the sake of the elect, whom he has
+                    chosen, he has shortened them. <v n="21"/>At that time if anyone says to you,
+                    'Look, here is the Christ!' or, 'Look, there he is!' do not believe it. <v
+                        n="22"/>For false Christs and false prophets will appear and perform signs
+                    and miracles to deceive the elect--if that were possible. <v n="23"/>So be on
+                    your guard; I have told you everything ahead of time. <v n="24"/>"But in those
+                    days, following that distress, "'the sun will be darkened, and the moon will not
+                    give its light; <v n="25"/>the stars will fall from the sky, and the heavenly
+                    bodies will be shaken.' <v n="26"/>"At that time men will see the Son of Man
+                    coming in clouds with great power and glory. <v n="27"/>And he will send his
+                    angels and gather his elect from the four winds, from the ends of the earth to
+                    the ends of the heavens. <v n="28"/>"Now learn this lesson from the fig tree: As
+                    soon as its twigs get tender and its leaves come out, you know that summer is
+                    near. <v n="29"/>Even so, when you see these things happening, you know that it
+                    is near, right at the door. <v n="30"/>I tell you the truth, this generation
+                    will certainly not pass away until all these things have happened. <v n="31"
+                    />Heaven and earth will pass away, but my words will never pass away.<v n="32"
+                    />"No one knows about that day or hour, not even the angels in heaven, nor the
+                    Son, but only the Father. <v n="33"/>Be on guard! Be alert! You do not know when
+                    that time will come. <v n="34"/>It's like a man going away: He leaves his house
+                    and puts his servants in charge, each with his assigned task, and tells the one
+                    at the door to keep watch. <v n="35"/>"Therefore keep watch because you do not
+                    know when the owner of the house will come back--whether in the evening, or at
+                    midnight, or when the rooster crows, or at dawn. <v n="36"/>If he comes
+                    suddenly, do not let him find you sleeping. <v n="37"/>What I say to you, I say
+                    to everyone: 'Watch!'" </speech></monologue></story>
+        <story><c n="14"/>
+            <v n="1"/>Now the Passover and the Feast of Unleavened Bread were only two days away,
+            and <name ref="lawTeachers">the chief priests and the teachers of the
+                law</name><description ref="lawTeachers"> were looking for some sly way to arrest
+                Jesus and kill him.</description>
+            <v n="2"/><monologue><speech ref="lawTeachers" genre="instruction" tone="unspecified"
+                    >"But not during the Feast," </speech>they said, <speech tone="unspecified"
+                    genre="explanation" ref="lawTeachers">"or the people may riot."</speech>
+            </monologue><v n="3"/>While he was in Bethany, reclining at the table in the home of
+                <name ref="SimonLeper">a man known as Simon the Leper</name>, <name ref="nardWoman"
+                >a woman</name>
+            <action ref="nardWoman">came with an alabaster jar of very expensive perfume, made of
+                pure nard</action>. <action ref="nardWoman">She broke the jar and poured the perfume
+                on his head</action>. <v n="4"/><conversation><name ref="somePeople">Some of those
+                    present</name>
+                <description ref="somePeople">were saying indignantly to one another,</description>
+                <speech ref="somePeople" tone="condemning" type="statement">"Why this waste of
+                    perfume? <v n="5"/>It could have been sold for more than a year's wages and the
+                    money given to the poor."</speech> And <action ref="somePeople">they rebuked her
+                    harshly</action>. <v n="6"/><speech ref="Jesus" type="instruction"
+                    tone="unspecified">"Leave her alone,"</speech> said Jesus. <speech tone="kind"
+                    type="statement" ref="Jesus">"Why are you bothering her? She has done a
+                    beautiful thing to me. <v n="7"/>The poor you will always have with you, and you
+                    can help them any time you want. But you will not always have me. <v n="8"
+                        /><description ref="nardWoman">She did what she could. She poured perfume on
+                        my body beforehand to prepare for my burial.</description>
+                    <v n="9"/>I tell you the truth, wherever the gospel is preached throughout the
+                    world, what she has done will also be told, in memory of
+                her."</speech></conversation>
+            <v n="10"/>Then <name ref="Judas">Judas Iscariot</name>, <description ref="Judas">one of
+                the Twelve</description>, <action ref="Judas">went to <name ref="lawTeachers">the
+                    chief priests</name> to betray Jesus to them</action>. </story>
+        <story><v n="11"/><description ref="lawTeachers">They were delighted to hear
+                this</description> and <action ref="lawTeachers">promised to give him
+            money</action>. So <action ref="Judas">he watched for an opportunity to hand him
+                over</action>. <v n="12"/>On the first day of the Feast of Unleavened Bread, when it
+            was customary to sacrifice the Passover lamb,<conversation>
+                <name ref="apostles">Jesus' disciples</name> asked him, <speech ref="apostles"
+                    type="question" tone="unspecified">"Where do you want us to go and make
+                    preparations for you to eat the Passover?"</speech>
+                <v n="13"/>So he sent <name ref="apostles">two of his disciples</name>, telling
+                them, <speech ref="Jesus" tone="unspecified" type="answer">"Go into the city, and a
+                    man carrying a jar of water will meet you. Follow him. <v n="14"/>Say to the
+                    owner of the house he enters, 'The Teacher asks: Where is my guest room, where I
+                    may eat the Passover with my disciples?' <v n="15"/>He will show you a large
+                    upper room, furnished and ready. Make preparations for us
+                there."</speech></conversation>
+            <v n="16"/><name ref="apostles">The disciples</name>
+            <action ref="apostles">left, went into the city and found things just as Jesus had told
+                them. So they prepared the Passover.</action>
+            <v n="17"/>When evening came, Jesus arrived with the Twelve. <conversation><v n="18"
+                />While they were reclining at the table eating, he said, <speech ref="Jesus"
+                    type="statement" tone="unspecified">"I tell you the truth, one of you will
+                    betray me--one who is eating with me."</speech>
+                <v n="19"/>They <description ref="apostles">were saddened</description>, and <action
+                    ref="apostles">one by one they said to him</action>, <speech ref="apostles"
+                    tone="confused" type="question">"Surely not I?"</speech>
+                <v n="20"/><speech type="statement" tone="unspecified" ref="Jesus">"It is one of the
+                    Twelve,"</speech> he replied, <speech ref="Jesus" tone="condemning"
+                    type="statement">"one who dips bread into the bowl with me. <v n="21"/>The Son
+                    of Man will go just as it is written about him. But woe to <name ref="Judas"
+                        >that man who betrays the Son of Man</name>! <description ref="Judas">It
+                        would be better for him if he had not been born.</description>"</speech>
+                <v n="22"/>While they were eating, Jesus took bread, gave thanks and broke it, and
+                gave it to <name ref="apostles">his disciples</name>, saying, <speech ref="Jesus"
+                    type="statement" tone="unspecified">"Take it; this is my body."</speech>
+                <v n="23"/>Then he took the cup, gave thanks and offered it to them, and <action
+                    ref="apostles">they all drank from it</action>. <v n="24"/><speech ref="Jesus"
+                    tone="instructive" type="statement">"This is my blood of the covenant, which is
+                    poured out for many,"</speech> he said to them. <v n="25"/><speech
+                    type="statement" tone="unspecified" ref="Jesus">"I tell you the truth, I will
+                    not drink again of the fruit of the vine until that day when I drink it anew in
+                    the kingdom of God."</speech>
+            </conversation><v n="26"/><action ref="apostles">When they had sung a hymn, they went
+                out to the Mount of Olives</action>.</story>
+        <story><v n="27"/><conversation><speech ref="Jesus" tone="condemning" type="statement">"You
+                    will all fall away,"</speech> Jesus told them, <speech type="statement"
+                    tone="kind" ref="Jesus">"for it is written: "'I will strike the shepherd, and
+                    the sheep will be scattered.' <v n="28"/>But after I have risen, I will go ahead
+                    of you into Galilee."</speech>
+                <v n="29"/><name ref="Peter">Peter</name> declared, <speech ref="Peter"
+                    tone="instructive" type="statement">"Even if all fall away, I will
+                    not."</speech>
+                <v n="30"/><speech type="statement" tone="unspecified" ref="Jesus">"I tell you the
+                    truth,"</speech> Jesus answered, <speech ref="Jesus" tone="unspecified"
+                    type="statement">"today--yes, tonight--before the rooster crows twice you
+                    yourself will disown me three times."</speech>
+                <v n="31"/>But <name ref="Peter">Peter</name>
+                <action ref="Peter">insisted emphatically</action>, <speech ref="Peter"
+                    type="statement" tone="unspecified">"Even if I have to die with you, I will
+                    never disown you."</speech>
+                <action ref="apostles">And all the others said the
+            same</action>.</conversation></story>
+        <story>
+            <v n="32"/><action ref="apostles">They went to a place called Gethsemane</action>, and
+                <monologue>Jesus said to <name ref="apostles">his disciples</name>, <speech
+                    genre="instruction" tone="unspecified" ref="Jesus">"Sit here while I
+                    pray."</speech>
+                <v n="33"/>He took <name ref="Peter">Peter</name>, <name ref="James">James</name>
+                and <name ref="John">John</name> along with him, and he began to be deeply
+                distressed and troubled. <v n="34"/><speech ref="Jesus" tone="unspecified"
+                    genre="explanation">"My soul is overwhelmed with sorrow to the point of
+                    death,"</speech> he said to them. <speech genre="instruction" tone="unspecified"
+                    ref="Jesus">"Stay here and keep watch."</speech>
+                <v n="35"/>Going a little farther, he fell to the ground and prayed that if possible
+                the hour might pass from him. <v n="36"/><speech ref="Jesus" tone="unspecified"
+                    genre="instruction">"Abba, Father," he said, "everything is possible for you.
+                    Take this cup from me. Yet not what I will, but what you will."</speech>
+                <v n="37"/>Then he returned to <name ref="John James Peter">his disciples</name> and
+                    <description ref="Peter James John">found them sleeping</description>. <speech
+                    ref="Jesus" genre="admonition" tone="unspecified">"Simon,"</speech> he said to
+                    <name ref="Peter">Peter</name>, <speech ref="Jesus" tone="instructive"
+                    genre="admonition">"are you asleep? Could you not keep watch for one hour? <v
+                        n="38"/>Watch and pray so that you will not fall into temptation. The spirit
+                    is willing, but the body is weak."</speech>
+                <v n="39"/>Once more he went away and prayed the same thing. <v n="40"/>When he came
+                back, he again found them sleeping, because <description ref="Peter John James"
+                    >their eyes were heavy</description>. <description ref="James John Peter"> They
+                    did not know what to say to him</description>. <v n="41"/>Returning the third
+                time, he said to them, <speech ref="Jesus" genre="instruction" tone="instructive"
+                    >"Are you still sleeping and resting? Enough! The hour has come. Look, the Son
+                    of Man is betrayed into the hands of sinners. <v n="42"/>Rise! Let us go! Here
+                    comes my betrayer!"</speech></monologue>
+        </story>
+        <story><v n="43"/>Just as he was speaking, <name ref="Judas">Judas</name>, <description
+                ref="Judas">one of the Twelve</description>, <action ref="Judas">appeared</action>.
+            With him was <name ref="crowd">a crowd</name>
+            <description ref="crowd">armed with swords and clubs, sent from <name ref="lawTeachers"
+                    >the chief priests, the teachers of the law, and the
+                elders</name>.</description>
+            <v n="44"/>Now <name ref="Judas">the betrayer</name>
+            <description ref="Judas">had arranged a signal with them: "The one I kiss is the man;
+                arrest him and lead him away under guard."</description>
+            <v n="45"/><action ref="Judas">Going at once to Jesus, Judas said, "Rabbi!" and kissed
+                him</action>. <v n="46"/><name ref="crowd">The men</name>
+            <action ref="crowd">seized Jesus and arrested him.</action>
+            <v n="47"/>Then <name ref="sword">one of those standing near</name>
+            <action ref="sword">drew his sword and struck <name ref="highPriestServant">the servant
+                    of the high priest</name>, cutting off his ear.</action>
+            <v n="48"/><monologue><speech ref="Jesus" tone="confused" genre="admonition">"Am I
+                    leading a rebellion," said Jesus, "that you have come out with swords and clubs
+                    to capture me? <v n="49"/>Every day I was with you, teaching in the temple
+                    courts, and you did not arrest me. But the Scriptures must be
+                    fulfilled."</speech></monologue>
+            <v n="50"/>Then <name ref="apostles">everyone</name>
+            <action ref="apostles">deserted him and fled</action>. <v n="51"/><name ref="naked">A
+                young man</name>, <description ref="naked">wearing nothing but a linen
+                garment</description>, <description ref="naked">was following Jesus</description>.
+            When they seized him, <v n="52"/><action ref="naked">he fled naked, leaving his garment
+                behind</action>.</story>
+        <story><v n="53"/>They took Jesus to <name ref="chiefPriest">the high priest</name>, and
+                <name ref="lawTeachers">all the chief priests, elders and teachers of the
+                law</name><action ref="lawTeachers"> came together</action>. <v n="54"/><name
+                ref="Peter">Peter</name>
+            <action ref="Peter">followed him at a distance, right into the courtyard of the high
+                priest</action>. <description ref="Peter">There he sat with <name ref="guards">the
+                    guards</name> and warmed himself at the fire</description>. <v n="55"/><name
+                ref="lawTeachers">The chief priests and the whole Sanhedrin</name><description
+                ref="lawTeachers"> were looking for evidence against Jesus so that they could put
+                him to death</description>, but <action ref="lawTeachers">they did not find
+                any</action>. <v n="56"/><action ref="somePeople">Many testified falsely against
+                him, but their statements did not agree.</action>
+            <v n="57"/><conversation>Then <action ref="somePeople">some stood up and gave this false
+                    testimony against him:</action>
+                <v n="58"/><speech ref="somePeople" tone="unspecified" type="statement">"We heard
+                    him say, 'I will destroy this man-made temple and in three days will build
+                    another, not made by man.'"</speech>
+                <v n="59"/>Yet even then their testimony did not agree. <v n="60"/>Then <name
+                    ref="chiefPriest">the high priest</name>
+                <action ref="chiefPriest">stood up before them and asked Jesus</action>, <speech
+                    ref="chiefPriest" type="question" tone="unspecified">"Are you not going to
+                    answer? What is this testimony that these men are bringing against
+                    you?"</speech>
+                <v n="61"/>But Jesus remained silent and gave no answer. Again <name
+                    ref="chiefPriest">the high priest</name> asked him, <speech ref="chiefPriest"
+                    tone="unspecified" type="question">"Are you the Christ, the Son of the Blessed
+                    One?"</speech>
+                <v n="62"/><speech type="answer" tone="unspecified" ref="Jesus">"I am,"</speech>
+                said Jesus. <speech ref="Jesus" tone="unspecified" type="statement">"And you will
+                    see the Son of Man sitting at the right hand of the Mighty One and coming on the
+                    clouds of heaven."</speech>
+                <v n="63"/><name ref="chiefPriest">The high priest</name>
+                <action ref="chiefPriest">tore his clothes</action>. <speech ref="chiefPriest"
+                    type="question" tone="condemning">"Why do we need any more witnesses?"</speech>
+                he asked. <v n="64"/><speech tone="condemning" type="question" ref="chiefPriest"
+                    >"You have heard the blasphemy. What do you think?" </speech><v n="65"/><action
+                    ref="lawTeachers">They all condemned him as worthy of death</action>. <action
+                    ref="somePeople">Then some began to spit at him; they blindfolded him, struck
+                    him with their fists, and said, "Prophesy!"</action></conversation> And <name
+                ref="guards">the guards</name><action ref="guards"> took him and beat
+            him.</action></story>
+        <story><v n="66"/>While <name ref="Peter">Peter</name>
+            <description ref="Peter">was below in the courtyard</description>, <name
+                ref="servantGirl">one of the servant girls of the high priest</name>
+            <action ref="servantGirl">came by</action>. <conversation><v n="67"/>When she saw <name
+                    ref="Peter">Peter</name>
+                <description ref="Peter">warming himself</description>, <action ref="servantGirl"
+                    >she looked closely at him</action>.<speech ref="servantGirl" type="statement"
+                    tone="unspecified"> "You also were with that Nazarene, Jesus,"</speech> she
+                said. <v n="68"/>But <action ref="Peter">he denied it</action>. <speech ref="Peter"
+                    tone="unspecified" type="statement">"I don't know or understand what you're
+                    talking about,"</speech>
+                <action ref="Peter">he said, and went out into the entryway.</action>
+                <v n="69"/>When <name ref="servantGirl">the servant girl</name>
+                <action ref="servantGirl">saw him there</action>, <action ref="servantGirl">she said
+                    again to those standing around</action>,<speech tone="unspecified"
+                    type="statement" ref="servantGirl"> "This fellow is one of them."</speech>
+                <v n="70"/><action ref="Peter">Again he denied it</action>. After a little while,
+                    <name ref="somePeople">those standing near</name> said to<name ref="Peter">
+                    Peter</name>, <speech ref="somePeople" type="statement" tone="unspecified"
+                    >"Surely you are one of them, for you are a Galilean." </speech><v n="71"
+                    /><action ref="Peter">He began to call down curses on himself, and he swore to
+                    them</action>, <speech ref="Peter" tone="unspecified" type="statement">"I don't
+                    know this man you're talking about."</speech></conversation>
+            <v n="72"/>Immediately the rooster crowed the second time. Then <name ref="Peter"
+                >Peter</name>
+            <action ref="Peter">remembered the word Jesus had spoken to him: "Before the rooster
+                crows twice you will disown me three times."</action>
+            <action ref="Peter">And he broke down and wept</action>.</story>
+        <story><c n="15"/>
+            <v n="1"/>Very early in the morning, <name ref="lawTeachers">the chief priests, with the
+                elders, the teachers of the law and the whole Sanhedrin</name>, <action
+                ref="lawTeachers">reached a decision</action>. <action ref="lawTeachers">They bound
+                Jesus, led him away and handed him over to<name ref="Pilate">
+            Pilate</name></action>. <v n="2"/><conversation><speech ref="Pilate" type="question"
+                    tone="unspecified">"Are you the king of the Jews?"</speech> asked <name
+                    ref="Pilate">Pilate</name>. "<speech ref="Jesus" tone="unspecified"
+                    type="answer">Yes, it is as you say,"</speech> Jesus replied. <v n="3"/><name
+                    ref="lawTeachers">The chief priests</name>
+                <action ref="lawTeachers">accused him of many things</action>. <v n="4"/><action
+                    ref="Pilate">So again <name ref="Pilate">Pilate</name> asked him</action>,
+                    <speech ref="Pilate" type="question" tone="unspecified">"Aren't you going to
+                    answer? See how many things they are accusing you of."</speech>
+                <v n="5"/>But Jesus still made no reply, and <name ref="Pilate">Pilate</name>
+                <description ref="Pilate">was amazed</description>. <v n="6"/>Now it was the custom
+                at the Feast to release a prisoner whom the people requested. <v n="7"/><name
+                    ref="Barabbas">A man called Barabbas</name>
+                <description ref="Barabbas">was in prison with the insurrectionists who had
+                    committed murder in the uprising.</description>
+                <v n="8"/><name ref="crowd">The crowd</name>
+                <action ref="crowd">came up and asked <name ref="Pilate">Pilate</name> to do for
+                    them what he usually did</action>. <v n="9"/><speech ref="Pilate"
+                    type="question" tone="unspecified">"Do you want me to release to you the king of
+                    the Jews?" </speech>asked <name ref="Pilate">Pilate</name>, <v n="10"
+                    /><description ref="Pilate">knowing it was out of envy that <name
+                        ref="lawTeachers">the chief priests</name>
+                    <action ref="lawTeachers">had handed Jesus over to him</action>.</description>
+                <v n="11"/>But <name ref="lawTeachers">the chief priests</name>
+                <action ref="lawTeachers">stirred up <name ref="crowd">the crowd</name> to have
+                    Pilate release Barabbas instead.</action>
+                <v n="12"/><speech ref="Pilate" tone="unspecified" type="question">"What shall I do,
+                    then, with the one you call the king of the Jews?"</speech>
+                <name ref="Pilate">Pilate</name> asked them. <v n="13"/><speech ref="crowd"
+                    type="answer" tone="condemning">"Crucify him!" </speech><action ref="crowd">they
+                    shouted.</action>
+                <v n="14"/><speech ref="Pilate" tone="confused" type="question">"Why? What crime has
+                    he committed?"</speech> asked <name ref="Pilate">Pilate</name>. <action
+                    ref="crowd">But they shouted all the louder</action>, <speech ref="crowd"
+                    type="instruction" tone="condemning">"Crucify him!"</speech></conversation>
+            <v n="15"/><description ref="Pilate">Wanting to satisfy the crowd</description>, <name
+                ref="Pilate">Pilate</name>
+            <action ref="Pilate">released <name ref="Barabbas">Barabbas</name> to them</action>.
+                <action ref="Pilate">He had Jesus flogged, and handed him over to be
+                crucified</action>.</story>
+        <story><v n="16"/><name ref="soldiers">The soldiers</name>
+            <action ref="soldiers">led Jesus away into the palace (that is, the Praetorium) and
+                called together the whole company of soldiers.</action>
+            <v n="17"/><action ref="soldiers">They put a purple robe on him, then twisted together a
+                crown of thorns and set it on him. <v n="18"/>And they began to call out to him,
+                "Hail, king of the Jews!"</action>
+            <v n="19"/><action ref="soldiers">Again and again they struck him on the head with a
+                staff and spit on him.</action>
+            <action ref="soldiers">Falling on their knees, they paid homage to him.</action>
+            <v n="20"/><action ref="soldiers">And when they had mocked him, they took off the purple
+                robe and put his own clothes on him.</action>
+            <action ref="soldiers">Then they led him out to crucify him.</action>
+        </story>
+        <story><v n="21"/><description ref="SimonCyrene">A certain man from Cyrene</description>,
+                <name ref="SimonCyrene">Simon</name>, <description ref="SimonCyrene">the father of
+                    <name ref="Alexander">Alexander</name> and <name ref="Rufus"
+                >Rufus</name></description>, <description ref="SimonCyrene">was passing by on his
+                way in from the country, and <action ref="soldiers">they forced him to carry the
+                    cross</action></description>. <v n="22"/><action ref="soldiers">They brought
+                Jesus to the place called Golgotha (which means The Place of the Skull).</action>
+            <v n="23"/><name ref="soldiers">Then they offered him wine mixed with myrrh,</name> but
+            he did not take it. <v n="24"/><action ref="soldiers">And they crucified him.</action>
+            <action ref="soldiers">Dividing up his clothes, they cast lots to see what each would
+                get</action>. <v n="25"/>It was the third hour when they crucified him. <v n="26"
+            />The written notice of the charge against him read: THE KING OF THE JEWS. <v n="27"
+                /><action ref="soldiers">They crucified<name ref="thief1 thief2"> two robbers</name>
+                with him, <description ref="thief2 thief1"> one on his right and one on his
+                    left</description>.</action>
+            <v n="28"/>See Footnote <v n="29"/><name ref="somePeople">Those who passed by</name>
+            <action ref="somePeople">hurled insults at him, shaking their heads and saying, "So! You
+                who are going to destroy the temple and build it in three days, <v n="30"/>come down
+                from the cross and save yourself!" </action><v n="31"/>In the same way <name
+                ref="lawTeachers">the chief priests and the teachers of the law</name>
+            <action ref="lawTeachers">mocked him among themselves. "He saved others," they said,
+                "but he can't save himself! <v n="32"/>Let this Christ, this King of Israel, come
+                down now from the cross, that we may see and believe."</action>
+            <name ref="thief1 thief2">Those crucified with him </name><action ref="thief1 thief2"
+                >also heaped insults on him</action>.</story>
+        <story><v n="33"/>At the sixth hour darkness came over the whole land until the ninth hour. <conversation>
+                <v n="34"/>And at the ninth hour Jesus cried out in a loud voice,<speech ref="Jesus"
+                    tone="pleading" type="question"> "Eloi, Eloi, lama sabachthani?"</speech>--which
+                means, "My God, my God, why have you forsaken me?" <v n="35"/>When <name
+                    ref="somePeople">some of those standing near</name>
+                <action ref="somePeople">heard this</action>, they said,<speech ref="somePeople"
+                    type="instruction" tone="unspecified"> "Listen, he's calling Elijah."</speech>
+                <v n="36"/><name ref="vinegar">One man</name>
+                <action ref="vinegar">ran, filled a sponge with wine vinegar, put it on a stick, and
+                    offered it to Jesus to drink</action>.<speech ref="vinegar" tone="unspecified"
+                    type="statement"> "Now leave him alone. Let's see if Elijah comes to take him
+                    down,"</speech> he said. <v n="37"/>With a loud cry, Jesus breathed his last. <v
+                    n="38"/>The curtain of the temple was torn in two from top to bottom. <v n="39"
+                />And when <name ref="centurion">the centurion</name>, <description ref="centurion"
+                    >who stood there in front of Jesus</description>, <action ref="centurion">heard
+                    his cry and saw how he died, he said</action>, <speech ref="centurion"
+                    type="statement" tone="unspecified">"Surely this man was the Son of
+                    God!"</speech></conversation>
+            <v n="40"/><name ref="MaryJames MaryMagdalene motherMary Salome otherWomen">Some
+                women</name>
+            <description ref="otherWomen Salome motherMary MaryMagdalene MaryJames">were watching
+                from a distance</description>. Among them were <name ref="MaryMagdalene">Mary
+                Magdalene</name>, <name ref="MaryJames">Mary</name>
+            <description ref="MaryJames">the mother of James the younger and of Joses</description>,
+            and <name ref="Salome">Salome</name>. <v n="41"/>In Galilee <description
+                ref="Salome MaryJames MaryMagdalene motherMary">these women had followed him and
+                cared for his needs</description>. <name ref="otherWomen">Many other women</name>
+            <description ref="otherWomen">who had come up with him to Jerusalem were also
+                there.</description></story>
+        <story><v n="42"/>It was Preparation Day (that is, the day before the Sabbath). So as
+            evening approached, <v n="43"/><name ref="JosephArimathea">Joseph of
+                Arimathea</name>,<description ref="JosephArimathea"> a prominent member of the
+                Council</description>, <description ref="JosephArimathea">who was himself waiting
+                for the kingdom of God</description>, <action ref="JosephArimathea">went boldly
+                    to<name ref="Pilate"> Pilate</name> and asked for Jesus' body.</action>
+            <v n="44"/><name ref="Pilate">Pilate </name><description ref="Pilate">was surprised to
+                hear that he was already dead</description>. <action ref="Pilate">Summoning <name
+                    ref="centurion">the centurion</name>, he asked him if Jesus had already
+                died.</action>
+            <v n="45"/><action ref="Pilate">When he learned from <name ref="centurion">the
+                    centurion</name> that it was so, he gave the body to <name ref="JosephArimathea"
+                    >Joseph</name></action>. <v n="46"/>So <name ref="JosephArimathea">Joseph</name>
+            <action ref="JosephArimathea">bought some linen cloth, took down the body, wrapped it in
+                the linen, and placed it in a tomb cut out of rock. Then he rolled a stone against
+                the entrance of the tomb.</action>
+            <v n="47"/><name ref="MaryMagdalene">Mary Magdalene</name> and <name ref="MaryJames"
+                >Mary the mother of Joses</name>
+            <action ref="MaryJames MaryMagdalene">saw where he was laid</action>.</story>
+        <story>
+            <c n="16"/>
+            <v n="1"/>When the Sabbath was over, <name ref="MaryMagdalene">Mary Magdalene</name>,
+                <name ref="MaryJames">Mary the mother of James</name>, and <name ref="Salome"
+                >Salome</name>
+            <action ref="Salome MaryJames MaryMagdalene">bought spices so that they might go to
+                anoint Jesus' body</action>. <v n="2"/>Very early on the first day of the week, just
+            after sunrise, <description ref="MaryMagdalene">they were on their way to the
+                tomb</description>
+            <v n="3"/>and <conversation><action ref="MaryMagdalene MaryJames Salome">they asked each
+                    other</action>, <speech ref="Salome MaryJames MaryMagdalene" tone="unspecified"
+                    type="question">"Who will roll the stone away from the entrance of the
+                    tomb?"</speech>
+                <v n="4"/>But when they looked up, <description ref="MaryMagdalene MaryJames Salome"
+                    >they saw that the stone, which was very large, had been rolled
+                    away.</description>
+                <v n="5"/>As they entered the tomb, <action ref="Salome MaryJames MaryMagdalene"
+                    >they saw <name ref="angel">a young man</name></action>
+                <description ref="angel"> dressed in a white robe sitting on the right
+                    side</description>, and <description ref="MaryMagdalene MaryJames Salome">they
+                    were alarmed.</description>
+                <v n="6"/><speech ref="angel" type="instruction" tone="unspecified">"Don't be
+                    alarmed,"</speech> he said. <speech ref="angel" tone="unspecified"
+                    type="instruction">"You are looking for Jesus the Nazarene, who was crucified.
+                    He has risen! He is not here. See the place where they laid him. <v n="7"/>But
+                    go, tell <name ref="apostles">his disciples</name> and <name ref="Peter"
+                        >Peter</name>, 'He is going ahead of you into Galilee. There you will see
+                    him, just as he told you.'"</speech></conversation>
+            <v n="8"/><description ref="Salome MaryJames MaryMagdalene">Trembling and
+                bewildered</description>, <action ref="MaryMagdalene MaryJames Salome">the women
+                went out and fled from the tomb. They said nothing to anyone, because they were
+                afraid.</action>
+            <v n="9"/>When Jesus rose early on the first day of the week, he appeared first to<name
+                ref="MaryMagdalene"> Mary Magdalene</name>, <description ref="MaryMagdalene">out of
+                whom he had driven seven demons</description>. <v n="10"/><action
+                ref="MaryMagdalene">She went and told <description ref="somePeople">those who had
+                    been with him and who were mourning and weeping</description></action>. <v
+                n="11"/><description ref="somePeople">When they heard that Jesus was alive and that
+                she had seen him, they did not believe it.</description>
+            <v n="12"/>Afterward Jesus appeared in a different form to <name ref="somePeople">two of
+                them</name> while they were walking in the country. <v n="13"/><action
+                ref="somePeople">These returned and reported it to the rest; but they did not
+                believe them either.</action>
+            <v n="14"/>Later Jesus appeared to <name ref="apostles">the Eleven</name> as they were
+            eating; he rebuked them for their lack of faith and their stubborn refusal to believe
+            those who had seen him after he had risen. <v n="15"/><monologue>He said to them,
+                    "<speech ref="Jesus" tone="instructive" genre="instruction">Go into all the
+                    world and preach the good news to all creation. <v n="16"/>Whoever believes and
+                    is baptized will be saved, but whoever does not believe will be condemned. <v
+                        n="17"/>And these signs will accompany those who believe: In my name they
+                    will drive out demons; they will speak in new tongues; <v n="18"/>they will pick
+                    up snakes with their hands; and when they drink deadly poison, it will not hurt
+                    them at all; they will place their hands on sick people, and they will get
+                    well."</speech></monologue>
+            <v n="19"/>After the Lord Jesus had spoken to them, he was taken up into heaven and he
+            sat at the right hand of God. <v n="20"/>Then <name ref="apostles">the disciples</name>
+            <action ref="apostles">went out and preached everywhere</action>, and the Lord worked
+            with them and confirmed his word by the signs that accompanied it. </story>
+    </body>
 </book>

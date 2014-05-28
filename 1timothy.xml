@@ -2,41 +2,44 @@
 <?xml-model href="epistleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <book>
     <title>1 Timothy</title>
+    <metadata>
+        <character xml:id="Paul" class="complicated" ethnicity="jew" gender="male" age="adult"
+            ability="unspecified"/>
+        <character xml:id="Timothy" class="unspecified" ethnicity="jew" gender="male" age="adult"
+            ability="able"/>
+        <character xml:id="certainMen" class="unspecified" ethnicity="unspecified" gender="male"
+            age="adult" ability="unspecified"/>
+        <character xml:id="Hymenaeus" class="unspecified" ethnicity="unspecified" gender="male"
+            age="adult" ability="unspecified"/>
+        <character xml:id="Alexander" class="unspecified" ethnicity="unspecified" gender="male"
+            age="adult" ability="unspecified"/>
 
+    </metadata>
     <opening>
         <c n="1"/>
         <v n="1"/>
-        <character> <name class="complicated" ethnicity="jew" gender="male" age="adult"
-            ability="unspecified" an="1">Paul, </name><description type="neutral">an apostle of
-                Christ Jesus by the command of God our Savior and of Christ Jesus our
-                hope,</description>
-        </character>
-        <v n="2"/>
-        <character>To <name class="unspecified" ethnicity="jew" gender="male" age="adult"
-                ability="able" an="1">Timothy </name><description type="good">my true son in the
-                faith</description><blessing>: Grace, mercy and peace from God the Father and Christ
-                Jesus our Lord.</blessing>
-        </character>
+        <name ref="Paul">Paul, </name><description ref="Paul" type="neutral">an apostle of Christ
+            Jesus by the command of God our Savior and of Christ Jesus our hope,</description>
+        <v n="2"/> To <name ref="Timothy">Timothy </name><description ref="Timothy" type="good">my
+            true son in the faith</description><blessing ref="Timothy">: Grace, mercy and peace from
+            God the Father and Christ Jesus our Lord.</blessing>
     </opening>
     <body>
         <section><v n="3"/>As I urged you when I went into Macedonia, stay there in Ephesus so that
-                <group>you may command <descriptor class="unspecified" ethnicity="unspecified"
-                    gender="male" age="adult" ability="unspecified">certain men</descriptor>
-                <instruction>not to teach false doctrines any longer <v n="4"/>nor to devote
-                    themselves to myths and endless genealogies. These promote controversies rather
-                    than God's work--which is by faith. <v n="5"/>The goal of this command is love,
-                    which comes from a pure heart and a good conscience and a sincere faith. <v
-                        n="6"/>Some have wandered away from these and turned to meaningless talk. <v
-                        n="7"/>They want to be teachers of the law, but they do not know what they
-                    are talking about or what they so confidently affirm. <v n="8"/>We know that the
-                    law is good if one uses it properly. <v n="9"/>We also know that law is made not
-                    for the righteous but for lawbreakers and rebels, the ungodly and sinful, the
-                    unholy and irreligious; for those who kill their fathers or mothers, for
-                    murderers, <v n="10"/>for adulterers and perverts, for slave traders and liars
-                    and perjurers--and for whatever else is contrary to the sound doctrine <v n="11"
-                    />that conforms to the glorious gospel of the blessed God, which he entrusted to
-                    me.</instruction>
-            </group>
+            you may command <description type="bad" ref="certainMen">certain men</description>
+            <instruction ref="certainMen">not to teach false doctrines any longer <v n="4"/>nor to
+                devote themselves to myths and endless genealogies. These promote controversies
+                rather than God's work--which is by faith. <v n="5"/>The goal of this command is
+                love, which comes from a pure heart and a good conscience and a sincere faith. <v
+                    n="6"/>Some have wandered away from these and turned to meaningless talk. <v
+                    n="7"/>They want to be teachers of the law, but they do not know what they are
+                talking about or what they so confidently affirm. <v n="8"/>We know that the law is
+                good if one uses it properly. <v n="9"/>We also know that law is made not for the
+                righteous but for lawbreakers and rebels, the ungodly and sinful, the unholy and
+                irreligious; for those who kill their fathers or mothers, for murderers, <v n="10"
+                />for adulterers and perverts, for slave traders and liars and perjurers--and for
+                whatever else is contrary to the sound doctrine <v n="11"/>that conforms to the
+                glorious gospel of the blessed God, which he entrusted to me.</instruction>
         </section>
         <section><v n="12"/>I thank Christ Jesus our Lord, who has given me strength, that he
             considered me faithful, appointing me to his service. <v n="13"/>Even though I was once
@@ -49,32 +52,26 @@
             patience as an example for those who would believe on him and receive eternal life. <v
                 n="17"/>Now to the King eternal, immortal, invisible, the only God, be honor and
             glory for ever and ever. Amen. </section>
-        <section><v n="18"/><character><name an="2">Timothy,</name><description type="neutral">my
-                    son,</description>
-                <instruction>I give you this instruction in keeping with the prophecies once made
-                    about you, so that by following them you may fight the good fight, <v n="19"
-                    />holding on to faith and a good conscience.</instruction></character> Some have
-            rejected these and so have shipwrecked their faith. <v n="20"/>Among them are
-                    <character><name class="unspecified" ethnicity="unspecified" gender="male"
-                    age="adult" ability="unspecified" an="1">Hymenaeus</name> and <name
-                    class="unspecified" ethnicity="unspecified" gender="male" age="adult"
-                    ability="unspecified" an="1">Alexander,</name><description type="bad">whom I
-                    have handed over to Satan to be taught not to
-                blaspheme</description></character>.</section>
-        
-        <section><c n="2"/><v n="1"/>I urge, then, first of all, that requests, prayers, intercession and
-            thanksgiving be made for everyone-- <v n="2"/>for kings and all those in authority, that
-            we may live peaceful and quiet lives in all godliness and holiness. <v n="3"/>This is
-            good, and pleases God our Savior, <v n="4"/>who wants all men to be saved and to come to
-            a knowledge of the truth. <v n="5"/><character><description type="neutral">For there is
-                    one God and one mediator between God and men</description>, the man <name
-                    class="working" ethnicity="jew" gender="male" age="adult" ability="able" an="1"
-                    >Christ Jesus</name>, <v n="6"/><description type="good">who gave himself as
-                    a ransom for all men--the testimony given in its proper
-                time.</description></character>
-            <esi ethnicity="gentile" tone="instructive"><v n="7"/>And for this purpose I was
-                appointed a herald and an apostle--I am telling the truth, I am not lying--and a
-                teacher of the true faith to the Gentiles.</esi>
+        <section><v n="18"/><name ref="Timothy">Timothy,</name><description ref="Timothy"
+                type="neutral">my son,</description>
+            <instruction ref="Timothy">I give you this instruction in keeping with the prophecies
+                once made about you, so that by following them you may fight the good fight, <v
+                    n="19"/>holding on to faith and a good conscience.</instruction> Some have
+            rejected these and so have shipwrecked their faith. <v n="20"/>Among them are <name
+                ref="Hymenaeus">Hymenaeus</name> and <name ref="Alexander"
+                >Alexander,</name><description type="bad" ref="Alexander Hymenaeus">whom I have
+                handed over to Satan to be taught not to blaspheme</description>.</section>
+
+        <section><c n="2"/><v n="1"/>I urge, then, first of all, that requests, prayers,
+            intercession and thanksgiving be made for everyone-- <v n="2"/>for kings and all those
+            in authority, that we may live peaceful and quiet lives in all godliness and holiness.
+                <v n="3"/>This is good, and pleases God our Savior, <v n="4"/>who wants all men to
+            be saved and to come to a knowledge of the truth. <v n="5"/>For there is one God and one
+            mediator between God and men, the man Christ Jesus, <v n="6"/>who gave himself as a
+            ransom for all men--the testimony given in its proper time. <esi ethnicity="gentile"
+                tone="instructive"><v n="7"/>And for this purpose I was appointed a herald and an
+                apostle--I am telling the truth, I am not lying--and a teacher of the true faith to
+                the Gentiles.</esi>
             <gsi gender="male" tone="instructive"><v n="8"/>I want men everywhere to lift up holy
                 hands in prayer, without anger or disputing.</gsi>
             <gsi gender="female" tone="instructive"><v n="9"/>I also want women to dress modestly,
@@ -87,9 +84,9 @@
                     <v n="14"/>And Adam was not the one deceived; it was the woman who was deceived
                 and became a sinner. <v n="15"/>But women will be saved through childbearing--if
                 they continue in faith, love and holiness with propriety.</gsi></section>
-        
-        <section><c n="3"/><v n="1"/>Here is a trustworthy saying: If anyone sets his heart on being an
-            overseer, he desires a noble task. <v n="2"/>Now the overseer must be above reproach,
+
+        <section><c n="3"/><v n="1"/>Here is a trustworthy saying: If anyone sets his heart on being
+            an overseer, he desires a noble task. <v n="2"/>Now the overseer must be above reproach,
                 <es eg="women">the husband of but one wife</es>, temperate, self-controlled,
             respectable, hospitable, able to teach, <v n="3"/>not given to drunkenness, not violent
             but gentle, not quarrelsome, not a lover of money. <v n="4"/>He must manage his own
@@ -137,9 +134,10 @@
             you. <v n="15"/>Be diligent in these matters; give yourself wholly to them, so that
             everyone may see your progress. <v n="16"/>Watch your life and doctrine closely.
             Persevere in them, because if you do, you will save both yourself and your hearers. </section>
-        
-        <section><c n="5"/><gsi gender="male" tone="instructive"><v n="1"/>Do not rebuke an older man harshly,
-                but exhort him as if he were your father. Treat younger men as brothers,</gsi>
+
+        <section><c n="5"/><gsi gender="male" tone="instructive"><v n="1"/>Do not rebuke an older
+                man harshly, but exhort him as if he were your father. Treat younger men as
+                brothers,</gsi>
             <gsi gender="female" tone="instructive"><v n="2"/>older women as mothers, and younger
                 women as sisters, with absolute purity.</gsi>
             <es eg="men"><v n="3"/>Give proper recognition to those widows who are really in
@@ -206,25 +204,23 @@
             godliness, faith, love, endurance and gentleness. <v n="12"/>Fight the good fight of the
             faith. Take hold of the eternal life to which you were called when you made your good
             confession in the presence of many witnesses. <v n="13"/>In the sight of God, who gives
-            life to everything, and of <character><name an="2">Christ Jesus</name>, <description
-                    type="good">who while testifying before Pontius Pilate made the good
-                    confession</description></character>, I charge you <v n="14"/>to keep this
-            command without spot or blame <character>until the appearing of our <name an="3">Lord
-                    Jesus Christ</name></character>, <v n="15"/>which God will bring about in his
-            own time--God, the blessed and only Ruler, the King of kings and Lord of lords, <v
-                n="16"/>who alone is immortal and who lives in unapproachable light, whom no one has
-            seen or can see. To him be honor and might forever. Amen. <csi class="rich"
+            life to everything, and of Christ Jesus, type="good">who while testifying before Pontius
+            Pilate made the good confession, I charge you <v n="14"/>to keep this command without
+            spot or blame until the appearing of our Lord Jesus Christ, <v n="15"/>which God will
+            bring about in his own time--God, the blessed and only Ruler, the King of kings and Lord
+            of lords, <v n="16"/>who alone is immortal and who lives in unapproachable light, whom
+            no one has seen or can see. To him be honor and might forever. Amen. <csi class="rich"
                 tone="instructive"><v n="17"/>Command those who are rich in this present world not
                 to be arrogant nor to put their hope in wealth, which is so uncertain, but to put
                 their hope in God, who richly provides us with everything for our enjoyment. <v
                     n="18"/>Command them to do good, to be rich in good deeds, and to be generous
                 and willing to share. <v n="19"/>In this way they will lay up treasure for
                 themselves as a firm foundation for the coming age, so that they may take hold of
-                the life that is truly life. </csi><v n="20"/><character><name an="3"
-                >Timothy</name>, <instruction>guard what has been entrusted to your care. Turn away
-                    from godless chatter and the opposing ideas of what is falsely called knowledge,
-                        <v n="21"/>which some have professed and in so doing have wandered from the
-                    faith.</instruction></character></section>
+                the life that is truly life. </csi><v n="20"/><name ref="Timothy">Timothy</name>,
+                <instruction ref="Timothy">guard what has been entrusted to your care. Turn away
+                from godless chatter and the opposing ideas of what is falsely called knowledge, <v
+                    n="21"/>which some have professed and in so doing have wandered from the
+                faith.</instruction></section>
     </body>
     <conclusion>Grace be with you all.</conclusion>
 </book>

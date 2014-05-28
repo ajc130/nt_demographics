@@ -3,7 +3,24 @@ body
     margin:5px;
     padding:5px;
 }
-
+table{ margin-left: 10%;
+margin-right: 10%;
+margin-top: 0%;
+margin-bottom: 0%;
+padding: 0px;
+width: 80%;
+}
+td {
+text-align: center;
+    border: 1px solid #C55186;
+      font:16px "Architects Daughter";
+    color:#0b3162;
+}
+th {text-align: center;
+ font:20px "Architects Daughter";
+     color:#0b3162;
+      border: 1px solid #C55186;
+}
 
 #menu ul{
     margin-top:0px;
@@ -99,6 +116,12 @@ h2{
     text-align:left;
     font-family:"Rock Salt", serif;
     font-size:25px;
+}
+h3{padding:5px;
+    color:#0b3162;
+    text-align:center;
+    font-family:"Rock Salt", serif;
+    font-size:20px;
 }
 #meme{
     display:block;

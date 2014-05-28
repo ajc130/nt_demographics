@@ -1,0 +1,10 @@
+start= characters
+characters= element characters {character+}
+character= element character {class, ethnicity, gender, age, ability, id, books}
+class= attribute class {"religiousLeader"| "rich"| "poor"| "outcast"| "working"| "unspecified" |"slave" |"master" |"complicated"|"all"}
+ethnicity= attribute ethnicity {"jew" |"samaritan" |"gentile" |"unspecified" | "all"}
+gender= attribute gender {"male" |"female"| "unspecified" | "both"}
+age= attribute age {"child" |"adult" |"elderly" |"unspecified"}
+ability= attribute ability {"able" |"handicapped" |"unspecified"}
+id= attribute xml:id {xsd:ID}
+books= attribute books {xsd:int}
