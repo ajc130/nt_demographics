@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="2.0">
-    <xsl:output method="xhtml" indent="yes"/>
+    <xsl:output method="xhtml" indent="yes" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
     <!-- $books is a sequence of documents, read from the "books" subdirectory of wherever the XSLT file is being run -->
     <xsl:variable name="books" select="collection('books')" as="document-node()+"/>
     <!-- because some characters appear in multiple books, we use the distinct values of the @xml:id attributes to get rid of the duplicates -->
