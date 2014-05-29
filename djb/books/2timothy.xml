@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="epistleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<book>
+    <title>2 Timothy</title>
+    <metadata>
+        <character xml:id="Paul" class="complicated" ethnicity="jew" gender="male" age="adult"
+            ability="unspecified"/>
+        <character xml:id="Timothy" class="unspecified" ethnicity="jew" gender="male" age="adult"
+            ability="able"/>
+        <character xml:id="Lois" ability="unspecified" age="adult" class="unspecified"
+            ethnicity="jew" gender="female"/>
+        <character xml:id="Eunice" ability="unspecified" age="adult" class="unspecified"
+            ethnicity="jew" gender="female"/>
+        <character xml:id="Phygelus" gender="male" ethnicity="gentile" class="unspecified"
+            age="adult" ability="unspecified"/>
+        <character xml:id="Hermogenes" ability="unspecified" age="adult" class="unspecified"
+            ethnicity="gentile" gender="male"/>
+        <character xml:id="Onesiphorus" gender="male" ethnicity="gentile" class="unspecified"
+            age="adult" ability="unspecified"/>
+        <character xml:id="David" ability="able" age="adult" class="rich" ethnicity="jew"
+            gender="male"/>
+        <character xml:id="Hymenaeus" gender="male" ethnicity="unspecified" class="unspecified"
+            age="adult" ability="unspecified"/>
+        <character xml:id="Philetus" ability="unspecified" age="adult" class="unspecified"
+            ethnicity="unspecified" gender="male"/>
+        <character xml:id="Moses" gender="male" ethnicity="jew" class="unspecified" age="adult"
+            ability="able"/>
+        <character xml:id="Jannes" ability="able" age="adult" class="rich" ethnicity="gentile"
+            gender="male"/>
+        <character xml:id="Jambres" gender="male" ethnicity="gentile" class="rich" age="adult"
+            ability="able"/>
+        <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
+            ability="unspecified" xml:id="Demas"/>
+        <character xml:id="Crescens" ability="unspecified" age="adult" class="unspecified"
+            ethnicity="unspecified" gender="male"/>
+        <character xml:id="Titus" gender="male" ethnicity="gentile" class="unspecified" age="adult"
+            ability="able"/>
+        <character xml:id="Luke" ability="able" age="adult" class="working" ethnicity="jew"
+            gender="male"/>
+        <character xml:id="Mark" gender="male" ethnicity="jew" class="working" age="adult"
+            ability="able"/>
+        <character xml:id="Tychicus" ability="able" age="adult" class="unspecified"
+            ethnicity="gentile" gender="male"/>
+        <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
+            ability="unspecified" xml:id="Carpus"/>
+        <character xml:id="Alexander" gender="male" ethnicity="unspecified" class="working"
+            age="adult" ability="able"/>
+        <character xml:id="Aquila" ethnicity="jew" ability="able" class="working" age="adult"
+            gender="male"/>
+        <character xml:id="Priscilla" gender="female" age="adult" class="working" ability="able"
+            ethnicity="jew"/>
+        <character xml:id="Trophimus" ethnicity="gentile" gender="male" class="unspecified"
+            age="adult" ability="able"/>
+        <character xml:id="Eubulus" ability="unspecified" age="adult" class="unspecified"
+            gender="male" ethnicity="gentile"/>
+        <character xml:id="Pudens" ethnicity="gentile" gender="male" class="unspecified" age="adult"
+            ability="unspecified"/>
+        <character xml:id="Linus" ability="unspecified" age="adult" class="unspecified"
+            gender="male" ethnicity="unspecified"/>
+        <character xml:id="Claudia" ethnicity="gentile" gender="female" class="unspecified"
+            age="adult" ability="unspecified"/>
+        <character xml:id="Erastus" ability="unspecified" age="adult" class="unspecified"
+            gender="male" ethnicity="gentile"/>
+    </metadata>
+
+    <opening><c n="1"/>
+        <v n="1"/><name ref="Paul">Paul</name>, <description ref="Paul" type="neutral">an apostle of
+            Christ Jesus by the will of God, according to the promise of life that is in Christ
+            Jesus</description>, <v n="2"/>To <name ref="Timothy">Timothy</name>, <description
+            ref="Timothy" type="good">my dear son</description>: Grace, mercy and peace from God the
+        Father and Christ Jesus our Lord. </opening>
+    <body>
+        <section><v n="3"/>I thank God, whom I serve, as my forefathers did, with a clear
+            conscience, as night and day I constantly remember you in my prayers. <v n="4"
+            />Recalling your tears, I long to see you, so that I may be filled with joy. <v n="5"/>I
+            have been reminded of <description type="good" ref="Timothy">your <description
+                    type="good" ref="Eunice Lois">sincere faith, which first lived in</description>
+                <description ref="Lois" type="neutral">your grandmother</description>
+                <name ref="Lois">Lois</name> and in <description ref="Eunice" type="neutral">your
+                    mother</description><name ref="Eunice"> Eunice</name> and, I am persuaded, now
+                lives in you also</description>. </section>
+        <section>
+            <v n="6"/>For this reason I remind you to fan into flame the gift of God, which is in
+            you through the laying on of my hands. <v n="7"/>For God did not give us a spirit of
+            timidity, but a spirit of power, of love and of self-discipline. <v n="8"/>So do not be
+            ashamed to testify about our Lord, or ashamed of me his prisoner. But join with me in
+            suffering for the gospel, by the power of God, <v n="9"/>who has saved us and called us
+            to a holy life--not because of anything we have done but because of his own purpose and
+            grace. This grace was given us in Christ Jesus before the beginning of time, <v n="10"
+            />but it has now been revealed through the appearing of our Savior, Christ Jesus, who
+            has destroyed death and has brought life and immortality to light through the gospel. <v
+                n="11"/>And of this gospel I was appointed a herald and an apostle and a teacher. <v
+                n="12"/>That is why I am suffering as I am. Yet I am not ashamed, because I know
+            whom I have believed, and am convinced that he is able to guard what I have entrusted to
+            him for that day. <v n="13"/>What you heard from me, keep as the pattern of sound
+            teaching, with faith and love in Christ Jesus. <v n="14"/>Guard the good deposit that
+            was entrusted to you--guard it with the help of the Holy Spirit who lives in us. <v
+                n="15"/>You know that everyone in the province of Asia <description type="bad"
+                ref="Hermogenes Phygelus">has deserted me</description>, including <name
+                ref="Phygelus">Phygelus</name> and <name ref="Hermogenes">Hermogenes</name>. <v
+                n="16"/>May the Lord show mercy to the household of <name ref="Onesiphorus"
+                >Onesiphorus</name>, <description ref="Onesiphorus" type="good">because he often
+                refreshed me and was not ashamed of my chains. <v n="17"/>On the contrary, when he
+                was in Rome, he searched hard for me until he found me. <v n="18"/>May the Lord
+                grant that he will find mercy from the Lord on that day! You know very well in how
+                many ways he helped me in Ephesus.</description>
+        </section>
+        <section><c n="2"/>
+            <v n="1"/>You then, my son, be strong in the grace that is in Christ Jesus. <v n="2"
+            />And the things you have heard me say in the presence of many witnesses entrust to
+            reliable men who will also be qualified to teach others. <v n="3"/>Endure hardship with
+            us like a good soldier of Christ Jesus. <v n="4"/>No one serving as a soldier gets
+            involved in civilian affairs--he wants to please his commanding officer. <v n="5"
+            />Similarly, if anyone competes as an athlete, he does not receive the victor's crown
+            unless he competes according to the rules. <v n="6"/>The hardworking farmer should be
+            the first to receive a share of the crops. <v n="7"/>Reflect on what I am saying, for
+            the Lord will give you insight into all this. <v n="8"/>Remember Jesus Christ, raised
+            from the dead, descended from <name ref="David">David</name>. This is my gospel, <v
+                n="9"/>for which I am suffering even to the point of being chained like a criminal.
+            But God's word is not chained. <v n="10"/>Therefore I endure everything for the sake of
+            the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal
+            glory. <v n="11"/>Here is a trustworthy saying: If we died with him, we will also live
+            with him; <v n="12"/>if we endure, we will also reign with him. If we disown him, he
+            will also disown us; <v n="13"/>if we are faithless, he will remain faithful, for he
+            cannot disown himself. <v n="14"/>Keep reminding them of these things. Warn them before
+            God against quarreling about words; it is of no value, and only ruins those who listen.
+                <v n="15"/>Do your best to present yourself to God as one approved, a workman who
+            does not need to be ashamed and who correctly handles the word of truth. <v n="16"
+            />Avoid godless chatter, because those who indulge in it will become more and more
+            ungodly. <v n="17"/>Their teaching will spread like gangrene. Among them are <name
+                ref="Hymenaeus">Hymenaeus</name> and <name ref="Philetus">Philetus</name>,
+                <description ref="Philetus Hymenaeus" type="bad"><v n="18"/>who have wandered away
+                from the truth. They say that the resurrection has already taken place, and they
+                destroy the faith of some.</description>
+            <v n="19"/>Nevertheless, God's solid foundation stands firm, sealed with this
+            inscription: "The Lord knows those who are his," and, "Everyone who confesses the name
+            of the Lord must turn away from wickedness." <v n="20"/>In a large house there are
+            articles not only of gold and silver, but also of wood and clay; some are for noble
+            purposes and some for ignoble. <v n="21"/>If a man cleanses himself from the latter, he
+            will be an instrument for noble purposes, made holy, useful to the Master and prepared
+            to do any good work. <v n="22"/>Flee the evil desires of youth, and pursue
+            righteousness, faith, love and peace, along with those who call on the Lord out of a
+            pure heart. <v n="23"/>Don't have anything to do with foolish and stupid arguments,
+            because you know they produce quarrels. <v n="24"/>And the Lord's servant must not
+            quarrel; instead, he must be kind to everyone, able to teach, not resentful. <v n="25"
+            />Those who oppose him he must gently instruct, in the hope that God will grant them
+            repentance leading them to a knowledge of the truth, <v n="26"/>and that they will come
+            to their senses and escape from the trap of the devil, who has taken them captive to do
+            his will. <c n="3"/>
+            <v n="1"/>But mark this: There will be terrible times in the last days. <v n="2"/>People
+            will be lovers of themselves, lovers of money, boastful, proud, abusive, disobedient to
+            their parents, ungrateful, unholy, <v n="3"/>without love, unforgiving, slanderous,
+            without self-control, brutal, not lovers of the good, <v n="4"/>treacherous, rash,
+            conceited, lovers of pleasure rather than lovers of God-- <v n="5"/>having a form of
+            godliness but denying its power. Have nothing to do with them. <v n="6"/>They are the
+            kind who worm their way into homes and gain control over weak-willed women, who are
+            loaded down with sins and are swayed by all kinds of evil desires, <v n="7"/>always
+            learning but never able to acknowledge the truth. <v n="8"/>Just as <name ref="Jannes"
+                >Jannes</name> and<name ref="Jambres"> Jambres</name>
+            <description ref="Jambres Jannes" type="bad">opposed <name ref="Moses"
+                >Moses</name></description>, so also these men oppose the truth--men of depraved
+            minds, who, as far as the faith is concerned, are rejected. <v n="9"/>But they will not
+            get very far because, as in the case of those men, their folly will be clear to
+            everyone. </section>
+        <section><v n="10"/>You, however, know all about my teaching, my way of life, my purpose,
+            faith, patience, love, endurance, <v n="11"/>persecutions, sufferings--what kinds of
+            things happened to me in Antioch, Iconium and Lystra, the persecutions I endured. Yet
+            the Lord rescued me from all of them. <v n="12"/>In fact, everyone who wants to live a
+            godly life in Christ Jesus will be persecuted, <v n="13"/>while evil men and impostors
+            will go from bad to worse, deceiving and being deceived. <v n="14"/>But as for you,
+            continue in what you have learned and have become convinced of, because you know those
+            from whom you learned it, <v n="15"/>and how from infancy you have known the holy
+            Scriptures, which are able to make you wise for salvation through faith in Christ Jesus.
+                <v n="16"/>All Scripture is God-breathed and is useful for teaching, rebuking,
+            correcting and training in righteousness, <v n="17"/>so that the man of God may be
+            thoroughly equipped for every good work. <c n="4"/>
+            <v n="1"/>In the presence of God and of Christ Jesus, who will judge the living and the
+            dead, and in view of his appearing and his kingdom, I give you this charge: <v n="2"
+            />Preach the Word; be prepared in season and out of season; correct, rebuke and
+            encourage--with great patience and careful instruction. <v n="3"/>For the time will come
+            when men will not put up with sound doctrine. Instead, to suit their own desires, they
+            will gather around them a great number of teachers to say what their itching ears want
+            to hear. <v n="4"/>They will turn their ears away from the truth and turn aside to
+            myths. <v n="5"/>But you, keep your head in all situations, endure hardship, do the work
+            of an evangelist, discharge all the duties of your ministry. <description ref="Paul"
+                type="good"><v n="6"/>For I am already being poured out like a drink offering, and
+                the time has come for my departure. <v n="7"/>I have fought the good fight, I have
+                finished the race, I have kept the faith. <v n="8"/>Now there is in store for me the
+                crown of righteousness, which the Lord, the righteous Judge, will award to me on
+                that day--and not only to me, but also to all who have longed for his
+                appearing.</description>
+        </section>
+        <section><v n="9"/>Do your best to come to me quickly, <v n="10"/>for <name ref="Demas"
+                >Demas</name>, <description ref="Demas" type="bad">because he loved this world, has
+                deserted me and has gone to Thessalonica</description>. <name ref="Crescens"
+                >Crescens</name>
+            <description ref="Crescens" type="neutral">has gone to Galatia</description>, and <name
+                ref="Titus">Titus</name>
+            <description ref="Titus" type="neutral">to Dalmatia</description>. <v n="11"
+                /><description type="neutral" ref="Luke">Only <name ref="Luke">Luke</name> is with
+                me</description>. Get <name ref="Mark">Mark</name> and bring him with you, because
+                <description ref="Mark" type="good">he is helpful to me in my
+            ministry</description>. <description ref="Tychicus" type="neutral"><v n="12"/>I sent
+                    <name ref="Tychicus">Tychicus</name> to Ephesus.</description>
+            <v n="13"/>When you come, bring the cloak that I left with <name ref="Carpus"
+                >Carpus</name> at Troas, and my scrolls, especially the parchments. <v n="14"/><name
+                ref="Alexander">Alexander</name>
+            <description ref="Alexander" type="neutral">the metalworker</description>
+            <description type="bad" ref="Alexander">did me a great deal of harm. The Lord will repay
+                him for what he has done. <v n="15"/>You too should be on your guard against him,
+                because he strongly opposed our message. </description><v n="16"/>At my first
+            defense, no one came to my support, but everyone deserted me. May it not be held against
+            them. <v n="17"/>But the Lord stood at my side and gave me strength, so that through me
+            the message might be fully proclaimed and all the Gentiles might hear it. And I was
+            delivered from the lion's mouth. <v n="18"/>The Lord will rescue me from every evil
+            attack and will bring me safely to his heavenly kingdom. To him be glory for ever and
+            ever. Amen. </section>
+    </body>
+    <conclusion>
+        <v n="19"/>Greet <name ref="Priscilla">Priscilla</name> and<name ref="Aquila"> Aquila
+        </name>and the household of <name ref="Onesiphorus">Onesiphorus</name>. <v n="20"/><name
+            ref="Erastus">Erastus</name>
+        <description ref="Erastus" type="neutral">stayed in Corinth</description>, and I left <name
+            ref="Trophimus">Trophimus</name>
+        <description ref="Trophimus" type="neutral">sick in Miletus</description>. <v n="21"/>Do
+        your best to get here before winter. <name ref="Eubulus">Eubulus</name> greets you, and so
+        do <name ref="Pudens">Pudens</name>, <name ref="Linus">Linus</name>, <name ref="Claudia"
+            >Claudia</name> and all the brothers. <v n="22"/>The Lord be with your spirit. Grace be
+        with you. </conclusion>
+
+</book>

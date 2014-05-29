@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="epistleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<book>
+  <title>Philemon</title>
+  <metadata>
+    <character xml:id="Paul" class="complicated" ethnicity="jew" gender="male" age="adult"
+      ability="unspecified"/>
+    <character xml:id="Timothy" class="unspecified" ethnicity="jew" gender="male" age="adult"
+      ability="able"/>
+    <character xml:id="Philemon" ability="unspecified" age="adult" class="master"
+      ethnicity="gentile" gender="male"/>
+    <character xml:id="Apphia" gender="female" ethnicity="gentile" class="master" age="adult"
+      ability="unspecified"/>
+    <character xml:id="Archippus" ability="unspecified" age="adult" class="unspecified"
+      ethnicity="unspecified" gender="male"/>
+    <character xml:id="Onesimus" gender="male" ethnicity="gentile" class="slave" age="adult"
+      ability="able"/>
+    <character xml:id="Epaphras" ability="able" age="adult" class="unspecified" ethnicity="gentile"
+      gender="male"/>
+    <character xml:id="Mark" class="unspecified" gender="male" age="adult" ability="able"
+      ethnicity="jew"/>
+    <character xml:id="Aristarchus" ethnicity="jew" ability="able" age="adult" gender="male"
+      class="unspecified"/>
+    <character xml:id="Luke" ethnicity="jew" ability="able" age="adult" gender="male"
+      class="working"/>
+    <character xml:id="Demas" ethnicity="unspecified" ability="unspecified" age="adult"
+      gender="male" class="unspecified"/>
+  </metadata>
+
+  <opening><c n="1"/>
+    <v n="1"/><name ref="Paul">Paul</name>,<description ref="Paul" type="neutral"> a prisoner of
+      Christ Jesus</description>, and <name ref="Timothy">Timothy</name>
+    <description ref="Timothy" type="neutral">our brother</description>, <v n="2"/>To <name
+      ref="Philemon">Philemon</name>
+    <description ref="Philemon" type="good">our dear friend and fellow worker</description>, to
+      <name ref="Apphia">Apphia</name>
+    <description ref="Apphia" type="neutral">our sister</description>, to <name ref="Archippus"
+      >Archippus</name>
+    <description ref="Archippus" type="neutral">our fellow soldier</description> and to the church
+    that meets in your home: <v n="3"/>Grace to you and peace from God our Father and the Lord Jesus
+    Christ. </opening>
+  <body>
+    <section><v n="4"/>I always thank my God as I remember you in my prayers, <v n="5"/>because I
+      hear about your faith in the Lord Jesus and your love for all the saints. <v n="6"/>I pray
+      that you may be active in sharing your faith, so that you will have a full understanding of
+      every good thing we have in Christ. <v n="7"/>Your love has given me great joy and
+      encouragement, because you, brother, have refreshed the hearts of the saints. </section>
+    <section><v n="8"/>Therefore, although in Christ I could be bold and order you to do what you
+      ought to do, <v n="9"/>yet I appeal to you on the basis of love. I then, as <name ref="Paul"
+        >Paul</name>--<description ref="Paul" type="neutral">an old man and now also a prisoner of
+        Christ Jesus</description>-- <v n="10"/>I appeal to you for <description type="good"
+        ref="Onesimus">my son</description>
+      <name ref="Onesimus">Onesimus</name>, <description ref="Onesimus" type="neutral">who became my
+        son while I was in chains</description>. <v n="11"/><description type="good" ref="Onesimus"
+        >Formerly he was useless to you, but now he has become useful both to you and to
+        me.</description>
+      <v n="12"/>I am sending him--<description ref="Onesimus" type="good">who is my very
+        heart</description>--back to you. <v n="13"/>I would have liked to keep him with me so that
+      he could take your place in helping me while I am in chains for the gospel. <v n="14"/>But I
+      did not want to do anything without your consent, so that any favor you do will be spontaneous
+      and not forced. <v n="15"/>Perhaps the reason he was separated from you for a little while was
+      that you might have him back for good-- <v n="16"/>no longer as a slave, but better than a
+      slave, as a dear brother. <description type="good" ref="Onesimus">He is very dear to me but
+        even dearer to you, both as a man and as a brother in the Lord.</description>
+      <v n="17"/>So if you consider me a partner, welcome him as you would welcome me. <v n="18"/>If
+      he has done you any wrong or owes you anything, charge it to me. <v n="19"/>I, <name
+        ref="Paul">Paul</name>, am writing this with my own hand. I will pay it back--not to mention
+      that you owe me your very self. <v n="20"/>I do wish, brother, that I may have some benefit
+      from you in the Lord; refresh my heart in Christ. <v n="21"/>Confident of your obedience, I
+      write to you, knowing that you will do even more than I ask. <v n="22"/>And one thing more:
+      Prepare a guest room for me, because I hope to be restored to you in answer to your prayers.
+    </section>
+  </body>
+  <conclusion>
+    <v n="23"/><name ref="Epaphras">Epaphras</name>, <description ref="Epaphras" type="neutral">my
+      fellow prisoner in Christ Jesus,</description> sends you greetings. <v n="24"/>And so do <name
+      ref="Mark">Mark,</name>
+    <name ref="Aristarchus">Aristarchus</name>, <name ref="Demas">Demas</name> and <name ref="Luke"
+      >Luke</name>, <description type="neutral" ref="Luke Demas Aristarchus Mark">my fellow
+      workers</description>. <v n="25"/>The grace of the Lord Jesus Christ be with your spirit. </conclusion>
+
+</book>
