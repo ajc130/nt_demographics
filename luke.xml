@@ -41,6 +41,50 @@
                   age="adult" gender="male"/>
             <character class="working" ethnicity="jew" gender="male" age="adult" ability="able"
                   xml:id="Jesus"/>
+            <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
+                  ability="unspecified" xml:id="Theophilus"/>
+            <character gender="male" ethnicity="gentile" class="rich" xml:id="Herod" age="adult"
+                  ability="able"/>
+            <character xml:id="Zechariah" ability="able" age="elderly" class="religiousLeader"
+                  ethnicity="jew" gender="male"/>
+            <character xml:id="Elizabeth" ability="able" age="elderly" class="religiousLeader"
+                  ethnicity="jew" gender="female"/>
+            <character xml:id="angel" gender="unspecified" ethnicity="unspecified"
+                  class="unspecified" age="unspecified" ability="able"/>
+            <character class="poor" ethnicity="jew" gender="male" age="adult" ability="able"
+                  xml:id="John_the_Baptist"/>
+            <character class="working" ethnicity="jew" gender="female" age="adult" ability="able"
+                  xml:id="motherMary"/>
+            <character class="working" ethnicity="jew" gender="male" age="adult" ability="able"
+                  xml:id="Joseph"/>
+            <character xml:id="Caesar" class="rich" ethnicity="gentile" age="adult" ability="able"
+                  gender="male"/>
+            <character xml:id="Quirinius" ability="able" age="adult" class="rich"
+                  ethnicity="gentile" gender="male"/>
+            <character xml:id="sheperds" gender="male" ethnicity="jew" class="working" age="adult"
+                  ability="able"/>
+            <character xml:id="Simeon" ability="unspecified" age="elderly" class="unspecified"
+                  ethnicity="jew" gender="male"/>
+            <character xml:id="Anna" gender="female" ethnicity="jew" class="unspecified"
+                  age="elderly" ability="unspecified"/>
+            <character class="rich" ethnicity="gentile" gender="male" age="adult" ability="able"
+                  xml:id="TiberiusCaesar"/>
+            <character xml:id="Pilate" ability="able" age="adult" class="rich" ethnicity="gentile"
+                  gender="male"/>
+            <character xml:id="PhilipTetrarch" ability="able" age="adult" class="rich"
+                  ethnicity="gentile" gender="male"/>
+            <character xml:id="Lysanias" gender="male" ethnicity="gentile" class="rich" age="adult"
+                  ability="able"/>
+            <character xml:id="Annas" ethnicity="jew" class="religiousLeader" age="adult"
+                  ability="able" gender="male"/>
+            <character xml:id="Caiaphas" gender="male" ability="able" age="adult"
+                  class="religiousLeader" ethnicity="jew"/>
+            <character xml:id="taxCollector" ability="able" age="adult" class="rich" ethnicity="jew"
+                  gender="male"/>
+            <character xml:id="soldiers" gender="male" ethnicity="gentile" class="working"
+                  age="adult" ability="able"/>
+            <character gender="female" ethnicity="gentile" class="rich" ability="able" age="adult"
+                  xml:id="Herodias"/>
       </metadata>
       <body>
             <story><c n="1"/>
@@ -48,226 +92,405 @@
                   fulfilled among us, <v n="2"/>just as they were handed down to us by those who
                   from the first were eyewitnesses and servants of the word. <v n="3"/>Therefore,
                   since I myself have carefully investigated everything from the beginning, it
-                  seemed good also to me to write an orderly account for you, most excellent
-                  Theophilus, <v n="4"/>so that you may know the certainty of the things you have
-                  been taught. </story>
-            <story><v n="5"/>In the time of Herod king of Judea there was a priest named Zechariah,
-                  who belonged to the priestly division of Abijah; his wife Elizabeth was also a
-                  descendant of Aaron. <v n="6"/>Both of them were upright in the sight of God,
-                  observing all the Lord's commandments and regulations blamelessly. <v n="7"/>But
-                  they had no children, because Elizabeth was barren; and they were both well along
-                  in years. <v n="8"/>Once when Zechariah's division was on duty and he was serving
-                  as priest before God, <v n="9"/>he was chosen by lot, according to the custom of
-                  the priesthood, to go into the temple of the Lord and burn incense. <v n="10"/>And
-                  when the time for the burning of incense came, all the assembled worshipers were
-                  praying outside. <v n="11"/>Then an angel of the Lord appeared to him, standing at
-                  the right side of the altar of incense. <v n="12"/>When Zechariah saw him, he was
-                  startled and was gripped with fear. <v n="13"/>But the angel said to him: "Do not
-                  be afraid, Zechariah; your prayer has been heard. Your wife Elizabeth will bear
-                  you a son, and you are to give him the name John. <v n="14"/>He will be a joy and
-                  delight to you, and many will rejoice because of his birth, <v n="15"/>for he will
-                  be great in the sight of the Lord. He is never to take wine or other fermented
-                  drink, and he will be filled with the Holy Spirit even from birth. <v n="16"/>Many
-                  of the people of Israel will he bring back to the Lord their God. <v n="17"/>And
-                  he will go on before the Lord, in the spirit and power of Elijah, to turn the
-                  hearts of the fathers to their children and the disobedient to the wisdom of the
-                  righteous--to make ready a people prepared for the Lord." <v n="18"/>Zechariah
-                  asked the angel, "How can I be sure of this? I am an old man and my wife is well
-                  along in years." <v n="19"/>The angel answered, "I am Gabriel. I stand in the
-                  presence of God, and I have been sent to speak to you and to tell you this good
-                  news. <v n="20"/>And now you will be silent and not able to speak until the day
-                  this happens, because you did not believe my words, which will come true at their
-                  proper time." <v n="21"/>Meanwhile, the people were waiting for Zechariah and
-                  wondering why he stayed so long in the temple. <v n="22"/>When he came out, he
-                  could not speak to them. They realized he had seen a vision in the temple, for he
-                  kept making signs to them but remained unable to speak. <v n="23"/>When his time
-                  of service was completed, he returned home. <v n="24"/>After this his wife
-                  Elizabeth became pregnant and for five months remained in seclusion. <v n="25"
-                  />"The Lord has done this for me," she said. "In these days he has shown his favor
-                  and taken away my disgrace among the people."</story>
+                  seemed good also to me to write an orderly account for you, <description
+                        ref="Theophilus">most excellent</description>
+                  <name ref="Theophilus">Theophilus</name>, <v n="4"/>so that you may know the
+                  certainty of the things you have been taught. </story>
+            <story><v n="5"/>In the time of <name ref="Herod">Herod</name>
+                  <description ref="Herod">king of Judea</description> there was a priest named
+                        <name ref="Zechariah">Zechariah</name>, <description ref="Zechariah"> who
+                        belonged to the priestly division of Abijah;</description> his wife <name
+                        ref="Elizabeth">Elizabeth</name>
+                  <description ref="Elizabeth">was also a descendant of Aaron</description>. <v
+                        n="6"/><description ref="Elizabeth Zechariah">Both of them were upright in
+                        the sight of God, observing all the Lord's commandments and regulations
+                        blamelessly. <v n="7"/>But they had no children, because <name
+                              ref="Elizabeth">Elizabeth</name>
+                        <description ref="Elizabeth">was barren</description>; and they were both
+                        well along in years.</description>
+                  <v n="8"/>Once when <name ref="Zechariah">Zechariah</name>'s <description
+                        ref="Zechariah">division was on duty and he was serving as priest before
+                        God, <v n="9"/>he was chosen by lot, according to the custom of the
+                        priesthood, to go into the temple of the Lord and burn
+                  incense</description>. <v n="10"/>And when the time for the burning of incense
+                  came, <name ref="crowd">all the assembled worshipers</name>
+                  <description ref="crowd">were praying outside</description>. <v n="11"/>Then an
+                  angel of the Lord appeared to him, standing at the right side of the altar of
+                  incense. <v n="12"/>When <name ref="Zechariah">Zechariah</name>
+                  <action ref="Zechariah">saw him, he was startled and was gripped with
+                        fear</action>.<conversation>
+                        <v n="13"/>But the angel said to him: <speech ref="angel" genre="blessing"
+                              tone="instructive">"Do not be afraid, <name ref="Zechariah"
+                                    >Zechariah;</name> your prayer has been heard. Your wife <name
+                                    ref="Elizabeth">Elizabeth</name> will bear you a son, and you
+                              are to give him the name <name ref="John_the_Baptist">John</name>. <v
+                                    n="14"/><description ref="John_the_Baptist">He will be a joy and
+                                    delight to you, and many will rejoice because of his birth, <v
+                                          n="15"/>for he will be great in the sight of the Lord. He
+                                    is never to take wine or other fermented drink, and he will be
+                                    filled with the Holy Spirit even from birth. <v n="16"/>Many of
+                                    the people of Israel will he bring back to the Lord their God.
+                                          <v n="17"/>And he will go on before the Lord, in the
+                                    spirit and power of Elijah, to turn the hearts of the fathers to
+                                    their children and the disobedient to the wisdom of the
+                                    righteous--to make ready a people prepared for the
+                                    Lord.</description>"</speech>
+                        <v n="18"/><name ref="Zechariah">Zechariah</name> asked the angel, <speech
+                              ref="Zechariah" tone="confused" type="question">"How can I be sure of
+                              this? <description ref="Zechariah">I am an old man </description>and
+                                    <description ref="Elizabeth"> my wife is well along in
+                                    years</description>." </speech><v n="19"/>The angel answered,
+                              <speech ref="angel" type="statement" tone="condemning">"I am Gabriel.
+                              I stand in the presence of God, and I have been sent to speak to you
+                              and to tell you this good news. <v n="20"/>And now you will be silent
+                              and not able to speak until the day this happens, because you did not
+                              believe my words, which will come true at their proper time."</speech>
+                        <v n="21"/>Meanwhile, the people were waiting for <name ref="Zechariah"
+                              >Zechariah</name> and wondering why he stayed so long in the temple.
+                              <v n="22"/>When he came out, <description ref="Zechariah">he could not
+                              speak to them</description>. They realized he had seen a vision in the
+                        temple, for <action ref="Zechariah">he kept making signs to them but
+                              remained unable to speak</action>. <v n="23"/>When his time of service
+                        was completed, he returned home. <v n="24"/>After this his wife <name
+                              ref="Elizabeth">Elizabeth</name>
+                        <description ref="Elizabeth">became pregnant and for five months remained in
+                              seclusion</description>. <v n="25"/><speech ref="Elizabeth"
+                              tone="unspecified" type="statement">"The Lord has done this for me,"
+                              she said. "In these days he has shown his favor and taken away my
+                              disgrace among the people.</speech></conversation>"</story>
             <story><v n="26"/>In the sixth month, God sent the angel Gabriel to Nazareth, a town in
-                  Galilee, <v n="27"/>to a virgin pledged to be married to a man named Joseph, a
-                  descendant of David. The virgin's name was Mary. <v n="28"/>The angel went to her
-                  and said, "Greetings, you who are highly favored! The Lord is with you." <v n="29"
-                  />Mary was greatly troubled at his words and wondered what kind of greeting this
-                  might be. <v n="30"/>But the angel said to her, "Do not be afraid, Mary, you have
-                  found favor with God. <v n="31"/>You will be with child and give birth to a son,
-                  and you are to give him the name Jesus. <v n="32"/>He will be great and will be
-                  called the Son of the Most High. The Lord God will give him the throne of his
-                  father David, <v n="33"/>and he will reign over the house of Jacob forever; his
-                  kingdom will never end." <v n="34"/>"How will this be," Mary asked the angel,
-                  "since I am a virgin?" <v n="35"/>The angel answered, "The Holy Spirit will come
-                  upon you, and the power of the Most High will overshadow you. So the holy one to
-                  be born will be called the Son of God. <v n="36"/>Even Elizabeth your relative is
-                  going to have a child in her old age, and she who was said to be barren is in her
-                  sixth month. <v n="37"/>For nothing is impossible with God." <v n="38"/>"I am the
-                  Lord's servant," Mary answered. "May it be to me as you have said." Then the angel
-                  left her.</story>
-            <story><v n="39"/>At that time Mary got ready and hurried to a town in the hill country
-                  of Judea, <v n="40"/>where she entered Zechariah's home and greeted Elizabeth. <v
-                        n="41"/>When Elizabeth heard Mary's greeting, the baby leaped in her womb,
-                  and Elizabeth was filled with the Holy Spirit. <v n="42"/>In a loud voice she
-                  exclaimed: "Blessed are you among women, and blessed is the child you will bear!
-                        <v n="43"/>But why am I so favored, that the mother of my Lord should come
-                  to me? <v n="44"/>As soon as the sound of your greeting reached my ears, the baby
-                  in my womb leaped for joy. <v n="45"/>Blessed is she who has believed that what
-                  the Lord has said to her will be accomplished!"</story>
-            <story><v n="46"/>And Mary said: "My soul glorifies the Lord <v n="47"/>and my spirit
-                  rejoices in God my Savior, <v n="48"/>for he has been mindful of the humble state
-                  of his servant. From now on all generations will call me blessed, <v n="49"/>for
-                  the Mighty One has done great things for me--holy is his name. <v n="50"/>His
-                  mercy extends to those who fear him, from generation to generation. <v n="51"/>He
-                  has performed mighty deeds with his arm; he has scattered those who are proud in
-                  their inmost thoughts. <v n="52"/>He has brought down rulers from their thrones
-                  but has lifted up the humble. <v n="53"/>He has filled the hungry with good things
-                  but has sent the rich away empty. <v n="54"/>He has helped his servant Israel,
-                  remembering to be merciful <v n="55"/>to Abraham and his descendants forever, even
-                  as he said to our fathers." <v n="56"/>Mary stayed with Elizabeth for about three
-                  months and then returned home. </story>
-            <story><v n="57"/>When it was time for Elizabeth to have her baby, she gave birth to a
-                  son. <v n="58"/>Her neighbors and relatives heard that the Lord had shown her
-                  great mercy, and they shared her joy. <v n="59"/>On the eighth day they came to
-                  circumcise the child, and they were going to name him after his father Zechariah,
-                        <v n="60"/>but his mother spoke up and said, "No! He is to be called John."
-                        <v n="61"/>They said to her, "There is no one among your relatives who has
-                  that name." <v n="62"/>Then they made signs to his father, to find out what he
-                  would like to name the child. <v n="63"/>He asked for a writing tablet, and to
-                  everyone's astonishment he wrote, "His name is John." <v n="64"/>Immediately his
-                  mouth was opened and his tongue was loosed, and he began to speak, praising God.
-                        <v n="65"/>The neighbors were all filled with awe, and throughout the hill
-                  country of Judea people were talking about all these things. <v n="66"/>Everyone
-                  who heard this wondered about it, asking, "What then is this child going to be?"
-                  For the Lord's hand was with him.</story>
-            <story><v n="67"/>His father Zechariah was filled with the Holy Spirit and prophesied:
-                        <v n="68"/>"Praise be to the Lord, the God of Israel, because he has come
-                  and has redeemed his people. <v n="69"/>He has raised up a horn of salvation for
-                  us in the house of his servant David <v n="70"/>(as he said through his holy
-                  prophets of long ago), <v n="71"/>salvation from our enemies and from the hand of
-                  all who hate us-- <v n="72"/>to show mercy to our fathers and to remember his holy
-                  covenant, <v n="73"/>the oath he swore to our father Abraham: <v n="74"/>to rescue
-                  us from the hand of our enemies, and to enable us to serve him without fear <v
-                        n="75"/>in holiness and righteousness before him all our days. <v n="76"
-                  />And you, my child, will be called a prophet of the Most High; for you will go on
-                  before the Lord to prepare the way for him, <v n="77"/>to give his people the
-                  knowledge of salvation through the forgiveness of their sins, <v n="78"/>because
-                  of the tender mercy of our God, by which the rising sun will come to us from
-                  heaven <v n="79"/>to shine on those living in darkness and in the shadow of death,
-                  to guide our feet into the path of peace." <v n="80"/>And the child grew and
-                  became strong in spirit; and he lived in the desert until he appeared publicly to
-                  Israel. </story>
+                  Galilee, <v n="27"/>to <description ref="motherMary">a virgin pledged to be
+                        married to a man named <name ref="Joseph">Joseph</name>,</description>
+                  <description ref="Joseph">a descendant of David.</description> The virgin's name
+                  was <name ref="motherMary">Mary</name>.<conversation>
+                        <v n="28"/>The angel went to her and said,<speech ref="angel"
+                              type="greeting" tone="kind"> "Greetings, you who are highly favored!
+                              The Lord is with you." </speech><v n="29"/><name ref="motherMary"
+                              >Mary</name>
+                        <action ref="motherMary">was greatly troubled at his words and wondered what
+                              kind of greeting this might be</action>. <v n="30"/>But the angel said
+                        to her, <speech ref="angel" tone="kind" type="statement">"Do not be afraid,
+                                    <name ref="motherMary">Mary</name>, you have found favor with
+                              God. <v n="31"/>You will be with child and give birth to a son, and
+                              you are to give him the name Jesus. <v n="32"/>He will be great and
+                              will be called the Son of the Most High. The Lord God will give him
+                              the throne of his father David, <v n="33"/>and he will reign over the
+                              house of Jacob forever; his kingdom will never end."</speech>
+                        <v n="34"/><speech ref="motherMary" type="question" tone="confused">"How
+                              will this be,"</speech>
+                        <name ref="motherMary">Mary</name> asked the angel, <speech tone="confused"
+                              type="question" ref="motherMary">"since I am a virgin?"</speech>
+                        <v n="35"/>The angel answered, <speech ref="angel" type="statement"
+                              tone="kind">"The Holy Spirit will come upon you, and the power of the
+                              Most High will overshadow you. So the holy one to be born will be
+                              called the Son of God. <v n="36"/>Even <name ref="Elizabeth"
+                                    >Elizabeth</name>
+                              <description ref="Elizabeth">your relative is going to have a child in
+                                    her old age, and she who was said to be barren is in her sixth
+                                    month.</description>
+                              <v n="37"/>For nothing is impossible with God."</speech>
+                        <v n="38"/><speech ref="motherMary" tone="unspecified" type="statement">"I
+                              am the Lord's servant," </speech>Mary answered. <speech
+                              type="statement" tone="unspecified" ref="motherMary">"May it be to me
+                              as you have said.</speech>"</conversation> Then the angel left
+                  her.</story>
+            <story><v n="39"/>At that time <name ref="motherMary">Mary</name>
+                  <action ref="motherMary">got ready and hurried to a town in the hill country of
+                        Judea, <v n="40"/>where she entered <name ref="Zechariah">Zechariah</name>'s
+                        home and greeted <name ref="Elizabeth">Elizabeth</name></action>. <v n="41"
+                  />When <name ref="Elizabeth">Elizabeth</name>
+                  <action ref="motherMary">heard <name ref="motherMary">Mary</name>'s
+                        greeting</action>,<action ref="John_the_Baptist"> the baby leaped in her
+                        womb</action>, and <name ref="Elizabeth">Elizabeth</name>
+                  <description ref="Elizabeth">was filled with the Holy Spirit</description>.
+                              <monologue><v n="42"/><action ref="Elizabeth">In a loud voice she
+                              exclaimed:</action>
+                        <speech ref="Elizabeth" tone="unspecified" genre="blessing">"Blessed are you
+                              among women, and blessed is the child you will bear! <v n="43"/>But
+                              why am I so favored, that the mother of my Lord should come to me? <v
+                                    n="44"/>As soon as the sound of your greeting reached my ears,
+                              the baby in my womb leaped for joy. <v n="45"/>Blessed is she who has
+                              believed that what the Lord has said to her will be
+                              accomplished!"</speech></monologue></story>
+            <story><monologue><v n="46"/>And <name ref="motherMary">Mary</name> said: <speech
+                              ref="motherMary" genre="blessing" tone="unspecified">"My soul
+                              glorifies the Lord <v n="47"/>and my spirit rejoices in God my Savior,
+                                    <v n="48"/>for he has been mindful of the humble state of his
+                              servant. From now on all generations will call me blessed, <v n="49"
+                              />for the Mighty One has done great things for me--holy is his name.
+                                    <v n="50"/>His mercy extends to those who fear him, from
+                              generation to generation. <v n="51"/>He has performed mighty deeds
+                              with his arm; he has scattered those who are proud in their inmost
+                              thoughts. <v n="52"/>He has brought down rulers from their thrones but
+                              has lifted up the humble. <v n="53"/>He has filled the hungry with
+                              good things but has sent the rich away empty. <v n="54"/>He has helped
+                              his servant Israel, remembering to be merciful <v n="55"/>to Abraham
+                              and his descendants forever, even as he said to our
+                        fathers."</speech></monologue>
+                  <v n="56"/><name ref="motherMary">Mary</name>
+                  <action ref="motherMary">stayed with <name ref="Elizabeth">Elizabeth</name> for
+                        about three months and then returned home</action>. </story>
+            <story><v n="57"/>When it was time for <name ref="Elizabeth">Elizabeth</name> to have
+                  her baby, <action ref="Elizabeth">she gave birth to a son</action>. <v n="58"
+                        /><name ref="somePeople">Her neighbors and relatives</name>
+                  <action ref="somePeople">heard that the Lord had shown her great mercy, and they
+                        shared her joy</action>. <action ref="somePeople"><v n="59"/>On the eighth
+                        day they came to circumcise the child, and they were going to name him after
+                        his father <name ref="Zechariah">Zechariah</name>,</action>
+                  <conversation><v n="60"/>but <action ref="Elizabeth">his mother spoke up and
+                              said,</action>
+                        <speech ref="Elizabeth" tone="unspecified" type="statement">"No! He is to be
+                              called <name ref="John_the_Baptist">John</name>."</speech>
+                        <v n="61"/>They said to her, <speech ref="somePeople" type="statement"
+                              tone="confused">"There is no one among your relatives who has that
+                              name."</speech>
+                        <v n="62"/><action ref="somePeople">Then they made signs to his father, to
+                              find out what he would like to name the child</action>. <v n="63"
+                              /><action ref="Zechariah">He asked for a writing tablet, and to
+                              everyone's astonishment he wrote</action>, <speech ref="Zechariah"
+                              tone="unspecified" type="statement">"His name is <name
+                                    ref="John_the_Baptist">John</name>."</speech>
+                        <v n="64"/><description ref="John_the_Baptist">Immediately his mouth was
+                              opened and his tongue was loosed</description>, and <action
+                              ref="Zechariah">he began to speak, praising God</action>. <v n="65"
+                              /><description ref="somePeople">The neighbors were all filled with
+                              awe, and throughout the hill country of Judea people were talking
+                              about all these things</description>. <v n="66"/><action
+                              ref="somePeople">Everyone who heard this wondered about it,
+                              asking</action>, <speech ref="somePeople" type="question"
+                              tone="confused">"What then is this child going to
+                        be?"</speech></conversation>
+                  <description ref="John_the_Baptist">For the Lord's hand was with
+                        him.</description></story>
+            <story><monologue><v n="67"/>His father <name ref="Zechariah">Zechariah</name>
+                        <description ref="Zechariah">was filled with the Holy Spirit and
+                              prophesied</description>: <speech ref="Zechariah" tone="instructive"
+                              genre="prophesy">
+                              <v n="68"/>"Praise be to the Lord, the God of Israel, because he has
+                              come and has redeemed his people. <v n="69"/>He has raised up a horn
+                              of salvation for us in the house of his servant David <v n="70"/>(as
+                              he said through his holy prophets of long ago), <v n="71"/>salvation
+                              from our enemies and from the hand of all who hate us-- <v n="72"/>to
+                              show mercy to our fathers and to remember his holy covenant, <v n="73"
+                              />the oath he swore to our father Abraham: <v n="74"/>to rescue us
+                              from the hand of our enemies, and to enable us to serve him without
+                              fear <v n="75"/>in holiness and righteousness before him all our days.
+                                    <description ref="John_the_Baptist"><v n="76"/>And you, my
+                                    child, will be called a prophet of the Most High; for you will
+                                    go on before the Lord to prepare the way for him, <v n="77"/>to
+                                    give his people the knowledge of salvation through the
+                                    forgiveness of their sins, <v n="78"/>because of the tender
+                                    mercy of our God, by which the rising sun will come to us from
+                                    heaven <v n="79"/>to shine on those living in darkness and in
+                                    the shadow of death, to guide our feet into the path of
+                                    peace</description>.</speech></monologue>" <v n="80"/><action
+                        ref="John_the_Baptist">And the child grew and became strong in spirit; and
+                        he lived in the desert until he appeared publicly to Israel.</action>
+            </story>
             <story><c n="2"/>
-                  <v n="1"/>In those days Caesar Augustus issued a decree that a census should be
-                  taken of the entire Roman world. <v n="2"/>(This was the first census that took
-                  place while Quirinius was governor of Syria.) <v n="3"/>And everyone went to his
-                  own town to register. <v n="4"/>So Joseph also went up from the town of Nazareth
-                  in Galilee to Judea, to Bethlehem the town of David, because he belonged to the
-                  house and line of David. <v n="5"/>He went there to register with Mary, who was
-                  pledged to be married to him and was expecting a child. <v n="6"/>While they were
-                  there, the time came for the baby to be born, <v n="7"/>and she gave birth to her
-                  firstborn, a son. She wrapped him in cloths and placed him in a manger, because
-                  there was no room for them in the inn. <v n="8"/>And there were shepherds living
-                  out in the fields nearby, keeping watch over their flocks at night. <v n="9"/>An
-                  angel of the Lord appeared to them, and the glory of the Lord shone around them,
-                  and they were terrified. <v n="10"/>But the angel said to them, "Do not be afraid.
-                  I bring you good news of great joy that will be for all the people. <v n="11"
-                  />Today in the town of David a Savior has been born to you; he is Christ the Lord.
-                        <v n="12"/>This will be a sign to you: You will find a baby wrapped in
-                  cloths and lying in a manger." <v n="13"/>Suddenly a great company of the heavenly
-                  host appeared with the angel, praising God and saying, <v n="14"/>"Glory to God in
-                  the highest, and on earth peace to men on whom his favor rests." <v n="15"/>When
-                  the angels had left them and gone into heaven, the shepherds said to one another,
-                  "Let's go to Bethlehem and see this thing that has happened, which the Lord has
-                  told us about." <v n="16"/>So they hurried off and found Mary and Joseph, and the
-                  baby, who was lying in the manger. <v n="17"/>When they had seen him, they spread
-                  the word concerning what had been told them about this child, <v n="18"/>and all
-                  who heard it were amazed at what the shepherds said to them. <v n="19"/>But Mary
-                  treasured up all these things and pondered them in her heart. <v n="20"/>The
-                  shepherds returned, glorifying and praising God for all the things they had heard
-                  and seen, which were just as they had been told. <v n="21"/>On the eighth day,
-                  when it was time to circumcise him, he was named Jesus, the name the angel had
-                  given him before he had been conceived. </story>
+                  <v n="1"/>In those days <name ref="Caesar">Caesar Augustus</name><action
+                        ref="Caesar"> issued a decree that a census should be taken of the entire
+                        Roman world</action>. <v n="2"/>(This was the first census that took place
+                  while <name ref="Quirinius">Quirinius</name>
+                  <description ref="Quirinius">was governor of Syria</description>.) <v n="3"/>And
+                        <name ref="crowd">everyone</name>
+                  <action ref="crowd">went to his own town to register</action>. <v n="4"/>So <name
+                        ref="Joseph">Joseph</name><action ref="Joseph"> also went up from the town
+                        of Nazareth in Galilee to Judea, to Bethlehem the town of David</action>,
+                        <description ref="Joseph">because he belonged to the house and line of
+                        David</description>. <action ref="Joseph">
+                        <v n="5"/>He went there to register with <name ref="motherMary"
+                        >Mary</name></action>, <description ref="motherMary">who was pledged to be
+                        married to him and was expecting a child</description>. <v n="6"/>While they
+                  were there, the time came for the baby to be born, <v n="7"/>and <action
+                        ref="motherMary">she gave birth to her firstborn, a son. She wrapped him in
+                        cloths and placed him in a manger, because there was no room for them in the
+                        inn</action>. <v n="8"/>And there were <name ref="sheperds">shepherds</name>
+                  <description ref="sheperds">living out in the fields nearby, keeping watch over
+                        their flocks at night</description>. <v n="9"/>An angel of the Lord appeared
+                  to them, and the glory of the Lord shone around them, and <description
+                        ref="sheperds">they were terrified</description>.<conversation>
+                        <v n="10"/>But the angel said to them, <speech ref="angel" type="statement"
+                              tone="instructive"> "Do not be afraid. I bring you good news of great
+                              joy that will be for all the people. <v n="11"/>Today in the town of
+                              David a Savior has been born to you; he is Christ the Lord. <v n="12"
+                              />This will be a sign to you: You will find a baby wrapped in cloths
+                              and lying in a manger."</speech>
+                        <v n="13"/>Suddenly a great company of the heavenly host appeared with the
+                        angel, praising God and saying, <v n="14"/><speech tone="unspecified"
+                              type="blessing" ref="angel">"Glory to God in the highest, and on earth
+                              peace to men on whom his favor rests."</speech>
+                        <v n="15"/>When the angels had left them and gone into heaven, <name
+                              ref="sheperds">the shepherds</name>
+                        <action ref="sheperds">said to one another</action>, "<speech ref="sheperds"
+                              type="statement" tone="unspecified">Let's go to Bethlehem and see this
+                              thing that has happened, which the Lord has told us
+                        about."</speech></conversation>
+                  <v n="16"/>So <action ref="sheperds">they hurried off and found <name
+                              ref="motherMary">Mary</name> and <name ref="Joseph">Joseph</name>, and
+                        the baby</action>, who was lying in the manger. <v n="17"/>When they had
+                  seen him, <action ref="sheperds">they spread the word concerning what had been
+                        told them about this child</action>, <v n="18"/>and <name ref="crowd">all
+                        who heard it</name>
+                  <description ref="crowd">were amazed at what <name ref="sheperds">the
+                              shepherds</name> said to them</description>. <v n="19"/>But<name
+                        ref="motherMary"> Mary</name>
+                  <action ref="motherMary">treasured up all these things and pondered them in her
+                        heart</action>. <v n="20"/><name ref="sheperds">The shepherds</name><action
+                        ref="sheperds"> returned, glorifying and praising God for all the things
+                        they had heard and seen, which were just as they had been told</action>. <v
+                        n="21"/>On the eighth day, when it was time to circumcise him, he was named
+                  Jesus, the name the angel had given him before he had been conceived. </story>
             <story><v n="22"/>When the time of their purification according to the Law of Moses had
-                  been completed, Joseph and Mary took him to Jerusalem to present him to the Lord
-                        <v n="23"/>(as it is written in the Law of the Lord, "Every firstborn male
-                  is to be consecrated to the Lord" ), <v n="24"/>and to offer a sacrifice in
-                  keeping with what is said in the Law of the Lord: "a pair of doves or two young
-                  pigeons." <v n="25"/>Now there was a man in Jerusalem called Simeon, who was
-                  righteous and devout. He was waiting for the consolation of Israel, and the Holy
-                  Spirit was upon him. <v n="26"/>It had been revealed to him by the Holy Spirit
-                  that he would not die before he had seen the Lord's Christ. <v n="27"/>Moved by
-                  the Spirit, he went into the temple courts. When the parents brought in the child
-                  Jesus to do for him what the custom of the Law required, <v n="28"/>Simeon took
-                  him in his arms and praised God, saying: <v n="29"/>"Sovereign Lord, as you have
-                  promised, you now dismiss your servant in peace. <v n="30"/>For my eyes have seen
-                  your salvation, <v n="31"/>which you have prepared in the sight of all people, <v
-                        n="32"/>a light for revelation to the Gentiles and for glory to your people
-                  Israel." <v n="33"/>The child's father and mother marveled at what was said about
-                  him. <v n="34"/>Then Simeon blessed them and said to Mary, his mother: "This child
-                  is destined to cause the falling and rising of many in Israel, and to be a sign
-                  that will be spoken against, <v n="35"/>so that the thoughts of many hearts will
-                  be revealed. And a sword will pierce your own soul too." <v n="36"/>There was also
-                  a prophetess, Anna, the daughter of Phanuel, of the tribe of Asher. She was very
-                  old; she had lived with her husband seven years after her marriage, <v n="37"/>and
-                  then was a widow until she was eighty-four. She never left the temple but
-                  worshiped night and day, fasting and praying. <v n="38"/>Coming up to them at that
-                  very moment, she gave thanks to God and spoke about the child to all who were
-                  looking forward to the redemption of Jerusalem. <v n="39"/>When Joseph and Mary
-                  had done everything required by the Law of the Lord, they returned to Galilee to
-                  their own town of Nazareth. <v n="40"/>And the child grew and became strong; he
-                  was filled with wisdom, and the grace of God was upon him.</story>
-            <story><v n="41"/>Every year his parents went to Jerusalem for the Feast of the
-                  Passover. <v n="42"/>When he was twelve years old, they went up to the Feast,
-                  according to the custom. <v n="43"/>After the Feast was over, while his parents
-                  were returning home, the boy Jesus stayed behind in Jerusalem, but they were
-                  unaware of it. <v n="44"/>Thinking he was in their company, they traveled on for a
-                  day. Then they began looking for him among their relatives and friends. <v n="45"
-                  />When they did not find him, they went back to Jerusalem to look for him. <v
-                        n="46"/>After three days they found him in the temple courts, sitting among
-                  the teachers, listening to them and asking them questions. <v n="47"/>Everyone who
-                  heard him was amazed at his understanding and his answers. <v n="48"/>When his
-                  parents saw him, they were astonished. His mother said to him, "Son, why have you
-                  treated us like this? Your father and I have been anxiously searching for you." <v
-                        n="49"/>"Why were you searching for me?" he asked. "Didn't you know I had to
-                  be in my Father's house?" <v n="50"/>But they did not understand what he was
-                  saying to them. <v n="51"/>Then he went down to Nazareth with them and was
-                  obedient to them. But his mother treasured all these things in her heart. <v
-                        n="52"/>And Jesus grew in wisdom and stature, and in favor with God and
-                  men.</story>
+                  been completed, <name ref="Joseph">Joseph</name> and<name ref="motherMary">
+                        Mary</name>
+                  <action ref="Joseph motherMary">took him to Jerusalem to present him to the Lord
+                              <v n="23"/>(as it is written in the Law of the Lord, "Every firstborn
+                        male is to be consecrated to the Lord" ), <v n="24"/>and to offer a
+                        sacrifice in keeping with what is said in the Law of the Lord: "a pair of
+                        doves or two young pigeons." </action><v n="25"/>Now there was a man in
+                  Jerusalem called<name ref="Simeon"> Simeon</name>, <description ref="Simeon">who
+                        was righteous and devout</description>. <description ref="Simeon">He was
+                        waiting for the consolation of Israel, and the Holy Spirit was upon
+                        him.</description>
+                  <v n="26"/>It had been revealed to him by the Holy Spirit that <description
+                        ref="Simeon">he would not die before he had seen the Lord's
+                        Christ</description>. <v n="27"/>Moved by the Spirit, <action ref="Simeon"
+                        >he went into the temple courts</action>.<monologue> When the parents
+                        brought in the child Jesus to do for him what the custom of the Law
+                        required, <v n="28"/><name ref="Simeon">Simeon</name>
+                        <action ref="Simeon">took him in his arms and praised God, saying:</action>
+                        <speech ref="Simeon" genre="prophesy" tone="unspecified"><v n="29"
+                              />"Sovereign Lord, as you have promised, you now dismiss your servant
+                              in peace. <v n="30"/>For my eyes have seen your salvation, <v n="31"
+                              />which you have prepared in the sight of all people, <v n="32"/>a
+                              light for revelation to the Gentiles and for glory to your people
+                              Israel." </speech><v n="33"/><description ref="motherMary Joseph">The
+                              child's father and mother marveled at what was said about
+                              him.</description>
+                        <v n="34"/>Then <name ref="Simeon">Simeon</name>
+                        <action ref="Simeon">blessed them and said to <name ref="motherMary"
+                                    >Mary</name>, his mother</action>:<speech ref="Simeon"
+                              tone="unspecified" genre="prophesy"> "This child is destined to cause
+                              the falling and rising of many in Israel, and to be a sign that will
+                              be spoken against, <v n="35"/>so that the thoughts of many hearts will
+                              be revealed. And a sword will pierce your own soul
+                        too."</speech></monologue>
+                  <v n="36"/>There was also <description ref="Anna">a prophetess, <name ref="Anna"
+                              >Anna</name>, the daughter of Phanuel, of the tribe of
+                        Asher</description>. <description ref="Anna">She was very old; she had lived
+                        with her husband seven years after her marriage, <v n="37"/>and then was a
+                        widow until she was eighty-four. She never left the temple but worshiped
+                        night and day, fasting and praying.</description>
+                  <v n="38"/><action ref="Anna">Coming up to them at that very moment, she gave
+                        thanks to God and spoke about the child to all who were looking forward to
+                        the redemption of Jerusalem</action>. <v n="39"/>When <name ref="Joseph"
+                        >Joseph</name> and <name ref="motherMary">Mary</name>
+                  <action ref="motherMary Joseph">had done everything required by the Law of the
+                        Lord, they returned to Galilee to their own town of Nazareth</action>. <v
+                        n="40"/>And the child grew and became strong; he was filled with wisdom, and
+                  the grace of God was upon him.</story>
+            <story><v n="41"/><description ref="Joseph motherMary">Every year his parents went to
+                        Jerusalem for the Feast of the Passover</description>. <v n="42"/>When he
+                  was twelve years old, <action ref="motherMary Joseph">they went up to the Feast,
+                        according to the custom</action>. <v n="43"/>After the Feast was over,
+                        <description ref="Joseph motherMary">while his parents were returning home,
+                        the boy Jesus stayed behind in Jerusalem, but they were unaware of
+                        it</description>. <v n="44"/><action ref="motherMary Joseph">Thinking he was
+                        in their company, they traveled on for a day. Then they began looking for
+                        him among their relatives and friends. <v n="45"/>When they did not find
+                        him, they went back to Jerusalem to look for him.</action>
+                  <v n="46"/><action ref="Joseph motherMary">After three days they found
+                        him</action> in the temple courts, sitting among <name ref="lawTeachers">the
+                        teachers</name>, listening to them and asking them questions. <v n="47"
+                        /><description ref="lawTeachers">Everyone who heard him was amazed at his
+                        understanding and his answers.</description>
+                  <description ref=" Joseph"><v n="48"/>When his parents saw him, they were
+                        astonished</description>. <conversation>His mother said to him, <speech
+                              type="question" tone="confused" ref="motherMary">"Son, why have you
+                              treated us like this? Your father and I have been anxiously searching
+                              for you."</speech>
+                        <v n="49"/><speech ref="Jesus" tone="unspecified" type="question">"Why were
+                              you searching for me?" he asked. "Didn't you know I had to be in my
+                              Father's house?"</speech></conversation>
+                  <v n="50"/>But <description ref="motherMary Joseph">they did not understand what
+                        he was saying to them</description>. <v n="51"/>Then he went down to
+                  Nazareth with them and was obedient to them. <action ref="motherMary">But his
+                        mother treasured all these things in her heart</action>. <v n="52"/>And
+                  Jesus grew in wisdom and stature, and in favor with God and men.</story>
             <story><c n="3"/>
-                  <v n="1"/>In the fifteenth year of the reign of Tiberius Caesar--when Pontius
-                  Pilate was governor of Judea, Herod tetrarch of Galilee, his brother Philip
-                  tetrarch of Iturea and Traconitis, and Lysanias tetrarch of Abilene-- <v n="2"
-                  />during the high priesthood of Annas and Caiaphas, the word of God came to John
-                  son of Zechariah in the desert. <v n="3"/>He went into all the country around the
-                  Jordan, preaching a baptism of repentance for the forgiveness of sins. <v n="4"
-                  />As is written in the book of the words of Isaiah the prophet: "A voice of one
-                  calling in the desert, 'Prepare the way for the Lord, make straight paths for him.
-                        <v n="5"/>Every valley shall be filled in, every mountain and hill made low.
-                  The crooked roads shall become straight, the rough ways smooth. <v n="6"/>And all
-                  mankind will see God's salvation.'" <v n="7"/>John said to the crowds coming out
-                  to be baptized by him, "You brood of vipers! Who warned you to flee from the
-                  coming wrath? <v n="8"/>Produce fruit in keeping with repentance. And do not begin
-                  to say to yourselves, 'We have Abraham as our father.' For I tell you that out of
-                  these stones God can raise up children for Abraham. <v n="9"/>The ax is already at
-                  the root of the trees, and every tree that does not produce good fruit will be cut
-                  down and thrown into the fire." <v n="10"/>"What should we do then?" the crowd
-                  asked. <v n="11"/>John answered, "The man with two tunics should share with him
-                  who has none, and the one who has food should do the same." <v n="12"/>Tax
-                  collectors also came to be baptized. "Teacher," they asked, "what should we do?"
-                        <v n="13"/>"Don't collect any more than you are required to," he told <v
-                        n="14"/>them. Then some soldiers asked him, "And what should we do?" He
-                  replied, "Don't extort money and don't accuse people falsely--be content with your
-                  pay." <v n="15"/>The people were waiting expectantly and were all wondering in
-                  their hearts if John might possibly be the Christ. <v n="16"/>John answered them
-                  all, "I baptize you with water. But one more powerful than I will come, the thongs
-                  of whose sandals I am not worthy to untie. He will baptize you with the Holy
-                  Spirit and with fire. <v n="17"/>His winnowing fork is in his hand to clear his
-                  threshing floor and to gather the wheat into his barn, but he will burn up the
-                  chaff with unquenchable fire." <v n="18"/>And with many other words John exhorted
-                  the people and preached the good news to them. <v n="19"/>But when John rebuked
-                  Herod the tetrarch because of Herodias, his brother's wife, and all the other evil
-                  things he had done, <v n="20"/>Herod added this to them all: He locked John up in
-                  prison.</story>
+                  <v n="1"/>In the fifteenth year of the reign of <name ref="Caesar">Tiberius
+                        Caesar</name>--when <name ref="Pilate">Pontius Pilate</name><description
+                        ref="Pilate"> was governor of Judea</description>, <name ref="Herod"
+                        >Herod</name>
+                  <description ref="Herod">tetrarch of Galilee</description>,<description
+                        ref="PhilipTetrarch"> his brother <name ref="PhilipTetrarch">Philip</name>
+                        tetrarch of Iturea and Traconitis</description>, and <name ref="Lysanias"
+                        >Lysanias</name>
+                  <description ref="Lysanias">tetrarch of Abilene</description>-- <v n="2"/>during
+                  the high priesthood of <name ref="Annas">Annas</name> and <name ref="Caiaphas"
+                        >Caiaphas</name>, the word of God came to <name ref="John_the_Baptist"
+                        >John</name>
+                  <description ref="John_the_Baptist">son of <name ref="Zechariah"
+                        >Zechariah</name></description> in the desert. <v n="3"/><action
+                        ref="John_the_Baptist">He went into all the country around the Jordan,
+                        preaching a baptism of repentance for the forgiveness of sins</action>. <v
+                        n="4"/>As is written in the book of the words of Isaiah the prophet: "A
+                  voice of one calling in the desert, 'Prepare the way for the Lord, make straight
+                  paths for him. <v n="5"/>Every valley shall be filled in, every mountain and hill
+                  made low. The crooked roads shall become straight, the rough ways smooth. <v n="6"
+                  />And all mankind will see God's salvation.'" <conversation><v n="7"/><name
+                              ref="John_the_Baptist">John</name>
+                        <action ref="John_the_Baptist"> said to <name ref="crowd">the crowds</name>
+                              <description ref="crowd">coming out to be baptized by
+                                    him</description></action>, <speech ref="John_the_Baptist"
+                              type="statement" tone="condemning">"You brood of vipers! Who warned
+                              you to flee from the coming wrath? <v n="8"/>Produce fruit in keeping
+                              with repentance. And do not begin to say to yourselves, 'We have
+                              Abraham as our father.' For I tell you that out of these stones God
+                              can raise up children for Abraham. <v n="9"/>The ax is already at the
+                              root of the trees, and every tree that does not produce good fruit
+                              will be cut down and thrown into the fire."</speech>
+                        <v n="10"/><speech tone="unspecified" type="question" ref="crowd">"What
+                              should we do then?"</speech>
+                        <name ref="crowd">the crowd</name> asked. <v n="11"/><name
+                              ref="John_the_Baptist">John</name> answered, <speech
+                              ref="John_the_Baptist" type="instruction" tone="instructive">"The man
+                              with two tunics should share with him who has none, and the one who
+                              has food should do the same."</speech>
+                        <v n="12"/><name ref="taxCollector">Tax collectors</name>
+                        <description ref="taxCollector">also came to be baptized.</description>
+                        <speech ref="taxCollector" tone="unspecified" type="question">"Teacher,"
+                              they asked, "what should we do?"</speech>
+                        <v n="13"/><speech type="answer" tone="unspecified" ref="John_the_Baptist"
+                              >"Don't collect any more than you are required to,"</speech> he told
+                              <v n="14"/>them. Then <name ref="soldiers">some soldiers</name> asked
+                        him, <speech ref="soldiers" tone="unspecified" type="question">"And what
+                              should we do?"</speech> He replied, <speech type="answer"
+                              tone="unspecified" ref="John_the_Baptist">"Don't extort money and
+                              don't accuse people falsely--be content with your pay."</speech>
+                        <v n="15"/><description ref="crowd">The people were waiting expectantly and
+                              were all wondering in their hearts if <name ref="John_the_Baptist"
+                                    >John</name> might possibly be the Christ.</description>
+                        <v n="16"/><name ref="John_the_Baptist">John</name>
+                        <action ref="John_the_Baptist">answered them all</action>, <speech
+                              ref="John_the_Baptist" tone="instructive" type="answer">"I baptize you
+                              with water. But one more powerful than I will come, the thongs of
+                              whose sandals I am not worthy to untie. He will baptize you with the
+                              Holy Spirit and with fire. <v n="17"/>His winnowing fork is in his
+                              hand to clear his threshing floor and to gather the wheat into his
+                              barn, but he will burn up the chaff with unquenchable fire."</speech>
+                  </conversation><v n="18"/><action ref="John_the_Baptist">And with many other words
+                              <name ref="John_the_Baptist">John</name> exhorted the people and
+                        preached the good news to them</action>. <v n="19"/>But when <name
+                        ref="John_the_Baptist">John</name>
+                  <action ref="John_the_Baptist">rebuked <name ref="Herod">Herod the tetrarch</name>
+                        because of <name ref="Herodias">Herodias</name>, <description ref="Herodias"
+                              >his brother's wife</description>, and all the other evil things he
+                        had done,</action>
+                  <v n="20"/><name ref="Herod">Herod</name>
+                  <action ref="Herod">added this to them all: He locked John up in
+                  prison</action>.</story>
             <story><v n="21"/>When all the people were being baptized, Jesus was baptized too. And
                   as he was praying, heaven was opened <v n="22"/>and the Holy Spirit descended on
                   him in bodily form like a dove. And a voice came from heaven: "You are my Son,
