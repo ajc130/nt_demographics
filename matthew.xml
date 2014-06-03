@@ -100,6 +100,10 @@
                   xml:id="JairusDaughter"/>
             <character class="religiousLeader" ethnicity="jew" gender="male" xml:id="Jairus"
                   age="adult" ability="able"/>
+            <character class="rich" ethnicity="jew" gender="male" age="adult" ability="unspecified"
+                  xml:id="SimonLeper"/>
+            <character xml:id="nardWoman" gender="female" ethnicity="unspecified"
+                  class="unspecified" age="adult" ability="able"/>
       </metadata>
       <body>
             <story>
@@ -1813,21 +1817,38 @@
                   Caiaphas, <v n="4"/>and they plotted to arrest Jesus in some sly way and kill him.
                         <v n="5"/>"But not during the Feast," they said, "or there may be a riot
                   among the people." </story>
-            <story><v n="6"/>While Jesus was in Bethany in the home of a man known as Simon the
-                  Leper, <v n="7"/>a woman came to him with an alabaster jar of very expensive
-                  perfume, which she poured on his head as he was reclining at the table. <v n="8"
-                  />When the disciples saw this, they were indignant. "Why this waste?" they asked.
-                        <v n="9"/>"This perfume could have been sold at a high price and the money
-                  given to the poor." <v n="10"/>Aware of this, Jesus said to them, "Why are you
-                  bothering this woman? She has done a beautiful thing to me. <v n="11"/>The poor
-                  you will always have with you, but you will not always have me. <v n="12"/>When
-                  she poured this perfume on my body, she did it to prepare me for burial. <v n="13"
-                  />I tell you the truth, wherever this gospel is preached throughout the world,
-                  what she has done will also be told, in memory of her." </story>
-            <story><v n="14"/>Then one of the Twelve--the one called Judas Iscariot--went to the
-                  chief priests <v n="15"/>and asked, "What are you willing to give me if I hand him
-                  over to you?" So they counted out for him thirty silver coins. <v n="16"/>From
-                  then on Judas watched for an opportunity to hand him over. </story>
+            <story><v n="6"/>While Jesus was in Bethany in the home of a man known as <name
+                        ref="SimonLeper">Simon the Leper</name>, <v n="7"/><name ref="nardWoman">a
+                        woman</name>
+                  <action ref="nardWoman">came to him with an alabaster jar of very expensive
+                        perfume, which she poured on his head as he was reclining at the
+                        table.</action>
+                  <v n="8"/><description ref="disciples">When <name ref="disciples">the
+                              disciples</name> saw this, they were indignant</description>.
+                              <conversation><speech ref="disciples" type="question"
+                              tone="condemning">"Why this waste?"</speech> they asked. <v n="9"
+                              /><speech tone="unspecified" type="statement">"This perfume could have
+                              been sold at a high price and the money given to the poor."</speech>
+                        <v n="10"/>Aware of this, Jesus said to them, <speech type="statement"
+                              tone="instructive" ref="Jesus">"Why are you bothering this woman? She
+                              has done a beautiful thing to me. <v n="11"/>The poor you will always
+                              have with you, but you will not always have me. <v n="12"/>When she
+                              poured this perfume on my body, she did it to prepare me for burial.
+                                    <v n="13"/><description ref="nardWoman">I tell you the truth,
+                                    wherever this gospel is preached throughout the world, what she
+                                    has done will also be told, in memory of
+                              her</description>."</speech>
+                  </conversation></story>
+            <story><monologue><v n="14"/>Then one of the Twelve--<name ref="Judas">the one called
+                              Judas Iscariot-</name>-<action ref="Judas">went to the <name
+                                    ref="lawTeachers">chief priests</name>
+                              <v n="15"/>and asked</action>, <speech ref="Judas" tone="unspecified"
+                              type="question">"What are you willing to give me if I hand him over to
+                              you?"</speech></monologue>
+                  <action ref="lawTeachers">So they counted out for him thirty silver
+                        coins.</action>
+                  <v n="16"/>From then on <name ref="Judas">Judas</name>
+                  <action ref="Judas">watched for an opportunity to hand him over</action>. </story>
             <story><v n="17"/>On the first day of the Feast of Unleavened Bread, the disciples came
                   to Jesus and asked, "Where do you want us to make preparations for you to eat the
                   Passover?" <v n="18"/>He replied, "Go into the city to a certain man and tell him,
