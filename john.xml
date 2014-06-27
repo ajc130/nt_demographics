@@ -45,8 +45,18 @@
                   xml:id="John_the_Baptist"/>
             <character xml:id="JohnDisciples" ethnicity="unspecified" class="unspecified"
                   gender="unspecified" age="adult" ability="unspecified"/>
-            <character xml:id="pharisees" gender="male" class="religiousLeader" ethnicity="jew"
-                  ability="able" age="adult"/>
+            <character class="working" ethnicity="jew" gender="male" age="adult" ability="able"
+                  xml:id="Joseph"/>
+            <character class="working" ethnicity="jew" gender="female" age="adult" ability="able"
+                  xml:id="motherMary"/>
+            <character xml:id="weddingServants" ability="able" age="adult" class="working"
+                  ethnicity="unspecified" gender="unspecified"/>
+            <character xml:id="weddingMaster" gender="male" ethnicity="jew" class="rich" age="adult"
+                  ability="able"/>
+            <character xml:id="groom" gender="male" ethnicity="jew" class="unspecified" age="adult"
+                  ability="able"/>
+            <character xml:id="JesusFamily" gender="both" ethnicity="jew" class="working"
+                  age="elderly" ability="unspecified"/>
       </metadata>
       <body>
             <story>
@@ -115,62 +125,138 @@
                               sandals I am not worthy to untie."</speech></conversation>
                   <v n="28"/>This all happened at Bethany on the other side of the Jordan, where
                         <name ref="John_the_Baptist">John</name> was baptizing. </story>
-            <story><v n="29"/>The next day John saw Jesus coming toward him and said, "Look, the
-                  Lamb of God, who takes away the sin of the world! <v n="30"/>This is the one I
-                  meant when I said, 'A man who comes after me has surpassed me because he was
-                  before me.' <v n="31"/>I myself did not know him, but the reason I came baptizing
-                  with water was that he might be revealed to Israel." <v n="32"/>Then John gave
-                  this testimony: "I saw the Spirit come down from heaven as a dove and remain on
-                  him. <v n="33"/>I would not have known him, except that the one who sent me to
-                  baptize with water told me, 'The man on whom you see the Spirit come down and
-                  remain is he who will baptize with the Holy Spirit.' <v n="34"/>I have seen and I
-                  testify that this is the Son of God."</story>
-            <story><v n="35"/>The next day John was there again with two of his disciples. <v n="36"
-                  />When he saw Jesus passing by, he said, "Look, the Lamb of God!" <v n="37"/>When
-                  the two disciples heard him say this, they followed Jesus. <v n="38"/>Turning
-                  around, Jesus saw them following and asked, "What do you want?" They said, "Rabbi"
-                  (which means Teacher), "where are you staying?" <v n="39"/>"Come," he replied,
-                  "and you will see." So they went and saw where he was staying, and spent that day
-                  with him. It was about the tenth hour. <v n="40"/>Andrew, Simon Peter's brother,
-                  was one of the two who heard what John had said and who had followed Jesus. <v
-                        n="41"/>The first thing Andrew did was to find his brother Simon and tell
-                  him, "We have found the Messiah" (that is, the Christ). <v n="42"/>And he brought
-                  him to Jesus. Jesus looked at him and said, "You are Simon son of John. You will
-                  be called Cephas" (which, when translated, is Peter ).</story>
+            <story><monologue><v n="29"/>The next day <name ref="John_the_Baptist">John
+                              </name><action ref="John_the_Baptist">saw Jesus coming toward him and
+                              said</action>, <speech ref="John_the_Baptist" genre="explanation"
+                              tone="unspecified">"Look, the Lamb of God, who takes away the sin of
+                              the world! <v n="30"/>This is the one I meant when I said, 'A man who
+                              comes after me has surpassed me because he was before me.' <v n="31"
+                              />I myself did not know him, but the reason I came baptizing with
+                              water was that he might be revealed to Israel." </speech><v n="32"
+                        />Then <name ref="John_the_Baptist">John</name>
+                        <action ref="John_the_Baptist">gave this testimony:</action>
+                        <speech ref="John_the_Baptist" tone="unspecified" genre="explanation">"I saw
+                              the Spirit come down from heaven as a dove and remain on him. <v
+                                    n="33"/>I would not have known him, except that the one who sent
+                              me to baptize with water told me, 'The man on whom you see the Spirit
+                              come down and remain is he who will baptize with the Holy Spirit.' <v
+                                    n="34"/>I have seen and I testify that this is the Son of
+                              God."</speech></monologue></story>
+            <story><v n="35"/>The next day <name ref="John_the_Baptist">John</name>
+                  <description ref="John_the_Baptist">was there again with <name ref="JohnDisciples"
+                              >two of his disciples</name></description>. <conversation><v n="36"
+                        />When <action ref="John_the_Baptist">he saw Jesus passing by, he
+                              said</action>, "<speech ref="John_the_Baptist" type="statement"
+                              tone="unspecified">Look, the Lamb of God</speech>!" <v n="37"/>When
+                              <name ref="JohnDisciples">the two disciples</name>
+                        <action ref="JohnDisciples">heard him say this, they followed
+                        Jesus</action>. <v n="38"/>Turning around, Jesus saw them following and
+                        asked, <speech ref="Jesus" tone="unspecified" type="question">"What do you
+                              want?"</speech> They said, <speech type="question" tone="unspecified"
+                              ref="JohnDisciples">"Rabbi" (which means Teacher), "where are you
+                              staying?"</speech>
+                        <v n="39"/><speech ref="Jesus" tone="unspecified" type="statement">"Come,"
+                              he replied, "and you will see."</speech>
+                        <action ref="JohnDisciples">So they went and saw where he was staying, and
+                              spent that day with him</action>. It was about the tenth hour. <v
+                              n="40"/><name ref="Andrew">Andrew</name>, <description ref="Andrew"
+                                    ><name ref="Peter">Simon Peter</name>'s brother</description>,
+                              <description ref="Andrew">was one of the two who heard what <name
+                                    ref="John_the_Baptist">John</name> had said and who had followed
+                              Jesus</description>. <v n="41"/><description ref="Andrew">The first
+                              thing <name ref="Andrew">Andrew</name> did was to find his brother
+                                    <name ref="Peter">Simon </name>and tell him</description>,
+                              <speech ref="Andrew" type="statement" tone="unspecified">"We have
+                              found the Messiah"</speech> (that is, the Christ). <v n="42"/><action
+                              ref="Andrew">And he brought him to Jesus</action>. Jesus looked at him
+                        and said,<speech ref="Jesus" tone="unspecified" type="statement">
+                              <description ref="Peter">"You are Simon son of John. You will be
+                                    called Cephas"</description></speech> (which, when translated,
+                        is Peter ).</conversation></story>
             <story>
-                  <v n="43"/>The next day Jesus decided to leave for Galilee. Finding Philip, he
-                  said to him, "Follow me." <v n="44"/>Philip, like Andrew and Peter, was from the
-                  town of Bethsaida. <v n="45"/>Philip found Nathanael and told him, "We have found
-                  the one Moses wrote about in the Law, and about whom the prophets also
-                  wrote--Jesus of Nazareth, the son of Joseph." <v n="46"/>"Nazareth! Can anything
-                  good come from there?" Nathanael asked. "Come and see," said Philip. <v n="47"
-                  />When Jesus saw Nathanael approaching, he said of him, "Here is a true Israelite,
-                  in whom there is nothing false." <v n="48"/>"How do you know me?" Nathanael asked.
-                  Jesus answered, "I saw you while you were still under the fig tree before Philip
-                  called you." <v n="49"/>Then Nathanael declared, "Rabbi, you are the Son of God;
-                  you are the King of Israel." <v n="50"/>Jesus said, "You believe because I told
-                  you I saw you under the fig tree. You shall see greater things than that." <v
-                        n="51"/>He then added, "I tell you the truth, you shall see heaven open, and
-                  the angels of God ascending and descending on the Son of Man."</story>
+                  <v n="43"/>The next day Jesus decided to leave for Galilee. <conversation>Finding
+                              <name ref="Philip">Philip</name>, he said to him,<speech ref="Jesus"
+                              type="instruction" tone="instructive"> "Follow me."</speech>
+                        <v n="44"/><name ref="Philip">Philip</name>, <description ref="Philip">like
+                                    <name ref="Andrew">Andrew</name> and <name ref="Peter"
+                                    >Peter</name>, was from the town of Bethsaida</description>. <v
+                              n="45"/><name ref="Philip">Philip</name>
+                        <action ref="Philip">found <name ref="Bartholomew">Nathanael</name> and told
+                              him</action>, <speech ref="Philip" tone="unspecified" type="statement"
+                              >"We have found the one Moses wrote about in the Law, and about whom
+                              the prophets also wrote--Jesus of Nazareth, the son of <name
+                                    ref="Joseph">Joseph</name>."</speech>
+                        <v n="46"/><speech ref="Bartholomew" type="question" tone="condemning"
+                              >"Nazareth! Can anything good come from there?"</speech>
+                        <name ref="Bartholomew">Nathanael</name> asked. <speech ref="Philip"
+                              tone="unspecified" type="statement">"Come and see,"</speech> said
+                              <name ref="Philip">Philip</name>. <v n="47"/>When Jesus saw <name
+                              ref="Bartholomew">Nathanael</name>
+                        <description ref="Bartholomew">approaching,</description> he said of him,
+                              <speech ref="Jesus" type="statement" tone="unspecified">"Here is
+                                    <description ref="Bartholomew">a true Israelite, in whom there
+                                    is nothing false</description>."</speech>
+                        <v n="48"/><speech ref="Bartholomew" tone="unspecified" type="question">"How
+                              do you know me?"</speech>
+                        <name ref="Bartholomew">Nathanael</name> asked. Jesus answered, <speech
+                              ref="Jesus" type="answer" tone="unspecified">"I saw you while you were
+                              still under the fig tree before <name ref="Philip">Philip</name>
+                              called you."</speech>
+                        <v n="49"/>Then <name ref="Bartholomew">Nathanael</name> declared, <speech
+                              ref="Bartholomew" tone="unspecified" type="statement">"Rabbi, you are
+                              the Son of God; you are the King of Israel."</speech>
+                        <v n="50"/>Jesus said, <speech type="statement" tone="unspecified"
+                              ref="Jesus">"You believe because I told you I saw you under the fig
+                              tree. You shall see greater things than that."</speech>
+                        <v n="51"/>He then added, <speech ref="Jesus" tone="instructive"
+                              type="statement">"I tell you the truth, you shall see heaven open, and
+                              the angels of God ascending and descending on the Son of
+                              Man."</speech></conversation></story>
             <story><c n="2"/>
-                  <v n="1"/>On the third day a wedding took place at Cana in Galilee. Jesus' mother
-                  was there, <v n="2"/>and Jesus and his disciples had also been invited to the
-                  wedding. <v n="3"/>When the wine was gone, Jesus' mother said to him, "They have
-                  no more wine." <v n="4"/>"Dear woman, why do you involve me?" Jesus replied, "My
-                  time has not yet come." <v n="5"/>His mother said to the servants, "Do whatever he
-                  tells you." <v n="6"/>Nearby stood six stone water jars, the kind used by the Jews
-                  for ceremonial washing, each holding from twenty to thirty gallons. <v n="7"
-                  />Jesus said to the servants, "Fill the jars with water"; so they filled them to
-                  the brim. <v n="8"/>Then he told them, "Now draw some out and take it to the
-                  master of the banquet." <v n="9"/>They did so, and the master of the banquet
-                  tasted the water that had been turned into wine. He did not realize where it had
-                  come from, though the servants who had drawn the water knew. Then he called the
-                  bridegroom aside <v n="10"/>and said, "Everyone brings out the choice wine first
-                  and then the cheaper wine after the guests have had too much to drink; but you
-                  have saved the best till now." <v n="11"/>This, the first of his miraculous signs,
-                  Jesus performed in Cana of Galilee. He thus revealed his glory, and his disciples
-                  put their faith in him. <v n="12"/>After this he went down to Capernaum with his
-                  mother and brothers and his disciples. There they stayed for a few days.</story>
+                  <v n="1"/>On the third day a wedding took place at Cana in Galilee. <description
+                        ref="motherMary">Jesus' mother was there</description>, <v n="2"/>and Jesus
+                  and <name ref="disciples">his disciples</name>
+                  <description ref="disciples">had also been invited to the wedding</description>.
+                              <conversation><v n="3"/>When the wine was gone, <name ref="motherMary"
+                              >Jesus' mother</name> said to him,<speech ref="motherMary"
+                              type="statement" tone="unspecified"> "They have no more
+                              wine."</speech>
+                        <v n="4"/><speech tone="unspecified" type="question" ref="Jesus">"Dear
+                              woman, why do you involve me?" Jesus replied, "My time has not yet
+                              come."</speech>
+                        <v n="5"/><name ref="motherMary">His mother</name>
+                        <action ref="motherMary">said to <name ref="weddingServants">the
+                                    servants</name></action>, <speech ref="motherMary"
+                              type="instruction" tone="unspecified">"Do whatever he tells
+                              you."</speech>
+                        <v n="6"/>Nearby stood six stone water jars, the kind used by the Jews for
+                        ceremonial washing, each holding from twenty to thirty gallons. <v n="7"
+                        />Jesus said to <name ref="weddingServants">the servants</name>, <speech
+                              ref="Jesus" tone="unspecified" type="instruction">"Fill the jars with
+                              water"</speech>; so <action ref="weddingServants">they filled them to
+                              the brim</action>. <v n="8"/>Then he told them, <speech ref="Jesus"
+                              type="instruction" tone="unspecified">"Now draw some out and take it
+                              to the master of the banquet." </speech><v n="9"/><action
+                              ref="weddingServants">They did so,</action> and <name
+                              ref="weddingMaster">the master of the banquet</name>
+                        <action ref="weddingMaster">tasted the water that had been turned into wine.
+                              He did not realize where it had come from</action>, though <name
+                              ref="weddingServants">the servants</name><description
+                              ref="weddingMaster"> who had drawn the water knew</description>.
+                              <action ref="weddingMaster">Then he called the <name ref="groom"
+                                    >bridegroom</name> aside <v n="10"/>and said</action>, <speech
+                              ref="weddingMaster" tone="unspecified" type="statement">"Everyone
+                              brings out the choice wine first and then the cheaper wine after the
+                              guests have had too much to drink; but you have saved the best till
+                              now."</speech></conversation>
+                  <v n="11"/>This, the first of his miraculous signs, Jesus performed in Cana of
+                  Galilee. He thus revealed his glory, and <name ref="disciples">his
+                        disciples</name>
+                  <action ref="disciples">put their faith in him</action>. <v n="12"/>After this he
+                        <action ref="disciples JesusFamily">went down to Capernaum</action> with
+                        <name ref="JesusFamily">his mother and brothers</name> and <name
+                        ref="disciples">his disciples</name>. There they stayed for a few
+                  days.</story>
             <story>
                   <v n="13"/>When it was almost time for the Jewish Passover, Jesus went up to
                   Jerusalem. <v n="14"/>In the temple courts he found men selling cattle, sheep and

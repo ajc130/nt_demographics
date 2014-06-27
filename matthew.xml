@@ -104,6 +104,54 @@
                   xml:id="SimonLeper"/>
             <character xml:id="nardWoman" gender="female" ethnicity="unspecified"
                   class="unspecified" age="adult" ability="able"/>
+            <character xml:id="twoblindmen" ability="handicapped" age="adult" class="unspecified"
+                  ethnicity="unspecified" gender="male"/>
+            <character xml:id="dumbdemon" gender="male" ethnicity="unspecified" class="unspecified"
+                  age="adult" ability="handicapped"/>
+            <character xml:id="binddemon" ability="handicapped" age="adult" class="unspecified"
+                  ethnicity="unspecified" gender="male"/>
+            <character xml:id="Jonah" ability="able" age="adult" class="unspecified" ethnicity="jew"
+                  gender="male"/>
+            <character gender="male" ethnicity="gentile" class="unspecified" age="adult"
+                  ability="unspecified" xml:id="Ninevites"/>
+            <character xml:id="SouthQueen" ability="unspecified" age="adult" class="rich"
+                  ethnicity="gentile" gender="female"/>
+            <character xml:id="Solomon" gender="male" ethnicity="jew" class="rich" age="adult"
+                  ability="able"/>
+            <character xml:id="JesusFamily" gender="both" ethnicity="jew" class="working"
+                  age="elderly" ability="unspecified"/>
+            <character xml:id="pathseeds" ethnicity="unspecified" class="unspecified"
+                  gender="unspecified" age="unspecified" ability="unspecified"/>
+            <character xml:id="rockseeds" ethnicity="unspecified" class="unspecified"
+                  gender="unspecified" ability="unspecified" age="unspecified"/>
+            <character xml:id="thornseeds" ethnicity="unspecified" class="unspecified"
+                  gender="unspecified" age="unspecified" ability="unspecified"/>
+            <character xml:id="goodseeds" ability="unspecified" age="unspecified"
+                  gender="unspecified" class="unspecified" ethnicity="unspecified"/>
+            <character gender="male" class="working" ethnicity="unspecified" xml:id="farmer"
+                  ability="able" age="adult"/>
+            <character ethnicity="unspecified" class="working" gender="male" age="adult"
+                  ability="able" xml:id="farmer3"/>
+            <character ethnicity="unspecified" class="working" gender="male" age="adult"
+                  ability="able" xml:id="farmer4"/>
+            <character xml:id="yeastWoman" ability="able" age="adult" class="working"
+                  ethnicity="unspecified" gender="female"/>
+            <character xml:id="farmServant" gender="male" ethnicity="unspecified" class="working"
+                  age="adult" ability="able"/>
+            <character xml:id="farmEnemy" gender="male" ethnicity="unspecified" class="working"
+                  age="adult" ability="able"/>
+            <character xml:id="treasureHunter" ability="able" age="adult" class="unspecified"
+                  ethnicity="unspecified" gender="male"/>
+            <character xml:id="fisherman" gender="male" ethnicity="unspecified" class="working"
+                  age="adult" ability="able"/>
+            <character xml:id="merchant" ability="able" age="adult" class="rich"
+                  ethnicity="unspecified" gender="male"/>
+            <character gender="female" ethnicity="gentile" class="rich" ability="able" age="adult"
+                  xml:id="Herodias"/>
+            <character gender="female" ethnicity="gentile" class="rich" xml:id="HerodiasDaughter"
+                  age="child" ability="able"/>
+            <character gender="male" ethnicity="gentile" class="rich" age="adult"
+                  ability="unspecified" xml:id="PhillipHerod"/>
       </metadata>
       <body>
             <story>
@@ -779,363 +827,626 @@
                   he went in and took <name ref="JairusDaughter">the girl</name> by the hand, and
                         <action ref="JairusDaughter">she got up</action>. <v n="26"/>News of this
                   spread through all that region. </story>
-            <story><v n="27"/>As Jesus went on from there, two blind men followed him, calling out,
-                  "Have mercy on us, Son of David!" <v n="28"/>When he had gone indoors, the blind
-                  men came to him, and he asked them, "Do you believe that I am able to do this?Yes,
-                  Lord," they replied. <v n="29"/>Then he touched their eyes and said, "According to
-                  your faith will it be done to you"; <v n="30"/>and their sight was restored. Jesus
-                  warned them sternly, "See that no one knows about this." <v n="31"/>But they went
-                  out and spread the news about him all over that region. <v n="32"/>While they were
-                  going out, a man who was demon-possessed and could not talk was brought to Jesus.
-                        <v n="33"/>And when the demon was driven out, the man who had been mute
-                  spoke. The crowd was amazed and said, "Nothing like this has ever been seen in
-                  Israel." <v n="34"/>But the Pharisees said, "It is by the prince of demons that he
-                  drives out demons."</story>
+            <story><conversation><v n="27"/>As Jesus went on from there, <name ref="twoblindmen">two
+                              blind men</name>
+                        <action ref="twoblindmen">followed him, calling out</action>, <speech
+                              ref="twoblindmen" type="instruction" tone="pleading"> "Have mercy on
+                              us, Son of David!"</speech>
+                        <v n="28"/>When he had gone indoors,<name ref="twoblindmen"> the blind
+                              men</name>
+                        <action ref="twoblindmen">came to him</action>, and he asked them, <speech
+                              ref="Jesus" tone="unspecified" type="question">"Do you believe that I
+                              am able to do this?"</speech>
+                        <speech type="answer" tone="unspecified" ref="twoblindmen">"Yes,
+                              Lord,"</speech> they replied. <v n="29"/>Then he touched their eyes
+                        and said, <speech tone="unspecified" type="statement" ref="Jesus">"According
+                              to your faith will it be done to you"</speech>; <v n="30"/>and
+                              <description ref="twoblindmen">their sight was restored</description>.
+                        Jesus warned them sternly, <speech ref="Jesus" type="instruction"
+                              tone="instructive">"See that no one knows about this."</speech>
+                        <v n="31"/>But <action ref="twoblindmen">they went out and spread the news
+                              about him all over that region.</action>
+                        <v n="32"/>While they were going out, <name ref="dumbdemon">a man</name>
+                        <description ref="dumbdemon">who was demon-possessed and could not talk was
+                              brought to Jesus</description>. <v n="33"/>And when the demon was
+                        driven out, <action ref="dumbdemon">the man who had been mute
+                        spoke</action>. <name ref="crowd">The crowd</name><action ref="crowd"> was
+                              amazed and said</action>, <speech ref="crowd" tone="unspecified"
+                              type="statement">"Nothing like this has ever been seen in
+                              Israel.</speech>" <v n="34"/>But <name ref="pharisees">the
+                              Pharisees</name> said, <speech ref="pharisees" tone="condemning"
+                              type="statement">"It is by the prince of demons that he drives out
+                              demons."</speech></conversation></story>
             <story><v n="35"/>Jesus went through all the towns and villages, teaching in their
                   synagogues, preaching the good news of the kingdom and healing every disease and
-                  sickness. <v n="36"/>When he saw the crowds, he had compassion on them, because
-                  they were harassed and helpless, like sheep without a shepherd. <v n="37"/>Then he
-                  said to his disciples, "The harvest is plentiful but the workers are few. <v
-                        n="38"/>Ask the Lord of the harvest, therefore, to send out workers into his
-                  harvest field."</story>
+                  sickness. <v n="36"/>When he saw <name ref="crowd">the crowds</name>, he had
+                  compassion on them, because <description ref="crowd">they were harassed and
+                        helpless, like sheep without a shepherd</description>. <v n="37"/>Then he
+                  said to <name ref="disciples">his disciples</name>,<monologue><speech ref="Jesus"
+                              type="instruction" tone="unspecified"> "The harvest is plentiful but
+                              the workers are few. <v n="38"/>Ask the Lord of the harvest,
+                              therefore, to send out workers into his harvest
+                        field."</speech></monologue></story>
             <story><c n="10"/>
-                  <v n="1"/>He called his twelve disciples to him and gave them authority to drive
-                  out evil spirits and to heal every disease and sickness. <v n="2"/>These are the
-                  names of the twelve apostles: first, Simon (who is called Peter) and his brother
-                  Andrew; James son of Zebedee, and his brother John; <v n="3"/>Philip and
-                  Bartholomew; Thomas and Matthew the tax collector; James son of Alphaeus, and
-                  Thaddaeus; <v n="4"/>Simon the Zealot and Judas Iscariot, who betrayed him. <v
-                        n="5"/>These twelve Jesus sent out with the following instructions: "Do not
-                  go among the Gentiles or enter any town of the Samaritans. <v n="6"/>Go rather to
-                  the lost sheep of Israel. <v n="7"/>As you go, preach this message: 'The kingdom
-                  of heaven is near.' <v n="8"/>Heal the sick, raise the dead, cleanse those who
-                  have leprosy, drive out demons. Freely you have received, freely give. <v n="9"
-                  />Do not take along any gold or silver or copper in your belts; <v n="10"/>take no
-                  bag for the journey, or extra tunic, or sandals or a staff; for the worker is
-                  worth his keep. <v n="11"/>"Whatever town or village you enter, search for some
-                  worthy person there and stay at his house until you leave. <v n="12"/>As you enter
-                  the home, give it your greeting. <v n="13"/>If the home is deserving, let your
-                  peace rest on it; if it is not, let your peace return to you. <v n="14"/>If anyone
-                  will not welcome you or listen to your words, shake the dust off your feet when
-                  you leave that home or town. <v n="15"/>I tell you the truth, it will be more
-                  bearable for Sodom and Gomorrah on the day of judgment than for that town. <v
-                        n="16"/>I am sending you out like sheep among wolves. Therefore be as shrewd
-                  as snakes and as innocent as doves. <v n="17"/>"Be on your guard against men; they
-                  will hand you over to the local councils and flog you in their synagogues. <v
-                        n="18"/>On my account you will be brought before governors and kings as
-                  witnesses to them and to the Gentiles. <v n="19"/>But when they arrest you, do not
-                  worry about what to say or how to say it. At that time you will be given what to
-                  say, <v n="20"/>for it will not be you speaking, but the Spirit of your Father
-                  speaking through you. <v n="21"/>"Brother will betray brother to death, and a
-                  father his child; children will rebel against their parents and have them put to
-                  death. <v n="22"/>All men will hate you because of me, but he who stands firm to
-                  the end will be saved. <v n="23"/>When you are persecuted in one place, flee to
-                  another. I tell you the truth, you will not finish going through the cities of
-                  Israel before the Son of Man comes. <v n="24"/>"A student is not above his
-                  teacher, nor a servant above his master. <v n="25"/>It is enough for the student
-                  to be like his teacher, and the servant like his master. If the head of the house
-                  has been called Beelzebub, how much more the members of his household! <v n="26"
-                  />"So do not be afraid of them. There is nothing concealed that will not be
-                  disclosed, or hidden that will not be made known. <v n="27"/>What I tell you in
-                  the dark, speak in the daylight; what is whispered in your ear, proclaim from the
-                  roofs. <v n="28"/>Do not be afraid of those who kill the body but cannot kill the
-                  soul. Rather, be afraid of the One who can destroy both soul and body in hell. <v
-                        n="29"/>Are not two sparrows sold for a penny? Yet not one of them will fall
-                  to the ground apart from the will of your Father. <v n="30"/>And even the very
-                  hairs of your head are all numbered. <v n="31"/>So don't be afraid; you are worth
-                  more than many sparrows. <v n="32"/>"Whoever acknowledges me before men, I will
-                  also acknowledge him before my Father in heaven. <v n="33"/>But whoever disowns me
-                  before men, I will disown him before my Father in heaven. <v n="34"/>"Do not
-                  suppose that I have come to bring peace to the earth. I did not come to bring
-                  peace, but a sword. <v n="35"/>For I have come to turn "'a man against his father,
-                  a daughter against her mother, a daughter-in-law against her mother-in-law-- <v
-                        n="36"/>a man's enemies will be the members of his own household.' <v n="37"
-                  />"Anyone who loves his father or mother more than me is not worthy of me; anyone
-                  who loves his son or daughter more than me is not worthy of me; <v n="38"/>and
-                  anyone who does not take his cross and follow me is not worthy of me. <v n="39"
-                  />Whoever finds his life will lose it, and whoever loses his life for my sake will
-                  find it. <v n="40"/>"He who receives you receives me, and he who receives me
-                  receives the one who sent me. <v n="41"/>Anyone who receives a prophet because he
-                  is a prophet will receive a prophet's reward, and anyone who receives a righteous
-                  man because he is a righteous man will receive a righteous man's reward. <v n="42"
-                  />And if anyone gives even a cup of cold water to one of these little ones because
-                  he is my disciple, I tell you the truth, he will certainly not lose his reward." </story>
+                  <v n="1"/>He called <name ref="apostles">his twelve disciples</name> to him and
+                        <description ref="apostles">gave them authority to drive out evil spirits
+                        and to heal every disease and sickness</description>. <v n="2"/>These are
+                  the names of the twelve apostles: first, <name ref="Peter">Simon</name>
+                  <description ref="Peter">(who is called Peter)</description> and <description
+                        ref="Andrew">his brother</description>
+                  <name ref="Andrew">Andrew</name>; <name ref="James">James</name>
+                  <description ref="James">son of Zebedee</description>, and <description ref="John"
+                        >his brother</description>
+                  <name ref="John">John</name>; <v n="3"/><name ref="Philip">Philip</name> and <name
+                        ref="Bartholomew">Bartholomew</name>; <name ref="Thomas">Thomas</name> and
+                        <name ref="Matthew">Matthew</name>
+                  <description ref="Matthew">the tax collector</description>; <name ref="James"
+                        >James</name>
+                  <description ref="James">son of Alphaeus</description>, and <name ref="Thaddaeus"
+                        >Thaddaeus</name>; <v n="4"/><name ref="Simon">Simon</name>
+                  <description ref="Simon">the Zealot</description> and <name ref="Judas">Judas
+                        Iscariot</name>, <description ref="Judas">who betrayed him</description>. <v
+                        n="5"/><name ref="apostles">These twelve</name> Jesus sent out with the
+                  following instructions: <monologue><speech ref="Jesus" genre="instruction"
+                              tone="instructive">"Do not go among the Gentiles or enter any town of
+                              the Samaritans. <v n="6"/>Go rather to the lost sheep of Israel. <v
+                                    n="7"/>As you go, preach this message: 'The kingdom of heaven is
+                              near.' <v n="8"/>Heal the sick, raise the dead, cleanse those who have
+                              leprosy, drive out demons. Freely you have received, freely give. <v
+                                    n="9"/>Do not take along any gold or silver or copper in your
+                              belts; <v n="10"/>take no bag for the journey, or extra tunic, or
+                              sandals or a staff; for the worker is worth his keep. <v n="11"
+                              />"Whatever town or village you enter, search for some worthy person
+                              there and stay at his house until you leave. <v n="12"/>As you enter
+                              the home, give it your greeting. <v n="13"/>If the home is deserving,
+                              let your peace rest on it; if it is not, let your peace return to you.
+                                    <v n="14"/>If anyone will not welcome you or listen to your
+                              words, shake the dust off your feet when you leave that home or town.
+                                    <v n="15"/>I tell you the truth, it will be more bearable for
+                              Sodom and Gomorrah on the day of judgment than for that town. <v
+                                    n="16"/>I am sending you out like sheep among wolves. Therefore
+                              be as shrewd as snakes and as innocent as doves. <v n="17"/>"Be on
+                              your guard against men; they will hand you over to the local councils
+                              and flog you in their synagogues. <v n="18"/>On my account you will be
+                              brought before governors and kings as witnesses to them and to the
+                              Gentiles. <v n="19"/>But when they arrest you, do not worry about what
+                              to say or how to say it. At that time you will be given what to say,
+                                    <v n="20"/>for it will not be you speaking, but the Spirit of
+                              your Father speaking through you. <v n="21"/>"Brother will betray
+                              brother to death, and a father his child; children will rebel against
+                              their parents and have them put to death. <v n="22"/>All men will hate
+                              you because of me, but he who stands firm to the end will be saved. <v
+                                    n="23"/>When you are persecuted in one place, flee to another. I
+                              tell you the truth, you will not finish going through the cities of
+                              Israel before the Son of Man comes. <v n="24"/>"A student is not above
+                              his teacher, nor a servant above his master. <v n="25"/>It is enough
+                              for the student to be like his teacher, and the servant like his
+                              master. If the head of the house has been called Beelzebub, how much
+                              more the members of his household! <v n="26"/>"So do not be afraid of
+                              them. There is nothing concealed that will not be disclosed, or hidden
+                              that will not be made known. <v n="27"/>What I tell you in the dark,
+                              speak in the daylight; what is whispered in your ear, proclaim from
+                              the roofs. <v n="28"/>Do not be afraid of those who kill the body but
+                              cannot kill the soul. Rather, be afraid of the One who can destroy
+                              both soul and body in hell. <v n="29"/>Are not two sparrows sold for a
+                              penny? Yet not one of them will fall to the ground apart from the will
+                              of your Father. <v n="30"/>And even the very hairs of your head are
+                              all numbered. <v n="31"/>So don't be afraid; you are worth more than
+                              many sparrows. <v n="32"/>"Whoever acknowledges me before men, I will
+                              also acknowledge him before my Father in heaven. <v n="33"/>But
+                              whoever disowns me before men, I will disown him before my Father in
+                              heaven. <v n="34"/>"Do not suppose that I have come to bring peace to
+                              the earth. I did not come to bring peace, but a sword. <v n="35"/>For
+                              I have come to turn "'a man against his father, a daughter against her
+                              mother, a daughter-in-law against her mother-in-law-- <v n="36"/>a
+                              man's enemies will be the members of his own household.' <v n="37"
+                              />"Anyone who loves his father or mother more than me is not worthy of
+                              me; anyone who loves his son or daughter more than me is not worthy of
+                              me; <v n="38"/>and anyone who does not take his cross and follow me is
+                              not worthy of me. <v n="39"/>Whoever finds his life will lose it, and
+                              whoever loses his life for my sake will find it. <v n="40"/>"He who
+                              receives you receives me, and he who receives me receives the one who
+                              sent me. <v n="41"/>Anyone who receives a prophet because he is a
+                              prophet will receive a prophet's reward, and anyone who receives a
+                              righteous man because he is a righteous man will receive a righteous
+                              man's reward. <v n="42"/>And if anyone gives even a cup of cold water
+                              to one of these little ones because he is my disciple, I tell you the
+                              truth, he will certainly not lose his reward."</speech></monologue>
+            </story>
             <story><c n="11"/>
-                  <v n="1"/>After Jesus had finished instructing his twelve disciples, he went on
-                  from there to teach and preach in the towns of Galilee. <v n="2"/>When John heard
-                  in prison what Christ was doing, he sent his disciples <v n="3"/>to ask him, "Are
-                  you the one who was to come, or should we expect someone else?" <v n="4"/>Jesus
-                  replied, "Go back and report to John what you hear and see: <v n="5"/>The blind
-                  receive sight, the lame walk, those who have leprosy are cured, the deaf hear, the
-                  dead are raised, and the good news is preached to the poor. <v n="6"/>Blessed is
-                  the man who does not fall away on account of me." <v n="7"/>As John's disciples
-                  were leaving, Jesus began to speak to the crowd about John: "What did you go out
-                  into the desert to see? A reed swayed by the wind? <v n="8"/>If not, what did you
-                  go out to see? A man dressed in fine clothes? No, those who wear fine clothes are
-                  in kings' palaces. <v n="9"/>Then what did you go out to see? A prophet? Yes, I
-                  tell you, and more than a prophet. <v n="10"/>This is the one about whom it is
-                  written: "'I will send my messenger ahead of you, who will prepare your way before
-                  you.' <v n="11"/>I tell you the truth: Among those born of women there has not
-                  risen anyone greater than John the Baptist; yet he who is least in the kingdom of
-                  heaven is greater than he. <v n="12"/>From the days of John the Baptist until now,
-                  the kingdom of heaven has been forcefully advancing, and forceful men lay hold of
-                  it. <v n="13"/>For all the Prophets and the Law prophesied until John. <v n="14"
-                  />And if you are willing to accept it, he is the Elijah who was to come. <v n="15"
-                  />He who has ears, let him hear. <v n="16"/>"To what can I compare this
-                  generation? They are like children sitting in the marketplaces and calling out to
-                  others: <v n="17"/>"'We played the flute for you, and you did not dance; we sang a
-                  dirge and you did not mourn.' <v n="18"/>For John came neither eating nor
-                  drinking, and they say, 'He has a demon.' <v n="19"/>The Son of Man came eating
-                  and drinking, and they say, 'Here is a glutton and a drunkard, a friend of tax
-                  collectors and "sinners."' But wisdom is proved right by her actions."</story>
+                  <v n="1"/>After Jesus had finished instructing <name ref="apostles">his twelve
+                        disciples,</name> he went on from there to teach and preach in the towns of
+                  Galilee. <conversation><v n="2"/>When <name ref="John_the_Baptist"
+                              >John</name><action ref="John_the_Baptist"> heard in prison what
+                              Christ was doing, he sent <name ref="JohnDisciples">his
+                                    disciples</name>
+                              <v n="3"/>to ask him</action>, <speech ref="JohnDisciples"
+                              tone="unspecified" type="question">"Are you the one who was to come,
+                              or should we expect someone else?"</speech>
+                        <v n="4"/>Jesus replied,<speech ref="Jesus" type="answer" tone="unspecified"
+                              > "Go back and report to <name ref="John_the_Baptist">John</name> what
+                              you hear and see: <v n="5"/>The blind receive sight, the lame walk,
+                              those who have leprosy are cured, the deaf hear, the dead are raised,
+                              and the good news is preached to the poor. <v n="6"/>Blessed is the
+                              man who does not fall away on account of me."</speech>
+                        <v n="7"/>As <name ref="JohnDisciples">John's disciples</name>
+                        <description ref="JohnDisciples">were leaving</description>, Jesus began to
+                        speak to the crowd about<name ref="John_the_Baptist"> John</name>: <speech
+                              ref="Jesus" tone="instructive" genre="explanation">"What did you go
+                              out into the desert to see? A reed swayed by the wind? <v n="8"/>If
+                              not, what did you go out to see? A man dressed in fine clothes? No,
+                              those who wear fine clothes are in kings' palaces. <v n="9"/>Then what
+                              did you go out to see? A prophet? Yes, I tell you, and more than a
+                                    prophet.<description ref="John_the_Baptist">
+                                    <v n="10"/>This is the one about whom it is written: "'I will
+                                    send my messenger ahead of you, who will prepare your way before
+                                    you.' <v n="11"/>I tell you the truth: Among those born of women
+                                    there has not risen anyone greater than <name
+                                          ref="John_the_Baptist">John the Baptist</name>; yet he who
+                                    is least in the kingdom of heaven is greater than
+                                    he.</description>
+                              <v n="12"/>From the days of <name ref="John_the_Baptist">John the
+                                    Baptist</name> until now, the kingdom of heaven has been
+                              forcefully advancing, and forceful men lay hold of it. <v n="13"/>For
+                              all the Prophets and the Law prophesied until <name
+                                    ref="John_the_Baptist">John</name>. <v n="14"/>And if you are
+                              willing to accept it,<description ref="John_the_Baptist"> he is the
+                                    Elijah who was to come</description>. <v n="15"/>He who has
+                              ears, let him hear. <v n="16"/>"To what can I compare this generation?
+                              They are like children sitting in the marketplaces and calling out to
+                              others: <v n="17"/>"'We played the flute for you, and you did not
+                              dance; we sang a dirge and you did not mourn.' <v n="18"/>For <name
+                                    ref="John_the_Baptist">John</name>
+                              <description ref="John_the_Baptist">came neither eating nor
+                                    drinking,</description> and they say, 'He has a demon.' <v
+                                    n="19"/>The Son of Man came eating and drinking, and they say,
+                              'Here is a glutton and a drunkard, a friend of tax collectors and
+                              "sinners."' But wisdom is proved right by her
+                        actions.</speech></conversation>"</story>
             <story><v n="20"/>Then Jesus began to denounce the cities in which most of his miracles
-                  had been performed, because they did not repent. <v n="21"/>"Woe to you, Korazin!
-                  Woe to you, Bethsaida! If the miracles that were performed in you had been
-                  performed in Tyre and Sidon, they would have repented long ago in sackcloth and
-                  ashes. <v n="22"/>But I tell you, it will be more bearable for Tyre and Sidon on
-                  the day of judgment than for you. <v n="23"/>And you, Capernaum, will you be
-                  lifted up to the skies? No, you will go down to the depths. If the miracles that
-                  were performed in you had been performed in Sodom, it would have remained to this
-                  day. <v n="24"/>But I tell you that it will be more bearable for Sodom on the day
-                  of judgment than for you." </story>
-            <story><v n="25"/>At that time Jesus said, "I praise you, Father, Lord of heaven and
-                  earth, because you have hidden these things from the wise and learned, and
-                  revealed them to little children. <v n="26"/>Yes, Father, for this was your good
-                  pleasure. <v n="27"/>"All things have been committed to me by my Father. No one
-                  knows the Son except the Father, and no one knows the Father except the Son and
-                  those to whom the Son chooses to reveal him. <v n="28"/>"Come to me, all you who
-                  are weary and burdened, and I will give you rest. <v n="29"/>Take my yoke upon you
-                  and learn from me, for I am gentle and humble in heart, and you will find rest for
-                  your souls. <v n="30"/>For my yoke is easy and my burden is light." </story>
+                  had been performed, because they did not repent. <v n="21"/><monologue><speech
+                              ref="Jesus" genre="admonition" tone="condemning">"Woe to you, Korazin!
+                              Woe to you, Bethsaida! If the miracles that were performed in you had
+                              been performed in Tyre and Sidon, they would have repented long ago in
+                              sackcloth and ashes. <v n="22"/>But I tell you, it will be more
+                              bearable for Tyre and Sidon on the day of judgment than for you. <v
+                                    n="23"/>And you, Capernaum, will you be lifted up to the skies?
+                              No, you will go down to the depths. If the miracles that were
+                              performed in you had been performed in Sodom, it would have remained
+                              to this day. <v n="24"/>But I tell you that it will be more bearable
+                              for Sodom on the day of judgment than for you."</speech></monologue>
+            </story>
+            <story><v n="25"/>At that time Jesus said, <monologue><speech ref="Jesus"
+                              tone="unspecified" genre="blessing">"I praise you, Father, Lord of
+                              heaven and earth, because you have hidden these things from the wise
+                              and learned, and revealed them to little children. <v n="26"/>Yes,
+                              Father, for this was your good pleasure. <v n="27"/>"All things have
+                              been committed to me by my Father. No one knows the Son except the
+                              Father, and no one knows the Father except the Son and those to whom
+                              the Son chooses to reveal him. <v n="28"/>"Come to me, all you who are
+                              weary and burdened, and I will give you rest. <v n="29"/>Take my yoke
+                              upon you and learn from me, for I am gentle and humble in heart, and
+                              you will find rest for your souls. <v n="30"/>For my yoke is easy and
+                              my burden is light." </speech></monologue></story>
             <story><c n="12"/>
-                  <v n="1"/>At that time Jesus went through the grainfields on the Sabbath. His
-                  disciples were hungry and began to pick some heads of grain and eat them. <v n="2"
-                  />When the Pharisees saw this, they said to him, "Look! Your disciples are doing
-                  what is unlawful on the Sabbath." <v n="3"/>He answered, "Haven't you read what
-                  David did when he and his companions were hungry? <v n="4"/>He entered the house
-                  of God, and he and his companions ate the consecrated bread--which was not lawful
-                  for them to do, but only for the priests. <v n="5"/>Or haven't you read in the Law
-                  that on the Sabbath the priests in the temple desecrate the day and yet are
-                  innocent? <v n="6"/>I tell you that one greater than the temple is here. <v n="7"
-                  />If you had known what these words mean, 'I desire mercy, not sacrifice,' you
-                  would not have condemned the innocent. <v n="8"/>For the Son of Man is Lord of the
-                  Sabbath." <v n="9"/>Going on from that place, he went into their synagogue, <v
-                        n="10"/>and a man with a shriveled hand was there. Looking for a reason to
-                  accuse Jesus, they asked him, "Is it lawful to heal on the Sabbath?" <v n="11"/>He
-                  said to them, "If any of you has a sheep and it falls into a pit on the Sabbath,
-                  will you not take hold of it and lift it out? <v n="12"/>How much more valuable is
-                  a man than a sheep! Therefore it is lawful to do good on the Sabbath." <v n="13"
-                  />Then he said to the man, "Stretch out your hand." So he stretched it out and it
-                  was completely restored, just as sound as the other. <v n="14"/>But the Pharisees
-                  went out and plotted how they might kill Jesus.</story>
-            <story><v n="15"/>Aware of this, Jesus withdrew from that place. Many followed him, and
-                  he healed all their sick, <v n="16"/>warning them not to tell who he was. <v
-                        n="17"/>This was to fulfill what was spoken through the prophet Isaiah: <v
-                        n="18"/>"Here is my servant whom I have chosen, the one I love, in whom I
-                  delight; I will put my Spirit on him, and he will proclaim justice to the nations.
-                        <v n="19"/>He will not quarrel or cry out; no one will hear his voice in the
-                  streets. <v n="20"/>A bruised reed he will not break, and a smoldering wick he
-                  will not snuff out, till he leads justice to victory. <v n="21"/>In his name the
-                  nations will put their hope." </story>
-            <story><v n="22"/>Then they brought him a demon-possessed man who was blind and mute,
-                  and Jesus healed him, so that he could both talk and see. <v n="23"/>All the
-                  people were astonished and said, "Could this be the Son of David?" <v n="24"/>But
-                  when the Pharisees heard this, they said, "It is only by Beelzebub, the prince of
-                  demons, that this fellow drives out demons." <v n="25"/>Jesus knew their thoughts
-                  and said to them, "Every kingdom divided against itself will be ruined, and every
-                  city or household divided against itself will not stand. <v n="26"/>If Satan
-                  drives out Satan, he is divided against himself. How then can his kingdom stand?
-                        <v n="27"/>And if I drive out demons by Beelzebub, by whom do your people
-                  drive them out? So then, they will be your judges. <v n="28"/>But if I drive out
-                  demons by the Spirit of God, then the kingdom of God has come upon you. <v n="29"
-                  />"Or again, how can anyone enter a strong man's house and carry off his
-                  possessions unless he first ties up the strong man? Then he can rob his house. <v
-                        n="30"/>"He who is not with me is against me, and he who does not gather
-                  with me scatters. <v n="31"/>And so I tell you, every sin and blasphemy will be
-                  forgiven men, but the blasphemy against the Spirit will not be forgiven. <v n="32"
-                  />Anyone who speaks a word against the Son of Man will be forgiven, but anyone who
-                  speaks against the Holy Spirit will not be forgiven, either in this age or in the
-                  age to come. <v n="33"/>"Make a tree good and its fruit will be good, or make a
-                  tree bad and its fruit will be bad, for a tree is recognized by its fruit. <v
-                        n="34"/>You brood of vipers, how can you who are evil say anything good? For
-                  out of the overflow of the heart the mouth speaks. <v n="35"/>The good man brings
-                  good things out of the good stored up in him, and the evil man brings evil things
-                  out of the evil stored up in him. <v n="36"/>But I tell you that men will have to
-                  give account on the day of judgment for every careless word they have spoken. <v
-                        n="37"/>For by your words you will be acquitted, and by your words you will
-                  be condemned."</story>
-            <story><v n="38"/>Then some of the Pharisees and teachers of the law said to him,
-                  "Teacher, we want to see a miraculous sign from you." <v n="39"/>He answered, "A
-                  wicked and adulterous generation asks for a miraculous sign! But none will be
-                  given it except the sign of the prophet Jonah. <v n="40"/>For as Jonah was three
-                  days and three nights in the belly of a huge fish, so the Son of Man will be three
-                  days and three nights in the heart of the earth. <v n="41"/>The men of Nineveh
-                  will stand up at the judgment with this generation and condemn it; for they
-                  repented at the preaching of Jonah, and now one greater than Jonah is here. <v
-                        n="42"/>The Queen of the South will rise at the judgment with this
-                  generation and condemn it; for she came from the ends of the earth to listen to
-                  Solomon's wisdom, and now one greater than Solomon is here. <v n="43"/>"When an
-                  evil spirit comes out of a man, it goes through arid places seeking rest and does
-                  not find it. <v n="44"/>Then it says, 'I will return to the house I left.' When it
-                  arrives, it finds the house unoccupied, swept clean and put in order. <v n="45"
-                  />Then it goes and takes with it seven other spirits more wicked than itself, and
-                  they go in and live there. And the final condition of that man is worse than the
-                  first. That is how it will be with this wicked generation." </story>
-            <story><v n="46"/>While Jesus was still talking to the crowd, his mother and brothers
-                  stood outside, wanting to speak to him. <v n="47"/>Someone told him, "Your mother
-                  and brothers are standing outside, wanting to speak to you." <v n="48"/>He replied
-                  to him, "Who is my mother, and who are my brothers?" <v n="49"/>Pointing to his
-                  disciples, he said, "Here are my mother and my brothers. <v n="50"/>For whoever
-                  does the will of my Father in heaven is my brother and sister and mother." </story>
+                  <v n="1"/>At that time Jesus went through the grainfields on the Sabbath. <name
+                        ref="apostles">His disciples</name>
+                  <description ref="apostles">were hungry</description> and <action ref="apostles"
+                        >began to pick some heads of grain and eat them</action>.<conversation>
+                        <v n="2"/>When <name ref="pharisees">the Pharisees</name>
+                        <action ref="pharisees">saw this, they said to him</action>, <speech
+                              ref="pharisees" tone="condemning" type="instruction">"Look!<name
+                                    ref="apostles"> Your disciples</name> are doing what is unlawful
+                              on the Sabbath."</speech>
+                        <v n="3"/>He answered,<speech type="answer" tone="instructive" ref="Jesus">
+                              "Haven't you read what David did when he and his companions were
+                              hungry? <v n="4"/>He entered the house of God, and he and his
+                              companions ate the consecrated bread--which was not lawful for them to
+                              do, but only for the priests. <v n="5"/>Or haven't you read in the Law
+                              that on the Sabbath the priests in the temple desecrate the day and
+                              yet are innocent? <v n="6"/>I tell you that one greater than the
+                              temple is here. <v n="7"/>If you had known what these words mean, 'I
+                              desire mercy, not sacrifice,' you would not have condemned the
+                              innocent. <v n="8"/>For the Son of Man is Lord of the
+                              Sabbath."</speech>
+                        <v n="9"/>Going on from that place, he went into their synagogue, <v n="10"
+                        />and <name ref="shriveledHand">a man with a shriveled
+                              hand</name><description ref="shriveledHand"> was there.</description>
+                        <action ref="pharisees">Looking for a reason to accuse Jesus, they asked
+                              him</action>, <speech ref="pharisees" tone="unspecified"
+                              type="question">"Is it lawful to heal on the Sabbath?"</speech>
+                        <v n="11"/>He said to them, <speech type="answer" tone="instructive"
+                              ref="Jesus">"If any of you has a sheep and it falls into a pit on the
+                              Sabbath, will you not take hold of it and lift it out? <v n="12"/>How
+                              much more valuable is a man than a sheep! Therefore it is lawful to do
+                              good on the Sabbath."</speech>
+                        <v n="13"/>Then he said to<name ref="shriveledHand"> the man</name>, <speech
+                              ref="Jesus" tone="unspecified" type="instruction">"Stretch out your
+                              hand."</speech></conversation>
+                  <action ref="shriveledHand">So he stretched it out</action> and <description
+                        ref="shriveledHand">it was completely restored, just as sound as the
+                        other.</description>
+                  <v n="14"/>But <name ref="pharisees">the Pharisees</name>
+                  <action ref="pharisees">went out and plotted how they might kill
+                  Jesus</action>.</story>
+            <story><v n="15"/>Aware of this, Jesus withdrew from that place. <name ref="crowd"
+                        >Many</name>
+                  <action ref="crowd">followed him</action>, and he healed <name ref="sick">all
+                        their sick</name>, <v n="16"/>warning them not to tell who he was. <v n="17"
+                  />This was to fulfill what was spoken through the prophet Isaiah: <v n="18"/>"Here
+                  is my servant whom I have chosen, the one I love, in whom I delight; I will put my
+                  Spirit on him, and he will proclaim justice to the nations. <v n="19"/>He will not
+                  quarrel or cry out; no one will hear his voice in the streets. <v n="20"/>A
+                  bruised reed he will not break, and a smoldering wick he will not snuff out, till
+                  he leads justice to victory. <v n="21"/>In his name the nations will put their
+                  hope." </story>
+            <story><v n="22"/>Then they brought him <name ref="binddemon">a demon-possessed
+                        man</name>
+                  <description ref="binddemon">who was blind and mute</description>, and Jesus
+                  healed him, so that <description ref="binddemon">he could both talk and
+                        see</description>. <v n="23"/><name ref=" crowd">All the people</name>
+                  <description ref="crowd">were astonished</description>
+                  <conversation>and said, <speech ref="crowd" tone="confused" type="question">"Could
+                              this be the Son of David?"</speech>
+                        <v n="24"/>But when <name ref="pharisees">the Pharisees</name>
+                        <action ref="pharisees">heard this</action>, they said, <speech
+                              ref="pharisees" type="answer" tone="condemning">"It is only by
+                              Beelzebub, the prince of demons, that this fellow drives out
+                              demons."</speech>
+                        <v n="25"/>Jesus knew their thoughts and said to them, <speech
+                              tone="instructive" type="statement" ref="Jesus">"Every kingdom divided
+                              against itself will be ruined, and every city or household divided
+                              against itself will not stand. <v n="26"/>If Satan drives out Satan,
+                              he is divided against himself. How then can his kingdom stand? <v
+                                    n="27"/>And if I drive out demons by Beelzebub, by whom do your
+                              people drive them out? So then, they will be your judges. <v n="28"
+                              />But if I drive out demons by the Spirit of God, then the kingdom of
+                              God has come upon you. <v n="29"/>"Or again, how can anyone enter a
+                              strong man's house and carry off his possessions unless he first ties
+                              up the strong man? Then he can rob his house. <v n="30"/>"He who is
+                              not with me is against me, and he who does not gather with me
+                              scatters. <v n="31"/>And so I tell you, every sin and blasphemy will
+                              be forgiven men, but the blasphemy against the Spirit will not be
+                              forgiven. <v n="32"/>Anyone who speaks a word against the Son of Man
+                              will be forgiven, but anyone who speaks against the Holy Spirit will
+                              not be forgiven, either in this age or in the age to come. <v n="33"
+                              />"Make a tree good and its fruit will be good, or make a tree bad and
+                              its fruit will be bad, for a tree is recognized by its fruit. <v
+                                    n="34"/>You brood of vipers, how can you who are evil say
+                              anything good? For out of the overflow of the heart the mouth speaks.
+                                    <v n="35"/>The good man brings good things out of the good
+                              stored up in him, and the evil man brings evil things out of the evil
+                              stored up in him. <v n="36"/>But I tell you that men will have to give
+                              account on the day of judgment for every careless word they have
+                              spoken. <v n="37"/>For by your words you will be acquitted, and by
+                              your words you will be condemned.</speech></conversation>"</story>
+            <story><conversation><v n="38"/>Then some of <name ref="pharisees">the Pharisees</name>
+                        and <name ref="lawTeacher">teachers of the law</name> said to him, <speech
+                              ref="lawTeacher pharisees" type="statement" tone="unspecified"
+                              >"Teacher, we want to see a miraculous sign from you."</speech>
+                        <v n="39"/>He answered, <speech tone="condemning" type="statement"
+                              ref="Jesus">"A wicked and adulterous generation asks for a miraculous
+                              sign! But none will be given it except the sign of the prophet Jonah.
+                                    <v n="40"/>For as <name ref="Jonah">Jonah</name>
+                              <description ref="Jonah">was three days and three nights in the belly
+                                    of a huge fish</description>, so the Son of Man will be three
+                              days and three nights in the heart of the earth. <v n="41"/>The <name
+                                    ref="Ninevites">men of Nineveh</name>
+                              <action ref="Ninevites">will stand up at the judgment with this
+                                    generation and condemn it</action>; for <description
+                                    ref="Ninevites"> they repented at the preaching of <name
+                                          ref="Jonah">Jonah</name></description>, and now one
+                              greater than <name ref="Jonah">Jonah</name> is here. <v n="42"/>The
+                                    <name ref="SouthQueen">Queen of the South</name>
+                              <action ref="SouthQueen">will rise at the judgment with this
+                                    generation and condemn it</action>; for <description
+                                    ref="SouthQueen">she came from the ends of the earth to listen
+                                    to <name ref="Solomon">Solomon</name>'s wisdom</description>,
+                              and now one greater than <name ref="Solomon">Solomon</name> is here.
+                                    <v n="43"/>"When an evil spirit comes out of a man, it goes
+                              through arid places seeking rest and does not find it. <v n="44"/>Then
+                              it says, 'I will return to the house I left.' When it arrives, it
+                              finds the house unoccupied, swept clean and put in order. <v n="45"
+                              />Then it goes and takes with it seven other spirits more wicked than
+                              itself, and they go in and live there. And the final condition of that
+                              man is worse than the first. That is how it will be with this wicked
+                              generation."</speech></conversation>
+            </story>
+            <story><v n="46"/>While Jesus was still talking to the crowd, <name ref="JesusFamily"
+                        >his mother and brothers</name>
+                  <description ref="JesusFamily">stood outside, wanting to speak to
+                        him</description>. <conversation><v n="47"/><name ref="somePeople"
+                              >Someone</name>
+                        <action ref="somePeople">told him</action>, <speech ref="somePeople"
+                              type="statement" tone="unspecified">"Your mother and brothers are
+                              standing outside, wanting to speak to you."</speech>
+                        <v n="48"/>He replied to him, <speech tone="unspecified" type="question"
+                              ref="Jesus">"Who is my mother, and who are my brothers?"</speech>
+                        <v n="49"/>Pointing to <name ref="disciples">his disciples</name>, he said,
+                              <speech ref="Jesus" type="statement" tone="unspecified"> "Here are my
+                              mother and my brothers. <v n="50"/>For whoever does the will of my
+                              Father in heaven is my brother and sister and
+                        mother."</speech></conversation>
+            </story>
             <story><c n="13"/>
                   <v n="1"/>That same day Jesus went out of the house and sat by the lake. <v n="2"
-                  />Such large crowds gathered around him that he got into a boat and sat in it,
-                  while all the people stood on the shore. <v n="3"/>Then he told them many things
-                  in parables, saying: "A farmer went out to sow his seed. <v n="4"/>As he was
-                  scattering the seed, some fell along the path, and the birds came and ate it up.
-                        <v n="5"/>Some fell on rocky places, where it did not have much soil. It
-                  sprang up quickly, because the soil was shallow. <v n="6"/>But when the sun came
-                  up, the plants were scorched, and they withered because they had no root. <v n="7"
-                  />Other seed fell among thorns, which grew up and choked the plants. <v n="8"
-                  />Still other seed fell on good soil, where it produced a crop--a hundred, sixty
-                  or thirty times what was sown. <v n="9"/>He who has ears, let him hear." <v n="10"
-                  />The disciples came to him and asked, "Why do you speak to the people in
-                  parables?" <v n="11"/>He replied, "The knowledge of the secrets of the kingdom of
-                  heaven has been given to you, but not to them. <v n="12"/>Whoever has will be
-                  given more, and he will have an abundance. Whoever does not have, even what he has
-                  will be taken from him. <v n="13"/>This is why I speak to them in parables:
-                  "Though seeing, they do not see; though hearing, they do not hear or understand.
-                        <v n="14"/>In them is fulfilled the prophecy of Isaiah: "'You will be ever
-                  hearing but never understanding; you will be ever seeing but never perceiving. <v
-                        n="15"/>For this people's heart has become calloused; they hardly hear with
-                  their ears, and they have closed their eyes. Otherwise they might see with their
-                  eyes, hear with their ears, understand with their hearts and turn, and I would
-                  heal them.' <v n="16"/>But blessed are your eyes because they see, and your ears
-                  because they hear. <v n="17"/>For I tell you the truth, many prophets and
-                  righteous men longed to see what you see but did not see it, and to hear what you
-                  hear but did not hear it. <v n="18"/>"Listen then to what the parable of the sower
-                  means: <v n="19"/>When anyone hears the message about the kingdom and does not
-                  understand it, the evil one comes and snatches away what was sown in his heart.
-                  This is the seed sown along the path. <v n="20"/>The one who received the seed
-                  that fell on rocky places is the man who hears the word and at once receives it
-                  with joy. <v n="21"/>But since he has no root, he lasts only a short time. When
-                  trouble or persecution comes because of the word, he quickly falls away. <v n="22"
-                  />The one who received the seed that fell among the thorns is the man who hears
-                  the word, but the worries of this life and the deceitfulness of wealth choke it,
-                  making it unfruitful. <v n="23"/>But the one who received the seed that fell on
-                  good soil is the man who hears the word and understands it. He produces a crop,
-                  yielding a hundred, sixty or thirty times what was sown." </story>
-            <story><v n="24"/>Jesus told them another parable: "The kingdom of heaven is like a man
-                  who sowed good seed in his field. <v n="25"/>But while everyone was sleeping, his
-                  enemy came and sowed weeds among the wheat, and went away. <v n="26"/>When the
-                  wheat sprouted and formed heads, then the weeds also appeared. <v n="27"/>"The
-                  owner's servants came to him and said, 'Sir, didn't you sow good seed in your
-                  field? Where then did the weeds come from?' <v n="28"/>"'An enemy did this,' he
-                  replied. "The servants asked him, 'Do you want us to go and pull them up?' <v
-                        n="29"/>"'No,' he answered, 'because while you are pulling the weeds, you
-                  may root up the wheat with them. <v n="30"/>Let both grow together until the
-                  harvest. At that time I will tell the harvesters: First collect the weeds and tie
-                  them in bundles to be burned; then gather the wheat and bring it into my
-                  barn.'"</story>
-            <story><v n="31"/>He told them another parable: "The kingdom of heaven is like a mustard
-                  seed, which a man took and planted in his field. <v n="32"/>Though it is the
-                  smallest of all your seeds, yet when it grows, it is the largest of garden plants
-                  and becomes a tree, so that the birds of the air come and perch in its branches."
-                        <v n="33"/>He told them still another parable: "The kingdom of heaven is
-                  like yeast that a woman took and mixed into a large amount of flour until it
-                  worked all through the dough." <v n="34"/>Jesus spoke all these things to the
-                  crowd in parables; he did not say anything to them without using a parable. <v
-                        n="35"/>So was fulfilled what was spoken through the prophet: "I will open
-                  my mouth in parables, I will utter things hidden since the creation of the
+                        /><name ref="crowd">Such large crowds</name>
+                  <action ref="crowd">gathered around him</action> that he got into a boat and sat
+                  in it, while <name ref="crowd">all the people</name>
+                  <action ref="crowd">stood on the shore</action>. <v n="3"/>Then he told them many
+                  things in parables, saying: <monologue>"<speech genre="parable" tone="unspecified"
+                              ref="Jesus"><name ref="farmer">A farmer</name>
+                              <action ref="farmer">went out to sow his seed</action>. <v n="4"/>As
+                              he was scattering the seed, <description ref="pathseeds">some fell
+                                    along the path, and the birds came and ate it up</description>.
+                                    <v n="5"/><description ref="rockseeds">Some fell on rocky
+                                    places, where it did not have much soil. It sprang up quickly,
+                                    because the soil was shallow. <v n="6"/>But when the sun came
+                                    up, the plants were scorched, and they withered because they had
+                                    no root.</description>
+                              <v n="7"/><description ref="thornseeds">Other seed fell among thorns,
+                                    which grew up and choked the plants</description>. <v n="8"
+                                    /><description ref="goodseeds">Still other seed fell on good
+                                    soil, where it produced a crop--a hundred, sixty or thirty times
+                                    what was sown</description>. <v n="9"/>He who has ears, let him
+                              hear."</speech>
+                  </monologue><v n="10"/><conversation><name ref="disciples">The disciples</name>
+                        <action ref="disciples">came to him and asked</action>, <speech
+                              ref="disciples" tone="unspecified" type="statement">"Why do you speak
+                              to the people in parables?"</speech>
+                        <v n="11"/>He replied,<speech ref="Jesus" tone="unspecified"
+                              genre="explanation"> "The knowledge of the secrets of the kingdom of
+                              heaven has been given to you, but not to them. <v n="12"/>Whoever has
+                              will be given more, and he will have an abundance. Whoever does not
+                              have, even what he has will be taken from him. <v n="13"/>This is why
+                              I speak to them in parables: <description ref="crowd">"Though seeing,
+                                    they do not see; though hearing, they do not hear or
+                                    understand.</description>
+                              <v n="14"/>In them is fulfilled the prophecy of Isaiah: "'You will be
+                              ever hearing but never understanding; you will be ever seeing but
+                              never perceiving. <v n="15"/>For this people's heart has become
+                              calloused; they hardly hear with their ears, and they have closed
+                              their eyes. Otherwise they might see with their eyes, hear with their
+                              ears, understand with their hearts and turn, and I would heal them.'
+                                    <v n="16"/>But blessed are your eyes because they see, and your
+                              ears because they hear. <v n="17"/>For I tell you the truth, many
+                              prophets and righteous men longed to see what you see but did not see
+                              it, and to hear what you hear but did not hear it. <v n="18"/>"Listen
+                              then to what the parable of the sower means: <v n="19"/><description
+                                    ref="pathseeds">When anyone hears the message about the kingdom
+                                    and does not understand it, the evil one comes and snatches away
+                                    what was sown in his heart. This is the seed sown along the
+                                    path.</description>
+                              <v n="20"/><description ref="rockseeds">The one who received the seed
+                                    that fell on rocky places is the man who hears the word and at
+                                    once receives it with joy. <v n="21"/>But since he has no root,
+                                    he lasts only a short time. When trouble or persecution comes
+                                    because of the word, he quickly falls away.</description>
+                              <v n="22"/><description ref="thornseeds">The one who received the seed
+                                    that fell among the thorns is the man who hears the word, but
+                                    the worries of this life and the deceitfulness of wealth choke
+                                    it, making it unfruitful</description>. <v n="23"/><description
+                                    ref="goodseeds">But the one who received the seed that fell on
+                                    good soil is the man who hears the word and understands it. He
+                                    produces a crop, yielding a hundred, sixty or thirty times what
+                                    was sown</description>."</speech>
+                  </conversation><v n="24"/><monologue>Jesus told them another parable: <speech
+                              ref="Jesus" genre="parable" tone="unspecified">"The kingdom of heaven
+                              is like <name ref="farmer3">a man</name>
+                              <description ref="farmer3">who sowed good seed in his
+                                    field</description>. <v n="25"/>But while everyone was sleeping,
+                                    <name ref="farmEnemy">his enemy</name>
+                              <action ref="farmEnemy">came and sowed weeds among the wheat, and went
+                                    away</action>. <v n="26"/>When the wheat sprouted and formed
+                              heads, then the weeds also appeared. <v n="27"/>"<name
+                                    ref="farmServant">The owner's servants</name>
+                              <action ref="farmServant">came to him and said, 'Sir, didn't you sow
+                                    good seed in your field? Where then did the weeds come
+                                    from?'</action>
+                              <v n="28"/><action ref="farmer3">"'An enemy did this,' he
+                                    replied.</action>
+                              <action ref="farmServant">"The servants asked him, 'Do you want us to
+                                    go and pull them up?'</action>
+                              <v n="29"/><action ref="farmer3">"'No,' he answered, 'because while
+                                    you are pulling the weeds, you may root up the wheat with them.
+                                          <v n="30"/>Let both grow together until the harvest. At
+                                    that time I will tell the harvesters: First collect the weeds
+                                    and tie them in bundles to be burned; then gather the wheat and
+                                    bring it into my barn.'"</action></speech><v n="31"/>He told
+                        them another parable:<speech ref="Jesus" tone="unspecified" genre="parable">
+                              "The kingdom of heaven is like a mustard seed, which <name
+                                    ref="farmer4">a man</name>
+                              <action ref="farmer4">took and planted in his field</action>. <v
+                                    n="32"/>Though it is the smallest of all your seeds, yet when it
+                              grows, it is the largest of garden plants and becomes a tree, so that
+                              the birds of the air come and perch in its branches." </speech><v
+                              n="33"/>He told them still another parable: <speech ref="Jesus"
+                              genre="parable" tone="unspecified">"The kingdom of heaven is like
+                              yeast that <name ref="yeastWoman">a woman</name>
+                              <action ref="yeastWoman">took and mixed into a large amount of flour
+                                    until it worked all through the dough</action>."</speech>
+                  </monologue><v n="34"/>Jesus spoke all these things to <name ref="crowd">the
+                        crowd</name> in parables; he did not say anything to them without using a
+                  parable. <v n="35"/>So was fulfilled what was spoken through the prophet: "I will
+                  open my mouth in parables, I will utter things hidden since the creation of the
                   world."</story>
-            <story><v n="36"/>Then he left the crowd and went into the house. His disciples came to
-                  him and said, "Explain to us the parable of the weeds in the field." <v n="37"/>He
-                  answered, "The one who sowed the good seed is the Son of Man. <v n="38"/>The field
-                  is the world, and the good seed stands for the sons of the kingdom. The weeds are
-                  the sons of the evil one, <v n="39"/>and the enemy who sows them is the devil. The
-                  harvest is the end of the age, and the harvesters are angels. <v n="40"/>"As the
-                  weeds are pulled up and burned in the fire, so it will be at the end of the age.
-                        <v n="41"/>The Son of Man will send out his angels, and they will weed out
-                  of his kingdom everything that causes sin and all who do evil. <v n="42"/>They
-                  will throw them into the fiery furnace, where there will be weeping and gnashing
-                  of teeth. <v n="43"/>Then the righteous will shine like the sun in the kingdom of
-                  their Father. He who has ears, let him hear.</story>
-            <story><v n="44"/>"The kingdom of heaven is like treasure hidden in a field. When a man
-                  found it, he hid it again, and then in his joy went and sold all he had and bought
-                  that field. <v n="45"/>"Again, the kingdom of heaven is like a merchant looking
-                  for fine pearls. <v n="46"/>When he found one of great value, he went away and
-                  sold everything he had and bought it.</story>
-            <story><v n="47"/>"Once again, the kingdom of heaven is like a net that was let down
-                  into the lake and caught all kinds of fish. <v n="48"/>When it was full, the
-                  fishermen pulled it up on the shore. Then they sat down and collected the good
-                  fish in baskets, but threw the bad away. <v n="49"/>This is how it will be at the
-                  end of the age. The angels will come and separate the wicked from the righteous <v
-                        n="50"/>and throw them into the fiery furnace, where there will be weeping
-                  and gnashing of teeth. <v n="51"/>"Have you understood all these things?" Jesus
-                  asked. "Yes," they replied. <v n="52"/>He said to them, "Therefore every teacher
-                  of the law who has been instructed about the kingdom of heaven is like the owner
-                  of a house who brings out of his storeroom new treasures as well as old." </story>
+            <story><v n="36"/><conversation>Then he left <name ref="crowd">the crowd</name> and went
+                        into the house. <name ref="disciples">His disciples</name>
+                        <action ref="disciples">came to him and said</action>,<speech
+                              ref="disciples" tone="unspecified" type="instruction"> "Explain to us
+                              the parable of the weeds in the field."</speech>
+                        <v n="37"/>He answered, <speech ref="Jesus" genre="explanation"
+                              tone="instructive">"The one who sowed the good seed is the Son of Man.
+                                    <v n="38"/>The field is the world, and the good seed stands for
+                              the sons of the kingdom. The weeds are the sons of the evil one, <v
+                                    n="39"/>and the enemy who sows them is the devil. The harvest is
+                              the end of the age, and the harvesters are angels. <v n="40"/>"As the
+                              weeds are pulled up and burned in the fire, so it will be at the end
+                              of the age. <v n="41"/>The Son of Man will send out his angels, and
+                              they will weed out of his kingdom everything that causes sin and all
+                              who do evil. <v n="42"/>They will throw them into the fiery furnace,
+                              where there will be weeping and gnashing of teeth. <v n="43"/>Then the
+                              righteous will shine like the sun in the kingdom of their Father. He
+                              who has ears, let him hear.<v n="44"/>"The kingdom of heaven is like
+                              treasure hidden in a field. When <name ref="treasureHunter">a
+                                    man</name>
+                              <action ref="treasureHunter">found it, he hid it again, and then in
+                                    his joy went and sold all he had and bought that field.</action>
+                              <v n="45"/>"Again, the kingdom of heaven is like <name ref="merchant"
+                                    >a merchant</name>
+                              <description ref="merchant">looking for fine pearls</description>. <v
+                                    n="46"/><action ref="merchant">When he found one of great value,
+                                    he went away and sold everything he had and bought
+                                    it</action>.<v n="47"/>"Once again, the kingdom of heaven is
+                              like a net that was let down into the lake and caught all kinds of
+                              fish. <v n="48"/>When it was full, <name ref="fisherman">the
+                                    fishermen</name>
+                              <action ref="fisherman">pulled it up on the shore. Then they sat down
+                                    and collected the good fish in baskets, but threw the bad away.
+                                    </action><v n="49"/>This is how it will be at the end of the
+                              age. The angels will come and separate the wicked from the righteous
+                                    <v n="50"/>and throw them into the fiery furnace, where there
+                              will be weeping and gnashing of teeth. <v n="51"/>"Have you understood
+                              all these things?"</speech> Jesus asked. <speech ref="disciples"
+                              tone="unspecified" type="answer">"Yes,"</speech> they replied. <v
+                              n="52"/>He said to them, <speech type="statement" tone="unspecified"
+                              ref="Jesus">"Therefore every teacher of the law who has been
+                              instructed about the kingdom of heaven is like the owner of a house
+                              who brings out of his storeroom new treasures as well as
+                              old."</speech></conversation>
+            </story>
             <story><v n="53"/>When Jesus had finished these parables, he moved on from there. <v
-                        n="54"/>Coming to his hometown, he began teaching the people in their
-                  synagogue, and they were amazed. "Where did this man get this wisdom and these
-                  miraculous powers?" they asked. <v n="55"/>"Isn't this the carpenter's son? Isn't
-                  his mother's name Mary, and aren't his brothers James, Joseph, Simon and Judas? <v
-                        n="56"/>Aren't all his sisters with us? Where then did this man get all
-                  these things?" <v n="57"/>And they took offense at him. But Jesus said to them,
-                  "Only in his hometown and in his own house is a prophet without honor." <v n="58"
-                  />And he did not do many miracles there because of their lack of faith. </story>
+                        n="54"/>Coming to his hometown, he began teaching <name ref="crowd">the
+                        people</name> in their synagogue, and <description ref="crowd">they were
+                        amazed</description>. <conversation><speech ref="crowd" tone="confused"
+                              type="question">"Where did this man get this wisdom and these
+                              miraculous powers?"</speech> they asked. <v n="55"/><speech
+                              type="question" tone="confused" ref="crowd">"Isn't this the
+                              carpenter's son? Isn't his mother's name <name
+                                    ref="JesusFamily motherMary">Mary, and aren't his brothers
+                                    James, Joseph, Simon and Judas</name>? <v n="56"/>Aren't all his
+                              sisters with us? Where then did this man get all these
+                              things?"</speech>
+                        <v n="57"/>And <action ref="crowd">they took offense at him</action>. But
+                        Jesus said to them, <speech ref="Jesus" tone="condemning" type="statement"
+                              >"Only in his hometown and in his own house is a prophet without
+                              honor."</speech></conversation>
+                  <v n="58"/>And he did not do many miracles there because of their lack of faith. </story>
             <story><c n="14"/>
-                  <v n="1"/>At that time Herod the tetrarch heard the reports about Jesus, <v n="2"
-                  />and he said to his attendants, "This is John the Baptist; he has risen from the
-                  dead! That is why miraculous powers are at work in him." <v n="3"/>Now Herod had
-                  arrested John and bound him and put him in prison because of Herodias, his brother
-                  Philip's wife, <v n="4"/>for John had been saying to him: "It is not lawful for
-                  you to have her." <v n="5"/>Herod wanted to kill John, but he was afraid of the
-                  people, because they considered him a prophet. <v n="6"/>On Herod's birthday the
-                  daughter of Herodias danced for them and pleased Herod so much <v n="7"/>that he
-                  promised with an oath to give her whatever she asked. <v n="8"/>Prompted by her
-                  mother, she said, "Give me here on a platter the head of John the Baptist." <v
-                        n="9"/>The king was distressed, but because of his oaths and his dinner
-                  guests, he ordered that her request be granted <v n="10"/>and had John beheaded in
-                  the prison. <v n="11"/>His head was brought in on a platter and given to the girl,
-                  who carried it to her mother. <v n="12"/>John's disciples came and took his body
-                  and buried it. Then they went and told Jesus. </story>
+                  <v n="1"/>At that time <name ref="Herod">Herod the tetrarch</name>
+                  <action ref="Herod">heard the reports about Jesus, <v n="2"/>and he said to his
+                        attendants</action>, <conversation><speech ref="Herod" type="statement"
+                              tone="unspecified">"This is <name ref="John_the_Baptist">John the
+                                    Baptist</name>; he has risen from the dead! That is why
+                              miraculous powers are at work in him."</speech>
+                        <v n="3"/>Now <name ref="Herod">Herod</name>
+                        <action ref="Herod">had arrested John and bound him and put him in
+                              prison</action> because of <name ref="Herodias">Herodias</name>,
+                              <description ref="Herodias"><description ref="PhillipHerod">his
+                                    brother</description>
+                              <name ref="PhillipHerod">Philip</name>'s wife</description>, <v n="4"
+                        />for <name ref="John_the_Baptist">John</name>
+                        <description ref="John_the_Baptist">had been saying to him</description>:
+                              <speech ref="John_the_Baptist" tone="condemning" type="statement"> "It
+                              is not lawful for you to have her."</speech>
+                        <v n="5"/><name ref="Herod">Herod</name>
+                        <description ref="Herod">wanted to kill <name ref="John_the_Baptist"
+                                    >John</name>, but he was afraid of <name ref="crowd">the
+                                    people</name>, because <description ref="crowd">they considered
+                                    him a prophet</description></description>. <v n="6"/>On <name
+                              ref="Herod">Herod</name>'s birthday <name ref="HerodiasDaughter">the
+                              daughter of Herodias</name>
+                        <action ref="HerodiasDaughter">danced for them and pleased <name ref="Herod"
+                                    >Herod</name></action> so much <v n="7"/>that <action
+                              ref="Herod">he promised with an oath to give her whatever she
+                              asked.</action>
+                        <v n="8"/><description ref="HerodiasDaughter">Prompted by her
+                              mother,</description> she said,<speech ref="HerodiasDaughter"
+                              type="instruction" tone="unspecified"> "Give me here on a platter the
+                              head of John the Baptist."</speech></conversation>
+                  <v n="9"/><action ref="Herod">The king was distressed, but because of his oaths
+                        and his dinner guests, he ordered that her request be granted <v n="10"/>and
+                        had <name ref="John_the_Baptist">John</name>
+                        <description ref="John_the_Baptist">beheaded in the
+                        prison</description>.</action>
+                  <v n="11"/>His head was brought in on a platter and given to <name
+                        ref="HerodiasDaughter">the girl</name>, <action ref="HerodiasDaughter">who
+                        carried it to <name ref="Herodias">her mother</name></action>. <v n="12"
+                        /><name ref="JohnDisciples">John's disciples</name>
+                  <action ref="JohnDisciples">came and took his body and buried it. Then they went
+                        and told Jesus.</action>
+            </story>
             <story><v n="13"/>When Jesus heard what had happened, he withdrew by boat privately to a
-                  solitary place. Hearing of this, the crowds followed him on foot from the towns.
-                        <v n="14"/>When Jesus landed and saw a large crowd, he had compassion on
-                  them and healed their sick. <v n="15"/>As evening approached, the disciples came
-                  to him and said, "This is a remote place, and it's already getting late. Send the
-                  crowds away, so they can go to the villages and buy themselves some food." <v
-                        n="16"/>Jesus replied, "They do not need to go away. You give them something
-                  to eat." <v n="17"/>"We have here only five loaves of bread and two fish," they
-                  answered. <v n="18"/>"Bring them here to me," he said. <v n="19"/>And he directed
-                  the people to sit down on the grass. Taking the five loaves and the two fish and
-                  looking up to heaven, he gave thanks and broke the loaves. Then he gave them to
-                  the disciples, and the disciples gave them to the people. <v n="20"/>They all ate
-                  and were satisfied, and the disciples picked up twelve basketfuls of broken pieces
-                  that were left over. <v n="21"/>The number of those who ate was about five
-                  thousand men, besides women and children. </story>
-            <story><v n="22"/>Immediately Jesus made the disciples get into the boat and go on ahead
-                  of him to the other side, while he dismissed the crowd. <v n="23"/>After he had
+                  solitary place. Hearing of this, <name ref="crowd">the crowds</name>
+                  <action ref="crowd">followed him on foot from the towns</action>. <v n="14"/>When
+                  Jesus landed and saw <name ref="crowd">a large crowd</name>, he had compassion on
+                  them and healed <name ref="sick">their sick</name>. <conversation><v n="15"/>As
+                        evening approached, <name ref="disciples">the disciples</name>
+                        <action ref="disciples">came to him and said</action>, <speech
+                              ref="disciples" tone="unspecified" type="statement">"This is a remote
+                              place, and it's already getting late. Send the crowds away, so they
+                              can go to the villages and buy themselves some food." </speech><v
+                              n="16"/>Jesus replied,<speech type="statement" tone="unspecified"
+                              ref="Jesus"> "They do not need to go away. You give them something to
+                              eat." </speech><v n="17"/><speech ref="disciples" tone="confused"
+                              type="statement">"We have here only five loaves of bread and two
+                              fish," </speech>they answered. <v n="18"/><speech type="instruction"
+                              tone="unspecified" ref="Jesus">"Bring them here to me,"</speech> he
+                        said.</conversation>
+                  <v n="19"/>And he directed <name ref="crowd">the people</name> to sit down on the
+                  grass. Taking the five loaves and the two fish and looking up to heaven, he gave
+                  thanks and broke the loaves. Then he gave them to <name ref="disciples">the
+                        disciples</name>, and <name ref="disciples">the disciples</name>
+                  <action ref="disciples">gave them to <name ref="crowd">the people</name></action>.
+                        <v n="20"/><action ref="crowd">They all ate and were satisfied</action>, and
+                        <name ref="disciples">the disciples</name>
+                  <action ref="disciples">picked up twelve basketfuls of broken pieces that were
+                        left over</action>. <v n="21"/><description ref="crowd">The number of those
+                        who ate was about five thousand men, besides women and
+                        children.</description>
+            </story>
+            <story><v n="22"/>Immediately Jesus made <name ref="disciples">the disciples</name>
+                  <action ref="disciples">get into the boat and go on ahead of him to the other
+                        side</action>, while he dismissed the crowd. <v n="23"/>After he had
                   dismissed them, he went up on a mountainside by himself to pray. When evening
                   came, he was there alone, <v n="24"/>but the boat was already a considerable
                   distance from land, buffeted by the waves because the wind was against it. <v
                         n="25"/>During the fourth watch of the night Jesus went out to them, walking
-                  on the lake. <v n="26"/>When the disciples saw him walking on the lake, they were
-                  terrified. "It's a ghost," they said, and cried out in fear. <v n="27"/>But Jesus
-                  immediately said to them: "Take courage! It is I. Don't be afraid." <v n="28"
-                  />"Lord, if it's you," Peter replied, "tell me to come to you on the water." <v
-                        n="29"/>"Come," he said. <v n="30"/>Then Peter got down out of the boat,
-                  walked on the water and came toward Jesus. But when he saw the wind, he was afraid
-                  and, beginning to sink, cried out, "Lord, save me!" <v n="31"/>Immediately Jesus
-                  reached out his hand and caught him. "You of little faith," he said, "why did you
-                  doubt?" <v n="32"/>And when they climbed into the boat, the wind died down. <v
-                        n="33"/>Then those who were in the boat worshiped him, saying, "Truly you
-                  are the Son of God." <v n="34"/>When they had crossed over, they landed at
-                  Gennesaret. <v n="35"/>And when the men of that place recognized Jesus, they sent
-                  word to all the surrounding country. People brought all their sick to him <v
-                        n="36"/>and begged him to let the sick just touch the edge of his cloak, and
-                  all who touched him were healed. </story>
+                  on the lake. <v n="26"/>When <name ref="disciples">the disciples</name>
+                  <action ref="disciples">saw him walking on the lake</action>, <description
+                        ref="disciples">they were terrified.</description>
+                  <conversation><speech ref="disciples">"It's a ghost,"</speech>
+                        <action ref="disciples">they said, and cried out in fear</action>. <v n="27"
+                        />But Jesus immediately said to them: <speech ref="Jesus" tone="kind"
+                              type="instruction">"Take courage! It is I. Don't be afraid."</speech>
+                        <v n="28"/><speech type="statement" tone="unspecified" ref="Peter">"Lord, if
+                              it's you,"</speech>
+                        <name ref="Peter">Peter</name> replied, <speech ref="Peter"
+                              tone="unspecified" type="instruction">"tell me to come to you on the
+                              water."</speech>
+                        <v n="29"/><speech type="instruction" tone="unspecified" ref="Jesus"
+                              >"Come,"</speech> he said. <v n="30"/>Then <name ref="Peter"
+                              >Peter</name>
+                        <action ref="Peter">got down out of the boat, walked on the water and came
+                              toward Jesus. But when he saw the wind, he was afraid and, beginning
+                              to sink, cried out</action>, <speech ref="Peter" tone="unspecified"
+                              type="instruction">"Lord, save me!"</speech>
+                        <v n="31"/>Immediately Jesus reached out his hand and caught him. <speech
+                              type="question" tone="unspecified" ref="Jesus">"You of little faith,"
+                              he said, "why did you doubt?"</speech>
+                        <v n="32"/>And when they climbed into the boat, the wind died down. <v
+                              n="33"/><action ref="disciples">Then those who were in the boat
+                              worshiped him, saying,</action>
+                        <speech ref="disciples"> "Truly you are the Son of God."</speech>
+                  </conversation><v n="34"/><action ref="disciples">When they had crossed over, they
+                        landed at Gennesaret</action>. <v n="35"/>And when <name ref="crowd">the men
+                        of that place </name>
+                  <action ref="crowd">recognized Jesus, they sent word to all the surrounding
+                        country</action>. <name ref="crowd">People</name>
+                  <action ref="crowd">brought all their sick to him <v n="36"/>and begged him to let
+                        the sick just touch the edge of his cloak, and all who touched him were
+                        healed.</action>
+            </story>
             <story><c n="15"/>
                   <v n="1"/>Then some Pharisees and teachers of the law came to Jesus from Jerusalem
                   and asked, <v n="2"/>"Why do your disciples break the tradition of the elders?
@@ -1827,8 +2138,9 @@
                               disciples</name> saw this, they were indignant</description>.
                               <conversation><speech ref="disciples" type="question"
                               tone="condemning">"Why this waste?"</speech> they asked. <v n="9"
-                              /><speech tone="unspecified" type="statement">"This perfume could have
-                              been sold at a high price and the money given to the poor."</speech>
+                              /><speech ref="disciples" tone="unspecified" type="statement">"This
+                              perfume could have been sold at a high price and the money given to
+                              the poor."</speech>
                         <v n="10"/>Aware of this, Jesus said to them, <speech type="statement"
                               tone="instructive" ref="Jesus">"Why are you bothering this woman? She
                               has done a beautiful thing to me. <v n="11"/>The poor you will always

@@ -6,6 +6,8 @@
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
     <xsl:variable name="books" select="collection('books')" as="document-node()+"/>
     <xsl:variable name="gsi" select="//$books//gsi" as="element(gsi)+"/>
+    <xsl:variable name="esi" select="//$books//esi" as="element(esi)+"/>
+    <xsl:variable name="csi" select="//$books//csi" as="element(csi)+"/>
     <xsl:template match="/">
         <html>
             <head>
@@ -22,6 +24,36 @@
                     <code>&lt;gsi&gt;</code> elements in all books, and they are:</p>
                 <ol>
                     <xsl:for-each select="$gsi">
+                        <xsl:sort select="base-uri(current())"/>
+                        <li>
+                            <strong>
+                                <xsl:value-of
+                                    select="substring-before(tokenize(base-uri(current()),'/')[last()],'.xml')"/>
+                                <xsl:text>: </xsl:text>
+                            </strong>
+                            <xsl:value-of select="current()"/>
+                        </li>
+                    </xsl:for-each>
+                </ol>
+                <p>There are <xsl:value-of select="count($esi)"/>
+                    <code>&lt;esi&gt;</code> elements in all books, and they are:</p>
+                <ol>
+                    <xsl:for-each select="$esi">
+                        <xsl:sort select="base-uri(current())"/>
+                        <li>
+                            <strong>
+                                <xsl:value-of
+                                    select="substring-before(tokenize(base-uri(current()),'/')[last()],'.xml')"/>
+                                <xsl:text>: </xsl:text>
+                            </strong>
+                            <xsl:value-of select="current()"/>
+                        </li>
+                    </xsl:for-each>
+                </ol>
+                <p>There are <xsl:value-of select="count($csi)"/>
+                    <code>&lt;csi&gt;</code> elements in all books, and they are:</p>
+                <ol>
+                    <xsl:for-each select="$csi">
                         <xsl:sort select="base-uri(current())"/>
                         <li>
                             <strong>
