@@ -119,7 +119,7 @@
                   incense. <v n="12"/>When <name ref="Zechariah">Zechariah</name>
                   <action ref="Zechariah">saw him, he was startled and was gripped with
                         fear</action>.<conversation>
-                        <v n="13"/>But the angel said to him: <speech ref="angel" genre="blessing"
+                        <v n="13"/>But the angel said to him: <speech audience="Zechariah" ref="angel" genre="blessing"
                               tone="instructive">"Do not be afraid, <name ref="Zechariah"
                                     >Zechariah;</name> your prayer has been heard. Your wife <name
                                     ref="Elizabeth">Elizabeth</name> will bear you a son, and you
@@ -135,12 +135,12 @@
                                     their children and the disobedient to the wisdom of the
                                     righteous--to make ready a people prepared for the
                                     Lord.</description>"</speech>
-                        <v n="18"/><name ref="Zechariah">Zechariah</name> asked the angel, <speech
+                        <v n="18"/><name ref="Zechariah">Zechariah</name> asked the angel, <speech audience="angel"
                               ref="Zechariah" tone="confused" type="question">"How can I be sure of
                               this? <description ref="Zechariah">I am an old man </description>and
                                     <description ref="Elizabeth"> my wife is well along in
                                     years</description>." </speech><v n="19"/>The angel answered,
-                              <speech ref="angel" type="statement" tone="condemning">"I am Gabriel.
+                              <speech audience="Zechariah" ref="angel" type="statement" tone="condemning">"I am Gabriel.
                               I stand in the presence of God, and I have been sent to speak to you
                               and to tell you this good news. <v n="20"/>And now you will be silent
                               and not able to speak until the day this happens, because you did not
@@ -154,7 +154,7 @@
                         was completed, he returned home. <v n="24"/>After this his wife <name
                               ref="Elizabeth">Elizabeth</name>
                         <description ref="Elizabeth">became pregnant and for five months remained in
-                              seclusion</description>. <v n="25"/><speech ref="Elizabeth"
+                              seclusion</description>. <v n="25"/><speech audience="Zechariah" ref="Elizabeth"
                               tone="unspecified" type="statement">"The Lord has done this for me,"
                               she said. "In these days he has shown his favor and taken away my
                               disgrace among the people.</speech></conversation>"</story>
@@ -163,24 +163,24 @@
                         married to a man named <name ref="Joseph">Joseph</name>,</description>
                   <description ref="Joseph">a descendant of David.</description> The virgin's name
                   was <name ref="motherMary">Mary</name>.<conversation>
-                        <v n="28"/>The angel went to her and said,<speech ref="angel"
+                        <v n="28"/>The angel went to her and said,<speech  audience="motherMary" ref="angel"
                               type="greeting" tone="kind"> "Greetings, you who are highly favored!
                               The Lord is with you." </speech><v n="29"/><name ref="motherMary"
                               >Mary</name>
                         <action ref="motherMary">was greatly troubled at his words and wondered what
                               kind of greeting this might be</action>. <v n="30"/>But the angel said
-                        to her, <speech ref="angel" tone="kind" type="statement">"Do not be afraid,
+                        to her, <speech audience="motherMary" ref="angel" tone="kind" type="statement">"Do not be afraid,
                                     <name ref="motherMary">Mary</name>, you have found favor with
                               God. <v n="31"/>You will be with child and give birth to a son, and
                               you are to give him the name Jesus. <v n="32"/>He will be great and
                               will be called the Son of the Most High. The Lord God will give him
                               the throne of his father David, <v n="33"/>and he will reign over the
                               house of Jacob forever; his kingdom will never end."</speech>
-                        <v n="34"/><speech ref="motherMary" type="question" tone="confused">"How
+                        <v n="34"/><speech audience="angel" ref="motherMary" type="question" tone="confused">"How
                               will this be,"</speech>
-                        <name ref="motherMary">Mary</name> asked the angel, <speech tone="confused"
+                        <name ref="motherMary">Mary</name> asked the angel, <speech audience="angel" tone="confused"
                               type="question" ref="motherMary">"since I am a virgin?"</speech>
-                        <v n="35"/>The angel answered, <speech ref="angel" type="statement"
+                        <v n="35"/>The angel answered, <speech audience="motherMary" ref="angel" type="statement"
                               tone="kind">"The Holy Spirit will come upon you, and the power of the
                               Most High will overshadow you. So the holy one to be born will be
                               called the Son of God. <v n="36"/>Even <name ref="Elizabeth"
@@ -189,8 +189,8 @@
                                     her old age, and she who was said to be barren is in her sixth
                                     month.</description>
                               <v n="37"/>For nothing is impossible with God."</speech>
-                        <v n="38"/><speech ref="motherMary" tone="unspecified" type="statement">"I
-                              am the Lord's servant," </speech>Mary answered. <speech
+                        <v n="38"/><speech audience="angel" ref="motherMary" tone="unspecified" type="statement">"I
+                              am the Lord's servant," </speech>Mary answered. <speech audience="angel"
                               type="statement" tone="unspecified" ref="motherMary">"May it be to me
                               as you have said.</speech>"</conversation> Then the angel left
                   her.</story>
@@ -205,14 +205,14 @@
                   <description ref="Elizabeth">was filled with the Holy Spirit</description>.
                               <monologue><v n="42"/><action ref="Elizabeth">In a loud voice she
                               exclaimed:</action>
-                        <speech ref="Elizabeth" tone="unspecified" genre="blessing">"Blessed are you
+                        <speech audience="motherMary" ref="Elizabeth" tone="unspecified" genre="blessing">"Blessed are you
                               among women, and blessed is the child you will bear! <v n="43"/>But
                               why am I so favored, that the mother of my Lord should come to me? <v
                                     n="44"/>As soon as the sound of your greeting reached my ears,
                               the baby in my womb leaped for joy. <v n="45"/>Blessed is she who has
                               believed that what the Lord has said to her will be
                               accomplished!"</speech></monologue></story>
-            <story><monologue><v n="46"/>And <name ref="motherMary">Mary</name> said: <speech
+            <story><monologue><v n="46"/>And <name ref="motherMary">Mary</name> said: <speech audience="Elizabeth"
                               ref="motherMary" genre="blessing" tone="unspecified">"My soul
                               glorifies the Lord <v n="47"/>and my spirit rejoices in God my Savior,
                                     <v n="48"/>for he has been mindful of the humble state of his
@@ -239,15 +239,15 @@
                         his father <name ref="Zechariah">Zechariah</name>,</action>
                   <conversation><v n="60"/>but <action ref="Elizabeth">his mother spoke up and
                               said,</action>
-                        <speech ref="Elizabeth" tone="unspecified" type="statement">"No! He is to be
+                        <speech audience="somePeople" ref="Elizabeth" tone="unspecified" type="statement">"No! He is to be
                               called <name ref="John_the_Baptist">John</name>."</speech>
-                        <v n="61"/>They said to her, <speech ref="somePeople" type="statement"
+                        <v n="61"/>They said to her, <speech audience="Elizabeth" ref="somePeople" type="statement"
                               tone="confused">"There is no one among your relatives who has that
                               name."</speech>
                         <v n="62"/><action ref="somePeople">Then they made signs to his father, to
                               find out what he would like to name the child</action>. <v n="63"
                               /><action ref="Zechariah">He asked for a writing tablet, and to
-                              everyone's astonishment he wrote</action>, <speech ref="Zechariah"
+                              everyone's astonishment he wrote</action>, <speech audience="somePeople" ref="Zechariah"
                               tone="unspecified" type="statement">"His name is <name
                                     ref="John_the_Baptist">John</name>."</speech>
                         <v n="64"/><description ref="John_the_Baptist">Immediately his mouth was
@@ -257,14 +257,14 @@
                               awe, and throughout the hill country of Judea people were talking
                               about all these things</description>. <v n="66"/><action
                               ref="somePeople">Everyone who heard this wondered about it,
-                              asking</action>, <speech ref="somePeople" type="question"
+                              asking</action>, <speech audience="somePeople" ref="somePeople" type="question"
                               tone="confused">"What then is this child going to
                         be?"</speech></conversation>
                   <description ref="John_the_Baptist">For the Lord's hand was with
                         him.</description></story>
             <story><monologue><v n="67"/>His father <name ref="Zechariah">Zechariah</name>
                         <description ref="Zechariah">was filled with the Holy Spirit and
-                              prophesied</description>: <speech ref="Zechariah" tone="instructive"
+                              prophesied</description>: <speech audience="somePeople" ref="Zechariah" tone="instructive"
                               genre="prophesy">
                               <v n="68"/>"Praise be to the Lord, the God of Israel, because he has
                               come and has redeemed his people. <v n="69"/>He has raised up a horn
@@ -310,19 +310,19 @@
                         their flocks at night</description>. <v n="9"/>An angel of the Lord appeared
                   to them, and the glory of the Lord shone around them, and <description
                         ref="sheperds">they were terrified</description>.<conversation>
-                        <v n="10"/>But the angel said to them, <speech ref="angel" type="statement"
+                        <v n="10"/>But the angel said to them, <speech  audience="sheperds" ref="angel" type="statement"
                               tone="instructive"> "Do not be afraid. I bring you good news of great
                               joy that will be for all the people. <v n="11"/>Today in the town of
                               David a Savior has been born to you; he is Christ the Lord. <v n="12"
                               />This will be a sign to you: You will find a baby wrapped in cloths
                               and lying in a manger."</speech>
                         <v n="13"/>Suddenly a great company of the heavenly host appeared with the
-                        angel, praising God and saying, <v n="14"/><speech tone="unspecified"
+                        angel, praising God and saying, <v n="14"/><speech  audience="angel" tone="unspecified"
                               type="blessing" ref="angel">"Glory to God in the highest, and on earth
                               peace to men on whom his favor rests."</speech>
                         <v n="15"/>When the angels had left them and gone into heaven, <name
                               ref="sheperds">the shepherds</name>
-                        <action ref="sheperds">said to one another</action>, "<speech ref="sheperds"
+                        <action ref="sheperds">said to one another</action>, "<speech audience="sheperds" ref="sheperds"
                               type="statement" tone="unspecified">Let's go to Bethlehem and see this
                               thing that has happened, which the Lord has told us
                         about."</speech></conversation>
@@ -360,7 +360,7 @@
                         brought in the child Jesus to do for him what the custom of the Law
                         required, <v n="28"/><name ref="Simeon">Simeon</name>
                         <action ref="Simeon">took him in his arms and praised God, saying:</action>
-                        <speech ref="Simeon" genre="prophesy" tone="unspecified"><v n="29"
+                        <speech audience="Jesus" ref="Simeon" genre="prophesy" tone="unspecified"><v n="29"
                               />"Sovereign Lord, as you have promised, you now dismiss your servant
                               in peace. <v n="30"/>For my eyes have seen your salvation, <v n="31"
                               />which you have prepared in the sight of all people, <v n="32"/>a
@@ -370,7 +370,7 @@
                               him.</description>
                         <v n="34"/>Then <name ref="Simeon">Simeon</name>
                         <action ref="Simeon">blessed them and said to <name ref="motherMary"
-                                    >Mary</name>, his mother</action>:<speech ref="Simeon"
+                                    >Mary</name>, his mother</action>:<speech audience="motherMary" ref="Simeon"
                               tone="unspecified" genre="prophesy"> "This child is destined to cause
                               the falling and rising of many in Israel, and to be a sign that will
                               be spoken against, <v n="35"/>so that the thoughts of many hearts will
@@ -406,11 +406,11 @@
                         /><description ref="lawTeachers">Everyone who heard him was amazed at his
                         understanding and his answers.</description>
                   <description ref=" Joseph"><v n="48"/>When his parents saw him, they were
-                        astonished</description>. <conversation>His mother said to him, <speech
+                        astonished</description>. <conversation>His mother said to him, <speech audience="Jesus"
                               type="question" tone="confused" ref="motherMary">"Son, why have you
                               treated us like this? Your father and I have been anxiously searching
                               for you."</speech>
-                        <v n="49"/><speech ref="Jesus" tone="unspecified" type="question">"Why were
+                        <v n="49"/><speech audience="Joseph motherMary" ref="Jesus" tone="unspecified" type="question">"Why were
                               you searching for me?" he asked. "Didn't you know I had to be in my
                               Father's house?"</speech></conversation>
                   <v n="50"/>But <description ref="motherMary Joseph">they did not understand what
@@ -443,7 +443,7 @@
                               ref="John_the_Baptist">John</name>
                         <action ref="John_the_Baptist"> said to <name ref="crowd">the crowds</name>
                               <description ref="crowd">coming out to be baptized by
-                                    him</description></action>, <speech ref="John_the_Baptist"
+                                    him</description></action>, <speech audience="crowd" ref="John_the_Baptist"
                               type="statement" tone="condemning">"You brood of vipers! Who warned
                               you to flee from the coming wrath? <v n="8"/>Produce fruit in keeping
                               with repentance. And do not begin to say to yourselves, 'We have
@@ -451,29 +451,29 @@
                               can raise up children for Abraham. <v n="9"/>The ax is already at the
                               root of the trees, and every tree that does not produce good fruit
                               will be cut down and thrown into the fire."</speech>
-                        <v n="10"/><speech tone="unspecified" type="question" ref="crowd">"What
+                        <v n="10"/><speech audience="crowd" tone="unspecified" type="question" ref="crowd">"What
                               should we do then?"</speech>
                         <name ref="crowd">the crowd</name> asked. <v n="11"/><name
-                              ref="John_the_Baptist">John</name> answered, <speech
+                              ref="John_the_Baptist">John</name> answered, <speech audience="crowd"
                               ref="John_the_Baptist" type="instruction" tone="instructive">"The man
                               with two tunics should share with him who has none, and the one who
                               has food should do the same."</speech>
                         <v n="12"/><name ref="taxCollector">Tax collectors</name>
                         <description ref="taxCollector">also came to be baptized.</description>
-                        <speech ref="taxCollector" tone="unspecified" type="question">"Teacher,"
+                        <speech audience="John_the_Baptist" ref="taxCollector" tone="unspecified" type="question">"Teacher,"
                               they asked, "what should we do?"</speech>
-                        <v n="13"/><speech type="answer" tone="unspecified" ref="John_the_Baptist"
+                        <v n="13"/><speech audience="taxCollector" type="answer" tone="unspecified" ref="John_the_Baptist"
                               >"Don't collect any more than you are required to,"</speech> he told
                               <v n="14"/>them. Then <name ref="soldiers">some soldiers</name> asked
-                        him, <speech ref="soldiers" tone="unspecified" type="question">"And what
-                              should we do?"</speech> He replied, <speech type="answer"
+                        him, <speech audience="John_the_Baptist" ref="soldiers" tone="unspecified" type="question">"And what
+                              should we do?"</speech> He replied, <speech audience="soldiers" type="answer"
                               tone="unspecified" ref="John_the_Baptist">"Don't extort money and
                               don't accuse people falsely--be content with your pay."</speech>
                         <v n="15"/><description ref="crowd">The people were waiting expectantly and
                               were all wondering in their hearts if <name ref="John_the_Baptist"
                                     >John</name> might possibly be the Christ.</description>
                         <v n="16"/><name ref="John_the_Baptist">John</name>
-                        <action ref="John_the_Baptist">answered them all</action>, <speech
+                        <action ref="John_the_Baptist">answered them all</action>, <speech audience="crowd"
                               ref="John_the_Baptist" tone="instructive" type="answer">"I baptize you
                               with water. But one more powerful than I will come, the thongs of
                               whose sandals I am not worthy to untie. He will baptize you with the

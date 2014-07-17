@@ -82,7 +82,7 @@
                   full of grace and truth.<monologue>
                         <v n="15"/><name ref="John_the_Baptist">John</name>
                         <action ref="John_the_Baptist">testifies concerning him. He cries out,
-                              saying</action>, <speech ref="John_the_Baptist" genre="explanation"
+                              saying</action>, <speech audience="crowd" ref="John_the_Baptist" genre="explanation"
                               tone="unspecified">"This was he of whom I said, 'He who comes after me
                               has surpassed me because he was before me.'" </speech></monologue><v
                         n="16"/>From the fullness of his grace we have all received one blessing
@@ -94,31 +94,31 @@
                   <action ref="crowd">sent <name ref="lawTeachers">priests and Levites</name> to ask
                         him who he was</action>. <v n="20"/><conversation><action
                               ref="John_the_Baptist">He did not fail to confess, but confessed
-                              freely</action>,<speech ref="John_the_Baptist" tone="unspecified"
+                              freely</action>,<speech audience="lawTeachers" ref="John_the_Baptist" tone="unspecified"
                               type="statement"> "I am not the Christ. " </speech><v n="21"/>They
-                        asked him, <speech ref="lawTeachers" type="question" tone="unspecified"
-                              >"Then who are you? Are you Elijah?"</speech> He said, <speech
+                        asked him, <speech audience="John_the_Baptist" ref="lawTeachers" type="question" tone="unspecified"
+                              >"Then who are you? Are you Elijah?"</speech> He said, <speech  audience="lawTeachers"
                               tone="unspecified" type="answer" ref="John_the_Baptist">"I am
                               not."</speech>
-                        <speech ref="lawTeachers" type="question" tone="unspecified">"Are you the
-                              Prophet?"</speech> He answered, <speech tone="unspecified"
+                        <speech ref="lawTeachers" type="question" tone="unspecified" audience="John_the_Baptist">"Are you the
+                              Prophet?"</speech> He answered, <speech audience="lawTeachers" tone="unspecified"
                               type="answer" ref="John_the_Baptist">"No."</speech>
-                        <v n="22"/>Finally they said, <speech ref="lawTeachers" type="question"
+                        <v n="22"/>Finally they said, <speech audience="John_the_Baptist" ref="lawTeachers" type="question"
                               tone="unspecified">"Who are you? Give us an answer to take back to
                               those who sent us. What do you say about yourself?"</speech>
                         <v n="23"/><action ref="John_the_Baptist"><name ref="John_the_Baptist"
                                     >John</name> replied in the words of Isaiah the
                               prophet,</action>
-                        <speech ref="John_the_Baptist" tone="unspecified" type="statement">"I am the
+                        <speech ref="John_the_Baptist" tone="unspecified" type="statement" audience="lawTeachers">"I am the
                               voice of one calling in the desert, 'Make straight the way for the
                               Lord.'"</speech>
                         <v n="24"/>Now some <name ref="pharisees">Pharisees</name>
                         <description ref="pharisees">who had been sent</description>
-                        <v n="25"/><action ref="pharisees">questioned him</action>, <speech
+                        <v n="25"/><action ref="pharisees">questioned him</action>, <speech audience="John_the_Baptist"
                               type="question" tone="unspecified" ref="pharisees">"Why then do you
                               baptize if you are not the Christ, nor Elijah, nor the
                               Prophet?"</speech>
-                        <v n="26"/><speech ref="John_the_Baptist" tone="unspecified"
+                        <v n="26"/><speech audience="pharisees" ref="John_the_Baptist" tone="unspecified"
                               type="statement">"I baptize with water," <name ref="John_the_Baptist"
                                     >John </name>replied, "but among you stands one you do not know.
                                     <v n="27"/>He is the one who comes after me, the thongs of whose
@@ -127,7 +127,7 @@
                         <name ref="John_the_Baptist">John</name> was baptizing. </story>
             <story><monologue><v n="29"/>The next day <name ref="John_the_Baptist">John
                               </name><action ref="John_the_Baptist">saw Jesus coming toward him and
-                              said</action>, <speech ref="John_the_Baptist" genre="explanation"
+                              said</action>, <speech  audience="crowd" ref="John_the_Baptist" genre="explanation"
                               tone="unspecified">"Look, the Lamb of God, who takes away the sin of
                               the world! <v n="30"/>This is the one I meant when I said, 'A man who
                               comes after me has surpassed me because he was before me.' <v n="31"
@@ -135,7 +135,7 @@
                               water was that he might be revealed to Israel." </speech><v n="32"
                         />Then <name ref="John_the_Baptist">John</name>
                         <action ref="John_the_Baptist">gave this testimony:</action>
-                        <speech ref="John_the_Baptist" tone="unspecified" genre="explanation">"I saw
+                        <speech audience="crowd" ref="John_the_Baptist" tone="unspecified" genre="explanation">"I saw
                               the Spirit come down from heaven as a dove and remain on him. <v
                                     n="33"/>I would not have known him, except that the one who sent
                               me to baptize with water told me, 'The man on whom you see the Spirit
@@ -146,16 +146,16 @@
                   <description ref="John_the_Baptist">was there again with <name ref="JohnDisciples"
                               >two of his disciples</name></description>. <conversation><v n="36"
                         />When <action ref="John_the_Baptist">he saw Jesus passing by, he
-                              said</action>, "<speech ref="John_the_Baptist" type="statement"
+                              said</action>, "<speech audience="crowd" ref="John_the_Baptist" type="statement"
                               tone="unspecified">Look, the Lamb of God</speech>!" <v n="37"/>When
                               <name ref="JohnDisciples">the two disciples</name>
                         <action ref="JohnDisciples">heard him say this, they followed
                         Jesus</action>. <v n="38"/>Turning around, Jesus saw them following and
-                        asked, <speech ref="Jesus" tone="unspecified" type="question">"What do you
-                              want?"</speech> They said, <speech type="question" tone="unspecified"
+                        asked, <speech audience="JohnDisciples" ref="Jesus" tone="unspecified" type="question">"What do you
+                              want?"</speech> They said, <speech audience="Jesus" type="question" tone="unspecified"
                               ref="JohnDisciples">"Rabbi" (which means Teacher), "where are you
                               staying?"</speech>
-                        <v n="39"/><speech ref="Jesus" tone="unspecified" type="statement">"Come,"
+                        <v n="39"/><speech audience="JohnDisciples" ref="Jesus" tone="unspecified" type="statement">"Come,"
                               he replied, "and you will see."</speech>
                         <action ref="JohnDisciples">So they went and saw where he was staying, and
                               spent that day with him</action>. It was about the tenth hour. <v
@@ -166,49 +166,49 @@
                               Jesus</description>. <v n="41"/><description ref="Andrew">The first
                               thing <name ref="Andrew">Andrew</name> did was to find his brother
                                     <name ref="Peter">Simon </name>and tell him</description>,
-                              <speech ref="Andrew" type="statement" tone="unspecified">"We have
+                              <speech audience="Peter" ref="Andrew" type="statement" tone="unspecified">"We have
                               found the Messiah"</speech> (that is, the Christ). <v n="42"/><action
                               ref="Andrew">And he brought him to Jesus</action>. Jesus looked at him
-                        and said,<speech ref="Jesus" tone="unspecified" type="statement">
+                        and said,<speech audience="Peter" ref="Jesus" tone="unspecified" type="statement">
                               <description ref="Peter">"You are Simon son of John. You will be
                                     called Cephas"</description></speech> (which, when translated,
                         is Peter ).</conversation></story>
             <story>
                   <v n="43"/>The next day Jesus decided to leave for Galilee. <conversation>Finding
-                              <name ref="Philip">Philip</name>, he said to him,<speech ref="Jesus"
+                              <name ref="Philip">Philip</name>, he said to him,<speech audience="Philip" ref="Jesus"
                               type="instruction" tone="instructive"> "Follow me."</speech>
                         <v n="44"/><name ref="Philip">Philip</name>, <description ref="Philip">like
                                     <name ref="Andrew">Andrew</name> and <name ref="Peter"
                                     >Peter</name>, was from the town of Bethsaida</description>. <v
                               n="45"/><name ref="Philip">Philip</name>
                         <action ref="Philip">found <name ref="Bartholomew">Nathanael</name> and told
-                              him</action>, <speech ref="Philip" tone="unspecified" type="statement"
+                              him</action>, <speech  audience="Bartholomew" ref="Philip" tone="unspecified" type="statement"
                               >"We have found the one Moses wrote about in the Law, and about whom
                               the prophets also wrote--Jesus of Nazareth, the son of <name
                                     ref="Joseph">Joseph</name>."</speech>
-                        <v n="46"/><speech ref="Bartholomew" type="question" tone="condemning"
+                        <v n="46"/><speech audience="Philip" ref="Bartholomew" type="question" tone="condemning"
                               >"Nazareth! Can anything good come from there?"</speech>
-                        <name ref="Bartholomew">Nathanael</name> asked. <speech ref="Philip"
+                        <name ref="Bartholomew">Nathanael</name> asked. <speech audience="Bartholomew" ref="Philip"
                               tone="unspecified" type="statement">"Come and see,"</speech> said
                               <name ref="Philip">Philip</name>. <v n="47"/>When Jesus saw <name
                               ref="Bartholomew">Nathanael</name>
                         <description ref="Bartholomew">approaching,</description> he said of him,
-                              <speech ref="Jesus" type="statement" tone="unspecified">"Here is
+                              <speech audience="Bartholomew" ref="Jesus" type="statement" tone="unspecified">"Here is
                                     <description ref="Bartholomew">a true Israelite, in whom there
                                     is nothing false</description>."</speech>
-                        <v n="48"/><speech ref="Bartholomew" tone="unspecified" type="question">"How
+                        <v n="48"/><speech audience="Jesus" ref="Bartholomew" tone="unspecified" type="question">"How
                               do you know me?"</speech>
-                        <name ref="Bartholomew">Nathanael</name> asked. Jesus answered, <speech
+                        <name ref="Bartholomew">Nathanael</name> asked. Jesus answered, <speech audience="Bartholomew"
                               ref="Jesus" type="answer" tone="unspecified">"I saw you while you were
                               still under the fig tree before <name ref="Philip">Philip</name>
                               called you."</speech>
-                        <v n="49"/>Then <name ref="Bartholomew">Nathanael</name> declared, <speech
+                        <v n="49"/>Then <name ref="Bartholomew">Nathanael</name> declared, <speech audience="Jesus"
                               ref="Bartholomew" tone="unspecified" type="statement">"Rabbi, you are
                               the Son of God; you are the King of Israel."</speech>
-                        <v n="50"/>Jesus said, <speech type="statement" tone="unspecified"
+                        <v n="50"/>Jesus said, <speech audience="Bartholomew" type="statement" tone="unspecified"
                               ref="Jesus">"You believe because I told you I saw you under the fig
                               tree. You shall see greater things than that."</speech>
-                        <v n="51"/>He then added, <speech ref="Jesus" tone="instructive"
+                        <v n="51"/>He then added, <speech audience="Bartholomew" ref="Jesus" tone="instructive"
                               type="statement">"I tell you the truth, you shall see heaven open, and
                               the angels of God ascending and descending on the Son of
                               Man."</speech></conversation></story>
@@ -218,23 +218,23 @@
                   and <name ref="disciples">his disciples</name>
                   <description ref="disciples">had also been invited to the wedding</description>.
                               <conversation><v n="3"/>When the wine was gone, <name ref="motherMary"
-                              >Jesus' mother</name> said to him,<speech ref="motherMary"
+                              >Jesus' mother</name> said to him,<speech audience="Jesus" ref="motherMary"
                               type="statement" tone="unspecified"> "They have no more
                               wine."</speech>
-                        <v n="4"/><speech tone="unspecified" type="question" ref="Jesus">"Dear
+                        <v n="4"/><speech audience="motherMary" tone="unspecified" type="question" ref="Jesus">"Dear
                               woman, why do you involve me?" Jesus replied, "My time has not yet
                               come."</speech>
                         <v n="5"/><name ref="motherMary">His mother</name>
                         <action ref="motherMary">said to <name ref="weddingServants">the
-                                    servants</name></action>, <speech ref="motherMary"
+                                    servants</name></action>, <speech audience="weddingServants" ref="motherMary"
                               type="instruction" tone="unspecified">"Do whatever he tells
                               you."</speech>
                         <v n="6"/>Nearby stood six stone water jars, the kind used by the Jews for
                         ceremonial washing, each holding from twenty to thirty gallons. <v n="7"
-                        />Jesus said to <name ref="weddingServants">the servants</name>, <speech
+                        />Jesus said to <name ref="weddingServants">the servants</name>, <speech audience="weddingServants"
                               ref="Jesus" tone="unspecified" type="instruction">"Fill the jars with
                               water"</speech>; so <action ref="weddingServants">they filled them to
-                              the brim</action>. <v n="8"/>Then he told them, <speech ref="Jesus"
+                              the brim</action>. <v n="8"/>Then he told them, <speech audience="weddingServants" ref="Jesus"
                               type="instruction" tone="unspecified">"Now draw some out and take it
                               to the master of the banquet." </speech><v n="9"/><action
                               ref="weddingServants">They did so,</action> and <name
@@ -244,7 +244,7 @@
                               ref="weddingServants">the servants</name><description
                               ref="weddingMaster"> who had drawn the water knew</description>.
                               <action ref="weddingMaster">Then he called the <name ref="groom"
-                                    >bridegroom</name> aside <v n="10"/>and said</action>, <speech
+                                    >bridegroom</name> aside <v n="10"/>and said</action>, <speech audience="weddingServants"
                               ref="weddingMaster" tone="unspecified" type="statement">"Everyone
                               brings out the choice wine first and then the cheaper wine after the
                               guests have had too much to drink; but you have saved the best till
