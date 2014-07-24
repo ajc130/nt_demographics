@@ -101,8 +101,9 @@
                   age="adult" ability="able"/>
             <character class="rich" ethnicity="jew" gender="male" age="adult" ability="unspecified"
                   xml:id="SimonLeper"/>
-            <character xml:id="nardWoman" gender="female" ethnicity="unspecified"
-                  class="unspecified" age="adult" ability="able"/>
+            <character xml:id="MarthaMary" ability="able" age="adult" class="unspecified"
+                  ethnicity="jew" gender="female"/>
+            
             <character xml:id="twoblindmen" ability="handicapped" age="adult" class="unspecified"
                   ethnicity="unspecified" gender="male"/>
             <character xml:id="dumbdemon" gender="male" ethnicity="unspecified" class="unspecified"
@@ -251,7 +252,7 @@
                   ethnicity="unspecified" gender="unspecified"/>
             <character xml:id="mob" gender="unspecified" ethnicity="unspecified" class="unspecified"
                   age="adult" ability="able"/>
-            <character xml:id="highPriestServant" gender="male" ethnicity="jew" class="unspecified"
+            <character xml:id="Malchus" gender="male" ethnicity="jew" class="unspecified"
                   age="unspecified" ability="able"/>
             <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
                   ability="able" xml:id="sword"/>
@@ -2834,9 +2835,9 @@
                         <v n="5"/>"But not during the Feast," they said, "or there may be a riot
                   among the people." </story>
             <story><v n="6"/>While Jesus was in Bethany in the home of a man known as <name
-                        ref="SimonLeper">Simon the Leper</name>, <v n="7"/><name ref="nardWoman">a
+                        ref="SimonLeper">Simon the Leper</name>, <v n="7"/><name ref="MarthaMary">a
                         woman</name>
-                  <action ref="nardWoman">came to him with an alabaster jar of very expensive
+                  <action ref="MarthaMary">came to him with an alabaster jar of very expensive
                         perfume, which she poured on his head as he was reclining at the
                         table.</action>
                   <v n="8"/><description ref="disciples">When <name ref="disciples">the
@@ -2851,7 +2852,7 @@
                               has done a beautiful thing to me. <v n="11"/>The poor you will always
                               have with you, but you will not always have me. <v n="12"/>When she
                               poured this perfume on my body, she did it to prepare me for burial.
-                                    <v n="13"/><description ref="nardWoman">I tell you the truth,
+                                    <v n="13"/><description ref="MarthaMary">I tell you the truth,
                                     wherever this gospel is preached throughout the world, what she
                                     has done will also be told, in memory of
                               her</description>."</speech>
@@ -2975,7 +2976,7 @@
                               ref="mob">the men</name>
                         <action ref="mob">stepped forward, seized Jesus and arrested him</action>.
                         With that, <action ref="sword">one of Jesus' companions reached for his
-                              sword, drew it out and struck <name ref="highPriestServant">the
+                              sword, drew it out and struck <name ref="Malchus">the
                                     servant of the high priest</name>, cutting off his ear.
                               </action><v n="52"/><speech ref="Jesus" audience="sword"
                               type="question" tone="unspecified">"Put your sword back in its place,"

@@ -9,25 +9,36 @@
                 <title>Hi, Mom!</title>
             </head>
             <body>
-             <div>    <xsl:for-each-group select="character" group-by="@ethnicity">
-                   
+                <div>
+                    <xsl:for-each-group select="character" group-by="@ethnicity">
                         <h2>
-                            <xsl:text>Ethnicity: </xsl:text><xsl:value-of select="current-grouping-key()"/>
-                            
+                            <xsl:text>Ethnicity: </xsl:text>
+                            <xsl:value-of select="current-grouping-key()"/>
                         </h2>
-                           <xsl:for-each-group select="current-group()" group-by="@gender">
-                               <xsl:sort select="current-grouping-key()"/>
-                               <h3> <xsl:text>Gender: </xsl:text><xsl:value-of select="current-grouping-key()"/></h3>
-                           
+                        <xsl:for-each-group select="current-group()" group-by="@gender">
+                            <xsl:sort select="current-grouping-key()"/>
+                            <h3>
+                                <xsl:text>Gender: </xsl:text>
+                                <xsl:value-of select="current-grouping-key()"/>
+                            </h3>
+                            <xsl:for-each-group select="current-group()" group-by="@class">
+                                <xsl:sort select="current-grouping-key()"/>
+                                <h4>
+                                    <xsl:text>Class: </xsl:text>
+                                    <xsl:value-of select="current-grouping-key()"/>
+                                </h4>
                                 <xsl:for-each select="current-group()">
-                            <xsl:sort select="@xml:id"/>
-                                 <p>
-                                <xsl:value-of select="@xml:id"/>
-                            </p>
-                       
-                        
-                    </xsl:for-each>
-                </xsl:for-each-group> </xsl:for-each-group></div>
+                                    <xsl:sort select="@xml:id"/>
+                                    <p>
+                                        <xsl:value-of select="@xml:id"/>
+                                    </p>
+
+
+                                </xsl:for-each>
+                            </xsl:for-each-group>
+                        </xsl:for-each-group>
+                    </xsl:for-each-group>
+                </div>
             </body>
         </html>
     </xsl:template>

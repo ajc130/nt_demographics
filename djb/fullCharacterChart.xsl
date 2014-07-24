@@ -37,7 +37,7 @@
                             select="$books//metadata/character[@xml:id = current()]"/>
                         <tr>
                             <td>
-                                <xsl:value-of select="current()"/>
+                                <span onclick="overlay('', '')">   <xsl:value-of select="current()"/></span>
                             </td>
                             <td>
                                 <xsl:value-of select="distinct-values($currentCharacter/@ethnicity)"
@@ -67,14 +67,14 @@
                                 />
                             </td>
                             <td>
-
+                                
                                 <xsl:value-of select="count($books//@ref[. = current()])"/>
                             </td>
                             <td>
-
+                                
                                 <xsl:value-of select="count($books[.//@xml:id = current()])"/>
                             </td>
-
+                            
                         </tr>
                     </xsl:for-each>
                 </table>
@@ -98,7 +98,7 @@
                             select="$books//metadata/character[@xml:id = current()]"/>
                         <tr>
                             <td>
-                                <xsl:value-of select="current()"/>
+                                <span onclick="overlay('', '')"> <xsl:value-of select="current()"/></span>
                             </td>
                             <td>
                                 <xsl:value-of select="distinct-values($currentCharacter/@ethnicity)"
@@ -158,7 +158,7 @@
                             select="$books//metadata/character[@xml:id = current()]"/>
                         <tr>
                             <td>
-                                <xsl:value-of select="current()"/>
+                                <span onclick="overlay('', '')"> <xsl:value-of select="current()"/></span>
                             </td>
                             <td>
                                 <xsl:value-of select="distinct-values($currentCharacter/@ethnicity)"
@@ -219,7 +219,7 @@
                             select="$books//metadata/character[@xml:id = current()]"/>
                         <tr>
                             <td>
-                                <xsl:value-of select="current()"/>
+                                <span onclick="overlay('', '')"> <xsl:value-of select="current()"/></span>
                             </td>
                             <td>
                                 <xsl:value-of select="distinct-values($currentCharacter/@ethnicity)"

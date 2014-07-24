@@ -166,13 +166,13 @@
             xml:id="poorWidow"/>
         <character class="rich" ethnicity="jew" gender="male" age="adult" ability="unspecified"
             xml:id="SimonLeper"/>
-        <character xml:id="nardWoman" gender="female" ethnicity="unspecified" class="unspecified"
-            age="adult" ability="able"/>
+        <character xml:id="MarthaMary" ability="able" age="adult" class="unspecified"
+            ethnicity="jew" gender="female"/>
         <character class="unspecified" ethnicity="unspecified" gender="male" age="adult"
             ability="able" xml:id="sword"/>
         <character ability="able" age="child" class="unspecified" ethnicity="unspecified"
             gender="male" xml:id="naked"/>
-        <character xml:id="highPriestServant" gender="male" ethnicity="jew" class="unspecified"
+        <character xml:id="Malchus" gender="male" ethnicity="jew" class="unspecified"
             age="unspecified" ability="able"/>
         <character xml:id="servantGirl" ability="able" age="child" class="working" ethnicity="jew"
             gender="female"/>
@@ -1745,10 +1745,10 @@
                     >"But not during the Feast," </speech>they said, <speech audience="lawTeachers" tone="unspecified"
                     genre="explanation" ref="lawTeachers">"or the people may riot."</speech>
             </monologue><v n="3"/>While he was in Bethany, reclining at the table in the home of
-                <name ref="SimonLeper">a man known as Simon the Leper</name>, <name ref="nardWoman"
+                <name ref="SimonLeper">a man known as Simon the Leper</name>, <name ref="MarthaMary"
                 >a woman</name>
-            <action ref="nardWoman">came with an alabaster jar of very expensive perfume, made of
-                pure nard</action>. <action ref="nardWoman">She broke the jar and poured the perfume
+            <action ref="MarthaMary">came with an alabaster jar of very expensive perfume, made of
+                pure nard</action>. <action ref="MarthaMary">She broke the jar and poured the perfume
                 on his head</action>. <v n="4"/><conversation><name ref="somePeople">Some of those
                     present</name>
                 <description ref="somePeople">were saying indignantly to one another,</description>
@@ -1760,7 +1760,7 @@
                     type="statement" ref="Jesus">"Why are you bothering her? She has done a
                     beautiful thing to me. <v n="7"/>The poor you will always have with you, and you
                     can help them any time you want. But you will not always have me. <v n="8"
-                        /><description ref="nardWoman">She did what she could. She poured perfume on
+                        /><description ref="MarthaMary">She did what she could. She poured perfume on
                         my body beforehand to prepare for my burial.</description>
                     <v n="9"/>I tell you the truth, wherever the gospel is preached throughout the
                     world, what she has done will also be told, in memory of
@@ -1877,7 +1877,7 @@
                 him</action>. <v n="46"/><name ref="crowd">The men</name>
             <action ref="crowd">seized Jesus and arrested him.</action>
             <v n="47"/>Then <name ref="sword">one of those standing near</name>
-            <action ref="sword">drew his sword and struck <name ref="highPriestServant">the servant
+            <action ref="sword">drew his sword and struck <name ref="Malchus">the servant
                     of the high priest</name>, cutting off his ear.</action>
             <v n="48"/><monologue><speech audience="crowd" ref="Jesus" tone="confused" genre="admonition">"Am I
                     leading a rebellion," said Jesus, "that you have come out with swords and clubs

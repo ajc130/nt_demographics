@@ -13,6 +13,10 @@
             </head>
             <body>
                 <p>
+                    <xsl:text>Number of Characters: </xsl:text>
+                    <xsl:value-of select="count($characters)"/>
+                </p>
+                <p>
                     <xsl:text>Number of women: </xsl:text>
                     <xsl:value-of select="count(distinct-values($books//metadata/character[@gender='female']/@xml:id))"/>
                 </p>
