@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <link rel="stylesheet" type="text/css" href="nt.css" />
+ <title>Characters</title>
+
       <link href="http://fonts.googleapis.com/css?family=Rock+Salt|Coming+Soon|Architects+Daughter"
          rel="stylesheet" type="text/css" />
       <script type="text/javascript" src="nt.js"></script>
       
-      <title>Characters</title>
+      <link rel="stylesheet" type="text/css" media="all" href="styles.css"/>
+         <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+         <script type="text/javascript" src="tablesorter.js"></script>
+      
+     
    </head>
    <body>
       <!--#include virtual="menu.xhtml" -->
-      <h2>The Characters of the New Testament</h2>
-      <h3>Women</h3>
-      <table id="myTable">
+      
+      
+      <div id="wrapper"><h1>The Characters of the New Testament</h1><table id="keywords" cellspacing="0" cellpadding="0">
+         <thead>
          <tr>
-            <th>Name</th>
-            <th><span onclick="sortMe(sortEthnicity)">Ethnicity</span></th>
-            <th><span onclick="sortMe(sortClass)">Class</span></th>
+            <th><span>Name</span></th>
+            <th><span>Ethnicity</span></th>
+            <th><span>Class</span></th>
         
-            <th><span onclick="sortMe(sortNames)">Name Usages</span></th>
-            <th><span onclick="sortMe(sortActions)">Actions</span></th>
-            <th><span onclick="sortMe(sortDescriptions)">Descriptions</span></th>
-            <th><span onclick="sortMe(sortSpeeches)">Speeches</span></th>
-            <th><span onclick="sortMe(sortMentions)">Total Mentions</span></th>
-            <th><span onclick="sortMe(sortBooks)">Books Mentioned In</span></th>
+            <th><span>Name Usages</span></th>
+            <th><span>Actions</span></th>
+            <th><span>Descriptions</span></th>
+            <th><span>Speeches</span></th>
+            <th><span>Total Mentions</span></th>
+            <th><span>Books Mentioned In</span></th>
          </tr>
-         <tr>
+         </thead>
+         <tbody><tr>
             <td><span onclick="overlay('Anna', 'Anna was a prophetess who met the infant Jesus.')"
                   >Anna</span></td>
             <td>jew</td>
@@ -5393,6 +5399,11 @@
             <td>4</td>
             <td>2</td>
          </tr>
-      </table>
+     </tbody> </table></div>
+      <script type="text/javascript">
+$(function(){
+  $('#keywords').tablesorter(); 
+});
+</script>
    </body>
 </html>

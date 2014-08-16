@@ -3,12 +3,14 @@ body
     margin:5px;
     padding:5px;
 }
+
 table{ margin-left: 10%;
 margin-right: 10%;
 margin-top: 0%;
 margin-bottom: 0%;
 padding: 0px;
 width: 80%;
+table-layout:fixed;
 }
 td {
 text-align: center;
@@ -19,8 +21,10 @@ text-align: center;
 th {text-align: center;
  font:20px "Architects Daughter";
      color:#0b3162;
-      border: 1px solid #C55186;
+      border: 1px solid #C55186; width: 10%;
 }
+thead {    position: fixed; width: 80%; table-layout: fixed;}
+tr {width:10%;}
 
 #menu ul{
     margin-top:0px;
@@ -104,7 +108,21 @@ padding:0px;
 
 }
 
-
+#keywords thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#keywords thead tr th.headerSortUp span {
+  background-image: url('up-arrow.png');
+}
+#keywords thead tr th.headerSortDown span {
+  background-image: url('down-arrow.png');
+}
+#keywords thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
 h1{
     color:#C55186;
     text-align:center;
@@ -113,7 +131,7 @@ h1{
 }
 h2{
     color:#0b3162;
-    text-align:left;
+    text-align:center;
     font-family:"Rock Salt", serif;
     font-size:25px;
 }
@@ -121,7 +139,7 @@ h3{padding:5px;
     color:#0b3162;
     text-align:center;
     font-family:"Rock Salt", serif;
-    font-size:20px;
+    font-size:15px;
 }
 #meme{
     display:block;
@@ -159,3 +177,4 @@ p{
 .q{
     text-align:right;
 }
+.info {padding:30px; margin: 30px;}
