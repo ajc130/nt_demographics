@@ -8,17 +8,18 @@ string trimming: ibid, pp 205-06
 http://stackoverflow.com/questions/6551300/where-did-the-old-object-go
  */
 function sort() {
+    var i, rowCount;
     /* cellIndex is global in order to be accessible in sort routines, to sort by correct column */
-    cellIndex = this.cellIndex;
+    window.cellIndex = this.cellIndex;
     /* type identifies alpha vs numeric based on datatype in same horiz position in first row of tbody*/
-    cellValue = document.getElementsByTagName('tbody')[0].rows[0].cells[cellIndex].innerText;
+    var cellValue = document.getElementsByTagName('tbody')[0].rows[0].cells[cellIndex].innerText;
     var type = isNaN(cellValue) ? 'alpha': 'numeric';
     /* sort routines from Nicholas C. Zakas, Professional JavaScript for Web Developers, ch. 12 */
     var oldTable = document.getElementsByTagName('table')[0];
     var oldTableBody = oldTable.tBodies[0];
     var oldTableRows = oldTableBody.rows;
-    var newTableArray = new Array();
-    for (var i = 0, rowCount = oldTableRows.length; i < rowCount; i++) {
+    var newTableArray = [];
+    for (i = 0, rowCount = oldTableRows.length; i < rowCount; i++) {
         newTableArray.push(oldTableRows[i]);
     }
     if (type == 'numeric') {
@@ -27,7 +28,7 @@ function sort() {
         newTableArray.sort(sortAlpha);
     }
     var newFragment = document.createDocumentFragment();
-    for (var i = 0, rowCount = newTableArray.length; i < rowCount; i++) {
+    for (i = 0, rowCount = newTableArray.length; i < rowCount; i++) {
         newFragment.appendChild(newTableArray[i]);
     }
     oldTableBody.appendChild(newFragment);
@@ -40,8 +41,8 @@ function sortAlpha(a, b) {
 }
 function sortNumeric(a, b) {
     /* cellIndex determines column on which to sort */
-    a = parseInt(a.cells[cellIndex].firstChild.nodeValue, '10');
-    b = parseInt(b.cells[cellIndex].firstChild.nodeValue, '10');
+    a = parseInt(a.cells[cellIndex].firstChild.nodeValue, 10);
+    b = parseInt(b.cells[cellIndex].firstChild.nodeValue, 10);
     return ((a < b) ? - 1: ((a > b) ? 1: 0));
 }
 function init() {
