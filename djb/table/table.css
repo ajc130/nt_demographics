@@ -1,0 +1,25 @@
+/**
+http://tjvantoll.com/2012/11/10/creating-cross-browser-scrollable-tbody/
+tbody (only) scrolls in all browsers except IE, where entire table scrolls (boo!)
+*/
+table{
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+tbody{
+    display:block;
+    height:300px;
+    overflow:auto;
+    bottom:10px;
+}
+thead > tr{
+    position:relative;
+    display:block;
+}
+tbody > tr{
+    height:100%;
+}
+th,
+td{
+    min-width:100px;
+}
