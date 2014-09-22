@@ -9,8 +9,14 @@ margin-right: 10%;
 margin-top: 0%;
 margin-bottom: 0%;
 padding: 0px;
+  border-collapse:collapse;
+    table-layout:fixed;}
+tbody{
+    display:block;
+    height:3000px;
+    overflow:auto;
+    bottom:10px;
 
-table-layout:fixed;
 }
 #wide {width:95%;}
 #narrow {width:80%}
@@ -23,10 +29,21 @@ text-align: center;
 th {text-align: center;
  font:20px "Architects Daughter";
      color:#0b3162;
-      border: 1px solid #C55186; width: 10%;
+      border: 1px solid #C55186; 
 }
-thead {    position: fixed; width: 80%; table-layout: fixed;}
-tr {width:10%;}
+
+
+thead > tr{
+    position:relative;
+    display:block;
+}
+tbody > tr{
+    height:100%;
+}
+th,
+td{
+    min-width:100px;
+}
 
 #menu ul{
     margin-top:0px;

@@ -1236,7 +1236,7 @@
                     Lord?"</speech>
                 <name ref="Paul">Saul</name> asked. <v n="6"/><speech ref="Jesus" type="answer"
                     tone="condemning">"I am Jesus, whom you are persecuting,"</speech> he replied.
-                    <speech ref="Jesus" tone="instructive" type="instruction">"Now get up and go
+                <speech ref="Jesus" tone="instructive" type=       <td>male</td>"instruction">"Now get up and go
                     into the city, and you will be told what you must do."</speech>
             </conversation><v n="7"/><name ref="PaulCompanions">The men traveling with Saul</name>
             <action ref="PaulCompanions">stood there speechless</action>; <description
@@ -1823,7 +1823,7 @@
                 walked</description>. <v n="9"/><action ref="LystraCripple">He listened to <name
                     ref="Paul">Paul</name> as he was speaking</action>. <conversation><name
                     ref="Paul">Paul</name><action ref="Paul"> looked directly at him, saw that he
-                    had faith to be healed <v n="10"/>and called out</action>, <speech ref="Paul"
+                    had faith to be healed <v n="10"/>and called out</action>, <speech ref="Paul"f
                     tone="instructive" type="instruction">"Stand up on your feet!"</speech> At that,
                     <action ref="LystraCripple"><name ref="LystraCripple">the man</name> jumped up
                     and began to walk</action>. <v n="11"/>When <name ref="crowdGentile">the
